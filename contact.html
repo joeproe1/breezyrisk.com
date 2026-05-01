@@ -11,90 +11,21 @@ permalink: /contact/
 .contact-header { text-align: center; margin-bottom: 48px; }
 .contact-header h1 { font-size: 48px; font-weight: 800; color: var(--primary); margin: 0 0 14px; letter-spacing: -0.02em; }
 .contact-header p { font-size: 18px; color: var(--text-secondary); max-width: 600px; margin: 0 auto; line-height: 1.7; }
-.contact-card { background: #fff; border: 2px solid var(--border); border-radius: 12px; padding: 40px; }
-.contact-card .response-note { font-size: 15px; color: var(--text-secondary); margin-bottom: 24px; line-height: 1.6; }
-.contact-alternatives { max-width: 720px; margin: 40px auto 0; text-align: center; }
-.contact-alternatives h3 { font-size: 20px; font-weight: 700; color: var(--primary); margin-bottom: 24px; }
+.contact-options { max-width: 720px; margin: 0 auto; text-align: center; }
 .alt-options { display: flex; gap: 32px; justify-content: center; flex-wrap: wrap; }
 .alt-option { text-align: center; }
 .alt-option .alt-label { font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-secondary); margin-bottom: 8px; }
-.alt-option a { font-size: 16px; font-weight: 600; color: var(--primary); text-decoration: none; transition: color 0.2s; }
+.alt-option a { font-size: 18px; font-weight: 600; color: var(--primary); text-decoration: none; transition: color 0.2s; }
 .alt-option a:hover { color: var(--accent); }
 .alt-divider { width: 1px; background: var(--border); }
 @media (max-width: 900px) {
     .contact-shell { padding: 0 24px; }
-    .contact-card { padding: 30px 20px; }
     .contact-page { padding-top: 100px !important; }
     .contact-header h1 { font-size: 36px; }
 }
 @media (max-width: 480px) {
     .alt-options { flex-direction: column; gap: 20px; }
     .alt-divider { width: 100%; height: 1px; }
-}
-
-/* HubSpot form overrides */
-#hubspot-form-container .hs-form {
-    font-family: 'DM Sans', sans-serif;
-}
-#hubspot-form-container .hs-form fieldset {
-    max-width: 100% !important;
-}
-#hubspot-form-container .hs-form label {
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 600;
-    font-size: 15px;
-    color: var(--primary);
-    margin-bottom: 6px;
-}
-#hubspot-form-container .hs-form .hs-input {
-    font-family: 'DM Sans', sans-serif;
-    font-size: 15px;
-    color: var(--primary);
-    background: #fff;
-    border: 2px solid var(--border);
-    border-radius: 8px;
-    padding: 12px 16px;
-    width: 100% !important;
-    transition: border-color 0.2s;
-}
-#hubspot-form-container .hs-form .hs-input:focus {
-    border-color: var(--accent);
-    outline: none;
-}
-#hubspot-form-container .hs-form .hs-error-msgs {
-    font-family: 'DM Sans', sans-serif;
-    font-size: 13px;
-    color: #FF6B35;
-    list-style: none;
-    padding: 4px 0 0;
-    margin: 0;
-}
-#hubspot-form-container .hs-form textarea.hs-input {
-    min-height: 100px;
-    resize: vertical;
-}
-#hubspot-form-container .hs-form .hs-button {
-    font-family: 'DM Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    background: var(--accent);
-    color: var(--primary);
-    border: none;
-    border-radius: 8px;
-    padding: 14px 32px;
-    cursor: pointer;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    width: 100%;
-}
-#hubspot-form-container .hs-form .hs-button:hover {
-    background: #00f5c3;
-    transform: translateY(-2px);
-    box-shadow: 0 8px 30px rgba(0, 212, 170, 0.4);
-}
-#hubspot-form-container .hs-form .hs-richtext {
-    font-family: 'DM Sans', sans-serif;
-    font-size: 14px;
-    color: var(--text-secondary);
 }
 </style>
 
@@ -105,32 +36,7 @@ permalink: /contact/
             <p>Whether you have a specific coverage question or just want to understand my approach, I'm happy to talk. No commitment required.</p>
         </div>
 
-        <div class="contact-card">
-            <div id="hubspot-form-container"></div>
-            <script src="https://js.hsforms.net/forms/embed/v2.js" async></script>
-            <script>
-            function loadHubSpotForm() {
-                if (typeof hbspt !== 'undefined') {
-                    hbspt.forms.create({
-                        region: "na1",
-                        portalId: "50837133",
-                        formId: "8b84f104-18ae-44f3-b563-c41176485fff",
-                        target: "#hubspot-form-container",
-                        onFormReady: function() {
-                            var btn = document.querySelector('#hubspot-form-container .hs-button');
-                            if (btn) { btn.value = 'Get in Touch'; }
-                        }
-                    });
-                } else {
-                    setTimeout(loadHubSpotForm, 50);
-                }
-            }
-            loadHubSpotForm();
-            </script>
-        </div>
-
-        <div class="contact-alternatives">
-            <h3>Other ways to reach me</h3>
+        <div class="contact-options">
             <div class="alt-options">
                 <div class="alt-option">
                     <div class="alt-label">Email</div>
