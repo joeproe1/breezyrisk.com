@@ -596,6 +596,46 @@
     height: auto;
 }
 
+// Hero audit checklist
+.hero-checklist {
+    background: white;
+    border: 1px solid $border;
+    border-radius: 12px;
+    padding: 28px 32px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+    max-width: 320px;
+}
+
+.hero-checklist-item {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    font-family: $font-body;
+    font-size: 17px;
+    color: $text-primary;
+
+    &:last-child {
+        border-bottom: none;
+    }
+
+    svg {
+        flex-shrink: 0;
+    }
+}
+
+.hero-checklist-checked span {
+    color: $text-secondary;
+}
+
+.hero-checklist-gap {
+    span {
+        color: #D97706;
+        font-weight: 600;
+    }
+}
+
 // Legacy full-width hero (other pages)
 .hero-content {
     h1 {
