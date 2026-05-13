@@ -52,7 +52,7 @@ Long-tail means the gap between when the premium is collected and when the ultim
 
 For an established carrier with 20 or 30 years of loss data on a given class, this is manageable. The actuarial team builds reserves into the financials. The reinsurance treaties are structured to absorb shock losses. The capital is sized to a realistic worst case.
 
-For a carrier writing the same classes for the first time, with an AI underwriting model that has never seen a full market cycle of losses, the reserving assumptions are unavoidably speculative. The difference is that AI-native carriers are entering multiple long-tail lines simultaneously, at scale, with no loss history on any of them. The capital required to hold the risk net is far larger than the equity these companies raise. Which means the risk is not really being held on the carrier's own balance sheet. It is being ceded to reinsurance.
+For any carrier writing these classes for the first time, whether AI-native or traditional, the reserving assumptions are unavoidably speculative. The difference is that AI-native carriers are entering multiple long-tail lines simultaneously, at scale, with no loss history on any of them. The capital required to hold the risk net is far larger than the equity these companies raise. Which means the risk is not really being held on the carrier's own balance sheet. It is being ceded to reinsurance.
 
 Reinsurance cession is normal. Established carriers do it too, and for good reason. The difference is the quality and structure of the program. An established carrier with a 20-year relationship with rated reinsurers and a demonstrated ability to collect on recoveries is in a different position than an 18-month-old carrier whose reinsurance program has never been tested by a meaningful loss event. A cyber policy with $5 million in limits looks like $5 million in protection when it is sold. If the carrier fails, the realized protection can be a fraction of that.
 
@@ -77,7 +77,7 @@ A community bank insurance audit that does not address counterparty risk is inco
 </div>
 <div style="display: flex; gap: 16px; margin-bottom: 20px;">
 <div style="min-width: 32px; height: 32px; background: #00D4AA; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #0A2540; font-size: 16px;">2</div>
-<div><strong>What is the surplus, the carrier's net assets available to pay claims, of the issuing entity compared to the aggregate limits it has written?</strong> A small carrier writing high-limit programs is, by definition, dependent on reinsurance.</div>
+<div><strong>What is the surplus, the carrier's net assets available to pay claims, of the issuing entity compared to the aggregate limits it has written?</strong></div>
 </div>
 <div style="display: flex; gap: 16px; margin-bottom: 20px;">
 <div style="min-width: 32px; height: 32px; background: #00D4AA; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #0A2540; font-size: 16px;">3</div>
