@@ -56,13 +56,13 @@ Reinsurance cession is normal. Established carriers do it too, and for good reas
 
 ## Why this matters more for community banks than for other buyers
 
-A startup that loses its cyber coverage in a carrier failure has a bad day. A community bank that loses its cyber coverage in a carrier failure has a regulatory event.
+A startup that loses its cyber coverage in a carrier failure has a bad day. A [community bank]({{ '/community-bank-insurance/' | relative_url }}) that loses its cyber coverage in a carrier failure has a regulatory event.
 
 Federal examiners are looking more closely at vendor and counterparty risk every cycle. Your cyber insurance carrier is your vendor. That means the bank is expected to run due diligence on the carrier's financial condition, not just accept the broker's recommendation. If the carrier turns out to be inadequate, the bank owns the regulatory consequences.
 
 There is also a reputational dimension. A community bank that suffers a covered cyber loss and discovers, in the middle of incident response, that its insurance carrier is an 18-month-old startup whose claims operation has never processed a loss of this size, has problems beyond the dollar amount. Customers, depositors, and the local press will all reach the same conclusion: the bank chose poorly. The bank's board, not the broker, owns that conclusion.
 
-Most community bank cyber policies in 2026 are being placed by generalist brokers. Most of those brokers evaluate the placement on price, breadth of coverage, and turnaround time. Few run a structured analysis of the issuing carrier's balance sheet, reinsurance program, claims track record, and counterparty rating. That gap is the audit work.
+Most community bank cyber policies in 2026 are being placed by generalist brokers. Most of those brokers evaluate the placement on price, breadth of coverage, and turnaround time. Few run a structured analysis of the issuing carrier's balance sheet, reinsurance program, claims track record, and counterparty rating. That gap is the [audit work]({{ '/risk-intelligence-report/' | relative_url }}).
 
 ## The seven questions to put on your audit
 
@@ -117,4 +117,4 @@ Community bank boards do not need to take a position on which model is correct. 
 
 -----
 
-*If your bank's cyber insurance has not been audited against the seven questions above, [get in touch]({{ '/contact/' | relative_url }}).*
+*If your community bank's cyber insurance has not been audited against the seven questions above, [get in touch]({{ '/contact/' | relative_url }}).*
