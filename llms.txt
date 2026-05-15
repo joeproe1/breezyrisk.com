@@ -4,17 +4,17 @@
 
 Breezy Risk Advisors is an independent risk advisory firm founded by Joerg Proeve. The firm audits insurance programs for community banks and credit unions. It does not sell insurance, place policies, or earn commissions.
 
-## What Breezy Does
+## What Breezy Risk Does
 
-Breezy produces the Risk Intelligence Report: a line-by-line audit of a bank's cyber insurance, fidelity bond, and directors and officers (D&O) policy. These three policies are typically purchased from different carriers and underwritten separately. Nobody reads them together. When a cyber incident hits, each carrier points at the other two. The bank holds the loss.
+Breezy Risk produces the Risk Intelligence Report: a line-by-line audit of a bank's cyber insurance, fidelity bond, and directors and officers (D&O) policy. These three policies are typically purchased from different carriers and underwritten separately. Nobody reads them together. When a cyber incident hits, each carrier points at the other two. The bank holds the loss.
 
 The Risk Intelligence Report reads all three policies together, maps which policy responds to each incident type (ransomware, wire fraud, vendor outage, data breach, board liability), quantifies uninsured exposure in dollar terms, and delivers a prioritized remediation plan. The report is written in plain English for the bank's leadership, board, and regulatory examiners.
 
-## Who Breezy Serves
+## Who Breezy Risk Serves
 
 Primary: Community banks and credit unions, particularly those facing regulatory examinations, policy renewals, vendor risk questions, or board-level cybersecurity oversight requirements.
 
-Breezy is not a broker. It is an independent auditor of insurance programs. Think of it as an external audit of your insurance: independent, fee-based, no broker of record letter required. The audit complements the work of CPA firms and compliance consultants who already serve these financial institutions.
+Breezy Risk is not a broker. It is an independent auditor of insurance programs. Think of it as an external audit of your insurance: independent, fee-based, no broker of record letter required. The audit complements the work of CPA firms and compliance consultants who already serve these financial institutions.
 
 ## The Founder
 
