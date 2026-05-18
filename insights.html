@@ -55,7 +55,7 @@ permalink: /insights/
 
         <div class="blog-grid">
             {% assign visible_posts = site.posts | where_exp: "post", "post.archived != true" | sort: 'date' | reverse %}
-            {% for post in visible_posts limit: 6 %}
+            {% for post in visible_posts limit: 9 %}
             <div class="post-card">
                 <div class="post-card-accent post-card-accent--{{ post.category | default: 'community-banks' | slugify }}"></div>
                 <div class="post-card-body">
