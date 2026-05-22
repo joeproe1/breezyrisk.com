@@ -17,7 +17,8 @@ On February 3, 2023, MKS Instruments, a critical upstream supplier of RF power g
 
 The documented financial impact:
 
-<div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin: 28px 0;">
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 28px 0;" class="stat-grid">
+<style>.stat-grid { grid-template-columns: repeat(3, 1fr) !important; } @media (max-width: 600px) { .stat-grid { grid-template-columns: 1fr !important; } }</style>
 <div style="background: rgba(0, 212, 170, 0.08); border-radius: 10px; padding: 24px 20px; text-align: center;">
 <div style="font-size: 36px; font-weight: 700; color: #00D4AA; line-height: 1.2;">$200M</div>
 <div style="font-size: 14px; color: #6B7B8D; margin-top: 8px; line-height: 1.4;">Direct revenue loss<br>at MKS</div>
@@ -42,7 +43,7 @@ The instinct is to say "parametric insurance could have solved this." But before
 
 Traditional business interruption coverage requires a "covered peril," typically a physical loss or damage, at the insured's own premises disrupting the insured's own operations. A ransomware attack on your supplier's facility doesn't meet that requirement. Your factory is running. Your equipment is fine. The problem is that the components you need aren't arriving.
 
-Contingent business interruption extensions do exist. They extend coverage to disruptions at named suppliers or customers. But most still require physical damage at the supplier's location. A ransomware attack, an export ban, a sanctions listing, a rare earth supply restriction, a shipping chokepoint closure: none of these are physical damage. But they are the actual exposures driving supply chain disruption in the semiconductor industry, and they fall outside what traditional business interruption was built to cover.
+Contingent business interruption extensions do exist. They extend coverage to disruptions at named suppliers or customers. But most still require physical damage at the supplier's location. A ransomware attack, an export ban, a sanctions listing, a rare earth supply restriction, a shipping chokepoint closure: none of these are physical damage. They are the actual exposures driving supply chain disruption in the semiconductor industry, and they fall outside what traditional business interruption was built to cover.
 
 <div style="border-left: 4px solid #00D4AA; padding: 24px 28px; background: rgba(0, 212, 170, 0.06); border-radius: 0 8px 8px 0; margin: 40px 0;">
 <div style="font-size: 20px; font-weight: 600; line-height: 1.5; color: #0A2540;">Our insurance architecture was built for fires and hurricanes.<br><br>Actual risk exposures are ransomware, rare earth export bans, and single-source dependencies. The mismatch is structural, not a product configuration problem.</div>
@@ -54,9 +55,9 @@ The CHIPS and Science Act invested $52 billion in domestic semiconductor fabrica
 
 ## The design constraints
 
-Before building the case for parametric, it is worth understanding where naive implementations would fail. Not as a reason to abandon the approach, but to define the constraints any viable product must meet.
+Before building the case for parametric, it's worth understanding where naive implementations would fail. Not as a reason to abandon the approach, but to define the constraints any viable product must meet.
 
-**Basis risk is severe in supply chains.** Parametric works well for weather because the relationship between trigger and loss is tight: wind speed correlates with property damage, rainfall correlates with crop loss. Supply chain disruption doesn't have that characteristic. A cyberattack or an export ban produce fundamentally different loss patterns at different speeds with different recovery trajectories. Mapping these heterogeneous events to a common trigger that reliably correlates with downstream financial loss is an unsolved engineering problem, not a product configuration.
+**Basis risk is severe in supply chains.** Parametric works well for weather because the relationship between trigger and loss is tight: wind speed correlates with property damage, rainfall correlates with crop loss. Supply chain disruption doesn't have that characteristic. A cyberattack or an export ban produce fundamentally different loss patterns at different speeds with different recovery trajectories. Mapping these heterogeneous events to a common trigger that reliably correlates with downstream financial loss is an unsolved engineering problem, not a product configuration problem.
 
 In [Fast Money, Slow Trust](/insights/fast-money-slow-trust/), I wrote about basis risk, oracle risk, and the coordination problem in parametric insurance more broadly. Every one of those concerns applies with extra force for supply chain risks, because the trigger-to-loss relationship in supply chains is weaker than in weather or natural catastrophe.
 
@@ -140,7 +141,7 @@ Someone needs to build the trigger infrastructure: a validated mapping from publ
 
 The trigger must solve the attribution problem. When a downstream company's revenue drops, how much of that drop is caused by the upstream supply chain event and how much by demand cycles, pricing shifts, or unrelated operational issues? Isolating the signal from the noise is a causal inference problem, not a monitoring problem.
 
-The product must be layered with indemnity, not sold as standalone coverage. Parametric covers the immediate cash need while traditional business interruption or an expanded contingent business interruption endorsement works through the adjustment process. The coordination problem I described in "Fast Money, Slow Trust" must be solved at the product design stage, not discovered at claim time.
+The product must be layered with indemnity, not sold as standalone coverage. Parametric covers the immediate cash need while traditional business interruption or an expanded contingent business interruption endorsement works through the adjustment process. The coordination problem I described in [Fast Money, Slow Trust](/insights/fast-money-slow-trust/) must be solved at the product design stage, not discovered at claim time.
 
 And the semiconductor supply chain is the right place to prove it. Fewer than 20 major upstream suppliers. Almost all are US-listed public companies with SEC filing obligations. The dependency graph is bounded and knowable. Geographic concentration in identifiable clusters. Critical material dependencies that are well-documented. If a public-data parametric trigger can be validated anywhere, this supply chain is the place to start.
 
