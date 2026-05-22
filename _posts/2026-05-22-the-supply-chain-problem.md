@@ -55,17 +55,17 @@ The CHIPS and Science Act invested $52 billion in domestic semiconductor fabrica
 
 ## The design constraints
 
-Before building the case for parametric, it's worth understanding where naive implementations would fail. Not as a reason to abandon the approach, but to define the constraints any viable product must meet.
+Before building the case for parametric, it's worth understanding where a naive version would fail, which is also how you define the constraints any viable product has to meet.
 
-**Basis risk is severe in supply chains.** Parametric works well for weather because the relationship between trigger and loss is tight: wind speed correlates with property damage, rainfall correlates with crop loss. Supply chain disruption doesn't have that characteristic. A cyberattack or an export ban produce fundamentally different loss patterns at different speeds with different recovery trajectories. Mapping these heterogeneous events to a common trigger that reliably correlates with downstream financial loss is an unsolved engineering problem, not a product configuration problem.
+**Basis risk is severe in supply chains.** Parametric works well for weather because the trigger and the loss move together: wind speed tracks property damage, rainfall tracks crop loss. Supply chains don't behave that way. A cyberattack and an export ban produce different loss patterns, at different speeds, with different recovery paths. Mapping all of that onto a single trigger that reliably correlates with downstream financial loss is an unsolved engineering problem.
 
-In [Fast Money, Slow Trust](/insights/fast-money-slow-trust/), I wrote about basis risk, oracle risk, and the coordination problem in parametric insurance more broadly. Every one of those concerns applies with extra force for supply chain risks, because the trigger-to-loss relationship in supply chains is weaker than in weather or natural catastrophe.
+In [Fast Money, Slow Trust](/insights/fast-money-slow-trust/), I wrote about basis risk, oracle risk (the risk that the data source feeding the trigger is wrong or gamed), and the coordination problem in parametric insurance more broadly. All three apply with extra force to supply chains, because the trigger-to-loss link is weaker here than it is in weather or natural catastrophe.
 
-**Many supply chain losses are temporary.** Applied Materials disclosed a $250 million revenue impact from the MKS disruption. But the company recovered most of that shortfall the following quarter. The loss was delayed revenue, not destroyed value. A parametric product that pays a fixed amount on a loss that resolves itself creates a windfall, not insurance. Speed of payout is less compelling when the insured's revenue bounces back on its own timeline.
+**Many supply chain losses are temporary.** Applied Materials disclosed a $250 million revenue impact from the MKS disruption, then recovered most of it the following quarter. The revenue was delayed, not destroyed. A product that pays a fixed amount on a loss that resolves itself is writing windfalls, not insurance. Speed of payout matters a lot less when the insured's revenue comes back on its own.
 
-**Event scarcity means you can't calibrate properly.** Hurricane triggers draw on decades of data across thousands of events. Major semiconductor supply chain disruptions with publicly quantified downstream losses number in the tens, not thousands. That sample size doesn't support a pricing model. It supports a guess.
+**Event scarcity makes calibration nearly impossible.** A hurricane trigger draws on decades of data across thousands of events. Major semiconductor supply chain disruptions with publicly quantified downstream losses number in the tens. You can't price off a sample that size, you can only guess at it.
 
-These aren't minor objections. They define the design constraints that any viable parametric product for supply chain risk must address.
+These aren't minor objections. They're the constraints any viable parametric product for supply chain risk has to clear.
 
 ## What else could work
 
@@ -88,23 +88,23 @@ Both are viable. Neither is a complete answer. The point I want to make is that 
 
 ## Where the alternatives fall short
 
-Having given the alternatives a fair hearing: they each break in specific, predictable ways.
+Each of those alternatives breaks in a specific, predictable way.
 
 <div style="display: flex; flex-direction: column; gap: 20px; margin: 24px 0;">
 <div style="border-left: 3px solid #3B82F6; padding: 16px 20px; background: rgba(59,130,246,0.05); border-radius: 0 8px 8px 0;">
-<strong>Broader indemnity</strong> works when the loss is adjustable. For a single supplier disruption like the 2023 ransomware incident, it probably is, given enough time and enough lawyers. For a cascading event hitting multiple supply chain nodes simultaneously, the adjustment becomes a multi-year exercise. The insured gets paid in 2028 for a disruption in 2026. If the purpose of insurance is to provide capital when the insured needs it, that timeline defeats the purpose.
+<strong>Broader indemnity</strong> works when the loss is adjustable. For a single supplier disruption like the 2023 ransomware incident, it probably is, given enough time and enough lawyers. For a cascading event that hits several supply chain nodes at once, the adjustment turns into a multi-year exercise, and the insured gets paid in 2028 for a disruption in 2026. If the point of insurance is capital when you need it, that timeline misses the point.
 </div>
 <div style="border-left: 3px solid #F59E0B; padding: 16px 20px; background: rgba(245,158,11,0.05); border-radius: 0 8px 8px 0;">
-<strong>Contingent capital</strong> solves cash flow but doesn't transfer risk. The company still absorbs the loss. For a $250 million revenue hit that recovers in one quarter, that is manageable. For a permanent supply source loss, where a critical single-site manufacturer suffers a facility destruction or an export ban removes a material source with no replacement, contingent capital is a loan against a hole that doesn't fill.
+<strong>Contingent capital</strong> solves cash flow but doesn't transfer risk. The company still absorbs the loss; it's just borrowing to bridge the gap. For a $250 million hit that recovers in a quarter, that's manageable. For a permanent loss of supply, where a single-site manufacturer's facility is destroyed or an export ban removes a material source with no replacement, contingent capital is a loan against a hole that doesn't fill.
 </div>
 <div style="border-left: 3px solid #DC2626; padding: 16px 20px; background: rgba(220,38,38,0.05); border-radius: 0 8px 8px 0;">
-<strong>"Do nothing"</strong> works until it doesn't. Most companies that carry no supply chain coverage have never experienced a major disruption. The 2023 incident hit one supplier and generated $450 million in documented losses. A correlated event, even a moderate earthquake in a region where several critical suppliers share a cluster, or a rare earth export ban affecting the entire industry simultaneously, would generate losses an order of magnitude larger.
+<strong>"Do nothing"</strong> works until it doesn't. Most companies carrying no supply chain coverage have simply never taken a major hit. The 2023 incident touched one supplier and generated $450 million in documented losses. A correlated event, a moderate earthquake in a region where several critical suppliers cluster, or a rare earth export ban that hits the whole industry at once, would run an order of magnitude higher.
 </div>
 </div>
 
 ## Where parametric fits
 
-If the question is whether parametric insurance solves supply chain business interruption, the honest answer is: not as a general-purpose tool. But for a specific class of supply chain disruptions, parametric is the right approach, and the semiconductor supply chain is the right place to prove it.
+If the question is whether parametric insurance solves supply chain business interruption, the honest answer is: only for a specific class of disruptions. The semiconductor supply chain is the right place to prove it.
 
 It starts with the baseline.
 
@@ -112,18 +112,18 @@ It starts with the baseline.
 <div style="font-size: 20px; font-weight: 600; line-height: 1.5; color: #0A2540;">Currently, downstream insurance coverage for semiconductor supply chain disruption is zero. The question is not "parametric vs. a better indemnity product", it's "parametric vs. nothing".</div>
 </div>
 
-$100 million in parametric payout on a $250 million loss is 40% coverage with 60% basis risk. That isn't good. But $100 million is $100 million more than the downstream companies received from their insurance programs. On an absolute basis, the product has problems. Against the actual alternative, it has value.
+Take a hypothetical: a $100 million parametric payout on a $250 million loss. That's 40% coverage with 60% basis risk. On an absolute basis, the product has problems. But $100 million is $100 million more than the downstream companies received from their insurance programs. Against the actual alternative, it has value.
 
 That baseline alone doesn't justify the product. Three additional conditions identify where parametric is the right tool:
 
 <div style="background: #f8faf9; border-radius: 10px; padding: 28px 32px; margin: 24px 0;">
 <div style="display: flex; gap: 16px; margin-bottom: 20px;">
 <div style="min-width: 32px; height: 32px; background: #00D4AA; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #0A2540; font-size: 16px;">1</div>
-<div><strong>The loss is non-recoverable or slow-recovering.</strong> Not delayed revenue that bounces back in a quarter, but production capacity lost for months or permanently. A facility destruction at a single-site manufacturer. A permanent export restriction removing a material source. A supplier failure with no alternative source. Speed of payout matters because the loss doesn't resolve itself.</div>
+<div><strong>The loss is non-recoverable or slow-recovering.</strong> Production capacity gone for months or permanently, where revenue doesn't come back on its own. A facility destruction at a single-site manufacturer. A permanent export restriction removing a material source. A supplier failure with no alternative source. Speed of payout matters because the loss doesn't resolve itself.</div>
 </div>
 <div style="display: flex; gap: 16px; margin-bottom: 20px;">
 <div style="min-width: 32px; height: 32px; background: #00D4AA; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #0A2540; font-size: 16px;">2</div>
-<div><strong>The trigger is tied to indisputable public data.</strong> SEC 8-K filings create a legally mandated, timestamped record when a public company experiences a material disruption. Most major semiconductor equipment suppliers are publicly traded, so these obligations apply across the critical nodes of the supply chain. SEC filings, seismic data, and official government declarations are all public, objective, and legally reliable. This is not the oracle risk problem. This is legal disclosure.</div>
+<div><strong>The trigger is tied to indisputable public data.</strong> SEC 8-K filings create a legally mandated, timestamped record when a public company experiences a material disruption. Most major semiconductor equipment suppliers are publicly traded, so these obligations apply across the critical nodes of the supply chain. SEC filings, seismic data, and official government declarations are all public, objective, and legally reliable. Unlike a weather station that can be gamed or go offline, these are legally mandated disclosures with real consequences for inaccuracy.</div>
 </div>
 <div style="display: flex; gap: 16px;">
 <div style="min-width: 32px; height: 32px; background: #00D4AA; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #0A2540; font-size: 16px;">3</div>
@@ -135,19 +135,19 @@ Where all three conditions hold alongside the zero-coverage baseline, parametric
 
 ## The research agenda
 
-The product doesn't exist yet. Building it requires research that addresses three specific challenges.
+The product doesn't exist yet. Building it requires solving three specific problems.
 
-Someone needs to build the trigger infrastructure: a validated mapping from public-data events to expected downstream losses, with quantified basis risk. That mapping doesn't exist today. The 2023 ransomware incident proves it is plausible for a single event. Whether it generalizes across disruption types, across the sparse population of documented events, is an open research question.
+First, the trigger infrastructure. A parametric product for this supply chain would key off public data: an SEC 8-K filing disclosing a material cybersecurity incident, a USGS seismic reading above a threshold magnitude near a known fab cluster, an export restriction published in the Federal Register. MKS filed its 8-K on February 6, 2023, three days after the ransomware attack. Applied Materials disclosed the downstream impact in its 10-Q the following month. Those filings establish a timeline. The research question is whether that timeline can be mapped reliably to downstream financial exposure across different disruption types, with basis risk quantified well enough to price off.
 
-The trigger must solve the attribution problem. When a downstream company's revenue drops, how much of that drop is caused by the upstream supply chain event and how much by demand cycles, pricing shifts, or unrelated operational issues? Isolating the signal from the noise is a causal inference problem, not a monitoring problem.
+Second, the attribution problem. Applied Materials reported a $250 million revenue impact the quarter after the MKS attack, then recovered most of it the next quarter. How much of the initial drop was the supply disruption, and how much was a broader semiconductor demand cycle that happened to coincide? A parametric trigger that fires on the upstream event still needs a credible model linking that event to a downstream loss range. The sample of documented events is small enough that any model will carry wide confidence intervals. That's the honest starting point for the research.
 
-The product must be layered with indemnity, not sold as standalone coverage. Parametric covers the immediate cash need while traditional business interruption or an expanded contingent business interruption endorsement works through the adjustment process. The coordination problem I described in [Fast Money, Slow Trust](/insights/fast-money-slow-trust/) must be solved at the product design stage, not discovered at claim time.
+Third, the layering. Parametric has to fit inside an existing insurance program, covering the immediate cash need while a traditional BI or expanded contingent BI endorsement handles the longer adjustment. The parametric limit and the indemnity retention need to be designed against the same deductible structure and stress-tested against the same loss scenario before placement. The coordination problem I described in [Fast Money, Slow Trust](/insights/fast-money-slow-trust/) is easier to solve at product design than to discover at claim time.
 
-And the semiconductor supply chain is the right place to prove it. Fewer than 20 major upstream suppliers. Almost all are US-listed public companies with SEC filing obligations. The dependency graph is bounded and knowable. Geographic concentration in identifiable clusters. Critical material dependencies that are well-documented. If a public-data parametric trigger can be validated anywhere, this supply chain is the place to start.
+The semiconductor supply chain is the right place to start. Fewer than 20 major upstream suppliers, almost all US-listed public companies with SEC filing obligations. The dependency graph is bounded. Geographic concentration in identifiable clusters. Critical material dependencies that are well-documented. If a public-data parametric trigger can be validated anywhere, it's here.
 
 ## Starting from the problem
 
-The insurance industry's instinct when it sees an uninsured risk is to reach for the nearest product. Parametric is that product right now because it's new and flexible and attracting capital. But "new and flexible" isn't the same as "right."
+The insurance industry's instinct when it sees an uninsured risk is to reach for the nearest product. Parametric is that product right now: new, flexible, attracting capital.
 
 For supply chain business interruption, the honest answer is that no single tool solves the whole problem. Broader indemnity design, contingent capital, and parametric triggers each cover different slices. The value is in knowing which slice is which, and in being honest about which slices remain uncovered.
 
