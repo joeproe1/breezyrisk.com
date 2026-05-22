@@ -90,7 +90,11 @@ layout: default
         {% include share-buttons.html %}
 
         <footer class="post-footer">
-            {% include cta-banner.html %}
+            {% if page.category == "Industry Trends" %}
+                {% include cta-banner.html title="Questions?" subtitle="I'm happy to talk." %}
+            {% else %}
+                {% include cta-banner.html %}
+            {% endif %}
         </footer>
     </div>
 </article>
