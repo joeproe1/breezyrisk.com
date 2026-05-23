@@ -7,12 +7,13 @@ date: 2026-06-09
 author: Joerg Proeve
 category: Policy Deep-Dive
 read_time: "4 min read"
+image: /assets/images/Blog-First-72-Hours.png
 permalink: /insights/the-first-72-hours/
 ---
 
 It is 2 AM on a Saturday. Your network monitoring flags unusual activity on the core banking server. The overnight operations manager calls the IT director, who calls the bank president. Within an hour, three people are on a conference call trying to determine whether the bank has been breached.
 
-The cyber policy is supposed to help here. Incident response coverage is on the declarations page. There is a breach coach hotline number somewhere in the policy documents. The question is whether anyone has ever called it, and whether the conditions for coverage have been met before the first dollar gets spent.
+The cyber policy is supposed to help here. Incident response coverage is on the declarations page. There is a breach coach hotline number somewhere in the policy documents. The question is whether anyone's ever called it, and whether the conditions for coverage have been met before the first dollar gets spent.
 
 ## Five Conditions Between You and Coverage
 
@@ -24,7 +25,7 @@ The bank's IT director wants to call the security firm that knows the network, b
 
 ### 2. What You Can Spend Before Getting Permission
 
-Standard policy language requires the carrier's "prior written consent" before incurring breach response costs. At 2 AM on a Saturday, the claims hotline may route to a voicemail or a third-party administrator who returns the call on Monday. Some policies carve out an exception for initial legal costs without pre-approval; others do not.
+Standard policy language requires the carrier's "prior written consent" before incurring breach response costs. At 2 AM on a Saturday, the claims hotline may route to a voicemail or a third-party administrator who returns the call on Monday. Some policies carve out an exception for initial legal costs without pre-approval; others don't.
 
 ### 3. When Coverage Begins
 
@@ -32,15 +33,17 @@ Business interruption coverage typically includes an 8 to 10 hour waiting period
 
 ### 4. What the Policy Considers Reasonable
 
-Some policies cap forensic investigation costs at a "reasonable and customary" rate. Emergency weekend forensics from a specialized firm may run two to three times the standard hourly rate. If the policy's definition of reasonable does not include emergency pricing, the bank either pays the difference out of pocket or waits for a cheaper option on Monday.
+Some policies cap forensic investigation costs at a "reasonable and customary" rate. Emergency weekend forensics from a specialized firm may run two to three times the standard hourly rate. If the policy's definition of reasonable doesn't include emergency pricing, the bank either pays the difference out of pocket or waits for a cheaper option on Monday.
 
 ### 5. What Happens to Your Retainer
 
-Some banks pre-purchase incident response retainers from cybersecurity firms, which is good practice. The question is how the retainer interacts with the cyber policy. Some policies require the bank to exhaust the retainer before coverage applies; others credit unused amounts against the deductible; others do not coordinate at all. If the bank and the carrier both assume the other is paying for the first $50,000 in forensics, nobody pays.
+Some banks pre-purchase incident response retainers from cybersecurity firms, which is good practice. The question is how the retainer interacts with the cyber policy.
+
+Some policies require the bank to exhaust the retainer before coverage applies; others credit unused amounts against the deductible; others don't coordinate at all. If the bank and the carrier both assume the other is paying for the first $50,000 in forensics, nobody pays.
 
 ## The Regulatory Timing Problem
 
-Banking regulators expect prompt notification when a cyber incident occurs. Your primary federal regulator, whether that is the OCC, Federal Reserve, or FDIC, must be notified within 36 hours of the bank determining that a "notification incident" has occurred. That is shorter than any state notification deadline, and the clock starts on the bank's determination, not on completing the forensic investigation. The bank cannot wait until Monday for carrier approval before engaging counsel and beginning the regulatory notification process.
+Banking regulators expect prompt notification when a cyber incident occurs. Your primary federal regulator, whether that is the OCC, Federal Reserve, or FDIC, must be notified within 36 hours of the bank determining that a "notification incident" has occurred. That is shorter than any state notification deadline, and the clock starts on the bank's determination, not on completing the forensic investigation. The bank can't wait until Monday for carrier approval before engaging counsel and beginning the regulatory notification process.
 
 This creates a structural tension: the policy requires pre-approval for costs, but the regulator requires immediate action. Banks that act first and seek carrier approval later risk having costs denied as unauthorized. Banks that wait for carrier approval risk regulatory criticism for delayed response.
 
@@ -71,4 +74,4 @@ Every community bank with a cyber policy sits on this unresolved question: does 
 </div>
 </div>
 
-Incident response coordination is one of eight categories in my [Risk Intelligence Report]({{ '/risk-intelligence-report/' | relative_url }}). I review the policy's incident response provisions alongside the bank's actual response plan to identify where the two do not align, before a 2 AM phone call reveals it. [Get in touch]({{ '/contact/' | relative_url }}).
+Incident response coordination is one of eight categories in my [Risk Intelligence Report]({{ '/risk-intelligence-report/' | relative_url }}). I review the policy's incident response provisions alongside the bank's actual response plan to identify where the two don't align, before a 2 AM phone call reveals it. [Get in touch]({{ '/contact/' | relative_url }}).

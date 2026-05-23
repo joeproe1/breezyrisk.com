@@ -7,6 +7,7 @@ date: 2026-06-02
 author: Joerg Proeve
 category: Case Study
 read_time: "4 min read"
+image: /assets/images/Blog-Breach-Cost-Report.png
 permalink: /insights/the-breach-that-cost-more-to-report/
 ---
 
@@ -16,11 +17,13 @@ The technical problem is contained. The coverage problem is just starting.
 
 ## The Notification Machine
 
-Once forensics determines the scope, the bank's breach coach starts the compliance analysis. The bank has customers in eight states. Each state has different breach notification requirements: different timelines (30 days, 45 days, 60 days, "most expedient time possible"), different content requirements, different thresholds for what qualifies as a reportable breach. Several states require direct notification to the state attorney general. Above certain thresholds, breaches also trigger credit bureau notification obligations, adding another compliance layer and another cost.
+Once forensics determines the scope, the bank's breach coach starts the compliance analysis. The bank has customers in eight states. Each state has different breach notification requirements: different timelines (30 days, 45 days, 60 days, "most expedient time possible"), different content requirements, different thresholds for what qualifies as a reportable breach.
 
-Federal banking regulators do not wait for the state clocks. The bank's primary federal regulator, whether OCC, Federal Reserve, or FDIC, must be notified within 36 hours of the bank determining that a "notification incident" has occurred. That deadline is shorter than any state notification window, and the clock starts on the bank's determination, not on completing the forensic investigation. The bank is notifying its regulator while it still does not know the full scope.
+Several states require direct notification to the state attorney general. Above certain thresholds, breaches also trigger credit bureau notification obligations, adding another compliance layer and another cost.
 
-The bank cannot send one letter to 35,000 people and call it done. It needs state-specific notices, printed and mailed to each affected customer, with the required disclosures for each jurisdiction.
+Federal banking regulators don't wait for the state clocks. The bank's primary federal regulator, whether OCC, Federal Reserve, or FDIC, must be notified within 36 hours of the bank determining that a "notification incident" has occurred. That deadline is shorter than any state notification window, and the clock starts on the bank's determination, not on completing the forensic investigation. The bank is notifying its regulator while it still doesn't know the full scope.
+
+The bank can't send one letter to 35,000 people and call it done. It needs state-specific notices, printed and mailed to each affected customer, with the required disclosures for each jurisdiction.
 
 Then credit monitoring. The bank offers two years of identity protection services to all 35,000 affected customers. Enrollment rates run well under 20 percent in most breaches, but the bank still pays setup costs for the full offering and per-enrollee costs for everyone who signs up.
 
@@ -77,9 +80,9 @@ Then the call center. Within 72 hours of the first notification letters going ou
 <div style="color: rgba(255,255,255,0.45); font-size: 13px; margin-top: 12px; font-style: italic;">Composite scenario. Figures represent plausible ranges from reviewed policies and public breach cost data.</div>
 </div>
 
-But the bank also has business interruption losses from taking systems offline during the investigation ($180,000), regulatory defense costs from the examination that follows ($250,000), and potential third-party liability claims that have not yet been filed.
+But the bank also has business interruption losses from taking systems offline during the investigation ($180,000), regulatory defense costs from the examination that follows ($250,000), and potential third-party liability claims that haven't been filed yet.
 
-$290,000 remaining in the aggregate. Over $430,000 in additional exposure. The carrier did not deny a single line item. Every cost was covered, approved, and paid, until the aggregate ran out. For a bank with $400 million in assets, a $1 million cyber aggregate is not unusual. It is also not enough.
+$290,000 remaining in the aggregate. Over $430,000 in additional exposure. The carrier didn't deny a single line item. Every cost was covered, approved, and paid, until the aggregate ran out. For a bank with $400 million in assets, a $1 million cyber aggregate isn't unusual. It's also not enough.
 
 <div style="border-left: 3px solid #F59E0B; padding: 16px 20px; background: rgba(245,158,11,0.05); border-radius: 0 8px 8px 0; margin: 24px 0; font-size: 18px; font-weight: 600; color: #333;">
 The carrier did not deny the claim. The policy ran out of money before the bank ran out of costs.
@@ -89,9 +92,9 @@ The carrier did not deny the claim. The policy ran out of money before the bank 
 
 Most banks size their cyber coverage against a single large incident: a ransomware attack, a wire fraud loss, a vendor breach. They ask whether the limit is high enough for a bad day.
 
-The question they do not ask: if breach response costs come out of the same aggregate as business interruption and regulatory defense, what is left after notification?
+The question they don't ask: if breach response costs come out of the same aggregate as business interruption and regulatory defense, what is left after notification?
 
-In the policies I have reviewed for community banks, breach response costs (forensics, legal, notification, credit monitoring, call center) share the same aggregate limit as business interruption, regulatory defense, and third-party liability. They are not separate buckets. They are all drawing from the same pool. The first category to file exhausts the limit for everything that follows.
+In the policies I've reviewed for community banks, breach response costs (forensics, legal, notification, credit monitoring, call center) share the same aggregate limit as business interruption, regulatory defense, and third-party liability. They aren't separate buckets. They are all drawing from the same pool. The first category to file exhausts the limit for everything that follows.
 
 For a bank with tens of thousands of customer records, breach notification and response alone can consume the majority of a $1 million policy. The technical fix might cost $80,000. The obligation to tell people about it costs the rest.
 
