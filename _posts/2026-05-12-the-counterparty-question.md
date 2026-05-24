@@ -121,4 +121,4 @@ Community bank boards do not need to take a position on which model is correct. 
 
 -----
 
-*If your community bank's cyber insurance has not been audited against the seven questions above, this is the work we do at [Breezy Risk Advisors]({{ '/contact/' | relative_url }}).*
+*If your community bank's cyber insurance has not been audited against the seven questions above, this is the work we do at [Breezy Risk]({{ '/contact/' | relative_url }}).*

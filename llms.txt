@@ -1,8 +1,8 @@
-# Breezy Risk Advisors
+# Breezy Risk
 
 > Independent insurance audits for community banks and credit unions. Fee-based. No policies sold. No commissions earned.
 
-Breezy Risk Advisors is an independent risk advisory firm founded by Joerg Proeve. The firm audits insurance programs for community banks and credit unions. It does not sell insurance, place policies, or earn commissions.
+Breezy Risk is an independent risk advisory firm founded by Joerg Proeve. The firm audits insurance programs for community banks and credit unions. It does not sell insurance, place policies, or earn commissions.
 
 ## What Breezy Risk Does
 
