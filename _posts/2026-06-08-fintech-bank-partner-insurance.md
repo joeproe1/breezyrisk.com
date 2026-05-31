@@ -3,7 +3,7 @@ layout: post
 title: "What Your Bank Partner Requires (And Whether Your Insurance Delivers)"
 card_title: "Bank Partner Insurance Requirements"
 description: "Bank partners mandate specific insurance before go-live. Most FinTechs check the box without checking the policy language. Here is what to verify."
-date: 2026-05-31
+date: 2026-06-08
 author: Joerg Proeve
 category: FinTech
 read_time: "5 min read"
@@ -12,7 +12,9 @@ permalink: /insights/fintech-bank-partner-insurance/
 
 Before a bank partner will let a FinTech touch its infrastructure, it mandates insurance. Tech E&O at specific limits. Cyber liability with defined sub-coverages. Crime or fidelity coverage. Additional Insured status. These requirements are spelled out in the partnership agreement, usually in a section nobody reads after the deal closes.
 
-These requirements are non-negotiable. They are also, in most cases, unverified. The bank checks the certificate of insurance. Nobody checks the policy language behind it.
+These requirements are non-negotiable. They are also, in most cases, unverified. The bank checks the certificate of insurance.
+
+Nobody checks the policy language behind it.
 
 ## A Certificate Is Not a Policy
 
@@ -55,7 +57,9 @@ A FinTech needs both policies. Many carry only cyber. The bank partner contract 
 
 A FinTech with a $5 million cyber policy and no crime coverage is technically non-compliant with a bank partner agreement that specifies both. In practice, nobody catches this because the certificate doesn't break coverage into those categories. It lists a policy type and a limit. The bank's compliance team checks the box and moves on.
 
-This is one facet of a larger structural problem in FinTech insurance, where programs get assembled from mismatched pieces. See [The FinTech Identity Crisis Nobody Is Solving]({{ '/insights/fintech-identity-crisis/' | relative_url }}). That level of scrutiny is changing.
+This is one facet of a larger structural problem in FinTech insurance, where programs get assembled from mismatched pieces. See [The FinTech Identity Crisis Nobody Is Solving]({{ '/insights/fintech-identity-crisis/' | relative_url }}).
+
+That level of scrutiny is changing.
 
 ## What Changed After Synapse
 
@@ -65,7 +69,7 @@ The practical effect on FinTechs: bank partners ratcheted up insurance requireme
 
 For the first time, some bank compliance teams are looking past the certificate and asking to see the actual policy forms. They want to verify that the coverage types specified in the partnership agreement exist as defined coverages in the policy, not just as line items on a certificate.
 
-## Additional Insured Doesn't Mean What You Think
+## "Additional Insured" Doesn't Mean What You Think
 
 Bank partner contracts often require the FinTech to name the bank as an "Additional Insured" on its Tech E&O and cyber policies. The assumption: this gives the bank its own coverage under the FinTech's policy if a claim arises from the partnership.
 
