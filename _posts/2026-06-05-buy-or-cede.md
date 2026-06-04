@@ -92,7 +92,3 @@ Most commentary on these deals comes from analysts and journalists.
 I have been in the corporate strategy seat at a global carrier. I have run technology strategy at another carrier. I have built and run the operations at a cyber insurance MGA. I now audit the insurance programs that these carriers and MGAs produce for community banks.
 
 Most of the conversation about Zurich-Beazley and Allianz-Coalition is focused on deal price, strategic rationale, and market share. I believe the conversation that matters is about what these moves reveal: underwriting a risk that changes constantly, settles over years, and may be reshaped by technologies that do not yet fully exist is a problem that even the largest carriers in the world have decided they cannot solve alone.
-
------
-
-*If your insurance program includes carriers or MGAs affected by this consolidation, an independent audit can tell you what changed and whether it matters. [Get in touch]({{ '/contact/' | relative_url }}).*
