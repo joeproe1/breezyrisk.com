@@ -66,7 +66,7 @@ Allianz made a structural calculation. Building an active monitoring platform, h
 These two deals say something uncomfortable about the rest of the market.
 
 <div style="border-left: 4px solid #00D4AA; padding: 24px 28px; background: rgba(0, 212, 170, 0.06); border-radius: 0 8px 8px 0; margin: 40px 0;">
-<div style="font-size: 20px; font-weight: 600; line-height: 1.5; color: #0A2540;">If Zurich concluded that the only way to get a credible cyber operation was to pay $10.9 billion for a specialist, and Allianz concluded that the only way to compete was to hand its entire book to an MGA, the window for building a cyber underwriting capability organically has narrowed considerably.</div>
+<div style="font-size: 20px; font-weight: 600; line-height: 1.5; color: #0A2540;">If Zurich had to pay $10.9 billion for a specialist and Allianz had to hand its entire book to an MGA, the window for building cyber underwriting organically has narrowed considerably.</div>
 </div>
 
 Carriers that have not already built it, bought it, or partnered for it are running out of road.
@@ -82,7 +82,7 @@ Cyber is not a line of business that traditional insurance infrastructure was de
 And the next disruption is already visible. Estimates for quantum computing to break mainstream public-key encryption have compressed from 2035 to as early as 2030, and "harvest now, decrypt later" attacks are already underway. If a single quantum breakthrough invalidates the encryption assumptions behind every cyber exposure on the books, the pricing model gets rebuilt from the ground up.
 
 <div style="border-left: 4px solid #00D4AA; padding: 24px 28px; background: rgba(0, 212, 170, 0.06); border-radius: 0 8px 8px 0; margin: 40px 0;">
-<div style="font-size: 20px; font-weight: 600; line-height: 1.5; color: #0A2540;">Both deals are bets that cyber insurance is structurally viable at scale. Those bets may well be correct. But the carriers making them are the first to acknowledge that the risk they are trying to underwrite has not stopped evolving.</div>
+<div style="font-size: 20px; font-weight: 600; line-height: 1.5; color: #0A2540;">Both deals are bets that cyber insurance is structurally viable at scale. But the carriers making them are the first to acknowledge the risk has not stopped evolving.</div>
 </div>
 
 ## Why I Am Writing This
