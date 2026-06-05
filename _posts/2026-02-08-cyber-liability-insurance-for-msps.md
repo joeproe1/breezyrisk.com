@@ -23,7 +23,7 @@ But what does that mean in practice?
 
 I review cyber policies for MSPs across the country, and the most common reaction I get is some version of: "Wait, that's not covered?" The problem isn't that MSPs buy bad policies. It's that cyber liability insurance was originally designed for companies that store data, not companies that manage other people's networks, hold admin credentials, and deploy security tools across dozens of client environments. Your risk profile is different from a retailer's or a law firm's. Your cyber policy should reflect that. Here's how to tell if it does.
 
-## What Cyber Liability Insurance Actually Covers
+## What Cyber Liability Insurance Covers
 
 A "standard" cyber liability policy, and I use that word loosely, because no two carriers write these the same way, has two sides: first-party coverage (your own losses) and third-party coverage (when someone sues you). Most policies bundle several components under these two categories.
 
@@ -123,6 +123,6 @@ If any of these checks raises a question you can't answer, it's worth having a d
 
 Cyber liability insurance isn't complicated once you understand the moving parts. But most MSPs never look under the hood. They see "$2M Cyber Liability" on their certificate of insurance and assume the hard part is done.
 
-The hard part is making sure those dollars actually show up when you need them. That means understanding what triggers your coverage, what conditions can void it, where the sub-limits hide, and where your cyber policy hands off to your Tech E&O.
+The hard part is making sure those dollars show up when you need them. That means understanding what triggers your coverage, what conditions can void it, where the sub-limits hide, and where your cyber policy hands off to your Tech E&O.
 
 You don't need to become an insurance expert. But you do need to know enough to ask the right questions. The five checks above are a good start. If you want a more thorough review, that's what my [Risk Intelligence Report]({{ '/risk-intelligence-report/' | relative_url }}) is designed to do: compare your actual policies against your actual risk profile and flag the gaps before a claim exposes them.

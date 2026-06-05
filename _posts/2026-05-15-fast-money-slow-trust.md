@@ -77,7 +77,7 @@ In 2020 I co-founded and ran a parametric MGA called Parachute Insurance. We bui
 
 We hit the coordination problem firsthand. Homeowners compared the parametric payout to their total loss, saw the gap, and couldn't make sense of it. The product confused more buyers than it protected.
 
-The hardest part was distribution. Most homeowners don't fully understand their own indemnity policy: the deductibles, the exclusions, what's actually covered. A lot of them only find out after a loss and a bad claims experience. Asking those same people to also absorb basis risk and trigger mechanics is a conversation that doesn't scale. The product is simple. The purchase decision isn't.
+The hardest part was distribution. Most homeowners don't fully understand their own indemnity policy: the deductibles, the exclusions, what's covered. A lot of them only find out after a loss and a bad claims experience. Asking those same people to also absorb basis risk and trigger mechanics is a conversation that doesn't scale. The product is simple. The purchase decision isn't.
 
 The product worked. Getting it to market didn't. I moved on from Parachute, and the market has grown fast since then. The coordination problem hasn't been solved.
 

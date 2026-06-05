@@ -13,7 +13,7 @@ permalink: /insights/cyber-insurance-for-community-banks/
 
 Your bank has a cyber insurance policy. It's on the books. The premium gets paid. The Board sees it listed in the risk management report.
 
-But when was the last time anyone checked what your cyber policy actually covers?
+But when was the last time anyone checked what your cyber policy covers?
 
 I review cyber policies for clients, and the most common reaction I get from bank leadership is some version of:
 
@@ -23,7 +23,7 @@ The problem isn't that community banks buy bad cyber policies. It's that cyber i
 
 Here's how to tell if it does.
 
-## What Cyber Insurance Actually Covers for a Community Bank
+## What Cyber Insurance Covers for a Community Bank
 
 A cyber policy has two sides: first-party coverage (your own losses) and third-party coverage (when someone sues you).
 

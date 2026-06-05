@@ -45,7 +45,7 @@ Your Tech E&O carrier denies the claim: *"Penetration testing is not a covered p
 
 ### The Fix:
 
-Specialized cyber insurance carriers write policies specifically for MSPs with "professional services" definitions built for what you actually do. Ask your broker which carriers in their network offer this coverage.
+Specialized cyber insurance carriers write policies specifically for MSPs with "professional services" definitions built for what you do. Ask your broker which carriers in their network offer this coverage.
 
 ---
 

@@ -75,7 +75,7 @@ The MGA landscape reflects this. Cyber MGA funding dropped 44% in 2025. Cyber pr
 
 ## The Uncomfortable Question
 
-If two carriers with balance sheets exceeding a hundred billion dollars each decided they could not build cyber underwriting internally, what does that say about how difficult this problem actually is?
+If two carriers with balance sheets exceeding a hundred billion dollars each decided they could not build cyber underwriting internally, what does that say about how difficult this problem is?
 
 Cyber is not a line of business that traditional insurance infrastructure was designed for. A vulnerability disclosed on Monday becomes a widespread exploit by Friday. Ransomware surged 126% in the first quarter of 2025. Social engineering attacks powered by deepfakes accounted for 57% of incurred cyber claims in the first half of the same year. The underwriting model has to process threat intelligence in real time, not last year's loss triangle.
 
