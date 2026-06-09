@@ -171,7 +171,8 @@ permalink: /risk-intelligence-report/
   min-width: 720px;
   table-layout: fixed;
 }
-.interaction-map col{ width: 25%; }
+.interaction-map col:first-child{ width: 34%; }
+.interaction-map col{ width: 22%; }
 .interaction-map thead th{
   background: #0d1f3c;
   color: #fff;
@@ -328,7 +329,7 @@ permalink: /risk-intelligence-report/
 /* Steps */
 .rir-steps{
   display: grid;
-  grid-template-columns: 1fr auto 1fr auto 1fr auto 1fr;
+  grid-template-columns: 1fr auto 1fr auto 1fr;
   gap: 0;
   max-width: 1060px;
   margin: 0 auto;
@@ -445,14 +446,10 @@ permalink: /risk-intelligence-report/
 <!-- HERO -->
 <section class="rir-hero">
   <div class="container rir-wrap">
-    <div style="font-family:var(--font-mono);font-size:13px;font-weight:600;letter-spacing:.10em;text-transform:uppercase;color:var(--text-secondary);margin-bottom:24px;display:inline-block;padding:12px 20px;background:rgba(0,212,170,0.08);border:1px solid rgba(0,212,170,0.22);border-radius:12px;">Risk Intelligence Report</div>
     <h1>Which Policy Pays After a Cyber Event?</h1>
     <p class="rir-subhead">
       The Risk Intelligence Report reads your cyber insurance, fidelity bond, and D&amp;O policy together and shows you where coverage holds, where it fails, and what to fix.
     </p>
-    <div class="rir-actions">
-      <a href="{{ '/contact/' | relative_url }}" class="rir-btn-primary">Get in Touch &rarr;</a>
-    </div>
   </div>
 </section>
 
@@ -512,7 +509,7 @@ permalink: /risk-intelligence-report/
         </tbody>
       </table>
     </div>
-    <p class="interaction-preamble" style="margin-top:10px; font-size:14px; font-style:italic; text-align:left;">Based on community bank policy reviews.</p>
+    <p style="margin-top:10px; font-size:14px; font-style:italic; color:var(--text-secondary); text-align:left; padding-left:0;">Based on community bank and credit union policy reviews.</p>
   </div>
 </section>
 
@@ -526,7 +523,7 @@ permalink: /risk-intelligence-report/
 
       <!-- Finding (left) -->
       <div class="rir-finding">
-        <div class="rir-finding-title">D&O Cyber Cover Exclusion</div>
+        <div class="rir-finding-title">The D&amp;O Policy That Won't Protect Your Board</div>
         <p><strong style="color:var(--primary);">Gap:</strong> Most D&amp;O policies exclude claims "arising out of" a cyber incident. If a data breach triggers an FDIC enforcement action or shareholder lawsuit, the board has zero D&amp;O coverage. Brokers miss this because they review each policy in isolation.</p>
         <p><strong style="color:var(--primary);">Impact:</strong> Up to $1 million in uninsured board liability. The policy your directors believe protects them will not respond.</p>
         <p class="desktop-only"><strong style="color:var(--primary);">Fix:</strong> Request removal of the cyber exclusion, or negotiate an exception for regulatory proceedings and shareholder claims at renewal.</p>
@@ -535,14 +532,14 @@ permalink: /risk-intelligence-report/
       <!-- Credit union example (right) — hidden on mobile to reduce scroll -->
       <div class="rir-finding desktop-only" style="border-left-color:var(--accent);background:rgba(0,212,170,0.04);">
         <div class="rir-finding-title">The 50% Co-Payment Nobody Mentioned</div>
-        <p>A $1B credit union in the Northeast discovered its fidelity bond carried a 50% co-payment on wire fraud claims. On a $2 million loss, the bond would pay less than $1 million.</p>
+        <p>A credit union in the Northeast discovered its fidelity bond carried a 50% co-payment on wire fraud claims. On a $2 million loss, the bond would pay less than $1 million.</p>
         <p>The board had never been told.</p>
         <p><strong style="color:var(--primary);">Uninsured exposure:</strong> $500K to $1.5 million per incident.</p>
       </div>
 
     </div>
 
-    <div class="desktop-only" style="max-width:680px;margin:32px auto 0;padding:20px 28px;background:rgba(0,212,170,0.04);border-left:4px solid var(--accent);border-radius:0 10px 10px 0;text-align:center;">
+    <div class="desktop-only" style="max-width:800px;margin:32px auto 0;padding:20px 28px;background:rgba(0,212,170,0.04);border-top:2px solid var(--accent);border-radius:0;text-align:center;">
       <p style="color:var(--text-secondary);font-size:15px;line-height:1.7;margin:0;">Every Risk Intelligence Report identifies gaps like this, with dollar amounts and specific fixes.<br>See how these gaps play out across <a href="{{ '/insights/five-incidents-three-policies/' | relative_url }}" style="color:var(--accent);font-weight:600;">five common incident types</a>.</p>
     </div>
   </div>
@@ -558,18 +555,58 @@ permalink: /risk-intelligence-report/
 
       <div class="rir-item">
         <strong>Policy Deep Dives</strong>
-        <p>Line-by-line review of each policy against real incident scenarios. Covering cyber, fidelity bond, D&amp;O, policy interactions, vendor coverage, regulatory response, and security warranties.</p>
+        <p>Each policy tested against five real incident scenarios. Not just limits and retentions, but the exclusions, sublimits, and warranty conditions that determine whether a claim gets paid. Your broker reviews each policy separately. This reads them together.</p>
       </div>
 
       <div class="rir-item">
         <strong>Policy Interaction Map</strong>
-        <p>Five incidents, three policies. Which one responds, which one excludes, and where carriers point at each other. Like the <a href="#interaction-map" style="color:var(--accent);font-weight:600;">table above</a>, but with dollar amounts from your actual policies.</p>
+        <p>Like the <a href="#interaction-map" style="color:var(--accent);font-weight:600;">table above</a>, but built from your actual policies with dollar amounts. Shows exactly where carriers will point at each other and where the bank holds the loss.</p>
       </div>
 
       <div class="rir-item">
         <strong>Implementation Roadmap</strong>
-        <p>Prioritized fixes with cost estimates. What to change, what it costs, and what to ask your broker.</p>
+        <p>Specific fixes ranked by exposure. What to change at renewal, what language to request, and what to ask your broker. Not a list of recommendations. A script for the conversation.</p>
       </div>
+
+      <div class="rir-item">
+        <strong>Examiner-Ready Documentation</strong>
+        <p>Findings documented in dollar terms with policy citations. Ready for your next board review, audit committee meeting, or regulatory examination.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="rir-section">
+  <div class="container rir-wrap">
+    <div class="rir-center">
+      <h2>How It Works</h2>
+    </div>
+    <div class="rir-steps">
+
+      <div class="rir-step">
+        <strong>1. Send Your Policies</strong>
+        <p>Share your cyber, fidelity bond, and D&amp;O policies. I handle the rest.</p>
+      </div>
+
+      <div class="rir-step-arrow">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </div>
+
+      <div class="rir-step">
+        <strong>2. I Review Them</strong>
+        <p>Line-by-line analysis against real incident scenarios. Every policy read together, not in isolation.</p>
+      </div>
+
+      <div class="rir-step-arrow">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </div>
+
+      <div class="rir-step">
+        <strong>3. You Get the Report</strong>
+        <p>A written report with every finding in dollar terms, plus a 30-minute walkthrough.</p>
+      </div>
+
     </div>
   </div>
 </section>
