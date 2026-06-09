@@ -30,16 +30,16 @@ The banks themselves were not breached. Their own security held. But they depend
 
 <div style="background: #0A2540; border-radius: 12px; padding: 28px 32px; margin: 32px 0; color: #fff;">
 <h3 style="color: #00D4AA; margin-top: 0; font-size: 18px;">Examiner Attention Is Already Here</h3>
-<p style="color: rgba(255,255,255,0.8); font-size: 15px; line-height: 1.65; margin: 0;">The FFIEC IT Examination Handbook requires banks to manage third-party vendor risk, including maintaining business continuity plans for critical service providers. After the Marquis breach, vendor concentration risk became the number-one examiner concern in cybersecurity conversations with community banks. Regulators are asking whether banks have mapped their critical vendor dependencies and whether their insurance programs respond when those vendors fail.</p>
+<p style="color: rgba(255,255,255,0.8); font-size: 15px; line-height: 1.65; margin: 0;">After the Marquis breach, vendor concentration became the top examiner concern in cybersecurity conversations with community banks. Regulators are now asking whether insurance programs respond when critical vendors fail.</p>
 </div>
 
 Every community bank runs on a core platform. Jack Henry, Fiserv, FIS, CSI, Corelation. These are not interchangeable. Switching core vendors takes 12 to 18 months. When one goes down, the bank cannot operate, and it cannot switch.
 
-## Two Problems With the Coverage
+## Two Problems With the Cyber Coverage
 
-**The sublimit problem.** I review bank insurance programs. In five consecutive reviews, dependent business interruption coverage ranged from $100,000 to not purchased at all. Even the best-positioned program had a $1 million sublimit inside a larger aggregate. A multi-day core platform outage can generate $1.5 million to $2.5 million in lost income, overtime costs, manual processing expenses, and fee waivers to affected customers. The sublimit covers 40 to 65 cents on the dollar.
+**The sublimit problem.** In five consecutive bank reviews, dependent BI coverage ranged from $100,000 to not purchased at all. The best-positioned program had a $1 million sublimit. A multi-day core platform outage can generate $1.5 million to $2.5 million in losses. The sublimit covers 40 to 65 cents on the dollar.
 
-**The trigger problem.** Many dependent BI provisions require the vendor outage to result from a "security breach" at the vendor. If the vendor's systems go down because of a failed software update, a power failure at the data center, or a hardware malfunction, the coverage may not trigger. The bank's operations stop regardless of the cause. The policy only responds to one category of cause.
+**The trigger problem.** Many dependent BI provisions only respond if the vendor outage results from a "security breach." A failed software update, a power failure, or a hardware malfunction at the vendor does not trigger the coverage. The bank's operations stop regardless of the cause.
 
 <div style="border-left: 3px solid #3B82F6; padding: 12px 20px; margin: 20px 0; font-size: 15px; color: #555; line-height: 1.65;">
 <strong style="font-size: 16px; color: #333;">The Trigger Distinction</strong><br>
@@ -53,19 +53,19 @@ The fidelity bond does not cover this. No fraud occurred. The D&O policy does no
 <div style="background: #f8faf9; border-radius: 10px; padding: 28px 32px; margin: 24px 0;">
 <div style="display: flex; gap: 16px; margin-bottom: 20px;">
 <div style="min-width: 32px; height: 32px; background: #00D4AA; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #0A2540; font-size: 16px;">1</div>
-<div><strong>Check your dependent BI sublimit.</strong> If it is less than $2 million, model a realistic five-to-seven-day core platform outage. Include lost fee income, overtime, manual processing costs, and customer remediation. Compare the result to the sublimit. If the sublimit covers less than 70 percent of the modeled loss, request an increase at renewal.</div>
+<div><strong>Check your dependent BI sublimit.</strong> Model a five-to-seven-day core platform outage. If the sublimit covers less than 70 percent of the modeled loss, request an increase at renewal.</div>
 </div>
 <div style="display: flex; gap: 16px; margin-bottom: 20px;">
 <div style="min-width: 32px; height: 32px; background: #00D4AA; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #0A2540; font-size: 16px;">2</div>
-<div><strong>Check whether the trigger includes system failure, not just security breach.</strong> If dependent BI only responds to a cyberattack at the vendor, your bank has no coverage for the more common scenario: a vendor system that simply stops working. The broader trigger costs more but matches the actual risk.</div>
+<div><strong>Check whether the trigger includes system failure, not just security breach.</strong> If dependent BI only responds to a cyberattack, you have no coverage when a vendor system simply stops working.</div>
 </div>
 <div style="display: flex; gap: 16px; margin-bottom: 20px;">
 <div style="min-width: 32px; height: 32px; background: #00D4AA; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #0A2540; font-size: 16px;">3</div>
-<div><strong>Confirm your core vendor is covered by name or class definition.</strong> Some policies require the vendor to be specifically scheduled. Others cover any vendor with a written contract. If your core platform provider is not listed and the policy does not cover vendors by class, dependent BI may not respond at all.</div>
+<div><strong>Confirm your core vendor is covered by name or class.</strong> If your core platform provider is not specifically listed and the policy does not cover vendors by class, dependent BI may not respond at all.</div>
 </div>
 <div style="display: flex; gap: 16px;">
 <div style="min-width: 32px; height: 32px; background: #00D4AA; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #0A2540; font-size: 16px;">4</div>
-<div><strong>Ask your broker: what happens if our core vendor goes down for a week?</strong> Map the answer to your actual operations. If the answer is a $1 million sublimit against a $2 million exposure, you know what to negotiate.</div>
+<div><strong>Ask your broker: what happens if our core vendor goes down for a week?</strong> If the answer is a $1 million sublimit against a $2 million exposure, you know what to negotiate.</div>
 </div>
 </div>
 
