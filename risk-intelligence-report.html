@@ -89,13 +89,13 @@ permalink: /risk-intelligence-report/
   color: var(--primary);
   font-weight: 800;
   margin: 14px 0 14px;
-  max-width: 800px;
+  max-width: 100%;
 }
 .rir-subhead{
   font-size: 18px;
   line-height: 1.7;
   color: var(--text-secondary);
-  max-width: 720px;
+  max-width: 100%;
   margin: 0 0 28px;
 }
 .rir-actions{
@@ -176,11 +176,11 @@ permalink: /risk-intelligence-report/
   background: #0d1f3c;
   color: #fff;
   font-family: 'JetBrains Mono', monospace;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  padding: 16px 18px;
+  padding: 18px 18px;
   text-align: left;
   border-bottom: 4px solid #7eaee8;
 }
@@ -462,6 +462,9 @@ permalink: /risk-intelligence-report/
     <div class="rir-center">
       <h2>Policy Interaction Map</h2>
     </div>
+    <div style="max-width:960px;margin:0 auto 24px;padding:16px 24px;background:rgba(0,212,170,0.04);border-left:4px solid var(--accent);border-radius:0 10px 10px 0;">
+      <p style="font-size:15px;font-weight:600;color:#0A2540;line-height:1.6;margin:0;">Every red cell is a coverage gap your bank owns today. Every yellow cell is coverage with inadequate sublimits or conditions.</p>
+    </div>
     <div class="interaction-map-wrap">
       <table class="interaction-map">
         <colgroup>
@@ -479,38 +482,37 @@ permalink: /risk-intelligence-report/
           <tr>
             <td class="cell-incident">Ransomware Attack</td>
             <td class="cell-green">Covered</td>
-            <td class="cell-grey">n/a</td>
-            <td class="cell-grey">n/a</td>
+            <td class="cell-grey"></td>
+            <td class="cell-grey"></td>
           </tr>
           <tr>
             <td class="cell-incident">Wire Transfer Fraud</td>
-            <td class="cell-grey">n/a</td>
+            <td class="cell-grey"></td>
             <td class="cell-yellow">Sublimited with conditions</td>
-            <td class="cell-grey">n/a</td>
+            <td class="cell-grey"></td>
           </tr>
           <tr>
             <td class="cell-incident">Core Vendor Breach</td>
-            <td class="cell-yellow">Sublimits</td>
-            <td class="cell-grey">n/a</td>
-            <td class="cell-grey">n/a</td>
+            <td class="cell-yellow">Sublimited</td>
+            <td class="cell-grey"></td>
+            <td class="cell-grey"></td>
           </tr>
           <tr>
             <td class="cell-incident">Data Breach &ndash; Loss to the Bank</td>
-            <td class="cell-yellow">Defense inside limits</td>
-            <td class="cell-grey">n/a</td>
-            <td class="cell-grey">n/a</td>
+            <td class="cell-yellow">Defense costs erode limit</td>
+            <td class="cell-grey"></td>
+            <td class="cell-grey"></td>
           </tr>
           <tr>
             <td class="cell-incident">Data Breach &ndash; Claims Against the Board</td>
-            <td class="cell-red">Excluded</td>
-            <td class="cell-grey">n/a</td>
-            <td class="cell-red">Cyber exclusion</td>
+            <td class="cell-red">No board coverage</td>
+            <td class="cell-grey"></td>
+            <td class="cell-red">Cyber claims excluded</td>
           </tr>
         </tbody>
       </table>
     </div>
-    <p class="interaction-preamble" style="margin-top:10px; font-size:14px; font-style:italic;">Based on community bank policy reviews.</p>
-    <p class="interaction-caption">Every red cell is a coverage gap your bank owns today. Every yellow cell is coverage with inadequate sublimits or conditions.</p>
+    <p class="interaction-preamble" style="margin-top:10px; font-size:14px; font-style:italic; text-align:left;">Based on community bank policy reviews.</p>
   </div>
 </section>
 
@@ -540,7 +542,9 @@ permalink: /risk-intelligence-report/
 
     </div>
 
-    <p class="desktop-only" style="text-align:center;color:var(--text-secondary);font-size:15px;margin:28px 0 0;line-height:1.7;">Every Risk Intelligence Report identifies gaps like this, with dollar amounts and specific fixes.<br>See how these gaps play out across <a href="{{ '/insights/five-incidents-three-policies/' | relative_url }}" style="color:var(--accent);font-weight:600;">five common incident types</a>.</p>
+    <div class="desktop-only" style="max-width:680px;margin:32px auto 0;padding:20px 28px;background:rgba(0,212,170,0.04);border-left:4px solid var(--accent);border-radius:0 10px 10px 0;text-align:center;">
+      <p style="color:var(--text-secondary);font-size:15px;line-height:1.7;margin:0;">Every Risk Intelligence Report identifies gaps like this, with dollar amounts and specific fixes.<br>See how these gaps play out across <a href="{{ '/insights/five-incidents-three-policies/' | relative_url }}" style="color:var(--accent);font-weight:600;">five common incident types</a>.</p>
+    </div>
   </div>
 </section>
 
@@ -574,8 +578,8 @@ permalink: /risk-intelligence-report/
 <section class="rir-final">
   <div class="rir-final-inner">
     <h2>A Claim Will Test Your Coverage</h2>
+    <p>Flat fee in the low four figures. No retainer, no hourly billing. No commitment required.</p>
     <a href="{{ '/contact/' | relative_url }}" class="btn-accent">Get in Touch &rarr;</a>
-    <div class="rir-final-foot">Flat fee in the low four figures. No retainer, no hourly billing. No commitment required.</div>
   </div>
 </section>
 
