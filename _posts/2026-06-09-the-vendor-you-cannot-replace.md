@@ -71,6 +71,4 @@ The fidelity bond does not cover this. No fraud occurred. The D&O policy does no
 
 Your bank cannot operate without its core platform. One vendor, no substitute, 12 to 18 months to switch. The insurance should reflect that dependency. In most cases, it does not.
 
-Vendor concentration is one of five incident types where coverage breaks down across all three bank policies. I map the full picture in [Five Common Cyber Incidents, Three Policies, and the Gaps Between Them]({{ '/insights/five-incidents-three-policies/' | relative_url }}).
-
-If your bank has not modeled a core vendor outage against its current coverage, [get in touch]({{ '/contact/' | relative_url }}) and a [Risk Intelligence Report]({{ '/risk-intelligence-report/' | relative_url }}) will show you exactly where the sublimit falls short.
+Vendor concentration is one of five incident types where coverage breaks down across all three bank policies. I map the full picture [here]({{ '/insights/five-incidents-three-policies/' | relative_url }}). If your bank has not modeled a core vendor outage against its current coverage, [get in touch]({{ '/contact/' | relative_url }}) and I will show you where the sublimit falls short.
