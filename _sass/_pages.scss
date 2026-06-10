@@ -606,6 +606,20 @@
     max-width: 320px;
 }
 
+.hero-checklist-label {
+    font-family: $font-body;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: $text-secondary;
+    background: #F7F8FA;
+    margin: -28px -32px 0;
+    padding: 14px 32px;
+    border-radius: 12px 12px 0 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
 .hero-checklist-item {
     display: flex;
     align-items: center;
