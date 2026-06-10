@@ -1046,7 +1046,7 @@
 // CTA Banner
 .cta-banner {
     background: $primary;
-    padding: 48px 40px;
+    padding: 40px 40px;
     margin: 0 auto 48px;
     max-width: 880px;
     border-radius: 12px;
@@ -1058,9 +1058,9 @@
     }
 
     h2 {
-        font-size: 36px;
+        font-size: 30px;
         color: white;
-        margin-bottom: 16px;
+        margin-bottom: 12px;
     }
 
     p {
@@ -1688,12 +1688,16 @@
 
 @media (max-width: $bp-tablet) {
     .hero {
-        padding: 140px 0 60px;
+        padding: 120px 0 48px;
     }
 
     .hero-content h1,
     .hero-text h1 {
         font-size: 32px;
+    }
+
+    .hero-tagline {
+        font-size: 18px;
     }
 
     .hero-breadcrumb {
