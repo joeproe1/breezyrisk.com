@@ -22,6 +22,18 @@
 <!-- Stylesheet -->
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
+<!-- WebSite Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Breezy Risk",
+  "url": "{{ site.url }}",
+  "description": "{{ site.description }}",
+  "publisher": { "@id": "{{ site.url }}/#organization" }
+}
+</script>
+
 <!-- Site Identity Schema (canonical: ProfessionalService + Person) -->
 <script type="application/ld+json">
 {
@@ -134,7 +146,8 @@
         "Coverage Gap Analysis"
       ],
       "sameAs": [
-        "{{ site.linkedin }}"
+        "{{ site.linkedin }}",
+        "https://www.linkedin.com/company/breezy-risk-advisors"
       ]
     }
   ]

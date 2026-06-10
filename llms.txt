@@ -34,14 +34,14 @@ Community banks typically carry cyber insurance, a fidelity bond, and a D&O poli
 - Location: Lancaster, PA. Works with community banks nationally across the United States.
 - Pricing: Flat fee in the low four figures. No retainer, no hourly billing.
 - Independence: No insurance placement, no brokering, no commissions. Fee-based audit only.
-- Deliverable: Risk Intelligence Report covering eight sections: Cyber, Fidelity Bond, D&O, Policy Interaction Analysis, Vendor Coverage, Regulatory Response, Security Warranty Compliance, Carrier Due Diligence.
+- Deliverable: Risk Intelligence Report covering seven sections: Cyber, Fidelity Bond, D&O, Policy Interaction Analysis, Vendor Coverage, Regulatory Response, Security Warranty Compliance.
 - Website: https://breezyrisk.com
-- Contact: joerg@breezyrisk.com
+- Contact: contact@breezyrisk.com
 
 ## Links
 
-- [Community Bank Insurance Audit](https://breezyrisk.com/community-bank-insurance/)
 - [Risk Intelligence Report](https://breezyrisk.com/risk-intelligence-report/)
+- [Coverage Gaps](https://breezyrisk.com/coverage-gaps/)
 - [About](https://breezyrisk.com/about/)
 - [Insights](https://breezyrisk.com/insights/)
 - [FAQ](https://breezyrisk.com/faq/)
