@@ -95,4 +95,4 @@ Most of the conversation about Zurich-Beazley and Allianz-Coalition is focused o
 
 -----
 
-*Who stands behind your policy matters at claim time. If you want to understand how that applies to your insurance program, [get in touch]({{ '/contact/' | relative_url }}).*
+*Who stands behind your policy matters at claim time. Two of the world's largest insurers just admitted they cannot build this capability internally. The question for every policyholder is whether their carrier has a credible answer to the same problem.*

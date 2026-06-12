@@ -97,4 +97,4 @@ These gaps are predictable as your business evolves while your insurance stays s
 
 Pull out your policy and check: does the professional services definition match what you do today? Does your aggregate limit reflect your current client count and contract sizes? Are your MSA obligations backed by actual coverage terms? If any of these three don't line up, you're sitting on significant exposure that growth created and your renewal didn't catch.
 
-If reading your own policy feels like translating a foreign language, that's not a personal failing. These documents aren't written to be readable. That's where having someone who reads these for a living can help. My [Risk Intelligence Report]({{ '/risk-intelligence-report/' | relative_url }}) covers all of this and more. Or just [get in touch]({{ '/contact/' | relative_url }}).
+This is what a [Risk Intelligence Report]({{ '/risk-intelligence-report/' | relative_url }}) is built to catch: the gap between the services definition on your policy and the services your MSP actually delivers today, scored against your current contracts and client count.

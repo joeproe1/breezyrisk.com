@@ -156,4 +156,4 @@ The semiconductor supply chain has a $450 million proof point that the current a
 
 -----
 
-*I'm working through how parametric triggers and traditional indemnity can be layered for supply chain risk. If you're thinking about the same problem, [get in touch]({{ '/contact/' | relative_url }}).*
+*I'm working through how parametric triggers and traditional indemnity can be layered for supply chain risk. What replaces the current gap should start from the loss, not from whichever product happens to be raising capital.*

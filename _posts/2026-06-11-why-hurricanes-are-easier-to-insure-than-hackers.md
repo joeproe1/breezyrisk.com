@@ -103,4 +103,4 @@ But only if the structure holds when tested. The community banks I audit carry p
 
 -----
 
-*The chain behind your policy matters. If you want to understand how that applies to your insurance program, [get in touch]({{ '/contact/' | relative_url }}).*
+*The chain behind your policy matters. No cyber cat bond has ever been tested by a systemic event. When one is, the answer to "who pays" will depend on structures that most policyholders have never seen.*
