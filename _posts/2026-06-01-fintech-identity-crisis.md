@@ -9,6 +9,7 @@ category: FinTech
 image: /assets/images/Blog-FinTech-Identity-Crisis.png
 read_time: "6 min read"
 permalink: /insights/fintech-identity-crisis/
+archived: true
 ---
 
 A FinTech that processes payments, holds customer data, and builds software for bank partners is simultaneously a technology company, a financial services company, and a regulated entity. Insurance underwriting has a category for each of those. It does not have a category for the combination.
