@@ -20,7 +20,7 @@ However, the gaps were similar.
 
 Very similar structural problems appeared in every program, regardless of bank size or carrier. That pattern changes the conversation. One bank with a gap is a broker discussion. Five banks with five different programs yet similar coverage gaps, that's an industry problem.
 
-<h2 style="display: flex; align-items: center; gap: 14px;"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 0;" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><line x1="9" y1="9" x2="15" y2="15"/><line x1="15" y1="9" x2="9" y2="15"/></svg><span>Gap 1: Every D&O Policy Had a Cyber Exclusion</span></h2>
+<h2 style="display: flex; align-items: center; gap: 14px;"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 0;" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><line x1="9" y1="9" x2="15" y2="15"/><line x1="15" y1="9" x2="9" y2="15"/></svg><span>Gap 1: Every D&O Policy Had a Cyber Exclusion</span></h2>
 
 Every D&O policy excluded claims "arising from a cyber event," with varying severity. One carrier excluded anything "arising out of or in any way involving" a data breach. That language blocks all D&O claims after a cyber incident, including regulatory investigations into whether the board met its oversight obligations. Another carrier narrowed the cyber exclusion and added an exception for certain privacy claims. That proves that tighter language is available. The default across all five programs, however, was broad cyber exclusion.
 
@@ -36,15 +36,15 @@ The policy that protects directors excludes cyber. The policy that covers cyber 
 
 For the full scenario, see [The Board Nobody Insures]({{ '/insights/the-board-nobody-insures/' | relative_url }}).
 
-<h2 style="display: flex; align-items: center; gap: 14px;"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 0;" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><span>Gap 2: Wire Fraud Coverage Was Inadequate</span></h2>
+<h2 style="display: flex; align-items: center; gap: 14px;"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 0;" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><span>Gap 2: Wire Fraud Coverage Was Inadequate</span></h2>
 
 Social engineering limits across all programs ranged from $100,000 to $500,000. Every bank in this group moves multiples of that amount in wire transfers daily.
 
 The deeper problem is where this coverage sits. Cyber carriers generally don't offer wire fraud coverage for financial institutions. They push it to the fidelity bond. The fidelity bond does cover wire fraud. However, it often comes with conditions that reduce the payout: a co-payment (where the bank absorbs a percentage of every loss), a sublimit that's a fraction of the bond's headline coverage, or a verification step the bank must prove it followed before the transfer. Wire fraud at financial institutions is a constant. The FBI estimates nearly $3 billion in losses annually. The coverage doesn't match this exposure.
 
-At one bank, the bond imposed a 50% co-payment on all funds transfer claims. On a $2 million wire fraud claim, the bank would pay more than $1 million out of pocket. For more on how wire fraud falls between policies, see [When AI Clones Your CFO's Voice]({{ '/insights/when-ai-clones-your-cfos-voice/' | relative_url }}).
+At one bank, the bond imposed a 50% co-payment on all funds transfer claims. On a $2 million wire fraud claim, the bank would pay more than $1 million out of pocket.
 
-<h2 style="display: flex; align-items: center; gap: 14px;"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 0;" aria-hidden="true"><line x1="12" y1="3" x2="12" y2="21"/><line x1="4" y1="7" x2="20" y2="7"/><polyline points="4 7 2 13 7 13"/><polyline points="20 7 17 13 22 13"/></svg><span>Gap 3: Recovery Depends on How Forensics Classifies the Attack</span></h2>
+<h2 style="display: flex; align-items: center; gap: 14px;"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 0;" aria-hidden="true"><line x1="12" y1="3" x2="12" y2="21"/><line x1="4" y1="7" x2="20" y2="7"/><polyline points="4 7 2 13 7 13"/><polyline points="20 7 17 13 22 13"/></svg><span>Gap 3: Recovery Depends on How Forensics Classifies the Attack</span></h2>
 
 Every fidelity bond had multiple fraud coverages with different limits and definitions. "Computer Systems Fraud" might carry a $5 million limit. "Social Engineering" might carry only $250,000. These definitions don't overlap. That separation is intentional.
 
@@ -58,7 +58,7 @@ A $5 million bond might only pay $250,000 if the attack is classified as "Social
 
 For more on the conditions hiding inside fidelity bonds, see [What Your Fidelity Bond Won't Pay]({{ '/insights/fidelity-bond/' | relative_url }}).
 
-<h2 style="display: flex; align-items: center; gap: 14px;"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#7C3AED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 0;" aria-hidden="true"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg><span>Gap 4: Vendor Coverage Did Not Match Vendor Dependence</span></h2>
+<h2 style="display: flex; align-items: center; gap: 14px;"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#7C3AED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 0;" aria-hidden="true"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg><span>Gap 4: Vendor Coverage Did Not Match Vendor Dependence</span></h2>
 
 Every bank in this group depends on a core banking platform vendor. When that platform goes down, the bank can't process transactions, access accounts, or serve customers. An August 2025 data breach that affected more than 700 financial institutions through a single vendor made this the examiner's number one concern.
 
@@ -68,17 +68,17 @@ Examiners are now asking about vendor risk management. They want to see that the
 
 For more on this gap, see [The Vendor You Cannot Replace]({{ '/insights/the-vendor-you-cannot-replace/' | relative_url }}).
 
-<h2 style="display: flex; align-items: center; gap: 14px;"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 0;" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg><span>Gap 5: Nobody Covers the Response to Wire Fraud</span></h2>
+<h2 style="display: flex; align-items: center; gap: 14px;"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 0;" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg><span>Gap 5: Nobody Covers the Response to Wire Fraud</span></h2>
 
 Fidelity bonds reimburse stolen funds. Cyber policies pay for breach response: forensics, legal counsel, notification. Wire fraud isn't a data breach. No records are compromised. No notification is required.
 
-So, after a wire fraud loss, the bond may reimburse part of the stolen funds, but the cost of investigating what happened, engaging outside counsel, and reporting to the board and regulators falls on the bank. Neither the fidelity bond nor the cyber policy covers the response. For a full claim walkthrough, see [The Wire Nobody Covers]({{ '/insights/the-wire-nobody-covers/' | relative_url }}).
+So, after a wire fraud loss, the bond may reimburse part of the stolen funds, but the cost of investigating what happened, engaging outside counsel, and reporting to the board and regulators falls on the bank. Neither the fidelity bond nor the cyber policy covers the response.
 
 ## What the Pattern Means
 
 If these were problems with one carrier's forms, the fix would be to switch carriers. But these gaps appeared across all programs and all carriers, and across different bank profiles. Similar issues showed up at the small mutual savings bank and the billion-dollar publicly traded institution.
 
-The gaps are structural. The way bank insurance programs are designed, with breach response on the cyber policy, fraud pushed to the fidelity bond, and D&O written without reference to either one, creates seams between the policies. Claims land in those seams, and nobody pays. For more on why this happens, see [The Program Problem]({{ '/insights/the-program-problem/' | relative_url }}).
+The gaps are structural. The way bank insurance programs are designed, with breach response on the cyber policy, fraud pushed to the fidelity bond, and D&O written without reference to either one, creates seams between the policies. Claims land in those seams, and nobody pays.
 
 <div style="background: #0A2540; border-radius: 12px; padding: 32px; margin: 32px 0; color: #fff;">
 <div style="color: #fff; font-weight: 700; font-size: 22px; margin-bottom: 24px;">Closing these coverage gaps costs a fraction of the exposure they create.</div>
