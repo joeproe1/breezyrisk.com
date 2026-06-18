@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Privacy Policy"
-description: "Privacy policy for Breezy Risk Advisors. How we collect, use, and protect your information."
+description: "Privacy policy for Breezy Risk. How we collect, use, and protect your information."
 permalink: /privacy/
 ---
 
@@ -26,7 +26,7 @@ permalink: /privacy/
 
 <span class="effective-date">Effective Date: April 30, 2026</span>
 
-Breezy Risk Advisors is an independent risk advisory firm. We do not sell, place, or broker insurance. This Privacy Policy describes how we collect, use, and protect the information you share with us during the course of an insurance audit engagement.
+Breezy Risk is an independent risk advisory firm. We do not sell, place, or broker insurance. This Privacy Policy describes how we collect, use, and protect the information you share with us during the course of an insurance audit engagement.
 
 ## 1. Information We Collect
 
@@ -80,6 +80,6 @@ We may update this policy to reflect changes in our practices or legal requireme
 If you have questions about how we handle your data, please contact us at:
 
 **Email:** contact@breezyrisk.com
-**Address:** Breezy Risk Advisors, Lancaster, PA
+**Address:** Breezy Risk, Lancaster, PA
 
 </section>
