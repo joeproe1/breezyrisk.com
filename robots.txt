@@ -1,4 +1,43 @@
 User-agent: *
 Allow: /
 
+# OpenAI (ChatGPT search and browsing)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic (Claude search and browsing)
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Google AI (Gemini, AI Overviews)
+User-agent: Google-Extended
+Allow: /
+
+# Apple (Siri, Apple Intelligence)
+User-agent: Applebot-Extended
+Allow: /
+
+# Microsoft (Copilot)
+User-agent: Bingbot
+Allow: /
+
 Sitemap: https://breezyrisk.com/sitemap.xml
