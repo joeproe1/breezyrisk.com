@@ -68,7 +68,7 @@ And it is getting worse. AI-generated voice and video can now impersonate execut
 <strong>What to look for:</strong> Check whether your social engineering sublimit is adequate for your wire transfer volume. Check whether the policy defines "social engineering" broadly enough to include AI-generated voice and video. And if your policy requires a callback verification procedure, ask whether that procedure accounts for voice impersonation.
 </div>
 
-### Your fidelity bond, D&O, and cyber policy may be pointing at each other
+### Your cyber and D&O policies, and your fidelity bond, may be pointing at each other
 
 Banks carry fidelity bonds (covering employee dishonesty, forgery, computer fraud) alongside their cyber policies. These overlap in some areas and leave gaps in others.
 
@@ -77,7 +77,7 @@ Social engineering and fraudulent wire transfers are the most common gap. The fi
 Directors and Officers (D&O) coverage adds another layer. If the Board is sued after a breach for inadequate oversight of cybersecurity, does the D&O policy respond? Some D&O policies now exclude claims "arising from" a cyber event, pushing everything to the cyber policy. But the cyber policy may not cover Board liability claims.
 
 <div style="border-left: 3px solid #00D4AA; padding: 16px 20px; background: rgba(0,212,170,0.05); border-radius: 0 8px 8px 0; margin: 24px 0;">
-<strong>What to look for:</strong> Pull your cyber policy, fidelity bond, and D&O policy side by side. Check whether any of them have exclusions that push claims to one of the other policies. If you see phrases like "arising from a cyber event" in your D&O exclusions, or "computer fraud" carved out of your fidelity bond, those are the seams where coverage can fail.
+<strong>What to look for:</strong> Pull your cyber policy, D&O policy, and fidelity bond side by side. Check whether any of them have exclusions that push claims to one of the other policies. If you see phrases like "arising from a cyber event" in your D&O exclusions, or "computer fraud" carved out of your fidelity bond, those are the seams where coverage can fail.
 </div>
 
 ### Vendor outages may not be covered
@@ -141,7 +141,7 @@ Thirty minutes. If you get through all five, you will know more about your cyber
 
 3. **Check your vendor coverage.** Look for "dependent business interruption" language. If your policy only covers outages at your own bank, you have a gap.
 
-4. **Look at your policies together.** Pull cyber, fidelity bond, and D&O. Look for exclusions that push claims to another policy. "Arising from a cyber event" in your D&O? That is a gap.
+4. **Look at your policies together.** Pull cyber, D&O, and your fidelity bond. Look for exclusions that push claims to another policy. "Arising from a cyber event" in your D&O? That is a gap.
 
 5. **Ask about deepfake coverage.** Does your social engineering coverage include AI-generated voice and video, or just written communications?
 

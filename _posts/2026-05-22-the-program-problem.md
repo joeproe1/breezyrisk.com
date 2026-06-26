@@ -66,7 +66,7 @@ Scale: ~4,300 credit unions
 <p style="margin-top: 20px; margin-bottom: 0; font-size: 14px; color: rgba(255,255,255,0.45); line-height: 1.5;">Together, these programs cover the majority of US community banks and credit unions.</p>
 </div>
 
-The programs bundle the core policies a financial institution needs: cyber, fidelity bond, D&O, and several liability coverages. They offer financial incentives and they're endorsed by associations the financial institution trusts.
+The programs bundle the core policies a financial institution needs: cyber, D&O, fidelity bond, and several liability coverages. They offer financial incentives and they're endorsed by associations the financial institution trusts.
 
 This is why banks stay. The relationship, the comfort of knowing thousands of other banks made the same choice, the rebate. Switching means disrupting the broker relationship and explaining to the board why you moved away from the association-endorsed option.
 

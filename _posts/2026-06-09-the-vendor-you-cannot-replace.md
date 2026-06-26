@@ -46,7 +46,7 @@ Every community bank runs on a core platform. Jack Henry, Fiserv, FIS, CSI, Core
 Some policies cover dependent BI for "Security Breach" only. Others cover "Security Breach <em>and</em> System Failure." The second version is broader and better. A pure operational outage at the vendor, one that has nothing to do with a cyberattack, is only covered if the system failure trigger exists. Most bank policies do not include it.
 </div>
 
-The fidelity bond does not cover this. No fraud occurred. The D&O policy does not cover this. No claim against directors. The bank's single most critical operational dependency sits under the weakest coverage on the program.
+The D&O policy does not cover this. No claim against directors. The fidelity bond does not cover this. No fraud occurred. The bank's single most critical operational dependency sits under the weakest coverage on the program.
 
 ## The Fix
 

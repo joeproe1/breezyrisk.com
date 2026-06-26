@@ -19,7 +19,7 @@ Two days later, the real depositor calls about something unrelated. The wire com
 
 ## Three Policies, Zero Answers
 
-On paper, this community bank is well protected. It carries a cyber policy, a fidelity bond, and a directors and officers (D&O) policy, each from a different carrier. $15 million in aggregate limits across the three.
+On paper, this community bank is well protected. It carries a cyber policy and a directors and officers (D&O) policy, plus a fidelity bond, each from a different carrier. $15 million in aggregate limits across the three.
 
 The bank scrambles. It contacts law enforcement, flags the receiving account, and tries to claw the money back. Most of it is already gone. The bank calls its broker, who starts working the claim. Three policies, three carriers, three separate claims processes. This is not what most brokers deal with on a typical Monday.
 
@@ -103,4 +103,4 @@ You cannot fix what you have not checked.
 
 Wire fraud is one of five incident types where community bank policies consistently break down. I map all five in [Five Common Cyber Incidents, Three Policies, and the Gaps Between Them]({{ '/insights/five-incidents-three-policies/' | relative_url }}).
 
-If your bank has not had someone review how your cyber policy, fidelity bond, and D&O interact on wire fraud, [get in touch]({{ '/contact/' | relative_url }}) and a [Risk Intelligence Report]({{ '/risk-intelligence-report/' | relative_url }}) will show you exactly where you stand.
+If your bank has not had someone review how your cyber policy, D&O, and fidelity bond interact on wire fraud, [get in touch]({{ '/contact/' | relative_url }}) and a [Risk Intelligence Report]({{ '/risk-intelligence-report/' | relative_url }}) will show you exactly where you stand.

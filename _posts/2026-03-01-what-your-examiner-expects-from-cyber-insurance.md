@@ -14,7 +14,7 @@ The exam question has changed. It used to be: "Do you have cyber insurance?" Mos
 
 Now the question is different: "How do you know your cyber insurance is adequate?"
 
-Most banks cannot answer that. Not because they lack coverage, but because nobody has read the policy language against the bank's actual operations. The declarations page shows limits and a premium. It does not show what is excluded, what conditions must be met for coverage to apply, or how the cyber policy interacts with the fidelity bond and D&O sitting next to it.
+Most banks cannot answer that. Not because they lack coverage, but because nobody has read the policy language against the bank's actual operations. The declarations page shows limits and a premium. It does not show what is excluded, what conditions must be met for coverage to apply, or how the cyber policy interacts with the D&O and fidelity bond sitting next to it.
 
 I review insurance policies for community banks and credit unions. The gap between what banks think they have and what the policy actually says is where examiner findings come from.
 
@@ -37,7 +37,7 @@ The FFIEC (Federal Financial Institutions Examination Council) IT Examination Ha
 </div>
 
 <div style="border-left: 3px solid #3B82F6; padding: 16px 20px; background: rgba(59,130,246,0.05); border-radius: 0 8px 8px 0;">
-<strong>Understanding of how cyber, fidelity bond, and D&O interact.</strong> A ransomware attack that leads to a wire transfer loss, followed by a regulatory investigation into Board oversight, touches all three policies. Examiners want to know which policy responds to which part. For a detailed look at how deepfakes are breaking callback verification and widening the coverage gap, see <a href="{{ '/insights/when-ai-clones-your-cfos-voice/' | relative_url }}" style="color:#00D4AA; font-weight:600;">When AI Clones Your CFO's Voice</a>
+<strong>Understanding of how cyber, D&O, and the fidelity bond interact.</strong> A ransomware attack that leads to a wire transfer loss, followed by a regulatory investigation into Board oversight, touches all three policies. Examiners want to know which policy responds to which part. For a detailed look at how deepfakes are breaking callback verification and widening the coverage gap, see <a href="{{ '/insights/when-ai-clones-your-cfos-voice/' | relative_url }}" style="color:#00D4AA; font-weight:600;">When AI Clones Your CFO's Voice</a>
 </div>
 
 </div>
@@ -71,11 +71,11 @@ What your policy covers, key sublimits, major exclusions. One page. Plain langua
 
 <div style="border-left: 3px solid #00D4AA; padding: 16px 20px; background: rgba(0,212,170,0.05); border-radius: 0 8px 8px 0; margin: 24px 0;">
 <strong>3. Map your three policies against your most likely incidents.</strong><br>
-Ransomware, wire fraud, vendor breach, data breach, regulatory investigation. For each, document which policy responds (cyber, fidelity bond, D&O). Where a scenario falls between two policies, that is the gap to address.
+Ransomware, wire fraud, vendor breach, data breach, regulatory investigation. For each, document which policy responds (cyber, D&O, fidelity bond). Where a scenario falls between two policies, that is the gap to address.
 </div>
 
 ## Where This Leads
 
 Most community banks are not prepared for these questions. The fidelity bond alone runs 30 pages before riders. Expecting a compliance officer to cross-reference three policies from three carriers is unrealistic without help.
 
-This is what the [Risk Intelligence Report]({{ '/risk-intelligence-report/' | relative_url }}) is designed to do: read your cyber policy, fidelity bond, and D&O side by side, map how they interact against real incident scenarios, flag the security warranty gaps, and produce a Board-ready report that answers the examiner's question before they ask it.
+This is what the [Risk Intelligence Report]({{ '/risk-intelligence-report/' | relative_url }}) is designed to do: read your cyber and D&O policies, and your fidelity bond, side by side, map how they interact against real incident scenarios, flag the security warranty gaps, and produce a Board-ready report that answers the examiner's question before they ask it.

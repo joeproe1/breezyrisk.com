@@ -12,7 +12,7 @@ image_alt: "Five community bank insurance audits revealing similar coverage gaps
 permalink: /insights/five-audits-same-gaps/
 ---
 
-Over the past months, I audited the insurance policies at five community banks and credit unions. I read the actual policy forms, the endorsements and amendments across their cyber, fidelity bond, and D&O policies.
+Over the past months, I audited the insurance policies at five community banks and credit unions. I read the actual policy forms, the endorsements and amendments across their cyber and D&O policies, and their fidelity bonds.
 
 The five financial institutions had little in common. Asset sizes ranged from under $500 million to over $1 billion. They reported to different regulators. They used different insurance program structures, and different carriers. Premiums varied across the group.
 
@@ -78,7 +78,7 @@ So, after a wire fraud loss, the bond may reimburse part of the stolen funds, bu
 
 If these were problems with one carrier's forms, the fix would be to switch carriers. But these gaps appeared across all programs and all carriers, and across different bank profiles. Similar issues showed up at the small mutual savings bank and the billion-dollar publicly traded institution.
 
-The gaps are structural. The way bank insurance programs are designed, with breach response on the cyber policy, fraud pushed to the fidelity bond, and D&O written without reference to either one, creates seams between the policies. Claims land in those seams, and nobody pays.
+The gaps are structural. The way bank insurance programs are designed, with breach response on the cyber policy, D&O written without reference to it, and fraud pushed to the fidelity bond, creates seams between the policies. Claims land in those seams, and nobody pays.
 
 <div style="background: #0A2540; border-radius: 12px; padding: 32px; margin: 32px 0; color: #fff;">
 <div style="color: #fff; font-weight: 700; font-size: 22px; margin-bottom: 24px;">Closing these coverage gaps costs a fraction of the exposure they create.</div>
@@ -106,7 +106,7 @@ None of these banks were aware of these coverage gaps before the risk audit. Bro
 
 ## What This Means for Your Bank
 
-Your bank may use a different carrier, a different program, a different broker. Based on my audits across carriers and program types, the structural gaps will likely be similar. The seams between cyber, bond, and D&O are built into how these products are designed.
+Your bank may use a different carrier, a different program, a different broker. Based on my audits across carriers and program types, the structural gaps will likely be similar. The seams between cyber, D&O, and the fidelity bond are built into how these products are designed.
 
 If nobody has read your policies side by side and tested which one pays for realistic cyber scenarios, you don't know where your coverage fails. You know what you bought. You don't know what you'll collect.
 

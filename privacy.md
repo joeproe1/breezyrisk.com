@@ -33,7 +33,7 @@ Breezy Risk is an independent risk advisory firm. We do not sell, place, or brok
 To conduct insurance audits and produce Risk Intelligence Reports, we collect professional and commercial data, including:
 
 - **Contact Information:** Name, email, phone number, and job title.
-- **Insurance Documentation:** Existing insurance policies (cyber, fidelity bond, D&O, and related coverages), declarations pages, endorsements, and claims history.
+- **Insurance Documentation:** Existing insurance policies (cyber, D&O, fidelity bond, and related coverages), declarations pages, endorsements, and claims history.
 - **Operational Information:** Vendor agreements, third-party contracts, and details about your operations relevant to coverage analysis.
 - **Financial Context:** Revenue figures, asset size, or other financial data necessary to evaluate policy limits and coverage adequacy.
 

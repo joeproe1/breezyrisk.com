@@ -68,7 +68,7 @@ Most community bank cyber policies in 2026 are being placed by generalist broker
 
 ## The seven questions to put on your audit
 
-A community bank insurance audit that does not address counterparty risk is incomplete. These are the seven questions I now include in every audit I deliver, applied to every carrier on the program: cyber, fidelity bond, and D&O.
+A community bank insurance audit that does not address counterparty risk is incomplete. These are the seven questions I now include in every audit I deliver, applied to every carrier on the program: cyber, D&O, and fidelity bond.
 
 <div style="background: #f8faf9; border-radius: 10px; padding: 28px 32px; margin: 24px 0;">
 <div style="display: flex; gap: 16px; margin-bottom: 20px;">

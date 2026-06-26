@@ -6,7 +6,7 @@ Breezy Risk is an independent risk advisory firm founded by Joerg Proeve. The fi
 
 ## What Breezy Risk Does
 
-Breezy Risk produces the Risk Intelligence Report: a line-by-line audit of a bank's cyber insurance, fidelity bond, and directors and officers (D&O) policy. These three policies are typically purchased from different carriers and underwritten separately. Nobody reads them together. When a cyber incident hits, each carrier points at the other two. The bank holds the loss.
+Breezy Risk produces the Risk Intelligence Report: a line-by-line audit of a bank's cyber and directors and officers (D&O) policies, and its fidelity bond. These are typically purchased from different carriers and underwritten separately. Nobody reads them together. When a cyber incident hits, each carrier points at the other two. The bank holds the loss.
 
 The Risk Intelligence Report reads all three policies together, maps which policy responds to each incident type (ransomware, wire fraud, vendor outage, data breach, board liability), quantifies uninsured exposure in dollar terms, and delivers a prioritized remediation plan. The report is written in plain English for the bank's leadership, board, and regulatory examiners.
 
@@ -22,7 +22,7 @@ Joerg Proeve has 20+ years of insurance industry experience spanning carriers (C
 
 ## The Three-Policy Interaction Problem
 
-Community banks typically carry cyber insurance, a fidelity bond, and a D&O policy from two or three different carriers. These policies were never designed to work together. Common gaps include:
+Community banks typically carry cyber insurance and a D&O policy, plus a fidelity bond, from two or three different carriers. These policies were never designed to work together. Common gaps include:
 
 - Wire fraud: The cyber policy excludes social engineering. The fidelity bond applies a voluntary parting exclusion or a 50% co-payment. Recovery on a $400K loss can be as low as $200K.
 - Board liability after a breach: The D&O policy excludes claims "arising out of" a cyber event. The cyber policy excludes shareholder suits. Directors face personal liability with no insurance response.
