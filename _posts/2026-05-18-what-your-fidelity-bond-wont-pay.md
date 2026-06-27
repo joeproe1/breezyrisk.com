@@ -83,7 +83,7 @@ There are categories of loss that the fidelity bond simply doesn't address. Thes
 
 **Incident response costs.** Forensics, breach notification, credit monitoring, regulatory reporting, legal counsel during the 36-hour FDIC/NCUA notification window. The bond pays for stolen funds (if a trigger is met). It doesn't pay for the response. That's the cyber policy's job.
 
-Knowing where the bond stops and the cyber policy starts matters because the two don't always line up. For a detailed look at how a single wire fraud loss can fall between both, see [The Wire Nobody Covers]({{ '/insights/the-wire-nobody-covers/' | relative_url }}).
+Knowing where the bond stops and the cyber policy starts matters because the two don't always line up. For a detailed look at how a single wire fraud loss can fall between both, see [The Wire Nobody Covers]({{ '/insights/the-wire-nobody-covers/' | relative_url }}). And the bond isn't the only policy with hidden conditions: [What Happens When Your Security Warranty Fails]({{ '/insights/security-warranty-fails/' | relative_url }}) shows how one lapsed control on the cyber application can void the entire policy.
 
 ## What to Check Before Your Next Renewal
 

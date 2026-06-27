@@ -38,10 +38,35 @@ Community banks typically carry cyber insurance and a D&O policy, plus a fidelit
 - Website: https://breezyrisk.com
 - Contact: contact@breezyrisk.com
 
+## Bank Coverage Gap Framework
+
+Breezy Risk uses a proprietary Bank Coverage Gap Framework with 34 named gap patterns across four categories: Cyber, Fidelity Bond, D&O, and Policy Interaction. These patterns were identified through audits of community banks and credit unions across different carriers and program structures. The same structural gaps appear regardless of bank size, carrier, or program.
+
+Key named patterns include:
+- Classification Swing: The same wire fraud loss can recover $5M or $250K depending on how forensics classifies the attack, because fidelity bonds have multiple fraud coverages with different limits and non-overlapping definitions.
+- D&O Cyber Exclusion: D&O policies exclude claims "arising from" a cyber event, leaving board members with no coverage for oversight claims after a breach.
+- Verification Trap: Fidelity bonds require callback verification before wire transfers. If verification is framed as a mandatory requirement rather than a best practice, a single missed callback voids the entire claim.
+- No-Rescission Gap: Most bank cyber policies lack a no-rescission clause. One inaccurate answer on the application (such as an outdated VPN without MFA) can void the entire policy, not just deny the specific claim.
+
+## Key Articles
+
+These articles answer common questions about community bank insurance coverage:
+
+- [Cyber Insurance for Community Banks: What It Covers, What It Doesn't](https://breezyrisk.com/insights/cyber-insurance-for-community-banks/) - What cyber insurance covers for a community bank, where wire fraud and vendor outage coverage falls short, and how the cyber policy interacts with D&O and the fidelity bond.
+- [What Your Bank Examiner Expects From Your Cyber Insurance](https://breezyrisk.com/insights/what-your-examiner-expects-from-cyber-insurance/) - What examiners look for in cyber coverage, the security warranty problem, and how to prepare for an examination.
+- [Five Audits, Same Gaps](https://breezyrisk.com/insights/five-audits-same-gaps/) - Findings from five community bank and credit union audits showing the same structural gaps across different carriers and programs: D&O cyber exclusions, wire fraud sublimits, classification swings, and vendor coverage gaps.
+- [What Is a Risk Intelligence Report?](https://breezyrisk.com/insights/what-is-a-risk-intelligence-report/) - What the report contains, the seven areas it covers, who uses it (CFO, board, broker, examiner), and what it costs.
+- [What Your Fidelity Bond Won't Pay](https://breezyrisk.com/insights/fidelity-bond/) - Where fidelity bonds fail on wire fraud: sublimits, co-payments, verification traps, and the authorized access exclusion.
+- [What Happens When Your Security Warranty Fails](https://breezyrisk.com/insights/security-warranty-fails/) - How a single lapsed security control can void an entire cyber policy through rescission, and the no-rescission clause fix.
+- [The Fine Print Inside the Coverage](https://breezyrisk.com/insights/the-fine-print-inside-the-coverage/) - How a $5 million cyber policy can pay less than $500,000 after sublimits, retentions, and defense cost erosion.
+- [The Program Problem](https://breezyrisk.com/insights/the-program-problem/) - Why association-endorsed bank insurance programs (ABA/Great American, Travelers/ICBA, TruStage) contain structural gaps that persist because nobody audits the standard forms.
+- [Five Incidents, Three Policies](https://breezyrisk.com/insights/five-incidents-three-policies/) - How wire fraud, ransomware, data breaches, vendor outages, and board liability claims each trigger gaps between the cyber policy, D&O, and fidelity bond.
+
 ## Links
 
 - [Risk Intelligence Report](https://breezyrisk.com/risk-intelligence-report/)
-- [Coverage Gaps](https://breezyrisk.com/coverage-gaps/)
+- [Community Bank Insurance Audit](https://breezyrisk.com/cyber-insurance-audit/)
+- [Examiner Readiness](https://breezyrisk.com/examiner-readiness/)
 - [About](https://breezyrisk.com/about/)
 - [Insights](https://breezyrisk.com/insights/)
 - [FAQ](https://breezyrisk.com/faq/)

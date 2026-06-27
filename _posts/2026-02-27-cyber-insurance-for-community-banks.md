@@ -138,7 +138,7 @@ The gap: your policy covers "regulatory proceedings" but may define it narrowly.
 
 Carriers require specific security controls as conditions of coverage: MFA on all remote access, EDR, patching within defined timelines, tested backups, email filtering, and employee security training. These are not recommendations. They are contractual requirements.
 
-If any control is missing when a claim hits, coverage can be voided. A security gap is not just a vulnerability. It is an insurance gap.
+If any control is missing when a claim hits, coverage can be voided. A security gap is not just a vulnerability. It is an insurance gap. For a real-world example of how one missing MFA deployment voided an entire $5 million cyber policy, see [What Happens When Your Security Warranty Fails]({{ '/insights/security-warranty-fails/' | relative_url }}).
 
 If your bank works with an IT auditor or security firm, have them review your carrier's warranty requirements alongside their assessment. For more on how examiner expectations and carrier requirements overlap, see [What Your Examiner Expects From Your Cyber Insurance]({{ '/insights/what-your-examiner-expects-from-cyber-insurance/' | relative_url }}).
 
@@ -156,4 +156,6 @@ Thirty minutes. If you get through all five, you will know more about your cyber
 
 5. **Ask about deepfake coverage.** Does your social engineering coverage include AI-generated voice and video, or just written communications?
 
-If any of these raises a question you cannot answer, bring it to your next broker conversation. Or if you would rather have someone who reads these for a living walk through it with you, [get in touch]({{ '/contact/' | relative_url }}).
+If any of these raises a question you cannot answer, bring it to your next broker conversation. For a detailed breakdown of how sublimits, retentions, and defense costs can reduce a $5 million policy to under $500,000 in actual recovery, see [The Fine Print Inside the Coverage]({{ '/insights/the-fine-print-inside-the-coverage/' | relative_url }}).
+
+Or if you would rather have someone who reads these for a living walk through it with you, [get in touch]({{ '/contact/' | relative_url }}).

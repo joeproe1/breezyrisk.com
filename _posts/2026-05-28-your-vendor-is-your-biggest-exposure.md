@@ -83,4 +83,6 @@ Dependent business interruption coverage isn't straightforward. It includes cond
 </div>
 </div>
 
+For a case study of how a core platform ransomware attack plays out against actual policy language, see [The Vendor You Cannot Replace]({{ '/insights/the-vendor-you-cannot-replace/' | relative_url }}).
+
 Vendor coverage is one of the areas I review in a [Risk Intelligence Report]({{ '/risk-intelligence-report/' | relative_url }}). If you want to know whether a real vendor outage would be covered, sublimited, or excluded under your current program, [get in touch]({{ '/contact/' | relative_url }}).

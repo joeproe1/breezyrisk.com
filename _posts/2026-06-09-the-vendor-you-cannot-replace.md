@@ -73,4 +73,6 @@ The D&O policy does not cover this. No claim against directors. The fidelity bon
 
 Your bank cannot operate without its core platform. One vendor, no substitute, 12 to 18 months to switch. The insurance should reflect that dependency. In most cases, it does not.
 
+For a closer look at the policy conditions that determine whether a vendor outage triggers coverage at all, see [Your Vendor Is Your Biggest Exposure]({{ '/insights/your-vendor-is-your-biggest-exposure/' | relative_url }}).
+
 Vendor concentration is one of five incident types where coverage breaks down across all three bank policies. I map the full picture [here]({{ '/insights/five-incidents-three-policies/' | relative_url }}). If your bank has not modeled a core vendor outage against its current coverage, [get in touch]({{ '/contact/' | relative_url }}) and I will show you where the sublimit falls short.
