@@ -16,7 +16,7 @@ layout: default
     "name": "Breezy Risk",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://breezyrisk.com/assets/images/breezy-logo.png"
+      "url": "{{ '/assets/images/breezy-logo.png' | absolute_url }}"
     }
   },
   "datePublished": "{{ page.date | date_to_xmlschema }}",
@@ -26,6 +26,9 @@ layout: default
     "url": "{{ page.image | absolute_url }}"{% if page.image_alt %},
     "description": {{ page.image_alt | jsonify }}{% endif %}
   },{% endif %}
+  {% if page.category %}"articleSection": {{ page.category | jsonify }},{% endif %}
+  {% if page.tags %}"keywords": {{ page.tags | join: ", " | jsonify }},{% endif %}
+  "wordCount": {{ content | number_of_words }},
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "{{ page.url | absolute_url }}"

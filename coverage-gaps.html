@@ -15,23 +15,23 @@ permalink: /coverage-gaps/
   "author": {
     "@type": "Person",
     "name": "Joerg Proeve",
-    "url": "https://breezyrisk.com/about/",
+    "url": "{{ '/about/' | absolute_url }}",
     "jobTitle": "Independent Risk Advisor"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Breezy Risk",
-    "url": "https://breezyrisk.com",
+    "url": "{{ site.url }}",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://breezyrisk.com/assets/images/breezy-logo.png"
+      "url": "{{ '/assets/images/breezy-logo.png' | absolute_url }}"
     }
   },
   "datePublished": "2026-04-27",
   "dateModified": "2026-06-24",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://breezyrisk.com/coverage-gaps/"
+    "@id": "{{ '/coverage-gaps/' | absolute_url }}"
   },
   "about": [
     "Insurance Gap Analysis",
@@ -55,19 +55,19 @@ permalink: /coverage-gaps/
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://breezyrisk.com/"
+      "item": "{{ '/' | absolute_url }}"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Risk Intelligence Report",
-      "item": "https://breezyrisk.com/risk-intelligence-report/"
+      "item": "{{ '/risk-intelligence-report/' | absolute_url }}"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Coverage Gaps",
-      "item": "https://breezyrisk.com/coverage-gaps/"
+      "item": "{{ '/coverage-gaps/' | absolute_url }}"
     }
   ]
 }

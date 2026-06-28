@@ -15,13 +15,13 @@ permalink: /risk-intelligence-report/
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://breezyrisk.com/"
+      "item": "{{ '/' | absolute_url }}"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Risk Intelligence Report",
-      "item": "https://breezyrisk.com/risk-intelligence-report/"
+      "item": "{{ '/risk-intelligence-report/' | absolute_url }}"
     }
   ]
 }
@@ -36,7 +36,7 @@ permalink: /risk-intelligence-report/
   "provider": {
     "@type": "Organization",
     "name": "Breezy Risk",
-    "url": "https://breezyrisk.com"
+    "url": "{{ site.url }}"
   },
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
@@ -59,7 +59,7 @@ permalink: /risk-intelligence-report/
     "@type": "Audience",
     "audienceType": "Community Banks and Credit Unions"
   },
-  "url": "https://breezyrisk.com/risk-intelligence-report/"
+  "url": "{{ '/risk-intelligence-report/' | absolute_url }}"
 }
 </script>
 

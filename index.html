@@ -4,6 +4,29 @@ title: "Insurance Audit for Community Banks and Credit Unions"
 description: "I don't sell insurance. I audit it. Independent Risk Intelligence Reports for community banks and credit unions. Find out where your cyber and D&O coverage, and your fidelity bond, fail before an examiner or a claim does."
 ---
 
+<!-- WebPage Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": {{ page.title | jsonify }},
+  "description": {{ page.description | jsonify }},
+  "url": "{{ '/' | absolute_url }}",
+  "about": { "@id": "{{ site.url }}/#organization" },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "{{ '/' | absolute_url }}"
+      }
+    ]
+  }
+}
+</script>
+
 <!-- Hero Section -->
 <section class="hero">
   <div class="container">

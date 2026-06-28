@@ -5,25 +5,36 @@ description: "Case studies, policy deep-dives, and industry analysis from an ind
 permalink: /insights/
 ---
 
-<!-- BreadcrumbList Schema -->
+<!-- CollectionPage + BreadcrumbList Schema -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://breezyrisk.com/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Insights",
-      "item": "https://breezyrisk.com/insights/"
-    }
-  ]
+  "@type": "CollectionPage",
+  "name": {{ page.title | jsonify }},
+  "description": {{ page.description | jsonify }},
+  "url": "{{ '/insights/' | absolute_url }}",
+  "isPartOf": {
+    "@type": "WebSite",
+    "url": "{{ site.url }}"
+  },
+  "about": { "@id": "{{ site.url }}/#organization" },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "{{ '/' | absolute_url }}"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Insights",
+        "item": "{{ '/insights/' | absolute_url }}"
+      }
+    ]
+  }
 }
 </script>
 
