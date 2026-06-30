@@ -4,11 +4,15 @@
 @media print {
   // ----- Hide non-content elements -----
   .site-header,
+  .nav-links,
   .site-footer,
   .btn,
+  .btn-primary,
   .gaps-final-wrap,
   .exam-final-wrap,
   .hero-chips,
+  .hero-visual,
+  .menu-toggle,
   .gap-card__link,
   .mobile-only {
     display: none !important;
@@ -29,14 +33,33 @@
     margin: 0.75in;
   }
 
-  // ----- Remove hero dark backgrounds -----
+  // ----- Remove all dark/colored section backgrounds -----
+  .gaps-hero,
+  .exam-hero,
+  .hero,
+  [class*="hero"],
+  .proof-section,
+  .problem-section,
+  .about-preview,
+  section {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
   .gaps-hero,
   .exam-hero,
   .hero,
   [class*="hero"] {
-    background: #fff !important;
-    color: #000 !important;
     padding: 0 0 12pt !important;
+  }
+
+  // Force all text inside dark sections to print black
+  .proof-section,
+  .proof-section h2,
+  .proof-section p,
+  .proof-section a,
+  .proof-section span {
+    color: #000 !important;
   }
 
   .gaps-hero h1,
