@@ -244,12 +244,23 @@ permalink: /coverage-gaps/
 .gap-card {
   background: #f8f9fa;
   border: 1px solid #e5e7eb;
-  border-left: 4px solid var(--bank-mid);
   border-radius: 12px;
-  padding: 32px 32px 28px;
+  padding: 28px 32px 28px 56px;
   display: flex;
   flex-direction: column;
   transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+.gap-card::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 44px;
+  background: var(--bank-mid);
+  border-radius: 12px 0 0 12px;
 }
 .gap-card:hover {
   border-color: var(--bank-mid);
@@ -257,18 +268,28 @@ permalink: /coverage-gaps/
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
 }
 .gap-card__number {
-  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: 'JetBrains Mono', monospace;
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--bank-mid);
+  color: #fff;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  border: none;
   background: transparent;
-  border: 1px solid var(--bank-mid);
-  padding: 3px 10px;
-  border-radius: 4px;
-  margin: 0 0 14px;
+  border-radius: 0;
 }
 .gap-card__title {
   font-size: 22px;
