@@ -1,0 +1,193 @@
+// Print styles — applied site-wide
+// Produces clean 2-3 page printouts of any page or post.
+
+@media print {
+  // ----- Hide non-content elements -----
+  .site-header,
+  .site-footer,
+  .btn,
+  .gaps-final-wrap,
+  .exam-final-wrap,
+  .hero-chips,
+  .gap-card__link,
+  .mobile-only {
+    display: none !important;
+  }
+
+  // ----- Reset backgrounds and colors for ink -----
+  body {
+    background: #fff !important;
+    color: #000 !important;
+    font-size: 12pt;
+    line-height: 1.5;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  // ----- Page margins -----
+  @page {
+    margin: 0.75in;
+  }
+
+  // ----- Remove hero dark backgrounds -----
+  .gaps-hero,
+  .exam-hero,
+  .hero,
+  [class*="hero"] {
+    background: #fff !important;
+    color: #000 !important;
+    padding: 0 0 12pt !important;
+  }
+
+  .gaps-hero h1,
+  .exam-hero h1,
+  .hero h1,
+  [class*="hero"] h1 {
+    color: #000 !important;
+    font-size: 22pt;
+  }
+
+  .gaps-hero__sub,
+  .gaps-hero__def,
+  [class*="hero__"] {
+    color: #333 !important;
+    font-size: 11pt;
+  }
+
+  // Pseudo-element decorations
+  .gaps-hero::before,
+  .gaps-hero::after,
+  .gaps-final::before,
+  .gaps-final::after,
+  .exam-hero::before {
+    display: none !important;
+  }
+
+  // ----- Byline bar -----
+  .gaps-byline-bar {
+    background: #fff !important;
+    border-bottom: 1px solid #ccc !important;
+    padding: 6pt 0 !important;
+
+    p { color: #555 !important; font-size: 10pt; }
+    a { color: #000 !important; text-decoration: none !important; }
+  }
+
+  // ----- Intro -----
+  .gaps-intro {
+    padding: 12pt 0 0 !important;
+
+    p { color: #333 !important; font-size: 11pt; }
+  }
+
+  // ----- Cards -----
+  .gaps-grid-section {
+    padding: 12pt 0 !important;
+  }
+
+  .gap-card {
+    background: #fff !important;
+    border: 1px solid #ccc !important;
+    border-left: 3px solid #1a3a6b !important;
+    box-shadow: none !important;
+    transform: none !important;
+    padding: 12pt 14pt !important;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    margin-bottom: 8pt;
+  }
+
+  .gap-card__number {
+    color: #1a3a6b !important;
+    border-color: #1a3a6b !important;
+    background: transparent !important;
+    font-size: 8pt;
+  }
+
+  .gap-card__title {
+    color: #000 !important;
+    font-size: 13pt;
+  }
+
+  .gap-card__body {
+    color: #333 !important;
+    font-size: 10.5pt;
+  }
+
+  .gap-card__verdict {
+    color: #8b2500 !important;
+    font-size: 10.5pt;
+  }
+
+  // ----- Bridge text -----
+  .gaps-bridge {
+    padding: 8pt 0 !important;
+
+    p { color: #333 !important; font-size: 10.5pt; }
+    a { color: #000 !important; text-decoration: underline !important; }
+  }
+
+  // ----- Blog posts -----
+  .post-content,
+  .page-content {
+    padding-top: 0 !important;
+
+    h2 { font-size: 16pt; page-break-after: avoid; break-after: avoid; }
+    h3 { font-size: 13pt; page-break-after: avoid; break-after: avoid; }
+    p { font-size: 11pt; color: #333 !important; }
+    img { max-width: 100%; page-break-inside: avoid; break-inside: avoid; }
+  }
+
+  // ----- Tables -----
+  table {
+    page-break-inside: avoid;
+    break-inside: avoid;
+    border-collapse: collapse;
+
+    th, td {
+      border: 1px solid #ccc !important;
+      padding: 4pt 8pt;
+      font-size: 9.5pt;
+      color: #000 !important;
+      background: #fff !important;
+    }
+
+    th {
+      background: #f0f0f0 !important;
+      font-weight: 700;
+    }
+  }
+
+  // ----- General page-break rules -----
+  h1, h2, h3, h4 {
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  // ----- Links: show URL in parentheses -----
+  .post-content a[href^="http"]::after,
+  .gaps-bridge a[href^="/"]::after {
+    content: " (" attr(href) ")";
+    font-size: 8pt;
+    color: #888;
+    font-style: italic;
+  }
+
+  // ----- Container: full width for print -----
+  .container {
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
+
+  // ----- Footer URL attribution -----
+  body::after {
+    content: "breezyrisk.com";
+    display: block;
+    text-align: center;
+    font-size: 9pt;
+    color: #999;
+    padding-top: 12pt;
+    border-top: 1px solid #ddd;
+    margin-top: 24pt;
+  }
+}
