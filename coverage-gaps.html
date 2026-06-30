@@ -28,7 +28,7 @@ permalink: /coverage-gaps/
     }
   },
   "datePublished": "2026-04-27",
-  "dateModified": "2026-06-24",
+  "dateModified": "2026-06-30",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "{{ '/coverage-gaps/' | absolute_url }}"
@@ -102,6 +102,30 @@ permalink: /coverage-gaps/
         "@type": "Answer",
         "text": "A broker places insurance and earns a commission on the policies they sell. Their review typically focuses on limits, premiums, and whether the right policy types are in place. An insurance gap analysis reads the full policy wording and tests it against specific claim scenarios. It examines how three separate policies (cyber, D&O, fidelity bond) interact when the same incident triggers all three. Most brokers review each policy in isolation. A gap analysis looks at the spaces between them, which is where the most expensive coverage failures occur."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the three-policy interaction problem for community banks?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Community banks carry three policies that all respond to a cyber incident: the cyber policy, the fidelity bond (Financial Institution Bond), and directors and officers (D&O) coverage. Each policy is written by a different carrier, using different definitions, with different exclusions. When a single incident triggers all three, the carriers look at each other's policies to find reasons to deny. A wire fraud claim denied by the cyber carrier for lack of social engineering coverage gets denied by the bond carrier for voluntary parting. A D&O cyber exclusion leaves directors exposed to personal liability after a breach. The gaps are not in any single policy. They are in the spaces between all three."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a cyber insurance policy be voided after a claim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Most cyber insurance applications contain warranty and representation language. If the bank stated that MFA was enforced on all remote access, or that backups were tested quarterly, and the carrier discovers after a loss that those statements were inaccurate, the carrier can deny the claim or void the policy retroactively. This is not hypothetical. Carriers routinely review the application after a loss to compare what was represented against what was in place. The gap between what the bank told the carrier and what the bank actually does is one of the most common coverage failures."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How often should a community bank review its insurance coverage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "At minimum, before every renewal. But a renewal review from your broker typically focuses on limits and premiums, not on how the three policies interact or whether the policy language matches your current operations. An independent gap analysis should be conducted whenever the bank changes core vendors, adds digital banking services, goes through a merger or acquisition, faces examiner questions about insurance adequacy, or has not had its policy language reviewed in more than two years."
+      }
     }
   ]
 }
@@ -150,31 +174,34 @@ permalink: /coverage-gaps/
   font-size: 48px;
   line-height: 1.15;
   color: var(--bank-text-light);
-  margin: 0 0 24px;
+  margin: 0 0 16px;
   font-weight: 700;
   letter-spacing: -0.03em;
 }
-.gaps-hero__def {
-  font-size: 19px;
-  line-height: 1.7;
-  color: var(--bank-text-light);
-  margin: 0 0 20px;
-  max-width: 820px;
-}
 .gaps-hero__sub {
-  font-size: 18px;
-  line-height: 1.7;
+  font-size: 20px;
+  line-height: 1.6;
   color: var(--bank-accent);
-  margin: 0;
+  margin: 0 0 28px;
   max-width: 820px;
 }
+.gaps-hero__byline {
+  font-size: 14px;
+  color: rgba(255,255,255,0.55);
+  margin: 0;
+}
+.gaps-hero__byline a {
+  color: rgba(255,255,255,0.55);
+  text-decoration: underline;
+  text-decoration-color: rgba(255,255,255,0.25);
+}
+.gaps-hero__byline a:hover { color: rgba(255,255,255,0.8); }
 @media (max-width: 968px) {
   .gaps-hero h1 { font-size: 38px; }
 }
 @media (max-width: 768px) {
   .gaps-hero { padding: 120px 0 60px; }
   .gaps-hero h1 { font-size: 32px; }
-  .gaps-hero__def { font-size: 17px; }
   .gaps-hero__sub { font-size: 17px; }
 }
 
@@ -183,7 +210,7 @@ permalink: /coverage-gaps/
   padding: 72px 0 0;
   background: #fff;
 }
-.gaps-intro .container { max-width: 1120px; }
+.gaps-intro .container { max-width: 780px; }
 .gaps-intro p {
   font-size: 18px;
   line-height: 1.7;
@@ -194,17 +221,14 @@ permalink: /coverage-gaps/
 
 /* ----- Story cards section ----- */
 .gaps-grid-section {
-  padding: 60px 0 100px;
+  padding: 56px 0 40px;
   background: #fff;
 }
-.gaps-grid-section .container { max-width: 1120px; }
+.gaps-grid-section .container { max-width: 780px; }
 .gaps-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 28px;
-}
-@media (max-width: 968px) {
-  .gaps-grid { grid-template-columns: 1fr; }
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 /* Individual story card */
@@ -213,15 +237,15 @@ permalink: /coverage-gaps/
   border: 1px solid #e5e7eb;
   border-left: 4px solid var(--bank-mid);
   border-radius: 12px;
-  padding: 32px 28px;
+  padding: 32px 32px 28px;
   display: flex;
   flex-direction: column;
   transition: all 0.3s;
 }
 .gap-card:hover {
   border-color: var(--bank-mid);
-  transform: translateY(-4px);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
 }
 .gap-card__number {
   font-family: 'JetBrains Mono', monospace;
@@ -243,21 +267,30 @@ permalink: /coverage-gaps/
   font-size: 16px;
   line-height: 1.7;
   color: #555;
-  margin: 0;
-  flex: 1;
+  margin: 0 0 16px;
 }
 .gap-card__verdict {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
-  color: #c0311a;
-  background: #fdf0ee;
-  border: 1px solid #f0c0b8;
-  border-left: 3px solid #c0311a;
-  border-radius: 0 6px 6px 0;
-  padding: 10px 14px;
-  margin-top: auto;
-  padding-top: 10px;
+  font-style: italic;
+  color: #0A2540;
+  margin: 0 0 12px;
+  padding: 0;
   line-height: 1.5;
+}
+.gap-card__action {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #555;
+  margin: 0;
+  padding: 10px 14px;
+  background: rgba(59,130,246,0.04);
+  border-left: 3px solid var(--bank-mid);
+  border-radius: 0 6px 6px 0;
+}
+.gap-card__action strong {
+  color: #0A2540;
+  font-weight: 600;
 }
 .gap-card__link {
   display: block;
@@ -269,25 +302,25 @@ permalink: /coverage-gaps/
 }
 .gap-card__link:hover { text-decoration: underline; }
 
-/* ----- Context link (to Five Incidents post) ----- */
-.gaps-context {
-  padding: 0 0 80px;
+/* ----- Bridge text between cards and cross-reference ----- */
+.gaps-bridge {
+  padding: 24px 0 56px;
   background: #fff;
 }
-.gaps-context .container { max-width: 820px; }
-.gaps-context p {
+.gaps-bridge .container { max-width: 780px; }
+.gaps-bridge p {
   font-size: 17px;
   line-height: 1.7;
   color: #555;
-  text-align: center;
-  margin: 0;
+  margin: 0 0 16px;
 }
-.gaps-context a {
+.gaps-bridge p:last-child { margin-bottom: 0; }
+.gaps-bridge a {
   color: var(--bank-mid);
   font-weight: 600;
   text-decoration: none;
 }
-.gaps-context a:hover { text-decoration: underline; }
+.gaps-bridge a:hover { text-decoration: underline; }
 
 /* ----- Final CTA ----- */
 .gaps-final-wrap {
@@ -297,7 +330,7 @@ permalink: /coverage-gaps/
 .gaps-final {
   background: var(--bank-dark);
   padding: 40px 40px;
-  max-width: 880px;
+  max-width: 780px;
   margin: 0 auto;
   border-radius: 12px;
   position: relative;
@@ -348,17 +381,15 @@ permalink: /coverage-gaps/
 </style>
 
 <!-- ========================================
-     BREADCRUMB BAR
-     ======================================== -->
-<!-- ========================================
      HERO
      ======================================== -->
 <section class="gaps-hero">
   <div class="container">
-    <h1>Six Ways Coverage Fails at Claim Time</h1>
-    <p class="gaps-hero__def">
-      An insurance gap analysis for a community bank reviews the actual policy language in your cyber and D&amp;O policies, and your fidelity bond, to find exclusions, sublimits, and coverage interactions that would reduce or deny a claim. The six patterns below are the ones I find in every review. They come from reading policy language, not from checklists.
+    <h1>Community Bank Insurance Gaps: Six Patterns That Fail at Claim Time</h1>
+    <p class="gaps-hero__sub">
+      These six patterns show up in every community bank and credit union policy review I conduct. They come from reading the actual policy language, not from checklists.
     </p>
+    <p class="gaps-hero__byline">By <a href="{{ '/about/' | relative_url }}">Joerg Proeve</a>, Independent Risk Advisor &middot; Based on community bank and credit union policy reviews across multiple carriers</p>
   </div>
 </section>
 
@@ -368,13 +399,16 @@ permalink: /coverage-gaps/
 <section class="gaps-intro">
   <div class="container">
     <p>
+      An insurance gap analysis for a community bank reads the actual language in your cyber and D&amp;O policies, and your fidelity bond, to find exclusions, sublimits, and coverage interactions that would reduce or deny a claim.
+    </p>
+    <p>
       Different carriers. Different policy forms. Same gaps. Each one creates a scenario where the institution assumes it is covered and discovers at claim time that it is not.
     </p>
   </div>
 </section>
 
 <!-- ========================================
-     SIX STORY CARDS
+     SIX STORY CARDS (single-column)
      ======================================== -->
 <section class="gaps-grid-section">
   <div class="container">
@@ -385,10 +419,11 @@ permalink: /coverage-gaps/
         <div class="gap-card__number">Gap 1</div>
         <h2 class="gap-card__title">The Wire That Never Comes Back</h2>
         <p class="gap-card__body">
-          Spoofed instructions, real wire. The cyber policy never included social engineering coverage. The fidelity bond excludes "voluntary parting." Both carriers point at each other.
+          Spoofed instructions, real wire. The cyber policy never included a social engineering fraud endorsement. The Financial Institution Bond excludes "voluntary parting." Both carriers point at each other.
         </p>
-        <div class="gap-card__verdict">On a $400K wire fraud, the bank can recover as little as $200K. Half the loss falls on the bank.</div>
-        <a href="{{ '/insights/the-wire-nobody-covers/' | relative_url }}" class="gap-card__link">Read the full case &rarr;</a>
+        <p class="gap-card__verdict">On a $400K wire fraud, the bank can recover as little as half.</p>
+        <div class="gap-card__action"><strong>What to do:</strong> Request a standalone social engineering sublimit on the cyber policy, and confirm the bond's voluntary parting exclusion does not apply to fraudulently induced transfers.</div>
+        <a href="{{ '/insights/the-wire-nobody-covers/' | relative_url }}" class="gap-card__link">See the full analysis &rarr;</a>
       </div>
 
       <!-- Story 2: Board Liability -->
@@ -396,10 +431,11 @@ permalink: /coverage-gaps/
         <div class="gap-card__number">Gap 2</div>
         <h2 class="gap-card__title">The Board on the Hook</h2>
         <p class="gap-card__body">
-          After a breach, regulators go after the directors personally. The D&amp;O policy has a cyber exclusion nobody knew was there. The cyber policy does not cover board liability. Directors face personal exposure.
+          After a breach, regulators go after the directors personally. The D&amp;O policy has a cyber exclusion nobody reviewed. The cyber policy does not cover board liability. Directors face personal exposure with no policy responding.
         </p>
-        <div class="gap-card__verdict">Some version of this gap exists in every institution I have reviewed.</div>
-        <a href="{{ '/insights/the-board-nobody-insures/' | relative_url }}" class="gap-card__link">Read the full case &rarr;</a>
+        <p class="gap-card__verdict">Some version of this gap exists in every institution I have reviewed.</p>
+        <div class="gap-card__action"><strong>What to do:</strong> Request removal of the cyber exclusion from the D&amp;O form, or negotiate an exception for regulatory proceedings and shareholder derivative claims.</div>
+        <a href="{{ '/insights/the-board-nobody-insures/' | relative_url }}" class="gap-card__link">See the full analysis &rarr;</a>
       </div>
 
       <!-- Story 3: Vendor Outage -->
@@ -407,10 +443,11 @@ permalink: /coverage-gaps/
         <div class="gap-card__number">Gap 3</div>
         <h2 class="gap-card__title">The Vendor You Cannot Replace</h2>
         <p class="gap-card__body">
-          A core processor goes down for three days. The cyber policy covers vendor outages under dependent business interruption, but sublimits it to around $1M. The exposure is higher.
+          A core processor goes down for three days. The cyber policy covers vendor outages under dependent business interruption, but sublimits it to around $1M. For a bank running its entire operation through one core provider, the exposure is far higher.
         </p>
-        <div class="gap-card__verdict">The coverage exists, but the sublimit does not match the exposure.</div>
-        <a href="{{ '/insights/the-vendor-you-cannot-replace/' | relative_url }}" class="gap-card__link">Read the full case &rarr;</a>
+        <p class="gap-card__verdict">The coverage exists, but the sublimit does not match the exposure.</p>
+        <div class="gap-card__action"><strong>What to do:</strong> Compare your dependent business interruption sublimit against actual revenue dependence on your core processor. Request a sublimit increase at renewal if the gap is material.</div>
+        <a href="{{ '/insights/the-vendor-you-cannot-replace/' | relative_url }}" class="gap-card__link">See the full analysis &rarr;</a>
       </div>
 
       <!-- Story 4: OFAC Ransom -->
@@ -418,9 +455,10 @@ permalink: /coverage-gaps/
         <div class="gap-card__number">Gap 4</div>
         <h2 class="gap-card__title">The Ransom You Cannot Pay</h2>
         <p class="gap-card__body">
-          Ransomware encrypts the bank's data. The carrier will not authorize payment because the threat actor is on an OFAC sanctions list. The bank chooses between an illegal payment and an indefinite outage.
+          Ransomware encrypts the bank's data. The carrier will not authorize payment because the threat actor is on an OFAC sanctions list. Banks deal with OFAC in daily compliance, but most don't realize the same rules apply to their insurance. The bank chooses between an illegal payment and an indefinite outage.
         </p>
-        <div class="gap-card__verdict">Banks deal with OFAC in daily compliance. Most don't realize the same rules apply to their insurance.</div>
+        <p class="gap-card__verdict">OFAC compliance can override your coverage when you need it most.</p>
+        <div class="gap-card__action"><strong>What to do:</strong> Review your cyber policy's ransomware coverage for OFAC carve-outs. Confirm your incident response plan accounts for a scenario where the carrier cannot authorize payment.</div>
       </div>
 
       <!-- Story 5: Security Warranty -->
@@ -428,10 +466,11 @@ permalink: /coverage-gaps/
         <div class="gap-card__number">Gap 5</div>
         <h2 class="gap-card__title">The Application That Cancels the Policy</h2>
         <p class="gap-card__body">
-          After a loss, the carrier reviews the application the bank submitted at renewal. MFA not enforced everywhere? Backups not tested? The policy can be voided as if it never existed.
+          After a loss, the carrier reviews the warranty and representation language in the application the bank submitted at renewal. MFA not enforced everywhere? Backups not tested quarterly? The carrier can deny the claim or void the policy retroactively.
         </p>
-        <div class="gap-card__verdict">A gap in your controls is a gap in your coverage. The carrier decides after the claim.</div>
-        <a href="{{ '/insights/security-warranty-fails/' | relative_url }}" class="gap-card__link">Read the full case &rarr;</a>
+        <p class="gap-card__verdict">The carrier decides after the claim, not before.</p>
+        <div class="gap-card__action"><strong>What to do:</strong> Compare every statement in your cyber application against your current IT audit findings. Fix the gaps before renewal, or disclose them on the application.</div>
+        <a href="{{ '/insights/security-warranty-fails/' | relative_url }}" class="gap-card__link">See the full analysis &rarr;</a>
       </div>
 
       <!-- Story 6: Fine Print -->
@@ -441,7 +480,8 @@ permalink: /coverage-gaps/
         <p class="gap-card__body">
           The policy responds, but sublimits, retentions, and carve-outs shrink the recovery. A $5 million policy can become a $500K payout. The limit on the declarations page is the ceiling. The floor is buried in language the bank never read.
         </p>
-        <div class="gap-card__verdict">The limit is real. So is the language that erodes it.</div>
+        <p class="gap-card__verdict">The limit is real. So is the language that erodes it.</p>
+        <div class="gap-card__action"><strong>What to do:</strong> Ask your broker to map every sublimit and retention in the policy against your stated aggregate limit. The declarations page shows the ceiling. You need to know the floor.</div>
       </div>
 
     </div>
@@ -449,10 +489,13 @@ permalink: /coverage-gaps/
 </section>
 
 <!-- ========================================
-     CONTEXT LINK
+     BRIDGE + CONTEXT LINK
      ======================================== -->
-<section class="gaps-context">
+<section class="gaps-bridge">
   <div class="container">
+    <p>
+      These six gaps are not independent. A single cyber incident can trigger all three policies, and when one carrier denies, the others follow. The interaction between your cyber policy, your Financial Institution Bond, and your D&amp;O coverage is where the most expensive failures happen.
+    </p>
     <p>
       For a side-by-side map of how all three policies respond to each incident type, see <a href="{{ '/insights/five-incidents-three-policies/' | relative_url }}">Five Common Cyber Incidents, Three Policies, and the Gaps Between Them</a>.
     </p>
@@ -462,7 +505,7 @@ permalink: /coverage-gaps/
 <!-- ========================================
      FINAL CTA
      ======================================== -->
-<p class="page-updated" style="text-align:center;padding:0 0 8px;">Last updated <time datetime="2026-06-24">June 2026</time></p>
+<p class="page-updated" style="text-align:center;padding:0 0 8px;">Last updated <time datetime="2026-06-30">June 2026</time></p>
 <section class="gaps-final-wrap">
   <div class="gaps-final">
     <h2>Find Out Where Your Coverage Fails</h2>
