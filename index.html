@@ -137,6 +137,100 @@ description: "I don't sell insurance. I audit it. Independent Risk Intelligence 
   </div>
 </section>
 
+<!-- Examiner Anxiety Section -->
+<section class="examiner-section">
+  <div class="container">
+    <div class="examiner-inner">
+
+      <div class="examiner-shift">
+        <p class="examiner-shift-label">The examiner question has changed</p>
+        <p class="examiner-shift-text">
+          <span class="shift-from">"Do you have cyber insurance?"</span>
+          <svg class="shift-arrow" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          <span class="shift-to">"How do you know it's adequate?"</span>
+        </p>
+      </div>
+
+      <p class="examiner-body">Most banks can't answer that question cleanly. The board approved the premium, the broker renewed, the carrier didn't object. None of that is evidence of adequacy. FFIEC guidance now treats cyber insurance as part of the bank's information security program, and examiners want documented proof that coverage has been reviewed against realistic claim scenarios.</p>
+
+      <a href="{{ '/examiner-readiness/' | relative_url }}" class="examiner-link">See what examiners expect and how to prepare &rarr;</a>
+
+    </div>
+  </div>
+</section>
+
+<style>
+.examiner-section {
+  padding: 64px 0;
+  background: #fff;
+  border-top: 1px solid #e5e7eb;
+}
+.examiner-inner {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+.examiner-shift {
+  background: rgba(59,130,246,0.04);
+  border-radius: 12px;
+  padding: 28px 32px;
+  margin-bottom: 24px;
+}
+.examiner-shift-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: #3B82F6;
+  margin: 0 0 14px;
+}
+.examiner-shift-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+.shift-from {
+  color: #5A7184;
+}
+.shift-to {
+  color: #3B82F6;
+}
+.shift-arrow {
+  color: rgba(59,130,246,0.4);
+  flex-shrink: 0;
+}
+.examiner-body {
+  font-size: 17px;
+  line-height: 1.7;
+  color: #5A7184;
+  margin: 0 0 20px;
+}
+.examiner-link {
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 600;
+  color: #3B82F6;
+  text-decoration: none;
+}
+.examiner-link:hover {
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  .examiner-section { padding: 48px 0; }
+  .examiner-shift { padding: 20px 20px; }
+  .examiner-shift-text { font-size: 17px; gap: 10px; }
+  .shift-arrow { display: none; }
+  .shift-from, .shift-to { display: block; }
+}
+</style>
+
 <!-- What You Walk Away With -->
 <section id="walkaway" class="solution-section">
   <div class="container">
