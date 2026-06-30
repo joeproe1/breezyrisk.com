@@ -257,13 +257,17 @@ permalink: /coverage-gaps/
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
 }
 .gap-card__number {
+  display: inline-block;
   font-family: 'JetBrains Mono', monospace;
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--bank-mid);
-  margin: 0 0 10px;
+  color: #fff;
+  background: var(--bank-mid);
+  padding: 3px 10px;
+  border-radius: 4px;
+  margin: 0 0 14px;
 }
 .gap-card__title {
   font-size: 22px;
@@ -282,7 +286,7 @@ permalink: /coverage-gaps/
   font-size: 15px;
   font-weight: 600;
   font-style: italic;
-  color: #0A2540;
+  color: #9a3412;
   margin: 0 0 12px;
   padding: 0;
   line-height: 1.5;
@@ -392,7 +396,7 @@ permalink: /coverage-gaps/
      ======================================== -->
 <section class="gaps-byline-bar">
   <div class="container">
-    <p>By <a href="{{ '/about/' | relative_url }}">Joerg Proeve</a>, Independent Risk Advisor</p>
+    <p>By <a href="{{ '/about/' | relative_url }}">Joerg Proeve</a>, Independent Risk Advisor &middot; Last updated <time datetime="2026-06-30">June 2026</time></p>
   </div>
 </section>
 
@@ -505,7 +509,6 @@ permalink: /coverage-gaps/
 <!-- ========================================
      FINAL CTA
      ======================================== -->
-<p class="page-updated" style="text-align:center;padding:0 0 8px;">Last updated <time datetime="2026-06-30">June 2026</time></p>
 <section class="gaps-final-wrap">
   <div class="gaps-final">
     <h2>Find Out Where Your Coverage Fails</h2>
