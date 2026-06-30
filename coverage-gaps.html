@@ -323,7 +323,7 @@ permalink: /coverage-gaps/
 }
 .gap-card__link:hover { text-decoration: underline; }
 
-/* ----- Compact cards (gaps 4-6) ----- */
+/* ----- Mini cards (gaps 4-6) ----- */
 .gaps-compact-section {
   padding: 0 0 40px;
   background: #fff;
@@ -336,35 +336,41 @@ permalink: /coverage-gaps/
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--bank-gap-muted);
-  margin: 0 0 16px;
+  margin: 0 0 14px;
 }
 .gaps-compact {
   display: flex;
   flex-direction: column;
-  gap: 0;
+  gap: 10px;
 }
 .gap-compact {
   display: flex;
   align-items: center;
-  gap: 16px;
-  padding: 12px 0;
-  border-bottom: 1px solid #e5e7eb;
+  background: #f8f9fa;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  overflow: hidden;
 }
-.gap-compact:last-child { border-bottom: none; }
 .gap-compact__number {
   font-family: 'JetBrains Mono', monospace;
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--bank-mid);
+  color: #fff;
+  background: var(--bank-mid);
+  padding: 12px 14px;
   flex-shrink: 0;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
 }
 .gap-compact__title {
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 600;
   color: #0A2540;
   margin: 0;
+  padding: 0 20px;
   line-height: 1.3;
 }
 
