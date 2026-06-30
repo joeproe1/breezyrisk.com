@@ -112,7 +112,7 @@ layout: default
             {{ content }}
         </div>
 
-        {% include author-bio.html %}
+        {% unless page.hide_author %}{% include author-bio.html %}{% endunless %}
 
         {% include share-buttons.html %}
     </div>

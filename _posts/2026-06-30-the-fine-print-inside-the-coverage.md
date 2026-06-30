@@ -8,6 +8,7 @@ category: Policy Deep-Dive
 read_time: "1 min read"
 permalink: /insights/the-fine-print-inside-the-coverage/
 last_modified_at: 2026-06-30
+hide_author: true
 ---
 
 The policy responds, but sublimits, retentions, and carve-outs shrink the recovery. A $5 million policy can become a $500K payout. The limit on the declarations page is the ceiling. The floor is buried in language the bank never read.
@@ -17,5 +18,3 @@ The limit is real. So is the language that erodes it.
 </div>
 
 Ask your broker to map every sublimit and retention in the policy against your stated aggregate limit. The declarations page shows the ceiling. You need to know the floor.
-
-*This is one of [six coverage gap patterns](/coverage-gaps/) found in every community bank policy review.*

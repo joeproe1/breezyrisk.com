@@ -8,6 +8,7 @@ category: Policy Deep-Dive
 read_time: "1 min read"
 permalink: /insights/the-ransom-you-cannot-pay/
 last_modified_at: 2026-06-30
+hide_author: true
 ---
 
 Ransomware encrypts the bank's data. The carrier will not authorize payment because the threat actor is on an OFAC sanctions list. Banks deal with OFAC in daily compliance, but most don't realize the same rules apply to their insurance. The bank chooses between an illegal payment and an indefinite outage.
@@ -17,5 +18,3 @@ OFAC compliance can override your coverage when you need it most.
 </div>
 
 Review your cyber policy's ransomware coverage for OFAC carve-outs. Confirm your incident response plan accounts for a scenario where the carrier cannot authorize payment.
-
-*This is one of [six coverage gap patterns](/coverage-gaps/) found in every community bank policy review.*
