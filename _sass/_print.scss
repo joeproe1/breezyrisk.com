@@ -26,20 +26,27 @@
     color: #000 !important;
     font-size: 11pt;
     line-height: 1.5;
-    margin: 0.5in;
+    margin: 0 !important;
+    padding: 0 !important;
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
   }
 
-  // ----- Page margins (belt and suspenders with body margin) -----
+  // ----- Page margins (hint to browser, but not always respected) -----
   @page {
-    margin: 0.6in;
+    margin: 0.5in;
   }
 
-  // ----- Container: keep side padding for margins -----
+  // ----- Content wrapper: this is the real margin control -----
+  // Padding on .site-main cannot be overridden by Chrome's print dialog
+  .site-main {
+    padding: 0.4in 0.5in !important;
+  }
+
+  // ----- Container: full width within the padded wrapper -----
   .container {
     max-width: 100% !important;
-    padding: 0 12pt !important;
+    padding: 0 !important;
   }
 
   // ----- Remove all dark/colored section backgrounds -----
