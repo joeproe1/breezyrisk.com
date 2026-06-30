@@ -181,21 +181,30 @@ permalink: /coverage-gaps/
 .gaps-hero__sub {
   font-size: 20px;
   line-height: 1.6;
-  color: var(--bank-accent);
-  margin: 0 0 28px;
+  color: var(--bank-text-light);
+  margin: 0;
   max-width: 820px;
 }
-.gaps-hero__byline {
-  font-size: 14px;
-  color: rgba(255,255,255,0.55);
+
+/* ----- Byline bar (below hero) ----- */
+.gaps-byline-bar {
+  background: #f8f9fa;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 16px 0;
+}
+.gaps-byline-bar .container { max-width: 780px; }
+.gaps-byline-bar p {
+  font-size: 15px;
+  color: #555;
   margin: 0;
+  line-height: 1.5;
 }
-.gaps-hero__byline a {
-  color: rgba(255,255,255,0.55);
-  text-decoration: underline;
-  text-decoration-color: rgba(255,255,255,0.25);
+.gaps-byline-bar a {
+  color: var(--bank-mid);
+  text-decoration: none;
+  font-weight: 600;
 }
-.gaps-hero__byline a:hover { color: rgba(255,255,255,0.8); }
+.gaps-byline-bar a:hover { text-decoration: underline; }
 @media (max-width: 968px) {
   .gaps-hero h1 { font-size: 38px; }
 }
@@ -277,20 +286,6 @@ permalink: /coverage-gaps/
   margin: 0 0 12px;
   padding: 0;
   line-height: 1.5;
-}
-.gap-card__action {
-  font-size: 14px;
-  line-height: 1.6;
-  color: #555;
-  margin: 0;
-  padding: 10px 14px;
-  background: rgba(59,130,246,0.04);
-  border-left: 3px solid var(--bank-mid);
-  border-radius: 0 6px 6px 0;
-}
-.gap-card__action strong {
-  color: #0A2540;
-  font-weight: 600;
 }
 .gap-card__link {
   display: block;
@@ -389,7 +384,15 @@ permalink: /coverage-gaps/
     <p class="gaps-hero__sub">
       These six patterns show up in every community bank and credit union policy review I conduct. They come from reading the actual policy language, not from checklists.
     </p>
-    <p class="gaps-hero__byline">By <a href="{{ '/about/' | relative_url }}">Joerg Proeve</a>, Independent Risk Advisor &middot; Based on community bank and credit union policy reviews across multiple carriers</p>
+  </div>
+</section>
+
+<!-- ========================================
+     BYLINE BAR
+     ======================================== -->
+<section class="gaps-byline-bar">
+  <div class="container">
+    <p>By <a href="{{ '/about/' | relative_url }}">Joerg Proeve</a>, Independent Risk Advisor</p>
   </div>
 </section>
 
@@ -399,10 +402,10 @@ permalink: /coverage-gaps/
 <section class="gaps-intro">
   <div class="container">
     <p>
-      An insurance gap analysis for a community bank reads the actual language in your cyber and D&amp;O policies, and your fidelity bond, to find exclusions, sublimits, and coverage interactions that would reduce or deny a claim.
+      A Risk Intelligence Report, an insurance gap analysis for a community bank, reads the language in your cyber and D&amp;O policies, and your fidelity bond, to find exclusions, sublimits, and coverage interactions that don't fit your risk exposure and would reduce or deny a claim.
     </p>
     <p>
-      Different carriers. Different policy forms. Same gaps. Each one creates a scenario where the institution assumes it is covered and discovers at claim time that it is not.
+      Different carriers. Different policy forms. Same gaps. Each one creates a scenario where the institution assumes it is covered and discovers at claim time that it is not. Based on community bank and credit union policy reviews across multiple carriers.
     </p>
   </div>
 </section>
@@ -422,7 +425,6 @@ permalink: /coverage-gaps/
           Spoofed instructions, real wire. The cyber policy never included a social engineering fraud endorsement. The Financial Institution Bond excludes "voluntary parting." Both carriers point at each other.
         </p>
         <p class="gap-card__verdict">On a $400K wire fraud, the bank can recover as little as half.</p>
-        <div class="gap-card__action"><strong>What to do:</strong> Request a standalone social engineering sublimit on the cyber policy, and confirm the bond's voluntary parting exclusion does not apply to fraudulently induced transfers.</div>
         <a href="{{ '/insights/the-wire-nobody-covers/' | relative_url }}" class="gap-card__link">See the full analysis &rarr;</a>
       </div>
 
@@ -434,7 +436,6 @@ permalink: /coverage-gaps/
           After a breach, regulators go after the directors personally. The D&amp;O policy has a cyber exclusion nobody reviewed. The cyber policy does not cover board liability. Directors face personal exposure with no policy responding.
         </p>
         <p class="gap-card__verdict">Some version of this gap exists in every institution I have reviewed.</p>
-        <div class="gap-card__action"><strong>What to do:</strong> Request removal of the cyber exclusion from the D&amp;O form, or negotiate an exception for regulatory proceedings and shareholder derivative claims.</div>
         <a href="{{ '/insights/the-board-nobody-insures/' | relative_url }}" class="gap-card__link">See the full analysis &rarr;</a>
       </div>
 
@@ -446,7 +447,6 @@ permalink: /coverage-gaps/
           A core processor goes down for three days. The cyber policy covers vendor outages under dependent business interruption, but sublimits it to around $1M. For a bank running its entire operation through one core provider, the exposure is far higher.
         </p>
         <p class="gap-card__verdict">The coverage exists, but the sublimit does not match the exposure.</p>
-        <div class="gap-card__action"><strong>What to do:</strong> Compare your dependent business interruption sublimit against actual revenue dependence on your core processor. Request a sublimit increase at renewal if the gap is material.</div>
         <a href="{{ '/insights/the-vendor-you-cannot-replace/' | relative_url }}" class="gap-card__link">See the full analysis &rarr;</a>
       </div>
 
@@ -458,7 +458,6 @@ permalink: /coverage-gaps/
           Ransomware encrypts the bank's data. The carrier will not authorize payment because the threat actor is on an OFAC sanctions list. Banks deal with OFAC in daily compliance, but most don't realize the same rules apply to their insurance. The bank chooses between an illegal payment and an indefinite outage.
         </p>
         <p class="gap-card__verdict">OFAC compliance can override your coverage when you need it most.</p>
-        <div class="gap-card__action"><strong>What to do:</strong> Review your cyber policy's ransomware coverage for OFAC carve-outs. Confirm your incident response plan accounts for a scenario where the carrier cannot authorize payment.</div>
       </div>
 
       <!-- Story 5: Security Warranty -->
@@ -469,7 +468,6 @@ permalink: /coverage-gaps/
           After a loss, the carrier reviews the warranty and representation language in the application the bank submitted at renewal. MFA not enforced everywhere? Backups not tested quarterly? The carrier can deny the claim or void the policy retroactively.
         </p>
         <p class="gap-card__verdict">The carrier decides after the claim, not before.</p>
-        <div class="gap-card__action"><strong>What to do:</strong> Compare every statement in your cyber application against your current IT audit findings. Fix the gaps before renewal, or disclose them on the application.</div>
         <a href="{{ '/insights/security-warranty-fails/' | relative_url }}" class="gap-card__link">See the full analysis &rarr;</a>
       </div>
 
@@ -481,7 +479,6 @@ permalink: /coverage-gaps/
           The policy responds, but sublimits, retentions, and carve-outs shrink the recovery. A $5 million policy can become a $500K payout. The limit on the declarations page is the ceiling. The floor is buried in language the bank never read.
         </p>
         <p class="gap-card__verdict">The limit is real. So is the language that erodes it.</p>
-        <div class="gap-card__action"><strong>What to do:</strong> Ask your broker to map every sublimit and retention in the policy against your stated aggregate limit. The declarations page shows the ceiling. You need to know the floor.</div>
       </div>
 
     </div>
@@ -495,6 +492,9 @@ permalink: /coverage-gaps/
   <div class="container">
     <p>
       These six gaps are not independent. A single cyber incident can trigger all three policies, and when one carrier denies, the others follow. The interaction between your cyber policy, your Financial Institution Bond, and your D&amp;O coverage is where the most expensive failures happen.
+    </p>
+    <p>
+      Each of these gaps has a specific fix. That's what the <a href="{{ '/risk-intelligence-report/' | relative_url }}">Risk Intelligence Report</a> delivers: the gap, the dollar exposure, and the exact language to request at renewal.
     </p>
     <p>
       For a side-by-side map of how all three policies respond to each incident type, see <a href="{{ '/insights/five-incidents-three-policies/' | relative_url }}">Five Common Cyber Incidents, Three Policies, and the Gaps Between Them</a>.
