@@ -9,6 +9,7 @@ read_time: "1 min read"
 permalink: /insights/the-fine-print-inside-the-coverage/
 last_modified_at: 2026-06-30
 hide_author: true
+hide_from_index: true
 ---
 
 The policy responds, but sublimits, retentions, and carve-outs shrink the recovery. A $5 million policy can become a $500K payout. The limit on the declarations page is the ceiling. The floor is buried in language the bank never read.

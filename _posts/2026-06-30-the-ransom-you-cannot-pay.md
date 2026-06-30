@@ -9,6 +9,7 @@ read_time: "1 min read"
 permalink: /insights/the-ransom-you-cannot-pay/
 last_modified_at: 2026-06-30
 hide_author: true
+hide_from_index: true
 ---
 
 Ransomware encrypts the bank's data. The carrier will not authorize payment because the threat actor is on an OFAC sanctions list. Banks deal with OFAC in daily compliance, but most don't realize the same rules apply to their insurance. The bank chooses between an illegal payment and an indefinite outage.

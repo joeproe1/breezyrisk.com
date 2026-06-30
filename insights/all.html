@@ -86,7 +86,7 @@ permalink: /insights/all/
         </div>
 
         <div class="blog-grid">
-            {% assign visible_posts = site.posts | where_exp: "post", "post.archived != true" | sort: 'date' | reverse %}
+            {% assign visible_posts = site.posts | where_exp: "post", "post.archived != true" | where_exp: "post", "post.hide_from_index != true" | sort: 'date' | reverse %}
             {% for post in visible_posts %}
             <div class="post-card">
                 <div class="post-card-accent post-card-accent--{{ post.category | default: 'community-banks' | slugify }}"></div>
