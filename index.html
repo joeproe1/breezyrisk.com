@@ -142,7 +142,7 @@ description: "I don't sell insurance. I audit it. Independent Risk Intelligence 
   <div class="container">
     <div class="examiner-inner">
 
-      <p class="examiner-shift-label">The examiner question has changed</p>
+      <h2 class="examiner-heading">The Examiner Question Has Changed</h2>
 
       <div class="examiner-shift">
         <div class="shift-panel shift-panel--from">
@@ -179,14 +179,12 @@ description: "I don't sell insurance. I audit it. Independent Risk Intelligence 
   margin: 0 auto;
   text-align: center;
 }
-.examiner-shift-label {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 13px;
+.examiner-heading {
+  font-size: 36px;
   font-weight: 700;
-  letter-spacing: 0.10em;
-  text-transform: uppercase;
-  color: #3B82F6;
-  margin: 0 0 20px;
+  letter-spacing: -0.02em;
+  color: #0A2540;
+  margin: 0 0 28px;
 }
 .examiner-shift {
   display: grid;
@@ -249,8 +247,12 @@ description: "I don't sell insurance. I audit it. Independent Risk Intelligence 
 .examiner-link:hover {
   text-decoration: underline;
 }
+@media (max-width: 1024px) {
+  .examiner-heading { font-size: 30px; }
+}
 @media (max-width: 768px) {
   .examiner-section { padding: 48px 0; }
+  .examiner-heading { font-size: 26px; }
   .examiner-shift {
     grid-template-columns: 1fr;
     gap: 12px;
