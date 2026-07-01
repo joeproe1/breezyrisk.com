@@ -33,7 +33,7 @@ It looks and feels like one coverage. It is not.
 
 ## How the Bundle Breaks Apart
 
-I audited a credit union's insurance program. It carried all three coverages through the bundled program. The program had been in place for years, renewed without objection. On paper, it looked solid.
+I audited a credit union's insurance. All three coverages came through the bundled program. It had been in place for years, renewed without objection. On paper, it looked solid.
 
 When I read the policies together and tested them against real claim scenarios, the gaps became visible.
 
@@ -91,7 +91,7 @@ These gaps exist across most financial institution insurance programs. They are 
 <div style="display: grid; gap: 16px; margin: 24px 0;">
 <div class="cu-factor-card" style="background: #f8faf9; border-radius: 10px; padding: 22px 24px; display: flex; gap: 16px; align-items: flex-start;">
 <div class="cu-factor-num" style="min-width: 36px; height: 36px; background: #00D4AA; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #0A2540; font-size: 18px; flex-shrink: 0;">1</div>
-<div><strong>Program concentration.</strong> The endorsed program is the dominant insurance program for credit unions, bundling all three coverages under one relationship. This has real advantages: administrative simplicity, coordinated coverage, single point of contact. But when one program controls all three coverages, the gaps between them become invisible until a claim hits.</div>
+<div><strong>Program concentration.</strong> TruStage is the dominant insurance program for credit unions, bundling all three coverages under one relationship. This has real advantages: administrative simplicity, coordinated coverage, single point of contact. But when one program controls all three coverages, the gaps between them become invisible until a claim hits.</div>
 </div>
 <div class="cu-factor-card" style="background: #f8faf9; border-radius: 10px; padding: 22px 24px; display: flex; gap: 16px; align-items: flex-start;">
 <div class="cu-factor-num" style="min-width: 36px; height: 36px; background: #00D4AA; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #0A2540; font-size: 18px; flex-shrink: 0;">2</div>
