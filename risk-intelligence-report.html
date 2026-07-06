@@ -335,37 +335,42 @@ permalink: /risk-intelligence-report/
 /* Steps */
 .rir-steps{
   display: grid;
-  grid-template-columns: 1fr auto 1fr auto 1fr;
-  gap: 0;
-  max-width: 1060px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  max-width: 1100px;
   margin: 0 auto;
-  align-items: start;
 }
 .rir-step{
   text-align: center;
-  padding: 20px 16px;
+  padding: 32px 22px 28px;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.04);
 }
-.rir-step-arrow{
-  display: flex;
+.rir-step-num{
+  display: inline-flex;
   align-items: center;
-  margin-top: 20px;
-  color: rgba(217, 119, 6, 0.4);
-  font-size: 0;
-  line-height: 0;
-}
-.rir-step-arrow svg{
-  width: 36px;
-  height: 36px;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(217, 119, 6, 0.1);
+  color: #D97706;
+  font-family: var(--font-mono);
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 16px;
 }
 .rir-step strong{
   display: block;
-  font-size: 19px;
+  font-size: 17px;
   color: var(--primary);
   margin-bottom: 10px;
-  white-space: nowrap;
+  line-height: 1.3;
 }
 .rir-step p{
-  font-size: 16px;
+  font-size: 15px;
   color: var(--text-secondary);
   line-height: 1.7;
   margin: 0;
@@ -440,13 +445,12 @@ permalink: /risk-intelligence-report/
   .rir-final{ padding: 32px 20px; }
   .rir-final-inner{ padding: 40px 24px; }
   .rir-final-inner h2{ font-size: 28px; }
-  .rir-steps{ grid-template-columns: 1fr 1fr; gap: 0; }
-  .rir-step-arrow{ display: none; }
+  .rir-steps{ grid-template-columns: 1fr 1fr; }
   .interaction-map-wrap{ display: none; }
   .interaction-caption{ display: none; }
 }
 @media(max-width: 580px){
-  .rir-steps{ grid-template-columns: 1fr; }
+  .rir-steps{ grid-template-columns: 1fr; gap: 12px; }
 }
 
 </style>
@@ -618,26 +622,27 @@ permalink: /risk-intelligence-report/
     <div class="rir-steps">
 
       <div class="rir-step">
-        <strong>1. Send Your Policies</strong>
+        <div class="rir-step-num">1</div>
+        <strong>Send Your Policies</strong>
         <p>Share your cyber and D&amp;O policies, and your fidelity bond. I handle the rest.</p>
       </div>
 
-      <div class="rir-step-arrow">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-      </div>
-
       <div class="rir-step">
-        <strong>2. I Review Them</strong>
+        <div class="rir-step-num">2</div>
+        <strong>I Review Them</strong>
         <p>Line-by-line analysis against real incident scenarios. Every policy read together, not in isolation.</p>
       </div>
 
-      <div class="rir-step-arrow">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      <div class="rir-step">
+        <div class="rir-step-num">3</div>
+        <strong>You Get the Report</strong>
+        <p>A written report with every finding in dollar terms, plus a 30-minute walkthrough.</p>
       </div>
 
       <div class="rir-step">
-        <strong>3. You Get the Report</strong>
-        <p>A written report with every finding in dollar terms, plus a 30-minute walkthrough.</p>
+        <div class="rir-step-num">4</div>
+        <strong>Act on It</strong>
+        <p>At renewal, in the boardroom, or before your next examination.</p>
       </div>
 
     </div>
@@ -645,7 +650,7 @@ permalink: /risk-intelligence-report/
 </section>
 
 <!-- FINAL CTA -->
-<p class="page-updated" style="text-align:center;padding:0 0 8px;">Last updated <time datetime="2026-07-04">July 2026</time></p>
+<p class="page-updated" style="text-align:center;padding:0 0 8px;">Last updated <time datetime="2026-07-06">July 2026</time></p>
 <section class="rir-final">
   <div class="rir-final-inner">
     <h2>A Claim Will Test Your Coverage</h2>
