@@ -24,7 +24,7 @@ permalink: /privacy/
 
 # Privacy Policy
 
-<span class="effective-date">Effective Date: April 30, 2026</span>
+<span class="effective-date">Effective Date: July 2026</span>
 
 Breezy Risk is an independent risk advisory firm. We do not sell, place, or broker insurance. This Privacy Policy describes how we collect, use, and protect the information you share with us during the course of an insurance audit engagement.
 
@@ -45,7 +45,7 @@ We use the data provided exclusively to:
 - Produce Risk Intelligence Reports, including policy interaction analysis and coverage recommendations.
 - Communicate findings and follow-up information related to your engagement.
 
-We do not use your information to solicit insurance quotes, negotiate with carriers, or place coverage on your behalf. Breezy is not a broker and does not act as an intermediary between you and insurance carriers.
+We do not use your information to solicit insurance quotes, negotiate with carriers, or place coverage on your behalf. Breezy Risk is not a broker and does not act as an intermediary between you and insurance carriers.
 
 ## 3. Data Confidentiality and Sharing
 
@@ -80,6 +80,5 @@ We may update this policy to reflect changes in our practices or legal requireme
 If you have questions about how we handle your data, please contact us at:
 
 **Email:** contact@breezyrisk.com
-**Address:** Breezy Risk, Lancaster, PA
 
 </section>
