@@ -84,16 +84,19 @@ description: "I don't sell insurance. I audit it. Independent Risk Intelligence 
     </div>
 
     <div class="proof-closing">
-      <div class="proof-quote-row">
-        <span class="proof-quotemark">"</span>
-        <div>
-          <p class="proof-testimonial">We renewed every year assuming we were covered. The audit showed us we had holes.</p>
-          <p class="proof-cite">CFO, community bank in New York</p>
-        </div>
-      </div>
+      <p class="proof-testimonial">Every bank had at least one gap that would have resulted in a denied or reduced claim. Not because the policies were bad. Because nobody had read them together.</p>
     </div>
   </div>
 </section>
+
+<!-- Partner trust line -->
+<div class="partner-trust">
+  <span class="partner-trust-label">Working with</span>
+
+  <a href="https://foxpointesolutions.com" target="_blank" rel="noopener" class="partner-trust-link">
+    <img src="{{ '/assets/images/foxpointe-logo-color.png' | relative_url }}" alt="FoxPointe Solutions, a Division of The Bonadio Group" class="partner-trust-logo" width="400" height="258" loading="lazy">
+  </a>
+</div>
 
 <!-- What You Walk Away With -->
 <section id="walkaway" class="solution-section">
@@ -120,10 +123,6 @@ description: "I don't sell insurance. I audit it. Independent Risk Intelligence 
           <svg class="walkaway-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
           <span>Where policies overlap, where no policy pays, and what it costs you</span>
         </li>
-        <li>
-          <svg class="walkaway-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-          <span>Delivered in less than a week: Written report plus 30-minute walkthrough.</span>
-        </li>
       </ul>
 
       <div class="section-actions">
@@ -136,15 +135,6 @@ description: "I don't sell insurance. I audit it. Independent Risk Intelligence 
 </section>
 
 {% include cta-banner.html title="Find Out Where Your Coverage Fails" subtitle="One report. Plain English. Before your next claim, board review, or examination." button="Get in Touch" %}
-
-<!-- Partner trust line -->
-<div class="partner-trust">
-  <span class="partner-trust-label">Working with</span>
-
-  <a href="https://foxpointesolutions.com" target="_blank" rel="noopener" class="partner-trust-link">
-    <img src="{{ '/assets/images/foxpointe-logo.png' | relative_url }}" alt="FoxPointe Solutions, a Division of The Bonadio Group" class="partner-trust-logo" width="400" height="258" loading="lazy">
-  </a>
-</div>
 
 <style>
 /* Proof cards */
@@ -191,24 +181,6 @@ description: "I don't sell insurance. I audit it. Independent Risk Intelligence 
   margin: 0;
   line-height: 1.5;
 }
-.proof-quote-row {
-  display: flex;
-  align-items: flex-start;
-  gap: 8px;
-}
-.proof-quotemark {
-  font-size: 64px;
-  line-height: 0.8;
-  color: #00D4AA;
-  font-weight: 700;
-  flex-shrink: 0;
-}
-.proof-cite {
-  color: rgba(255,255,255,0.55);
-  font-weight: 400;
-  font-size: 14px;
-  margin: 6px 0 0;
-}
 /* Partner trust line */
 .partner-trust {
   display: flex;
@@ -219,17 +191,15 @@ description: "I don't sell insurance. I audit it. Independent Risk Intelligence 
   background: #fff;
 }
 .partner-trust-label {
-  font-family: 'DM Sans', sans-serif;
-  font-size: 13px;
-  font-weight: 400;
-  color: #555;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  letter-spacing: 0.01em;
 }
 .partner-trust-link {
   display: inline-flex;
   align-items: center;
-  background: #0A2540;
-  border-radius: 8px;
-  padding: 10px 20px;
+  padding: 4px 0;
   transition: opacity 0.2s ease;
 }
 .partner-trust-link:hover {
@@ -247,6 +217,6 @@ description: "I don't sell insurance. I audit it. Independent Risk Intelligence 
   .proof-testimonial { font-size: 16px; }
   .partner-trust { padding: 16px 0 36px; gap: 12px; }
   .partner-trust-logo { max-width: 100px; }
-  .partner-trust-link { padding: 8px 16px; }
+  .partner-trust-link { padding: 4px 0; }
 }
 </style>
