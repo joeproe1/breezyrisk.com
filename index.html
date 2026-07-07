@@ -91,7 +91,7 @@ description: "I don't sell insurance. I audit it. Independent Risk Intelligence 
 
 <!-- Partner trust line -->
 <div class="partner-trust">
-  <span class="partner-trust-label">Working with</span>
+  <span class="partner-trust-label">Working with:</span>
 
   <a href="https://foxpointesolutions.com" target="_blank" rel="noopener" class="partner-trust-link">
     <img src="{{ '/assets/images/foxpointe-logo-color.png' | relative_url }}" alt="FoxPointe Solutions, a Division of The Bonadio Group" class="partner-trust-logo" width="400" height="258" loading="lazy">
@@ -187,7 +187,7 @@ description: "I don't sell insurance. I audit it. Independent Risk Intelligence 
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
+  gap: 32px;
   padding: 20px 0 48px;
   background: #fff;
 }
@@ -200,11 +200,15 @@ description: "I don't sell insurance. I audit it. Independent Risk Intelligence 
 .partner-trust-link {
   display: inline-flex;
   align-items: center;
-  padding: 4px 0;
-  transition: opacity 0.2s ease;
+  padding: 10px 14px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: #fff;
+  transition: all 0.2s ease;
 }
 .partner-trust-link:hover {
   opacity: 0.85;
+  border-color: #d0d4da;
 }
 .partner-trust-logo {
   max-width: 120px;
@@ -216,8 +220,8 @@ description: "I don't sell insurance. I audit it. Independent Risk Intelligence 
   .proof-card h3 { font-size: 18px; }
   .proof-card p { font-size: 16px; }
   .proof-testimonial { font-size: 16px; }
-  .partner-trust { padding: 16px 0 36px; gap: 12px; }
+  .partner-trust { padding: 16px 0 36px; gap: 20px; }
   .partner-trust-logo { max-width: 100px; }
-  .partner-trust-link { padding: 4px 0; }
+  .partner-trust-link { padding: 8px 10px; }
 }
 </style>
