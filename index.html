@@ -97,7 +97,7 @@ description: "I don't sell insurance. I audit it. Independent Risk Intelligence 
     <img src="{{ '/assets/images/foxpointe-logo-color.png' | relative_url }}" alt="FoxPointe Solutions, a Division of The Bonadio Group" class="partner-trust-logo" width="400" height="258" loading="lazy">
   </a>
 
-  <a href="https://blackknightrm.com/" target="_blank" rel="noopener" class="partner-trust-link">
+  <a href="https://blackknightrm.com/" target="_blank" rel="noopener" class="partner-trust-link partner-trust-link--no-border">
     <img src="{{ '/assets/images/blackknight-logo.png' | relative_url }}" alt="Black Knight Risk Management" class="partner-trust-logo" width="340" height="320" loading="lazy">
   </a>
 </div>
@@ -200,6 +200,9 @@ description: "I don't sell insurance. I audit it. Independent Risk Intelligence 
 .partner-trust-link {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 120px;
   padding: 10px 14px;
   border: 1px solid #e5e7eb;
   border-radius: 8px;
@@ -210,10 +213,16 @@ description: "I don't sell insurance. I audit it. Independent Risk Intelligence 
   opacity: 0.85;
   border-color: #d0d4da;
 }
+.partner-trust-link--no-border {
+  border: none;
+  padding: 0;
+}
 .partner-trust-logo {
-  max-width: 120px;
+  max-width: 100%;
+  max-height: 100%;
   height: auto;
   display: block;
+  object-fit: contain;
 }
 
 @media (max-width: 768px) {
@@ -221,7 +230,8 @@ description: "I don't sell insurance. I audit it. Independent Risk Intelligence 
   .proof-card p { font-size: 16px; }
   .proof-testimonial { font-size: 16px; }
   .partner-trust { padding: 16px 0 36px; gap: 20px; }
-  .partner-trust-logo { max-width: 100px; }
-  .partner-trust-link { padding: 8px 10px; }
+  .partner-trust-logo { max-width: 100%; }
+  .partner-trust-link { width: 130px; height: 100px; padding: 8px 10px; }
+  .partner-trust-link--no-border { padding: 0; }
 }
 </style>
