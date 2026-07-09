@@ -195,6 +195,7 @@ permalink: /risk-intelligence-report/
   border-right: 1px solid var(--border);
   font-weight: 500;
   vertical-align: middle;
+  height: 64px;
 }
 .interaction-map tbody td:last-child{ border-right: none; }
 .interaction-map tbody tr:last-child td{ border-bottom: none; }
@@ -207,16 +208,19 @@ permalink: /risk-intelligence-report/
   background: #e6f5e9;
   color: #1a5e2a;
   font-weight: 600;
+  text-align: center;
 }
 .interaction-map .cell-yellow{
   background: #fff5d6;
   color: #8a5a00;
   font-weight: 600;
+  text-align: center;
 }
 .interaction-map .cell-red{
   background: #fde8e6;
   color: #8c1a0a;
   font-weight: 600;
+  text-align: center;
 }
 .interaction-map .cell-grey{
   background: #f8f8fa;
@@ -460,8 +464,9 @@ permalink: /risk-intelligence-report/
   <div class="container rir-wrap">
     <h1>Which Policy Pays After a Cyber Event?</h1>
     <p class="rir-subhead">
-      The Risk Intelligence Report is an independent audit of your cyber and D&amp;O policies, and your fidelity bond. It shows you where coverage holds, where it fails, and how to fix it.
+      The Risk Intelligence Report is an independent audit of your cyber policy, your fidelity bond, and your D&amp;O. It shows you where coverage holds, where it fails, and how to fix it.
     </p>
+    <p style="text-align:center;font-size:15px;color:var(--text-secondary);margin:0;">Joerg Proeve — 20 years in insurance, engineering background. I don't place policies. I audit them. <a href="{{ '/about/' | relative_url }}" style="color:#D97706;font-weight:600;">About Joerg &rarr;</a></p>
   </div>
 </section>
 
@@ -470,6 +475,7 @@ permalink: /risk-intelligence-report/
   <div class="container">
     <div class="rir-center">
       <h2>Policy Interaction Map</h2>
+      <p>Every Risk Intelligence Report includes this map, built from your actual policies. It shows which policy responds to each incident type, and where no policy responds at all.</p>
     </div>
     <div style="max-width:960px;margin:0 auto 24px;padding:16px 24px;background:rgba(217,119,6,0.04);border-left:4px solid #D97706;border-radius:0 10px 10px 0;">
       <p style="font-size:15px;font-weight:600;color:#0A2540;line-height:1.6;margin:0;">Every red cell is a coverage gap your bank owns today. Every yellow cell is coverage with inadequate sublimits or conditions.</p>
@@ -529,7 +535,7 @@ permalink: /risk-intelligence-report/
 <section class="rir-section">
   <div class="container rir-wrap">
     <div class="rir-center">
-      <h2>From a Recent Audit</h2>
+      <h2>Coverage Gaps From Recent Audits</h2>
     </div>
     <div class="rir-findings-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:28px;max-width:960px;margin:0 auto;">
 
@@ -551,16 +557,6 @@ permalink: /risk-intelligence-report/
 
     </div>
 
-    <div class="desktop-only" style="max-width:800px;margin:32px auto 0;padding:20px 28px;background:rgba(217,119,6,0.04);border-top:2px solid #D97706;border-radius:0;text-align:center;">
-      <p style="color:var(--text-secondary);font-size:15px;line-height:1.7;margin:0;">Every Risk Intelligence Report identifies gaps like this, with dollar amounts and specific fixes.<br>See how these gaps play out across <a href="{{ '/insights/five-incidents-three-policies/' | relative_url }}" style="color:#D97706;font-weight:600;">five common incident types</a>.</p>
-    </div>
-
-    <!-- Pull quote: factual finding -->
-    <div style="max-width:720px;margin:40px auto 0;padding:28px 32px;border-left:4px solid #0A2540;background:#f3f5f9;border-radius:0 10px 10px 0;">
-      <p style="font-size:19px;font-weight:700;line-height:1.6;color:#0A2540;margin:0 0 8px;">In five audits across five different carriers, every bank had at least one coverage gap that would have resulted in a denied or reduced claim.</p>
-      <p style="font-size:15px;color:var(--text-secondary);line-height:1.6;margin:0;">Not because the policies were bad. Because nobody had read them together.</p>
-    </div>
-
   </div>
 </section>
 
@@ -573,8 +569,8 @@ permalink: /risk-intelligence-report/
     <div style="max-width:720px;margin:0 auto;">
 
       <div class="rir-item">
-        <strong>Policy Deep Dives</strong>
-        <p>Each policy tested against five real incident scenarios. Not just limits and retentions, but the exclusions, sublimits, and warranty conditions that determine whether a claim gets paid. Your broker reviews each policy separately. This reads them together.</p>
+        <strong>Forensic Risk Scorecard</strong>
+        <p>A one-page summary of coverage strength across seven risk categories, color-coded green, yellow, or red. Each score includes a plain-English finding. Designed for board review and regulatory examination.</p>
       </div>
 
       <div class="rir-item">
@@ -583,13 +579,13 @@ permalink: /risk-intelligence-report/
       </div>
 
       <div class="rir-item">
-        <strong>Implementation Roadmap</strong>
-        <p>Specific fixes ranked by exposure. What to change at renewal, what language to request, and what to ask your broker. Not a list of recommendations. A script for the conversation.</p>
+        <strong>Policy Deep Dives</strong>
+        <p>Each policy tested against five real incident scenarios. Not just limits and retentions, but the exclusions, sublimits, and warranty conditions that determine whether a claim gets paid. Your broker reviews each policy separately. This reads them together.</p>
       </div>
 
       <div class="rir-item">
-        <strong>Examiner-Ready Documentation</strong>
-        <p>Findings documented in dollar terms with policy citations. Ready for your next board review, audit committee meeting, or regulatory examination. See <a href="{{ '/cyber-insurance-audit/' | relative_url }}" style="color:#D97706;font-weight:600;">how the cyber insurance audit works</a> and what it covers.</p>
+        <strong>Implementation Roadmap</strong>
+        <p>Specific fixes ranked by exposure. What to change at renewal, what language to request, and what to ask your broker. Not a list of recommendations. A script for the conversation.</p>
       </div>
     </div>
   </div>
@@ -602,13 +598,9 @@ permalink: /risk-intelligence-report/
       <h2>Why Doesn't My Broker Do This?</h2>
     </div>
     <div style="max-width:720px;margin:0 auto;">
-      <p style="font-size:17px;line-height:1.8;color:var(--text-secondary);margin:0 0 20px;">Your broker placed your policies. That's their job, and most do it well. But placement and audit are different functions.</p>
+      <p style="font-size:17px;line-height:1.8;color:var(--text-secondary);margin:0 0 20px;">Your broker compares carriers, negotiates terms, and manages renewals. What they don't typically do is read your cyber policy, fidelity bond, and D&amp;O together and test them against the same loss scenario. That's where the gaps hide.</p>
 
-      <p style="font-size:17px;line-height:1.8;color:var(--text-secondary);margin:0 0 20px;">Brokers review each policy on its own. They compare carriers, negotiate terms, and manage renewals. What they don't typically do is read your cyber policy, fidelity bond, and D&amp;O policy together and test them against the same loss scenario. That's where the gaps hide.</p>
-
-      <p style="font-size:17px;line-height:1.8;color:var(--text-secondary);margin:0 0 20px;">In every audit I've completed, the bank had a broker they trusted. The gaps weren't there because the broker failed. They were there because nobody's job was to read all three policies side by side and ask: "If this happens, who pays?"</p>
-
-      <p style="font-size:17px;line-height:1.8;color:var(--text-secondary);margin:0;">I don't replace your broker. I read what they placed. The report gives your broker specific fixes to negotiate at renewal, with the policy language and dollar amounts already documented.</p>
+      <p style="font-size:17px;line-height:1.8;color:var(--text-secondary);margin:0;">I don't replace your broker. I read what they placed, and the report gives them specific fixes to negotiate at renewal, with the policy language and dollar amounts already documented.</p>
     </div>
   </div>
 </section>
@@ -617,7 +609,7 @@ permalink: /risk-intelligence-report/
 <section class="rir-section alt">
   <div class="container rir-wrap">
     <div class="rir-center">
-      <h2>How It Works</h2>
+      <h2>How Do I Start?</h2>
     </div>
     <div class="rir-steps">
 
@@ -653,8 +645,8 @@ permalink: /risk-intelligence-report/
 <p class="page-updated" style="text-align:center;padding:0 0 8px;">Last updated <time datetime="2026-07-06">July 2026</time></p>
 <section class="rir-final">
   <div class="rir-final-inner">
-    <h2>A Claim Will Test Your Coverage</h2>
-    <p>Flat fee in the low four figures. No retainer, no hourly billing. No commitment required.</p>
+    <h2>A Claim Will Test Your Coverage at the Worst Possible Moment</h2>
+    <p>A Risk Intelligence Report tests it now. Flat fee in the low four figures. No retainer, no hourly billing.</p>
     <a href="{{ '/contact/' | relative_url }}" class="btn-accent">Get in Touch &rarr;</a>
   </div>
 </section>
