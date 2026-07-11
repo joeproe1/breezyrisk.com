@@ -82,10 +82,10 @@ The gaps were similar. Five structural problems appeared in every program. That 
 </tr>
 <tr>
 <td style="padding: 8px 12px; border: 1px solid #e2e8f0; font-weight: 500; color: #334155;">5. Interest income</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEE2E2; color: #991B1B; font-weight: 500; font-size: 13px;">$500/hr flat (72% gap)</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEE2E2; color: #991B1B; font-weight: 500; font-size: 13px;">$500/hr flat (70% gap)</td>
 <td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF3C7; color: #92400E; font-weight: 500; font-size: 13px;">Ambiguous definition</td>
 <td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #D1FAE5; color: #065F46; font-weight: 500; font-size: 13px;">Endorsement fix</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEE2E2; color: #991B1B; font-weight: 500; font-size: 13px;">$500/hr flat (82% gap)</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEE2E2; color: #991B1B; font-weight: 500; font-size: 13px;">$500/hr flat (80% gap)</td>
 <td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF3C7; color: #92400E; font-weight: 500; font-size: 13px;">Ambiguous definition</td>
 </tr>
 </tbody>
@@ -220,7 +220,7 @@ The erosion comes from sublimits that share the aggregate, defense costs paid in
 
 ---
 
-<h2 style="display: flex; align-items: center; gap: 14px;"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 0;" aria-hidden="true"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg><span>Interest Income: 70% of Bank Revenue, Uninsured</span></h2>
+<h2 style="display: flex; align-items: center; gap: 14px;"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 0;" aria-hidden="true"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg><span>Interest Income: 70% of Bank Revenue, Not Covered</span></h2>
 
 <div style="background: #f0f9ff; border-left: 4px solid #00D4AA; padding: 14px 18px; margin-bottom: 20px; border-radius: 0 4px 4px 0;">
 <ul style="list-style: none; padding: 0; margin: 0;">
@@ -231,16 +231,16 @@ The erosion comes from sublimits that share the aggregate, defense costs paid in
 </ul>
 </div>
 
-Community banks earn 70 to 85 percent of revenue from net interest income, roughly $1,400 to $2,200 per hour for a $500 million bank. Cyber BI definitions were written for commercial businesses where interest income is incidental. For a bank, it is the business.
+Community banks earn 70 to 85 percent of revenue from net interest income. During a cyber outage, those loans continue to accrue interest contractually, but the BI definition in most cyber policies either excludes interest income or leaves it ambiguous. The definition was written for commercial businesses where interest income is incidental.
 
-Two banks were on a carrier program that pays BI at a flat $500 per hour. At one, hourly interest income was approximately $2,200. On a five-day outage: $269,000 in lost income, $48,000 recovered. An 82 percent gap. Two other banks had ambiguous definitions, worded in a way that pays when the carrier wants it to, not when the bank needs it to. One bank had an endorsement that deletes the interest income exclusion entirely. It was the single most valuable endorsement in the sample. No other carrier offered an equivalent.
+Two banks were on a carrier program that pays BI at a flat $500 per hour. At one, hourly interest income was approximately $2,200. On a five-day outage, the bank's interest income was $270,000. The policy recognized $48,000. Two other banks had ambiguous definitions, worded in a way that pays when the carrier wants it to, not when the bank needs it to. One bank had an endorsement that deletes the interest income exclusion entirely. It was the single most valuable endorsement in the sample. No other carrier offered an equivalent.
 
-This gap was not in my initial methodology. I found it on the fifth audit. If an independent auditor focused on bank-specific risk missed it, the odds that a generalist broker is checking are low.
+I nearly missed this gap myself. It was not in my initial methodology. The odds that a generalist broker is checking are low.
 
 **What to check**
 
 - Does the BI definition use a flat hourly rate? Compare it to your hourly interest income.
-- Look for the phrase "interest or investment income." If excluded, your primary revenue stream is uninsured.
+- Look for the phrase "interest or investment income." If excluded, your primary revenue stream is outside the BI definition.
 - Ask whether an Interest Income endorsement is available. The cost is a fraction of the premium.
 
 [The Revenue Your Policy Ignores]({{ '/insights/the-revenue-your-policy-ignores/' | relative_url }})
