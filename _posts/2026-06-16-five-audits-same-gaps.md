@@ -50,43 +50,43 @@ The coverage gaps were similar. Five structural problems appeared in every progr
 <tbody>
 <tr>
 <td style="padding: 8px 12px; border: 1px solid #e2e8f0; font-weight: 500; color: #334155;">1. Wire fraud</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">$250K sublimit</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">$500K, 50% co-pay</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">Gap present</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">$500K sublimit</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">$250K sublimit</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">Severe</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">Severe</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">Severe</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">Severe</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">Severe</td>
 </tr>
 <tr>
 <td style="padding: 8px 12px; border: 1px solid #e2e8f0; font-weight: 500; color: #334155;">2. D&amp;O cyber exclusion</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">Broad</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF3C7; color: #92400E; font-weight: 500; font-size: 13px;">Entity excluded</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF3C7; color: #92400E; font-weight: 500; font-size: 13px;">Partial carve-back</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">Broad</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">Broad</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">Severe</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF3C7; color: #92400E; font-weight: 500; font-size: 13px;">Partial</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF3C7; color: #92400E; font-weight: 500; font-size: 13px;">Partial</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">Severe</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">Severe</td>
 </tr>
 <tr>
 <td style="padding: 8px 12px; border: 1px solid #e2e8f0; font-weight: 500; color: #334155;">3. Vendor BI sublimit</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">$100K</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF3C7; color: #92400E; font-weight: 500; font-size: 13px;">$1M</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #D1FAE5; color: #065F46; font-weight: 500; font-size: 13px;">$5M, vendor named</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF3C7; color: #92400E; font-weight: 500; font-size: 13px;">$2M</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">$0</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">Severe</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF3C7; color: #92400E; font-weight: 500; font-size: 13px;">Partial</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #D1FAE5; color: #065F46; font-weight: 500; font-size: 13px;">Adequate</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF3C7; color: #92400E; font-weight: 500; font-size: 13px;">Partial</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">Severe</td>
 </tr>
 <tr>
 <td style="padding: 8px 12px; border: 1px solid #e2e8f0; font-weight: 500; color: #334155;">4. Headline vs. recovery</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF3C7; color: #92400E; font-weight: 500; font-size: 13px;">~$12M / ~$500K</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">Gap present</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">Gap present</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF3C7; color: #92400E; font-weight: 500; font-size: 13px;">~$27M / $650K-$2M</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">Gap present</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF3C7; color: #92400E; font-weight: 500; font-size: 13px;">Partial</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">Severe</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">Severe</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF3C7; color: #92400E; font-weight: 500; font-size: 13px;">Partial</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">Severe</td>
 </tr>
 <tr>
 <td style="padding: 8px 12px; border: 1px solid #e2e8f0; font-weight: 500; color: #334155;">5. Interest income</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">$500/hr flat (70% gap)</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF3C7; color: #92400E; font-weight: 500; font-size: 13px;">Ambiguous definition</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #D1FAE5; color: #065F46; font-weight: 500; font-size: 13px;">Endorsement fix</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">$500/hr flat (80% gap)</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF3C7; color: #92400E; font-weight: 500; font-size: 13px;">Ambiguous definition</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">Severe</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF3C7; color: #92400E; font-weight: 500; font-size: 13px;">Partial</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #D1FAE5; color: #065F46; font-weight: 500; font-size: 13px;">Adequate</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">Severe</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF3C7; color: #92400E; font-weight: 500; font-size: 13px;">Partial</td>
 </tr>
 </tbody>
 </table>
@@ -100,19 +100,12 @@ The coverage gaps were similar. Five structural problems appeared in every progr
 <h2 style="display: flex; align-items: center; gap: 14px;"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 0;" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><span>Wire Fraud: Five Banks, Zero Clean Paths to Recovery</span></h2>
 
 <div style="background: #f0f9ff; border-left: 4px solid #00D4AA; padding: 14px 18px; margin-bottom: 20px; border-radius: 0 4px 4px 0;">
-<ul style="list-style: none; padding: 0; margin: 0;">
-<li style="padding: 2px 0; color: #1e293b; line-height: 1.55;">Sublimits: $250,000 to $500,000 in four of five banks</li>
-<li style="padding: 2px 0; color: #1e293b; line-height: 1.55;">Verification warranty: all five, condition precedent (coverage voided if not followed)</li>
-<li style="padding: 2px 0; color: #1e293b; line-height: 1.55;">Co-payment: one bank, 50%</li>
-<li style="padding: 2px 0; color: #1e293b; line-height: 1.55;">Classification swing: up to $4.75 million in two banks</li>
-</ul>
+<p style="margin: 0; color: #1e293b; line-height: 1.55;">On a $475,000 wire fraud loss, recovery ranged from $0 to $250,000. All five banks had conditions that could void coverage entirely.</p>
 </div>
 
 Wire fraud is the number one fraud threat to community banks ($3.05 billion in FBI-reported BEC losses, 2025). Every bank had social engineering coverage on its fidelity bond. Not the cyber policy. Carriers will not sell eCrime coverage to financial institutions. The bond carries the full load.
 
 The problem is what the endorsement says. Four of five banks had sublimits between $250,000 and $500,000. All five had a verification warranty written as a condition precedent: if the employee skips the callback, coverage drops to zero. That warranty was designed for email-based BEC, not deepfake voice calls. One bank had a 50% co-payment clause the board did not know about. And in two banks, recovery swung by $4.5 to $4.75 million depending on how forensics classified the attack after the fact, a judgment the bank does not control.
-
-On a $475,000 wire fraud loss, banks in this sample would recover between $0 and $250,000.
 
 **What to check**
 
@@ -128,12 +121,7 @@ On a $475,000 wire fraud loss, banks in this sample would recover between $0 and
 <h2 style="display: flex; align-items: center; gap: 14px;"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 0;" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><line x1="9" y1="9" x2="15" y2="15"/><line x1="15" y1="9" x2="9" y2="15"/></svg><span>D&amp;O: Every Director Was Personally Exposed After a Breach</span></h2>
 
 <div style="background: #f0f9ff; border-left: 4px solid #00D4AA; padding: 14px 18px; margin-bottom: 20px; border-radius: 0 4px 4px 0;">
-<ul style="list-style: none; padding: 0; margin: 0;">
-<li style="padding: 2px 0; color: #1e293b; line-height: 1.55;">D&amp;O cyber exclusion present: five of five</li>
-<li style="padding: 2px 0; color: #1e293b; line-height: 1.55;">Meaningful carve-back: two of five (both partial)</li>
-<li style="padding: 2px 0; color: #1e293b; line-height: 1.55;">Full board protection post-breach: zero of five</li>
-<li style="padding: 2px 0; color: #1e293b; line-height: 1.55;">Side A difference-in-conditions layer: zero of five</li>
-</ul>
+<p style="margin: 0; color: #1e293b; line-height: 1.55;">Every D&amp;O policy had a cyber exclusion. Zero of five banks had full board protection after a breach.</p>
 </div>
 
 After a breach, regulators investigate the board. Did they approve a cybersecurity strategy? Did they allocate adequate resources? The FFIEC, FDIC, and state regulators have all increased scrutiny of board cybersecurity oversight. These investigations are D&O claims.
@@ -153,30 +141,8 @@ Every D&O policy I reviewed had a cyber exclusion. The cyber carrier says board 
 
 <h2 style="display: flex; align-items: center; gap: 14px;"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#7C3AED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 0;" aria-hidden="true"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg><span>Vendor Coverage: $0 to $5 Million. Most Banks on the Wrong End.</span></h2>
 
-<div style="background: #f0f9ff; border-left: 4px solid #00D4AA; padding: 14px 18px 8px 18px; margin-bottom: 20px; border-radius: 0 4px 4px 0;">
-<div style="font-size: 12px; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 8px;">Vendor Business Interruption Sublimit by Bank</div>
-<svg viewBox="0 0 480 135" style="width: 100%; max-width: 480px; display: block;">
-<!-- Bank E: $0 -->
-<text x="0" y="16" font-family="system-ui, sans-serif" font-size="10" fill="#334155" font-weight="500">Bank E</text>
-<rect x="60" y="6" width="2" height="14" rx="2" fill="#991B1B"/>
-<text x="68" y="17" font-family="system-ui, sans-serif" font-size="9" fill="#991B1B" font-weight="600">$0</text>
-<!-- Bank A: $100K -->
-<text x="0" y="42" font-family="system-ui, sans-serif" font-size="10" fill="#334155" font-weight="500">Bank A</text>
-<rect x="60" y="32" width="10" height="14" rx="2" fill="#991B1B"/>
-<text x="76" y="43" font-family="system-ui, sans-serif" font-size="9" fill="#991B1B" font-weight="600">$100K</text>
-<!-- Bank B: $1M -->
-<text x="0" y="68" font-family="system-ui, sans-serif" font-size="10" fill="#334155" font-weight="500">Bank B</text>
-<rect x="60" y="58" width="80" height="14" rx="2" fill="#92400E"/>
-<text x="146" y="69" font-family="system-ui, sans-serif" font-size="9" fill="#92400E" font-weight="600">$1M</text>
-<!-- Bank D: $2M (narrowed) -->
-<text x="0" y="94" font-family="system-ui, sans-serif" font-size="10" fill="#334155" font-weight="500">Bank D</text>
-<rect x="60" y="84" width="160" height="14" rx="2" fill="#92400E"/>
-<text x="226" y="95" font-family="system-ui, sans-serif" font-size="9" fill="#92400E" font-weight="600">$2M (narrowed mid-term)</text>
-<!-- Bank C: $5M -->
-<text x="0" y="120" font-family="system-ui, sans-serif" font-size="10" fill="#334155" font-weight="500">Bank C</text>
-<rect x="60" y="110" width="380" height="14" rx="2" fill="#065F46"/>
-<text x="66" y="121" font-family="system-ui, sans-serif" font-size="9" fill="#ffffff" font-weight="600">$5M (core vendor named)</text>
-</svg>
+<div style="background: #f0f9ff; border-left: 4px solid #00D4AA; padding: 14px 18px; margin-bottom: 20px; border-radius: 0 4px 4px 0;">
+<p style="margin: 0; color: #1e293b; line-height: 1.55;">Vendor BI sublimits ranged from $0 to $5 million. Only one bank had its core vendor named by endorsement.</p>
 </div>
 
 Every bank runs on a single core platform. When the core vendor goes down, the bank goes down. The August 2025 Marquis Software Solutions breach, a ransomware attack that exposed data at 700+ banks and credit unions, made vendor risk an examiner priority.
@@ -197,12 +163,7 @@ One bank had no vendor coverage at all, the endorsement was available but never 
 <h2 style="display: flex; align-items: center; gap: 14px;"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 0;" aria-hidden="true"><line x1="12" y1="3" x2="12" y2="21"/><line x1="4" y1="7" x2="20" y2="7"/><polyline points="4 7 2 13 7 13"/><polyline points="20 7 17 13 22 13"/></svg><span>Headline Limits: $12 Million in Coverage, $500,000 in Recovery</span></h2>
 
 <div style="background: #f0f9ff; border-left: 4px solid #00D4AA; padding: 14px 18px; margin-bottom: 20px; border-radius: 0 4px 4px 0;">
-<ul style="list-style: none; padding: 0; margin: 0;">
-<li style="padding: 2px 0; color: #1e293b; line-height: 1.55;">Combined headline limits: $12 million to $27 million per bank</li>
-<li style="padding: 2px 0; color: #1e293b; line-height: 1.55;">Realistic recovery on a multi-front incident: $500,000 to $3 million</li>
-<li style="padding: 2px 0; color: #1e293b; line-height: 1.55;">Worst case: $12 million in limits, approximately $500,000 in recovery</li>
-<li style="padding: 2px 0; color: #1e293b; line-height: 1.55;">Sources of erosion: sublimits, co-payments, exclusions, defense costs, carrier denials</li>
-</ul>
+<p style="margin: 0; color: #1e293b; line-height: 1.55;">Combined headline limits: $12 million to $27 million. Realistic recovery on a multi-front incident: $500,000 to $3 million.</p>
 </div>
 
 The declarations page shows what the board approved at renewal. Combined limits ranged from $12 million to $27 million. The realistic recovery on a multi-front incident, wire fraud, breach response, regulatory investigation, and board liability at the same time, ranged from $500,000 to $3 million.
@@ -223,12 +184,7 @@ The erosion comes from sublimits that share the aggregate, defense costs paid in
 <h2 style="display: flex; align-items: center; gap: 14px;"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 0;" aria-hidden="true"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg><span>Interest Income: 70% of Bank Revenue, Not Covered</span></h2>
 
 <div style="background: #f0f9ff; border-left: 4px solid #00D4AA; padding: 14px 18px; margin-bottom: 20px; border-radius: 0 4px 4px 0;">
-<ul style="list-style: none; padding: 0; margin: 0;">
-<li style="padding: 2px 0; color: #1e293b; line-height: 1.55;">Interest income as share of revenue: 70-85% at every bank</li>
-<li style="padding: 2px 0; color: #1e293b; line-height: 1.55;">Carrier with endorsement to fix it: one of four</li>
-<li style="padding: 2px 0; color: #1e293b; line-height: 1.55;">Banks with the fix: one of five</li>
-<li style="padding: 2px 0; color: #1e293b; line-height: 1.55;">Two banks: $500/hour flat BI rate against $1,400-$2,200/hour in interest income</li>
-</ul>
+<p style="margin: 0; color: #1e293b; line-height: 1.55;">70-85% of bank revenue is interest income. Most cyber BI definitions exclude it. One bank had an endorsement that fixes this.</p>
 </div>
 
 Community banks earn 70 to 85 percent of revenue from net interest income. During a cyber outage, those loans continue to accrue interest contractually, but the BI definition in most cyber policies either excludes interest income or leaves it ambiguous. The definition was written for commercial businesses where interest income is incidental.
