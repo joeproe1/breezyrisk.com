@@ -28,9 +28,9 @@ The coverage gaps across the banks were strikingly similar. Five structural prob
 
 ## Scorecard
 
-<div style="margin: 28px 0 36px;">
+<div style="margin: 8px 0 36px;">
 <div style="overflow-x: auto;">
-<table style="width: 100%; border-collapse: collapse; font-size: 14px;">
+<table style="width: 100%; border-collapse: collapse; font-size: 14px; margin: 0 !important;">
 <thead>
 <tr style="background: #0A2540; color: #fff;">
 <th style="padding: 10px 12px; text-align: left; font-weight: 600; border: 1px solid #0A2540;">Finding</th>
@@ -86,7 +86,7 @@ The coverage gaps across the banks were strikingly similar. Five structural prob
 </table>
 </div>
 
-<div style="display: flex; gap: 16px; margin-top: 10px; font-size: 13px;">
+<div style="display: flex; gap: 16px; margin-top: 4px; font-size: 13px;">
 <span style="display: inline-flex; align-items: center; gap: 5px;"><span style="display: inline-block; width: 12px; height: 12px; border-radius: 2px; background: #FEF2F2; border: 1px solid #B91C1C;"></span> Severe gap</span>
 <span style="display: inline-flex; align-items: center; gap: 5px;"><span style="display: inline-block; width: 12px; height: 12px; border-radius: 2px; background: #FEF3C7; border: 1px solid #92400E;"></span> Partial gap or ambiguous</span>
 <span style="display: inline-flex; align-items: center; gap: 5px;"><span style="display: inline-block; width: 12px; height: 12px; border-radius: 2px; background: #D1FAE5; border: 1px solid #065F46;"></span> Adequate or fixed</span>
@@ -118,7 +118,7 @@ The problem is what the endorsement says. Four of five banks had sublimits betwe
 
 ---
 
-<h2 style="display: flex; align-items: center; gap: 14px;"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 0;" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><line x1="9" y1="9" x2="15" y2="15"/><line x1="15" y1="9" x2="9" y2="15"/></svg><span>D&amp;O: Every Director Was Personally Exposed</span></h2>
+<h2 style="display: flex; align-items: center; gap: 14px;"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 0;" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><line x1="9" y1="9" x2="15" y2="15"/><line x1="15" y1="9" x2="9" y2="15"/></svg><span>D&amp;O Cyber Exclusion: Every Director Was Personally Exposed</span></h2>
 
 <div style="background: #f0f9ff; border-left: 4px solid #00D4AA; padding: 14px 18px; margin-bottom: 20px; border-radius: 0 4px 4px 0;">
 <p style="margin: 0; color: #1e293b; line-height: 1.55;">Every D&amp;O policy had a cyber exclusion. Zero banks had full board protection after a breach.</p>
@@ -139,7 +139,7 @@ Every D&O policy I reviewed had a cyber exclusion. The cyber carrier says board 
 
 ---
 
-<h2 style="display: flex; align-items: center; gap: 14px;"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#7C3AED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 0;" aria-hidden="true"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg><span>Vendor Coverage: $0 to $5 Million. Most Banks on the Wrong End.</span></h2>
+<h2 style="display: flex; align-items: center; gap: 14px;"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#7C3AED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 0;" aria-hidden="true"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg><span>Vendor BI Sublimit: $0 to $5 Million. Most Banks on the Wrong End.</span></h2>
 
 <div style="background: #f0f9ff; border-left: 4px solid #00D4AA; padding: 14px 18px; margin-bottom: 20px; border-radius: 0 4px 4px 0;">
 <p style="margin: 0; color: #1e293b; line-height: 1.55;">Vendor BI sublimits ranged from $0 to $5 million. Only one bank had its core vendor named by endorsement.</p>
@@ -160,7 +160,7 @@ One bank had no vendor coverage at all. One had $100,000; a three-day outage wou
 
 ---
 
-<h2 style="display: flex; align-items: center; gap: 14px;"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 0;" aria-hidden="true"><line x1="12" y1="3" x2="12" y2="21"/><line x1="4" y1="7" x2="20" y2="7"/><polyline points="4 7 2 13 7 13"/><polyline points="20 7 17 13 22 13"/></svg><span>Policy Limits: $12 Million in Coverage, $500,000 in Recovery</span></h2>
+<h2 style="display: flex; align-items: center; gap: 14px;"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 0;" aria-hidden="true"><line x1="12" y1="3" x2="12" y2="21"/><line x1="4" y1="7" x2="20" y2="7"/><polyline points="4 7 2 13 7 13"/><polyline points="20 7 17 13 22 13"/></svg><span>Headline vs. Recovery: $12 Million in Limits, $500,000 in Recovery</span></h2>
 
 <div style="background: #f0f9ff; border-left: 4px solid #00D4AA; padding: 14px 18px; margin-bottom: 20px; border-radius: 0 4px 4px 0;">
 <p style="margin: 0; color: #1e293b; line-height: 1.55;">Combined headline limits: $12 million to $27 million.<br>Realistic recovery on a multi-front incident: $500,000 to $3 million.</p>
