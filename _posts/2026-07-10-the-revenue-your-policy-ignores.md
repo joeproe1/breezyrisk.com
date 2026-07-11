@@ -57,31 +57,31 @@ This issue affects most institutions. The two largest insurance programs for com
 <div style="overflow-x: auto;">
 <table style="width: 100%; border-collapse: collapse; font-size: 15px; color: #fff;">
 <thead>
-<tr style="border-bottom: 1px solid #00D4AA;">
-<th style="text-align: left; padding: 12px 16px; color: #00D4AA; font-weight: 700;">Bank Size</th>
-<th style="text-align: right; padding: 12px 16px; color: #00D4AA; font-weight: 700;">5-Day Interest Income</th>
-<th style="text-align: right; padding: 12px 16px; color: #00D4AA; font-weight: 700;">Typical BI Recovery</th>
-<th style="text-align: right; padding: 12px 16px; color: #00D4AA; font-weight: 700;">Not Covered</th>
+<tr>
+<th style="text-align: left; padding: 12px 16px; color: #00D4AA !important; font-weight: 700; background: transparent !important; border-bottom: 1px solid #00D4AA !important;">Bank Size</th>
+<th style="text-align: right; padding: 12px 16px; color: #00D4AA !important; font-weight: 700; background: transparent !important; border-bottom: 1px solid #00D4AA !important;">5-Day Interest Income</th>
+<th style="text-align: right; padding: 12px 16px; color: #00D4AA !important; font-weight: 700; background: transparent !important; border-bottom: 1px solid #00D4AA !important;">Typical BI Recovery</th>
+<th style="text-align: right; padding: 12px 16px; color: #00D4AA !important; font-weight: 700; background: transparent !important; border-bottom: 1px solid #00D4AA !important;">Not Covered</th>
 </tr>
 </thead>
 <tbody>
-<tr style="background: transparent; border-bottom: 1px solid rgba(0,212,170,0.3);">
-<td style="padding: 12px 16px;">$500M assets</td>
-<td style="text-align: right; padding: 12px 16px;">~$205,000</td>
-<td style="text-align: right; padding: 12px 16px;">$48,000</td>
-<td style="text-align: right; padding: 12px 16px; color: #FCA5A5;">77%</td>
+<tr style="background: transparent !important;">
+<td style="padding: 12px 16px; color: #fff !important; border-bottom: 1px solid rgba(0,212,170,0.3) !important;">$500M assets</td>
+<td style="text-align: right; padding: 12px 16px; color: #fff !important; border-bottom: 1px solid rgba(0,212,170,0.3) !important;">~$205,000</td>
+<td style="text-align: right; padding: 12px 16px; color: #fff !important; border-bottom: 1px solid rgba(0,212,170,0.3) !important;">$48,000</td>
+<td style="text-align: right; padding: 12px 16px; color: #FCA5A5 !important; border-bottom: 1px solid rgba(0,212,170,0.3) !important;">77%</td>
 </tr>
-<tr style="background: transparent; border-bottom: 1px solid rgba(0,212,170,0.3);">
-<td style="padding: 12px 16px;">$1B assets</td>
-<td style="text-align: right; padding: 12px 16px;">~$410,000</td>
-<td style="text-align: right; padding: 12px 16px;">Ambiguous</td>
-<td style="text-align: right; padding: 12px 16px; color: #FCA5A5;">Up to 100%</td>
+<tr style="background: transparent !important;">
+<td style="padding: 12px 16px; color: #fff !important; border-bottom: 1px solid rgba(0,212,170,0.3) !important;">$1B assets</td>
+<td style="text-align: right; padding: 12px 16px; color: #fff !important; border-bottom: 1px solid rgba(0,212,170,0.3) !important;">~$410,000</td>
+<td style="text-align: right; padding: 12px 16px; color: #fff !important; border-bottom: 1px solid rgba(0,212,170,0.3) !important;">Ambiguous</td>
+<td style="text-align: right; padding: 12px 16px; color: #FCA5A5 !important; border-bottom: 1px solid rgba(0,212,170,0.3) !important;">Up to 100%</td>
 </tr>
-<tr style="background: transparent;">
-<td style="padding: 12px 16px;">$2B assets</td>
-<td style="text-align: right; padding: 12px 16px;">~$820,000</td>
-<td style="text-align: right; padding: 12px 16px;">Ambiguous</td>
-<td style="text-align: right; padding: 12px 16px; color: #FCA5A5;">Up to 100%</td>
+<tr style="background: transparent !important;">
+<td style="padding: 12px 16px; color: #fff !important; border-bottom: none !important;">$2B assets</td>
+<td style="text-align: right; padding: 12px 16px; color: #fff !important; border-bottom: none !important;">~$820,000</td>
+<td style="text-align: right; padding: 12px 16px; color: #fff !important; border-bottom: none !important;">Ambiguous</td>
+<td style="text-align: right; padding: 12px 16px; color: #FCA5A5 !important; border-bottom: none !important;">Up to 100%</td>
 </tr>
 </tbody>
 </table>
