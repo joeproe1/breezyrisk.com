@@ -2,7 +2,7 @@
 layout: post
 title: "The Revenue Your Policy Ignores: Cyber BI Doesn't Cover a Bank's Primary Income"
 card_title: "The Revenue Your Policy Ignores"
-description: "Community banks earn 70-85% of their revenue from net interest income. Most cyber policies exclude it from the business interruption definition. A five-day outage can leave over 80% of the loss uninsured."
+description: "Community banks earn 70-85% of their revenue from net interest income. Most cyber policies exclude it from the business interruption definition. In a five-day outage, BI may cover less than 20% of the bank's revenue."
 date: 2026-07-10
 author: Joerg Proeve
 category: Policy Deep-Dive
@@ -12,17 +12,17 @@ image_alt: "Community bank interest income excluded from cyber policy business i
 permalink: /insights/the-revenue-your-policy-ignores/
 ---
 
-A community bank suffers a five-day cyber outage. Systems down. No wire transfers, no ACH processing, no online banking, no loan originations. The bank files a business interruption claim under its cyber policy, and receives a payout of $48,000.
+A community bank suffers a five-day cyber outage. Systems down. No wire transfers, no ACH processing, no online banking, no loan originations. The bank files a business interruption claim under its cyber policy.
 
-Its actual income loss over five days: closer to $270,000. Over 80% of the loss was uninsured.
+The BI payout: $48,000. The bank's total revenue over those five days: closer to $270,000. The policy recognized less than 20% of it.
 
-The reason is not a low limit, or a coverage exclusion buried on page 40. The reason is the definition of "income" in the business interruption section of the cyber policy. This definition was written for commercial businesses, not for banks, and excludes net interest income, the bank's main revenue stream.
+The policy didn't fail because of a low limit, or a coverage exclusion buried on page 40. It failed because the definition of "income" in the BI section was written for commercial businesses, not for banks. Interest income, which makes up 70-85% of a community bank's revenue, is either excluded from the definition or left in a gray area the carrier controls at claim time.
 
 ## Why Bank Revenue Is Different
 
 A software company earns revenue from subscriptions and services. When it suffers a cyber outage, the Business Interruption definition in a standard cyber policy captures most of the lost income because it is tied to operations the company cannot perform while systems are down.
 
-For a community bank, the main revenue is net interest income. However, the BI definition in most cyber policies either explicitly excludes it, or uses language ambiguous enough that a carrier can argue it was never intended to be covered.
+A community bank's revenue works differently. 70-85% of it is net interest income from the existing loan portfolio. During a cyber outage, those loans continue to accrue interest contractually. A carrier can argue the bank hasn't been "prevented from earning" that income. Most cyber policies either explicitly exclude interest income from BI recovery or leave the language ambiguous enough to support that argument at claim time.
 
 <div style="background: #0A2540; border-radius: 12px; padding: 32px; margin: 32px 0; color: #fff;">
 <h3 style="color: #00D4AA; margin-top: 0; font-size: 18px;">Revenue Breakdown: Typical Community Bank</h3>
@@ -44,7 +44,7 @@ For a community bank, the main revenue is net interest income. However, the BI d
 
 **Hourly rates.** Some policies use a pre-set hourly rate for BI recovery. In the banks I reviewed, the rate covered only 20-25% of the bank's income. The math was set without interest income.
 
-**The ambiguous definition.** Other policies define income loss as "income from business operations" or "net profit before income taxes" without addressing interest income. For a commercial business, those phrases capture the main revenue stream. For a bank, they create a gray area, because a carrier can argue that during an outage, existing loans continue to accrue interest contractually and the bank has not been "prevented from earning" that income. That ambiguity gives the carrier a denial path.
+**The ambiguous definition.** Other policies define income loss as "income from business operations" or "net profit before income taxes" without addressing interest income. For a commercial business, those phrases capture the main revenue stream. For a bank, they leave 70-85% of revenue in a gray area that the carrier controls at claim time.
 
 Most banks I reviewed had some form of this gap. Only one bank had solved it: through an endorsement that deletes the exclusion.
 
@@ -53,15 +53,15 @@ Most banks I reviewed had some form of this gap. Only one bank had solved it: th
 This issue affects most institutions. The two largest insurance programs for community banks both have policy forms where this gap is structural. Whether through an hourly rate or an ambiguous definition, the outcome is the same: the bank's primary revenue stream is not clearly covered.
 
 <div style="background: #0A2540; border-radius: 12px; padding: 28px 32px; margin: 32px 0; color: #fff;">
-<h3 style="color: #00D4AA; margin-top: 0; font-size: 18px;">Five-Day Outage: What the Bank Loses vs. What the Policy Pays</h3>
+<h3 style="color: #00D4AA; margin-top: 0; font-size: 18px;">Five-Day Outage: Revenue vs. BI Recovery</h3>
 <div style="overflow-x: auto;">
 <table style="width: 100%; border-collapse: collapse; font-size: 15px; color: rgba(255,255,255,0.85);">
 <thead>
 <tr style="border-bottom: 2px solid rgba(255,255,255,0.2);">
 <th style="text-align: left; padding: 12px 16px; color: #00D4AA; font-weight: 700;">Bank Size</th>
-<th style="text-align: right; padding: 12px 16px; color: #00D4AA; font-weight: 700;">5-Day Interest Loss</th>
+<th style="text-align: right; padding: 12px 16px; color: #00D4AA; font-weight: 700;">5-Day Interest Income</th>
 <th style="text-align: right; padding: 12px 16px; color: #00D4AA; font-weight: 700;">Typical BI Recovery</th>
-<th style="text-align: right; padding: 12px 16px; color: #00D4AA; font-weight: 700;">Uninsured</th>
+<th style="text-align: right; padding: 12px 16px; color: #00D4AA; font-weight: 700;">Not Covered</th>
 </tr>
 </thead>
 <tbody>
@@ -86,7 +86,7 @@ This issue affects most institutions. The two largest insurance programs for com
 </tbody>
 </table>
 </div>
-<p style="margin-top: 16px; font-size: 14px; color: rgba(255,255,255,0.5); line-height: 1.5;">Assumes 3% net interest margin, 5-day outage. "Ambiguous" means the policy definition could be argued either way.</p>
+<p style="margin-top: 16px; font-size: 14px; color: rgba(255,255,255,0.5); line-height: 1.5;">Based on 3% net interest margin. Interest income continues to accrue during an outage, but most BI definitions either exclude it or leave coverage ambiguous.</p>
 </div>
 
 I nearly missed this gap myself, and only added it to my framework after recognizing the pattern across multiple audits. The odds that a generalist broker is checking for this gap are low.
@@ -114,6 +114,6 @@ Some carriers offer an endorsement that explicitly adds interest income to the B
 </div>
 </div>
 
-Your bank's cyber policy was designed to cover system outages. For most businesses, that coverage works. For a bank, it only covers 15-30% of the revenue at risk and ignores the rest.
+Your bank's cyber policy was designed to cover system outages. For most businesses, that coverage works. For a bank, it only recognizes 15-30% of revenue and ignores the rest.
 
 The interest income exclusion is one of several gaps that appear when cyber, fidelity bond, and D&O policies are read together. I map the full picture in [Five Audits. Same Gaps.]({{ '/insights/five-audits-same-gaps/' | relative_url }}). If your bank has not checked whether interest income is covered in your cyber BI definition, [get in touch]({{ '/contact/' | relative_url }}). A [Risk Intelligence Report]({{ '/risk-intelligence-report/' | relative_url }}) will show you exactly what your policy pays on a five-day outage, and whether the answer should concern your board.
