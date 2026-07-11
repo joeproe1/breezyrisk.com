@@ -6,7 +6,7 @@ description: "Five community banks. Different carriers. Different programs. The 
 date: 2026-06-16
 author: Joerg Proeve
 category: Case Study
-read_time: "14 min read"
+read_time: "4 min read"
 image: /assets/images/Blog-Five-Audits-Same-Gaps.png
 image_alt: "Five community bank insurance audits revealing similar coverage gaps across different carriers and program structures"
 last_modified_at: 2026-07-11
@@ -45,9 +45,9 @@ The coverage gaps across the banks were strikingly similar. Five structural prob
 <tr>
 <td style="padding: 8px 12px; border: 1px solid #e2e8f0; font-weight: 500; color: #334155;">1. Wire fraud</td>
 <td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">Severe</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF3C7; color: #92400E; font-weight: 500; font-size: 13px;">Partial</td>
 <td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">Severe</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">Severe</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">Severe</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF3C7; color: #92400E; font-weight: 500; font-size: 13px;">Partial</td>
 <td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">Severe</td>
 </tr>
 <tr>
@@ -100,7 +100,7 @@ The coverage gaps across the banks were strikingly similar. Five structural prob
 <h2 style="display: flex; align-items: center; gap: 14px;"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 0;" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><span>Wire Fraud: Zero Clean Paths to Full Recovery</span></h2>
 
 <div style="background: #f0f9ff; border-left: 4px solid #00D4AA; padding: 14px 18px; margin-bottom: 20px; border-radius: 0 4px 4px 0;">
-<p style="margin: 0; color: #1e293b; line-height: 1.55;">On a $500,000 wire fraud loss, recovery ranged from $0 to $250,000. All five banks had conditions that could void coverage entirely.</p>
+<p style="margin: 0; color: #1e293b; line-height: 1.55;">On a $500,000 wire fraud loss, recovery ranged from $0 to $250,000.<br>All five banks had conditions that could void coverage entirely.</p>
 </div>
 
 Wire fraud is the number one fraud threat to community banks ($3 billion in FBI-reported BEC losses, 2025). Every bank had social engineering coverage on its fidelity bond. Not the cyber policy. Carriers will not sell eCrime coverage to financial institutions. The bond carries the full load.
@@ -142,7 +142,7 @@ Every D&O policy I reviewed had a cyber exclusion. The cyber carrier says board 
 <h2 style="display: flex; align-items: center; gap: 14px;"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#7C3AED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 0;" aria-hidden="true"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg><span>Vendor BI Sublimit: $0 to $5 Million. Most Banks on the Wrong End.</span></h2>
 
 <div style="background: #f0f9ff; border-left: 4px solid #00D4AA; padding: 14px 18px; margin-bottom: 20px; border-radius: 0 4px 4px 0;">
-<p style="margin: 0; color: #1e293b; line-height: 1.55;">Vendor BI sublimits ranged from $0 to $5 million. Only one bank had its core vendor named by endorsement.</p>
+<p style="margin: 0; color: #1e293b; line-height: 1.55;">Vendor BI sublimits ranged from $0 to $5 million.<br>Only one bank had its core vendor named by endorsement.</p>
 </div>
 
 Every bank runs on a single core platform. When the core vendor goes down, the bank goes down. The Marquis Software Solutions breach in August 2025, a ransomware attack that exposed data at 700+ banks and credit unions, made vendor risk an examiner priority.
@@ -216,10 +216,6 @@ The fix is not more insurance. It is reading the insurance you already have.
 ## About Breezy Risk
 
 Joerg Proeve is an independent risk advisor. 20 years in insurance: corporate strategy and M&A integration at a global carrier, technology strategy and innovation at a national carrier, operations leadership at a cyber insurance MGA. He does not place policies. He audits them.
-
-**Risk Intelligence Reports**
-
-A Risk Intelligence Report reads all three policies against the bank's operations, vendor contracts, and regulatory requirements. One report. Plain language. Before your next renewal, board review, or examination.
 
 <div style="border-left: 3px solid #00D4AA; padding: 16px 20px; background: rgba(0,212,170,0.05); border-radius: 0 8px 8px 0; margin: 24px 0; font-size: 18px; font-weight: 600; color: #333;">
 Ready to find out what your insurance will pay? <a href="{{ '/contact/' | relative_url }}" style="color: #00D4AA;">Get in touch</a>.
