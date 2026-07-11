@@ -65,19 +65,19 @@ This issue affects most institutions. The two largest insurance programs for com
 </tr>
 </thead>
 <tbody>
-<tr style="border-bottom: 1px solid rgba(255,255,255,0.08);">
+<tr style="background: transparent; border-bottom: 1px solid rgba(255,255,255,0.15);">
 <td style="padding: 12px 16px;">$500M assets</td>
 <td style="text-align: right; padding: 12px 16px;">~$205,000</td>
 <td style="text-align: right; padding: 12px 16px;">$48,000</td>
 <td style="text-align: right; padding: 12px 16px; color: #FCA5A5;">77%</td>
 </tr>
-<tr style="border-bottom: 1px solid rgba(255,255,255,0.08);">
+<tr style="background: transparent; border-bottom: 1px solid rgba(255,255,255,0.15);">
 <td style="padding: 12px 16px;">$1B assets</td>
 <td style="text-align: right; padding: 12px 16px;">~$410,000</td>
 <td style="text-align: right; padding: 12px 16px;">Ambiguous</td>
 <td style="text-align: right; padding: 12px 16px; color: #FCA5A5;">Up to 100%</td>
 </tr>
-<tr>
+<tr style="background: transparent;">
 <td style="padding: 12px 16px;">$2B assets</td>
 <td style="text-align: right; padding: 12px 16px;">~$820,000</td>
 <td style="text-align: right; padding: 12px 16px;">Ambiguous</td>
