@@ -49,18 +49,11 @@ The BI definition in most cyber policies either explicitly excludes interest and
 
 ## Two Ways the Policy Strips It Out
 
-I have reviewed cyber policies across multiple carriers and programs. The interest income gap shows up through two distinct mechanisms.
+**The flat-rate mechanism.** Some policies use a pre-set hourly rate for BI recovery, written into the declarations page at underwriting. In the banks I reviewed, the rate covered only 22 percent of the bank's hourly income. The math was set without interest income.
 
-**The flat-rate mechanism.** Some policies calculate BI recovery using a pre-set hourly rate written into the declarations page. The rate is determined at underwriting. In the banks I have reviewed on this carrier program, the hourly rate was set at a fraction of the bank's actual hourly income, in one case covering only 22 percent of what the bank loses per hour. Whether the BI definition technically includes interest income is beside the point. The math was set at underwriting without it.
+**The ambiguous definition.** Other policies define income loss as "income from business operations" or "net profit before income taxes" without addressing interest income. For a commercial business, those phrases capture the main revenue stream. For a bank, they create a gray area, because a carrier can argue that during an outage, existing loans continue to accrue interest contractually and the bank has not been "prevented from earning" that income. That ambiguity gives the carrier a denial path.
 
-**The ambiguous definition.** Other policies define income loss using phrases like "income from business operations" or "net profit before income taxes" without addressing interest income specifically. For a commercial business, those phrases clearly capture the main revenue stream. For a bank, they create a gray area. A bank would argue that lending is its core business operation and interest income is part of it. The carrier would argue that during an outage, existing loans continue to accrue interest contractually, and the bank has not been "prevented from earning" that income. Both arguments have merit. That ambiguity itself is the gap, because it gives the carrier a denial path in a claim.
-
-<div style="border-left: 3px solid #3B82F6; padding: 12px 20px; margin: 20px 0; font-size: 15px; color: #555; line-height: 1.65;">
-<strong style="font-size: 16px; color: #333;">Why the Carrier Argument Holds Up</strong><br>
-During a system outage, existing loans keep accruing interest. Borrowers still owe their monthly payments. The bank's loan portfolio does not stop earning because the servers are down. What the bank loses is the ability to originate new loans, process payments, and collect fee income. A carrier will argue that interest income is "delayed in collection," not "prevented from being earned." That distinction matters in a claim.
-</div>
-
-In five consecutive bank and credit union reviews, four out of five institutions had some form of this gap. Only one had solved it, and only because their carrier offered a specific endorsement that deletes the exclusion.
+Four out of five banks I reviewed had some form of this gap. Only one had solved it, through a carrier endorsement that deletes the exclusion.
 
 ## The Scale of the Problem
 
@@ -81,25 +74,25 @@ This is not a niche issue affecting a handful of institutions. The two largest c
 <tbody>
 <tr style="border-bottom: 1px solid rgba(255,255,255,0.08);">
 <td style="padding: 12px 16px;">$400M assets</td>
-<td style="text-align: right; padding: 12px 16px;">~$165,000</td>
+<td style="text-align: right; padding: 12px 16px;">~$170,000</td>
 <td style="text-align: right; padding: 12px 16px;">$48,000</td>
 <td style="text-align: right; padding: 12px 16px; color: #FCA5A5;">71%</td>
 </tr>
 <tr style="border-bottom: 1px solid rgba(255,255,255,0.08);">
 <td style="padding: 12px 16px;">$650M assets</td>
-<td style="text-align: right; padding: 12px 16px;">~$269,000</td>
+<td style="text-align: right; padding: 12px 16px;">~$270,000</td>
 <td style="text-align: right; padding: 12px 16px;">$48,000</td>
 <td style="text-align: right; padding: 12px 16px; color: #FCA5A5;">82%</td>
 </tr>
 <tr style="border-bottom: 1px solid rgba(255,255,255,0.08);">
 <td style="padding: 12px 16px;">$1B assets</td>
-<td style="text-align: right; padding: 12px 16px;">~$411,000</td>
+<td style="text-align: right; padding: 12px 16px;">~$410,000</td>
 <td style="text-align: right; padding: 12px 16px;">Ambiguous</td>
 <td style="text-align: right; padding: 12px 16px; color: #FCA5A5;">Up to 100%</td>
 </tr>
 <tr>
 <td style="padding: 12px 16px;">$2B assets</td>
-<td style="text-align: right; padding: 12px 16px;">~$822,000</td>
+<td style="text-align: right; padding: 12px 16px;">~$820,000</td>
 <td style="text-align: right; padding: 12px 16px;">Ambiguous</td>
 <td style="text-align: right; padding: 12px 16px; color: #FCA5A5;">Up to 100%</td>
 </tr>
@@ -116,21 +109,21 @@ I added this gap to my review methodology after recognizing the pattern across m
 One carrier offers an endorsement that explicitly adds interest income to the BI definition. One bank in my sample had it, and it was the single most valuable endorsement in their program.
 
 <div style="background: #f8faf9; border-radius: 10px; padding: 28px 32px; margin: 24px 0;">
-<div style="display: flex; gap: 16px; margin-bottom: 20px;">
+<div style="display: flex; gap: 16px; margin-bottom: 16px;">
 <div style="min-width: 32px; height: 32px; background: #00D4AA; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #0A2540; font-size: 16px;">1</div>
-<div><strong>Pull your cyber policy and find the Business Interruption or Income Loss definition.</strong> Look for how "income" or "net profit" is defined. Check whether interest income or investment income is mentioned, included, or excluded. If the definition uses phrases like "before interest and tax" or "income from business operations" without specifying interest income, you have an ambiguity your carrier can use against you.</div>
+<div><strong>Find the BI or Income Loss definition in your cyber policy.</strong> If "interest income" is not mentioned, or if the definition says "income from business operations" without specifying it, you have an ambiguity the carrier can use against you.</div>
 </div>
-<div style="display: flex; gap: 16px; margin-bottom: 20px;">
+<div style="display: flex; gap: 16px; margin-bottom: 16px;">
 <div style="min-width: 32px; height: 32px; background: #00D4AA; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #0A2540; font-size: 16px;">2</div>
-<div><strong>If your BI coverage uses a flat hourly rate, run the math.</strong> Multiply the hourly rate by the number of covered hours in a five-day outage (typically 96 hours after a 24-hour waiting period). Compare that number to your bank's actual daily income loss, including interest income. If the BI recovery covers less than half of the real exposure, the rate was set without your primary revenue stream.</div>
+<div><strong>If your BI uses a flat hourly rate, run the math.</strong> Multiply the rate by 96 covered hours (five days minus a 24-hour waiting period). If recovery is less than half of your bank's income loss over the same period, the rate was set without your primary revenue stream.</div>
 </div>
-<div style="display: flex; gap: 16px; margin-bottom: 20px;">
+<div style="display: flex; gap: 16px; margin-bottom: 16px;">
 <div style="min-width: 32px; height: 32px; background: #00D4AA; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #0A2540; font-size: 16px;">3</div>
-<div><strong>Ask your broker whether an Interest Income endorsement is available from your carrier.</strong> At least one carrier offers an endorsement that deletes the interest income exclusion entirely. If your current carrier does not offer it, this should factor into your next renewal decision.</div>
+<div><strong>Ask your broker about an Interest Income endorsement.</strong> At least one carrier offers one. If yours does not, factor that into your next renewal decision.</div>
 </div>
 <div style="display: flex; gap: 16px;">
 <div style="min-width: 32px; height: 32px; background: #00D4AA; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #0A2540; font-size: 16px;">4</div>
-<div><strong>If you cannot get the endorsement, quantify the gap for your board.</strong> Run the five-day outage scenario with your bank's actual net interest income. Show the board the dollar amount that falls outside the policy. That number belongs in the risk register and in your next examiner conversation, because they will ask.</div>
+<div><strong>If no endorsement is available, quantify the gap for your board.</strong> Run the five-day outage scenario with your bank's net interest income. That dollar amount belongs in the risk register and in your next examiner conversation.</div>
 </div>
 </div>
 
