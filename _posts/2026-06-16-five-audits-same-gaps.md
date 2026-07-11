@@ -22,15 +22,15 @@ faq:
 
 Over the past months, I audited the insurance policies at five community banks and credit unions. I read the policy forms, endorsements, and amendments across their cyber and D&O policies, and their fidelity bonds. Different carriers. Different program structures.
 
-Each bank engaged Breezy Risk for a Risk Intelligence Report: a line-by-line review of its cyber liability policy, fidelity bond, and directors and officers policy, read together against the bank's operations, vendor contracts, and regulatory requirements. Not a checklist. Not a benchmarking survey. Every finding comes from reading the policy forms themselves. All institutions and carriers are anonymized.
+Each bank engaged Breezy Risk for a Risk Intelligence Report: a line-by-line review of its cyber liability policy, fidelity bond, and directors and officers policy, read together against the bank's operations, vendor contracts, and regulatory requirements. Not a checklist. Every finding comes from reading the policy forms themselves. All institutions and carriers are anonymized.
 
-The gaps were similar. Five structural problems appeared in every program. That pattern changes the conversation. One bank with a gap is a broker discussion. Five banks with five different programs and the same gaps is an industry problem.
+The coverage gaps were similar. Five structural problems appeared in every program. That pattern changes the conversation. One bank with a gap is a broker discussion. Five banks with five different programs and the same gaps is an industry problem.
 
 ## Scorecard
 
 <div style="margin: 28px 0 36px;">
 <div style="display: flex; gap: 16px; margin-bottom: 10px; font-size: 13px;">
-<span style="display: inline-flex; align-items: center; gap: 5px;"><span style="display: inline-block; width: 12px; height: 12px; border-radius: 2px; background: #FEE2E2; border: 1px solid #991B1B;"></span> Severe gap</span>
+<span style="display: inline-flex; align-items: center; gap: 5px;"><span style="display: inline-block; width: 12px; height: 12px; border-radius: 2px; background: #FEF2F2; border: 1px solid #B91C1C;"></span> Severe gap</span>
 <span style="display: inline-flex; align-items: center; gap: 5px;"><span style="display: inline-block; width: 12px; height: 12px; border-radius: 2px; background: #FEF3C7; border: 1px solid #92400E;"></span> Partial gap or ambiguous</span>
 <span style="display: inline-flex; align-items: center; gap: 5px;"><span style="display: inline-block; width: 12px; height: 12px; border-radius: 2px; background: #D1FAE5; border: 1px solid #065F46;"></span> Adequate or fixed</span>
 </div>
@@ -50,42 +50,42 @@ The gaps were similar. Five structural problems appeared in every program. That 
 <tbody>
 <tr>
 <td style="padding: 8px 12px; border: 1px solid #e2e8f0; font-weight: 500; color: #334155;">1. Wire fraud</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEE2E2; color: #991B1B; font-weight: 500; font-size: 13px;">$250K sublimit</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEE2E2; color: #991B1B; font-weight: 500; font-size: 13px;">$500K, 50% co-pay</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEE2E2; color: #991B1B; font-weight: 500; font-size: 13px;">Gap present</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEE2E2; color: #991B1B; font-weight: 500; font-size: 13px;">$500K sublimit</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEE2E2; color: #991B1B; font-weight: 500; font-size: 13px;">$250K sublimit</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">$250K sublimit</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">$500K, 50% co-pay</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">Gap present</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">$500K sublimit</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">$250K sublimit</td>
 </tr>
 <tr>
 <td style="padding: 8px 12px; border: 1px solid #e2e8f0; font-weight: 500; color: #334155;">2. D&amp;O cyber exclusion</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEE2E2; color: #991B1B; font-weight: 500; font-size: 13px;">Broad</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">Broad</td>
 <td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF3C7; color: #92400E; font-weight: 500; font-size: 13px;">Entity excluded</td>
 <td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF3C7; color: #92400E; font-weight: 500; font-size: 13px;">Partial carve-back</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEE2E2; color: #991B1B; font-weight: 500; font-size: 13px;">Broad</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEE2E2; color: #991B1B; font-weight: 500; font-size: 13px;">Broad</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">Broad</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">Broad</td>
 </tr>
 <tr>
 <td style="padding: 8px 12px; border: 1px solid #e2e8f0; font-weight: 500; color: #334155;">3. Vendor BI sublimit</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEE2E2; color: #991B1B; font-weight: 500; font-size: 13px;">$100K</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">$100K</td>
 <td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF3C7; color: #92400E; font-weight: 500; font-size: 13px;">$1M</td>
 <td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #D1FAE5; color: #065F46; font-weight: 500; font-size: 13px;">$5M, vendor named</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF3C7; color: #92400E; font-weight: 500; font-size: 13px;">$2M, narrowed mid-term</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEE2E2; color: #991B1B; font-weight: 500; font-size: 13px;">$0 (not purchased)</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF3C7; color: #92400E; font-weight: 500; font-size: 13px;">$2M</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">$0</td>
 </tr>
 <tr>
 <td style="padding: 8px 12px; border: 1px solid #e2e8f0; font-weight: 500; color: #334155;">4. Headline vs. recovery</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEE2E2; color: #991B1B; font-weight: 500; font-size: 13px;">~$12M / ~$500K</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEE2E2; color: #991B1B; font-weight: 500; font-size: 13px;">Gap present</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEE2E2; color: #991B1B; font-weight: 500; font-size: 13px;">Gap present</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEE2E2; color: #991B1B; font-weight: 500; font-size: 13px;">~$27M / $650K-$2M</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEE2E2; color: #991B1B; font-weight: 500; font-size: 13px;">Gap present</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF3C7; color: #92400E; font-weight: 500; font-size: 13px;">~$12M / ~$500K</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">Gap present</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">Gap present</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF3C7; color: #92400E; font-weight: 500; font-size: 13px;">~$27M / $650K-$2M</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">Gap present</td>
 </tr>
 <tr>
 <td style="padding: 8px 12px; border: 1px solid #e2e8f0; font-weight: 500; color: #334155;">5. Interest income</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEE2E2; color: #991B1B; font-weight: 500; font-size: 13px;">$500/hr flat (70% gap)</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">$500/hr flat (70% gap)</td>
 <td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF3C7; color: #92400E; font-weight: 500; font-size: 13px;">Ambiguous definition</td>
 <td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #D1FAE5; color: #065F46; font-weight: 500; font-size: 13px;">Endorsement fix</td>
-<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEE2E2; color: #991B1B; font-weight: 500; font-size: 13px;">$500/hr flat (80% gap)</td>
+<td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF2F2; color: #B91C1C; font-weight: 500; font-size: 13px;">$500/hr flat (80% gap)</td>
 <td style="padding: 8px 12px; border: 1px solid #e2e8f0; background: #FEF3C7; color: #92400E; font-weight: 500; font-size: 13px;">Ambiguous definition</td>
 </tr>
 </tbody>
@@ -159,7 +159,7 @@ Every D&O policy I reviewed had a cyber exclusion. The cyber carrier says board 
 <!-- Bank E: $0 -->
 <text x="0" y="16" font-family="system-ui, sans-serif" font-size="10" fill="#334155" font-weight="500">Bank E</text>
 <rect x="60" y="6" width="2" height="14" rx="2" fill="#991B1B"/>
-<text x="68" y="17" font-family="system-ui, sans-serif" font-size="9" fill="#991B1B" font-weight="600">$0 (not purchased)</text>
+<text x="68" y="17" font-family="system-ui, sans-serif" font-size="9" fill="#991B1B" font-weight="600">$0</text>
 <!-- Bank A: $100K -->
 <text x="0" y="42" font-family="system-ui, sans-serif" font-size="10" fill="#334155" font-weight="500">Bank A</text>
 <rect x="60" y="32" width="10" height="14" rx="2" fill="#991B1B"/>
