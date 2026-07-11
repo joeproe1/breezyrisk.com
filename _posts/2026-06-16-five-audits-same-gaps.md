@@ -22,19 +22,13 @@ faq:
 
 Over the past months, I audited the insurance policies at five community banks and credit unions. I read the policy forms, endorsements, and amendments across their cyber and D&O policies, and their fidelity bonds. Different carriers. Different program structures.
 
-Each bank engaged Breezy Risk for a Risk Intelligence Report: a line-by-line review of its cyber liability policy, fidelity bond, and directors and officers policy, read together against the bank's operations, vendor contracts, and regulatory requirements. Not a checklist. Every finding comes from reading the policy forms themselves. All institutions and carriers are anonymized.
+Each bank engaged Breezy Risk for a Risk Intelligence Report: a line-by-line review of its cyber liability policy, fidelity bond, and directors and officers policy, read together against the bank's operations, vendor contracts, and regulatory requirements. Not a checklist. Every finding comes from reading the policy forms themselves. Institutions and carriers are anonymized.
 
-The coverage gaps were similar. Five structural problems appeared in every program. That pattern changes the conversation. One bank with a gap is a broker discussion. Five banks with five different programs and the same gaps is an industry problem.
+The coverage gaps across the banks were strikingly similar. Five structural problems appeared in every program. That pattern changes the conversation. One bank with a gap is a broker discussion. Five banks with five different programs and the same gaps is an industry problem.
 
 ## Scorecard
 
 <div style="margin: 28px 0 36px;">
-<div style="display: flex; gap: 16px; margin-bottom: 10px; font-size: 13px;">
-<span style="display: inline-flex; align-items: center; gap: 5px;"><span style="display: inline-block; width: 12px; height: 12px; border-radius: 2px; background: #FEF2F2; border: 1px solid #B91C1C;"></span> Severe gap</span>
-<span style="display: inline-flex; align-items: center; gap: 5px;"><span style="display: inline-block; width: 12px; height: 12px; border-radius: 2px; background: #FEF3C7; border: 1px solid #92400E;"></span> Partial gap or ambiguous</span>
-<span style="display: inline-flex; align-items: center; gap: 5px;"><span style="display: inline-block; width: 12px; height: 12px; border-radius: 2px; background: #D1FAE5; border: 1px solid #065F46;"></span> Adequate or fixed</span>
-</div>
-
 <div style="overflow-x: auto;">
 <table style="width: 100%; border-collapse: collapse; font-size: 14px;">
 <thead>
@@ -92,18 +86,24 @@ The coverage gaps were similar. Five structural problems appeared in every progr
 </table>
 </div>
 
+<div style="display: flex; gap: 16px; margin-top: 10px; font-size: 13px;">
+<span style="display: inline-flex; align-items: center; gap: 5px;"><span style="display: inline-block; width: 12px; height: 12px; border-radius: 2px; background: #FEF2F2; border: 1px solid #B91C1C;"></span> Severe gap</span>
+<span style="display: inline-flex; align-items: center; gap: 5px;"><span style="display: inline-block; width: 12px; height: 12px; border-radius: 2px; background: #FEF3C7; border: 1px solid #92400E;"></span> Partial gap or ambiguous</span>
+<span style="display: inline-flex; align-items: center; gap: 5px;"><span style="display: inline-block; width: 12px; height: 12px; border-radius: 2px; background: #D1FAE5; border: 1px solid #065F46;"></span> Adequate or fixed</span>
+</div>
+
 <p style="font-size: 14px; color: #475569; margin-top: 10px; line-height: 1.5;">Five findings. Five for five on wire fraud conditions, D&amp;O exclusions, and headline overstatement. Four of five on vendor coverage and interest income. Bank C had the strongest program. It still had three of the five gaps.</p>
 </div>
 
 ---
 
-<h2 style="display: flex; align-items: center; gap: 14px;"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 0;" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><span>Wire Fraud: Five Banks, Zero Clean Paths to Recovery</span></h2>
+<h2 style="display: flex; align-items: center; gap: 14px;"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 0;" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><span>Wire Fraud: Zero Clean Paths to Full Recovery</span></h2>
 
 <div style="background: #f0f9ff; border-left: 4px solid #00D4AA; padding: 14px 18px; margin-bottom: 20px; border-radius: 0 4px 4px 0;">
-<p style="margin: 0; color: #1e293b; line-height: 1.55;">On a $475,000 wire fraud loss, recovery ranged from $0 to $250,000. All five banks had conditions that could void coverage entirely.</p>
+<p style="margin: 0; color: #1e293b; line-height: 1.55;">On a $500,000 wire fraud loss, recovery ranged from $0 to $250,000. All five banks had conditions that could void coverage entirely.</p>
 </div>
 
-Wire fraud is the number one fraud threat to community banks ($3.05 billion in FBI-reported BEC losses, 2025). Every bank had social engineering coverage on its fidelity bond. Not the cyber policy. Carriers will not sell eCrime coverage to financial institutions. The bond carries the full load.
+Wire fraud is the number one fraud threat to community banks ($3 billion in FBI-reported BEC losses, 2025). Every bank had social engineering coverage on its fidelity bond. Not the cyber policy. Carriers will not sell eCrime coverage to financial institutions. The bond carries the full load.
 
 The problem is what the endorsement says. Four of five banks had sublimits between $250,000 and $500,000. All five had a verification warranty written as a condition precedent: if the employee skips the callback, coverage drops to zero. That warranty was designed for email-based BEC, not deepfake voice calls. One bank had a 50% co-payment clause the board did not know about. And in two banks, recovery swung by $4.5 to $4.75 million depending on how forensics classified the attack after the fact, a judgment the bank does not control.
 
@@ -118,10 +118,10 @@ The problem is what the endorsement says. Four of five banks had sublimits betwe
 
 ---
 
-<h2 style="display: flex; align-items: center; gap: 14px;"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 0;" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><line x1="9" y1="9" x2="15" y2="15"/><line x1="15" y1="9" x2="9" y2="15"/></svg><span>D&amp;O: Every Director Was Personally Exposed After a Breach</span></h2>
+<h2 style="display: flex; align-items: center; gap: 14px;"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 0;" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><line x1="9" y1="9" x2="15" y2="15"/><line x1="15" y1="9" x2="9" y2="15"/></svg><span>D&amp;O: Every Director Was Personally Exposed</span></h2>
 
 <div style="background: #f0f9ff; border-left: 4px solid #00D4AA; padding: 14px 18px; margin-bottom: 20px; border-radius: 0 4px 4px 0;">
-<p style="margin: 0; color: #1e293b; line-height: 1.55;">Every D&amp;O policy had a cyber exclusion. Zero of five banks had full board protection after a breach.</p>
+<p style="margin: 0; color: #1e293b; line-height: 1.55;">Every D&amp;O policy had a cyber exclusion. Zero banks had full board protection after a breach.</p>
 </div>
 
 After a breach, regulators investigate the board. Did they approve a cybersecurity strategy? Did they allocate adequate resources? The FFIEC, FDIC, and state regulators have all increased scrutiny of board cybersecurity oversight. These investigations are D&O claims.
@@ -145,9 +145,9 @@ Every D&O policy I reviewed had a cyber exclusion. The cyber carrier says board 
 <p style="margin: 0; color: #1e293b; line-height: 1.55;">Vendor BI sublimits ranged from $0 to $5 million. Only one bank had its core vendor named by endorsement.</p>
 </div>
 
-Every bank runs on a single core platform. When the core vendor goes down, the bank goes down. The August 2025 Marquis Software Solutions breach, a ransomware attack that exposed data at 700+ banks and credit unions, made vendor risk an examiner priority.
+Every bank runs on a single core platform. When the core vendor goes down, the bank goes down. The Marquis Software Solutions breach in August 2025, a ransomware attack that exposed data at 700+ banks and credit unions, made vendor risk an examiner priority.
 
-One bank had no vendor coverage at all, the endorsement was available but never purchased. One had $100,000; a three-day outage would exhaust it in two. One had coverage narrowed mid-term by a carrier amendment that excluded sub-vendor supply chain exposure after the policy was in force. Only one bank had its core vendor named by endorsement with a $5 million limit. And two of five only covered vendor outages caused by security breaches, not system failures. A software crash that shuts down the platform is not a security breach.
+One bank had no vendor coverage at all. One had $100,000; a three-day outage would exhaust it in two. One had coverage narrowed mid-term by a carrier amendment that excluded sub-vendor supply chain exposure after the policy was in force. Only one bank had its core vendor named by endorsement with a $5 million limit. And two of five only covered vendor outages caused by security breaches, not system failures. A software crash that shuts down the platform is not a security breach.
 
 **What to check**
 
@@ -160,10 +160,10 @@ One bank had no vendor coverage at all, the endorsement was available but never 
 
 ---
 
-<h2 style="display: flex; align-items: center; gap: 14px;"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 0;" aria-hidden="true"><line x1="12" y1="3" x2="12" y2="21"/><line x1="4" y1="7" x2="20" y2="7"/><polyline points="4 7 2 13 7 13"/><polyline points="20 7 17 13 22 13"/></svg><span>Headline Limits: $12 Million in Coverage, $500,000 in Recovery</span></h2>
+<h2 style="display: flex; align-items: center; gap: 14px;"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 0;" aria-hidden="true"><line x1="12" y1="3" x2="12" y2="21"/><line x1="4" y1="7" x2="20" y2="7"/><polyline points="4 7 2 13 7 13"/><polyline points="20 7 17 13 22 13"/></svg><span>Policy Limits: $12 Million in Coverage, $500,000 in Recovery</span></h2>
 
 <div style="background: #f0f9ff; border-left: 4px solid #00D4AA; padding: 14px 18px; margin-bottom: 20px; border-radius: 0 4px 4px 0;">
-<p style="margin: 0; color: #1e293b; line-height: 1.55;">Combined headline limits: $12 million to $27 million. Realistic recovery on a multi-front incident: $500,000 to $3 million.</p>
+<p style="margin: 0; color: #1e293b; line-height: 1.55;">Combined headline limits: $12 million to $27 million.<br>Realistic recovery on a multi-front incident: $500,000 to $3 million.</p>
 </div>
 
 The declarations page shows what the board approved at renewal. Combined limits ranged from $12 million to $27 million. The realistic recovery on a multi-front incident, wire fraud, breach response, regulatory investigation, and board liability at the same time, ranged from $500,000 to $3 million.
@@ -181,15 +181,15 @@ The erosion comes from sublimits that share the aggregate, defense costs paid in
 
 ---
 
-<h2 style="display: flex; align-items: center; gap: 14px;"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 0;" aria-hidden="true"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg><span>Interest Income: 70% of Bank Revenue, Not Covered</span></h2>
+<h2 style="display: flex; align-items: center; gap: 14px;"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 0;" aria-hidden="true"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg><span>Interest Income: Most of a Bank's Revenue, Not Covered</span></h2>
 
 <div style="background: #f0f9ff; border-left: 4px solid #00D4AA; padding: 14px 18px; margin-bottom: 20px; border-radius: 0 4px 4px 0;">
 <p style="margin: 0; color: #1e293b; line-height: 1.55;">70-85% of bank revenue is interest income. Most cyber BI definitions exclude it. One bank had an endorsement that fixes this.</p>
 </div>
 
-Community banks earn 70 to 85 percent of revenue from net interest income. During a cyber outage, those loans continue to accrue interest contractually, but the BI definition in most cyber policies either excludes interest income or leaves it ambiguous. The definition was written for commercial businesses where interest income is incidental.
+Community banks earn 70-85% of revenue from net interest income. During a cyber outage, those loans continue to accrue interest contractually, but the BI definition in most cyber policies either excludes interest income or leaves it ambiguous. The definition was written for commercial businesses where interest income is incidental.
 
-Two banks were on a carrier program that pays BI at a flat $500 per hour. At one, hourly interest income was approximately $2,200. On a five-day outage, the bank's interest income was $270,000. The policy recognized $48,000. Two other banks had ambiguous definitions, worded in a way that pays when the carrier wants it to, not when the bank needs it to. One bank had an endorsement that deletes the interest income exclusion entirely. It was the single most valuable endorsement in the sample. No other carrier offered an equivalent.
+Two banks were on a carrier program that pays BI at a flat $500 per hour, a rate that covered only 20-25% of the bank's hourly revenue. The math was set without interest income. Two other banks had ambiguous definitions, worded in a way that pays when the carrier wants it to, not when the bank needs it to. One bank had an endorsement that deletes the interest income exclusion entirely. It was the single most valuable endorsement in the sample.
 
 I nearly missed this gap myself. It was not in my initial methodology. The odds that a generalist broker is checking are low.
 
