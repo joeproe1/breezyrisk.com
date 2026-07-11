@@ -55,9 +55,9 @@ This issue affects most institutions. The two largest insurance programs for com
 <div style="background: #0A2540; border-radius: 12px; padding: 28px 32px; margin: 32px 0; color: #fff;">
 <h3 style="color: #00D4AA; margin-top: 0; font-size: 18px;">Five-Day Outage: Revenue vs. BI Recovery</h3>
 <div style="overflow-x: auto;">
-<table style="width: 100%; border-collapse: collapse; font-size: 15px; color: rgba(255,255,255,0.85);">
+<table style="width: 100%; border-collapse: collapse; font-size: 15px; color: #fff;">
 <thead>
-<tr style="border-bottom: 2px solid rgba(255,255,255,0.2);">
+<tr style="border-bottom: 1px solid #00D4AA;">
 <th style="text-align: left; padding: 12px 16px; color: #00D4AA; font-weight: 700;">Bank Size</th>
 <th style="text-align: right; padding: 12px 16px; color: #00D4AA; font-weight: 700;">5-Day Interest Income</th>
 <th style="text-align: right; padding: 12px 16px; color: #00D4AA; font-weight: 700;">Typical BI Recovery</th>
@@ -65,13 +65,13 @@ This issue affects most institutions. The two largest insurance programs for com
 </tr>
 </thead>
 <tbody>
-<tr style="background: transparent; border-bottom: 1px solid rgba(255,255,255,0.15);">
+<tr style="background: transparent; border-bottom: 1px solid rgba(0,212,170,0.3);">
 <td style="padding: 12px 16px;">$500M assets</td>
 <td style="text-align: right; padding: 12px 16px;">~$205,000</td>
 <td style="text-align: right; padding: 12px 16px;">$48,000</td>
 <td style="text-align: right; padding: 12px 16px; color: #FCA5A5;">77%</td>
 </tr>
-<tr style="background: transparent; border-bottom: 1px solid rgba(255,255,255,0.15);">
+<tr style="background: transparent; border-bottom: 1px solid rgba(0,212,170,0.3);">
 <td style="padding: 12px 16px;">$1B assets</td>
 <td style="text-align: right; padding: 12px 16px;">~$410,000</td>
 <td style="text-align: right; padding: 12px 16px;">Ambiguous</td>
@@ -86,7 +86,7 @@ This issue affects most institutions. The two largest insurance programs for com
 </tbody>
 </table>
 </div>
-<p style="margin-top: 16px; font-size: 14px; color: rgba(255,255,255,0.85); line-height: 1.5;">Based on 3% net interest margin. Interest income continues to accrue during an outage, but most BI definitions either exclude it or leave coverage ambiguous.</p>
+<p style="margin-top: 16px; font-size: 14px; color: rgba(255,255,255,0.5); line-height: 1.5;">Based on 3% net interest margin. Interest income continues to accrue during an outage, but most BI definitions either exclude it or leave coverage ambiguous.</p>
 </div>
 
 I nearly missed this gap myself, and only added it to my framework after recognizing the pattern across multiple audits. The odds that a generalist broker is checking for this gap are low.
