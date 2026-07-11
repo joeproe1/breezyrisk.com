@@ -53,9 +53,9 @@ Most banks I reviewed had some form of this gap. Only one bank had solved it: th
 This issue affects most institutions. The two largest insurance programs for community banks both have policy forms where this gap is structural. Whether through an hourly rate or an ambiguous definition, the outcome is the same: the bank's primary revenue stream is not clearly covered.
 
 <div style="background: #0A2540; border-radius: 12px; padding: 28px 32px; margin: 32px 0; color: #fff;">
-<h3 style="color: #00D4AA; margin-top: 0; font-size: 18px;">Five-Day Outage: Revenue vs. BI Recovery</h3>
+<h3 style="color: #00D4AA; margin-top: 0; margin-bottom: 12px; font-size: 18px;">Five-Day Outage: Revenue vs. BI Recovery</h3>
 <div style="overflow-x: auto;">
-<table style="width: 100%; border-collapse: collapse; font-size: 15px; color: #fff;">
+<table style="width: 100%; border-collapse: collapse; font-size: 15px; color: #fff; margin: 0 !important;">
 <thead>
 <tr>
 <th style="text-align: left; padding: 12px 16px; color: #00D4AA !important; font-weight: 700; background: transparent !important; border-bottom: 1px solid #00D4AA !important;">Bank Size</th>
@@ -86,7 +86,7 @@ This issue affects most institutions. The two largest insurance programs for com
 </tbody>
 </table>
 </div>
-<p style="margin-top: 16px; font-size: 14px; color: rgba(255,255,255,0.5); line-height: 1.5;">Based on 3% net interest margin. Interest income continues to accrue during an outage, but most BI definitions either exclude it or leave coverage ambiguous.</p>
+<p style="margin-top: 8px; font-size: 14px; color: rgba(255,255,255,0.5); line-height: 1.5;">Based on 3% net interest margin, five-day outage. Five days is a conservative assumption. Most ransomware incidents take longer to resolve. Interest income continues to accrue during an outage, but most BI definitions either exclude it or leave coverage ambiguous.</p>
 </div>
 
 I nearly missed this gap myself, and only added it to my framework after recognizing the pattern across multiple audits. The odds that a generalist broker is checking for this gap are low.
