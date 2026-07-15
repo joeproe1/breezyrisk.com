@@ -387,8 +387,8 @@ a.rir-chip:hover{ background: rgba(0, 212, 170, 0.14); }
   margin: 0 auto;
 }
 .rir-step{
-  text-align: center;
-  padding: 32px 22px 28px;
+  text-align: left;
+  padding: 22px 20px 20px;
   background: #fff;
   border: 1px solid var(--border);
   border-radius: 10px;
@@ -398,26 +398,18 @@ a.rir-chip:hover{ background: rgba(0, 212, 170, 0.14); }
 .rir-step:nth-child(2){ border-top: 3px solid #8FB563; }
 .rir-step:nth-child(3){ border-top: 3px solid #40C48A; }
 .rir-step:nth-child(4){ border-top: 3px solid #00D4AA; }
-.rir-step-num{
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: rgba(217, 119, 6, 0.1);
-  color: #D97706;
-  font-family: var(--font-mono);
-  font-size: 18px;
-  font-weight: 800;
-  margin-bottom: 16px;
-}
 .rir-step strong{
   display: block;
-  font-size: 17px;
+  font-size: 16px;
   color: var(--primary);
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   line-height: 1.3;
+}
+.rir-step-num{
+  font-family: var(--font-mono);
+  font-weight: 800;
+  color: #D97706;
+  margin-right: 6px;
 }
 .rir-step p{
   font-size: 15px;
@@ -562,19 +554,13 @@ a.rir-chip:hover{ background: rgba(0, 212, 170, 0.14); }
   </div>
 </section>
 
-<!-- NARRATIVE BRIDGE -->
-<div style="max-width:680px;margin:0 auto;padding:36px 0 0;text-align:center;">
-  <p style="font-size:17px;line-height:1.8;color:var(--text-secondary);margin:0;">
-    I spent 20 years inside the insurance industry, at carriers like Chubb and at a cyber MGA, working on the policies banks depend on. Each policy is complicated on its own. When a claim hits all three at once, nobody has a clear answer.
-  </p>
-</div>
-
 <!-- INTERACTION TABLE -->
 <section class="interaction-section" id="interaction-map">
   <div class="container">
     <div class="rir-center">
+      <p style="font-size:17px;line-height:1.8;color:var(--text-secondary);margin:0 auto 28px;max-width:680px;">I spent 20 years inside the insurance industry, at carriers like Chubb and at a cyber MGA, working on the policies banks depend on. Each policy is complicated on its own. When a claim hits all three at once, nobody has a clear answer.</p>
       <h2>Policy Interaction Map</h2>
-      <p>Every Risk Intelligence Report includes this map, built from your actual policies. It shows which policy responds to each incident type, and where no policy responds at all.</p>
+      <p>Every Risk Intelligence Report includes a Policy Interaction Map that shows you which policy responds to each incident type, and where no policy responds at all.</p>
     </div>
     <div style="max-width:960px;margin:0 auto 24px;padding:16px 24px;background:rgba(217,119,6,0.04);border-left:4px solid #D97706;border-radius:0 10px 10px 0;">
       <p style="font-size:15px;font-weight:600;color:#0A2540;line-height:1.6;margin:0;">Every red cell is a coverage gap your bank owns today. Every yellow cell is coverage with inadequate sublimits or conditions.</p>
@@ -656,35 +642,6 @@ a.rir-chip:hover{ background: rgba(0, 212, 170, 0.14); }
   </div>
 </section>
 
-<!-- FINDINGS -->
-<section class="rir-section alt">
-  <div class="container rir-wrap">
-    <div class="rir-center">
-      <h2>Coverage Gaps From Recent Bank Audits</h2>
-    </div>
-    <div class="rir-findings-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:28px;max-width:960px;margin:0 auto;">
-
-      <!-- Finding (left) -->
-      <div class="rir-finding">
-        <div class="rir-finding-title">The D&amp;O Policy That Won't Protect Your Directors</div>
-        <p><strong style="color:var(--primary);">Gap:</strong> Every community bank D&amp;O policy I have reviewed contains some form of exclusion for claims "arising out of" a cyber incident. That means, if a data breach triggers an FDIC enforcement action or a lawsuit, the board has zero D&amp;O coverage.</p>
-        <p><strong style="color:var(--primary);">Impact:</strong> The policy your directors believe protects them will not respond.</p>
-        <p class="desktop-only"><strong style="color:var(--primary);">Fix:</strong> Request removal of the cyber exclusion, or negotiate an exception for regulatory proceedings and shareholder claims.</p>
-      </div>
-
-      <!-- Vendor outage example (right) — hidden on mobile to reduce scroll -->
-      <div class="rir-finding desktop-only" style="border-left-color:#D97706;background:rgba(217,119,6,0.04);">
-        <div class="rir-finding-title">The Vendor Outage Nobody Sized</div>
-        <p><strong style="color:var(--primary);">Gap:</strong> Of the five community banks I have reviewed, dependent business interruption sublimits ranged from zero (coverage not purchased) to $1M. Every one of these banks runs on a single core processor. A multi-day outage would exceed the sublimit before recovery begins.</p>
-        <p><strong style="color:var(--primary);">Impact:</strong> Potentially seven figures of uninsured exposure per incident. The board had never tested the limit against actual vendor dependence.</p>
-        <p><strong style="color:var(--primary);">Fix:</strong> Size the sublimit against actual vendor revenue dependence, not a round number from the last renewal.</p>
-      </div>
-
-    </div>
-
-  </div>
-</section>
-
 <!-- WHAT YOU GET -->
 <section class="rir-section">
   <div class="container rir-wrap">
@@ -721,6 +678,30 @@ a.rir-chip:hover{ background: rgba(0, 212, 170, 0.14); }
   </div>
 </section>
 
+<!-- FINDINGS -->
+<section class="rir-section alt">
+  <div class="container rir-wrap">
+    <div class="rir-center">
+      <h2>Coverage Gaps From Recent Bank Audits</h2>
+    </div>
+    <div class="rir-findings-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:28px;max-width:960px;margin:0 auto;">
+
+      <div class="rir-finding">
+        <div class="rir-finding-title">The D&amp;O Policy That Won't Protect Your Directors</div>
+        <p><strong style="color:var(--primary);">Gap:</strong> Every community bank D&amp;O policy I have reviewed contains some form of exclusion for claims "arising out of" a cyber incident. That means, if a data breach triggers an FDIC enforcement action or a lawsuit, the board has zero D&amp;O coverage.</p>
+        <p><strong style="color:var(--primary);">Impact:</strong> The policy your directors believe protects them will not respond.</p>
+      </div>
+
+      <div class="rir-finding desktop-only" style="border-left-color:#D97706;background:rgba(217,119,6,0.04);">
+        <div class="rir-finding-title">The Vendor Outage Nobody Sized</div>
+        <p><strong style="color:var(--primary);">Gap:</strong> Of the five community banks I have reviewed, dependent business interruption sublimits ranged from zero (coverage not purchased) to $1M. Every one of these banks runs on a single core processor. A multi-day outage would exceed the sublimit before recovery begins.</p>
+        <p><strong style="color:var(--primary);">Impact:</strong> Potentially seven figures of uninsured exposure per incident. The board had never tested the limit against actual vendor dependence.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 <!-- WHY NOT YOUR BROKER -->
 <section class="rir-section alt">
   <div class="container rir-wrap">
@@ -742,26 +723,22 @@ a.rir-chip:hover{ background: rgba(0, 212, 170, 0.14); }
     <div class="rir-steps">
 
       <div class="rir-step">
-        <div class="rir-step-num">1</div>
-        <strong>Send Your Policies</strong>
+        <strong><span class="rir-step-num">1.</span> You Send Me Your Policies</strong>
         <p>Share your cyber and D&amp;O policies, and your fidelity bond. I handle the rest.</p>
       </div>
 
       <div class="rir-step">
-        <div class="rir-step-num">2</div>
-        <strong>I Review Them</strong>
+        <strong><span class="rir-step-num">2.</span> I Review Them</strong>
         <p>Line-by-line analysis against real incidents. Every policy read together.</p>
       </div>
 
       <div class="rir-step">
-        <div class="rir-step-num">3</div>
-        <strong>You Get the Report</strong>
+        <strong><span class="rir-step-num">3.</span> You Get the Report</strong>
         <p>A written report with every finding in dollar terms, plus a 30-minute walkthrough.</p>
       </div>
 
       <div class="rir-step">
-        <div class="rir-step-num">4</div>
-        <strong>Act on It</strong>
+        <strong><span class="rir-step-num">4.</span> Act on the Findings</strong>
         <p>At renewal, in the boardroom, or before your next examination.</p>
       </div>
 
