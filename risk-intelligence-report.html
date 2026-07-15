@@ -438,6 +438,45 @@ permalink: /risk-intelligence-report/
   color:rgba(255,255,255,.65);
 }
 
+/* Mobile interaction cards (hidden on desktop) */
+.interaction-mobile{ display: none; }
+.im-card{
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 12px;
+  background: #fff;
+}
+.im-card:last-child{ margin-bottom: 0; }
+.im-incident{
+  font-size: 16px;
+  font-weight: 700;
+  color: #0A2540;
+  margin-bottom: 10px;
+}
+.im-result{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 6px;
+}
+.im-policy{
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  flex-shrink: 0;
+  min-width: 48px;
+}
+.im-green{ background: #e6f5e9; color: #1a5e2a; }
+.im-yellow{ background: #fff5d6; color: #8a5a00; }
+.im-red{ background: #fde8e6; color: #8c1a0a; }
+
 /* Responsive */
 @media(max-width: 968px){
   .rir-hero h1{ font-size: 36px; }
@@ -453,6 +492,7 @@ permalink: /risk-intelligence-report/
   .rir-steps{ grid-template-columns: 1fr 1fr; }
   .interaction-map-wrap{ display: none; }
   .interaction-caption{ display: none; }
+  .interaction-mobile{ display: block; max-width: 520px; margin: 0 auto; }
 }
 @media(max-width: 580px){
   .rir-steps{ grid-template-columns: 1fr; gap: 12px; }
@@ -543,6 +583,32 @@ permalink: /risk-intelligence-report/
         </tbody>
       </table>
     </div>
+
+    <!-- Mobile: stacked cards (visible below 768px) -->
+    <div class="interaction-mobile">
+      <div class="im-card">
+        <div class="im-incident">Ransomware Attack</div>
+        <div class="im-result im-green"><span class="im-policy">Cyber</span> Covered</div>
+      </div>
+      <div class="im-card">
+        <div class="im-incident">Wire Transfer Fraud</div>
+        <div class="im-result im-yellow"><span class="im-policy">Bond</span> Sublimited with conditions</div>
+      </div>
+      <div class="im-card">
+        <div class="im-incident">Core Vendor Breach</div>
+        <div class="im-result im-yellow"><span class="im-policy">Cyber</span> Sublimited</div>
+      </div>
+      <div class="im-card">
+        <div class="im-incident">Data Breach &ndash; Loss to the Bank</div>
+        <div class="im-result im-yellow"><span class="im-policy">Cyber</span> Defense costs erode limit</div>
+      </div>
+      <div class="im-card">
+        <div class="im-incident">Data Breach &ndash; Claims Against the Board</div>
+        <div class="im-result im-red"><span class="im-policy">Cyber</span> No board coverage</div>
+        <div class="im-result im-red"><span class="im-policy">D&amp;O</span> Cyber claims excluded</div>
+      </div>
+    </div>
+
     <p style="margin-top:10px; font-size:14px; font-style:italic; color:var(--text-secondary); text-align:left; padding-left:0;">Based on community bank and credit union policy reviews conducted in spring 2026.</p>
   </div>
 </section>
