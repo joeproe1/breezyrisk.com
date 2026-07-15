@@ -18,7 +18,7 @@ Breezy Risk is not a broker. It is an independent auditor of insurance programs.
 
 ## The Founder
 
-Joerg Proeve has 20+ years of insurance industry experience spanning carriers (Chubb, CNA), startups, and an MGA (BOXX Insurance). He holds an MSc in Electrical Engineering, an MBA from London Business School, and started his career in cybersecurity at Siemens. He understands both the technology banks depend on and the policy language that is supposed to cover it.
+Joerg Proeve has 20+ years of insurance industry experience spanning carriers (Chubb, CNA), startups, and an MGA (BOXX Insurance). He holds an MSc in Electrical Engineering, an MBA from London Business School, and started his career in cybersecurity at Siemens. He is a licensed insurance producer in FL, NJ, NY, and PA. He understands both the technology banks depend on and the policy language that is supposed to cover it.
 
 ## The Three-Policy Interaction Problem
 
