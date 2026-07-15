@@ -257,6 +257,7 @@ permalink: /risk-intelligence-report/
   border-radius:10px;
   padding:28px 28px 24px;
   background:#fff;
+  box-shadow: 0 4px 16px rgba(0,0,0,.07);
 }
 .rir-finding-label{
   font-family:var(--font-mono);
@@ -320,8 +321,9 @@ permalink: /risk-intelligence-report/
   margin: 0 0 16px;
 }
 .rir-item{
-  padding: 16px 0;
+  padding: 16px 0 16px 16px;
   border-bottom: 1px solid var(--border);
+  border-left: 3px solid #00D4AA;
 }
 .rir-item:last-child{ border-bottom:none; }
 .rir-item strong{
@@ -351,8 +353,12 @@ permalink: /risk-intelligence-report/
   background: #fff;
   border: 1px solid var(--border);
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,.04);
+  box-shadow: 0 4px 16px rgba(0,0,0,.07);
 }
+.rir-step:nth-child(1){ border-top: 3px solid #D97706; }
+.rir-step:nth-child(2){ border-top: 3px solid #8FB563; }
+.rir-step:nth-child(3){ border-top: 3px solid #40C48A; }
+.rir-step:nth-child(4){ border-top: 3px solid #00D4AA; }
 .rir-step-num{
   display: inline-flex;
   align-items: center;
