@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "The Board Nobody Insures"
+title: "The D&O Cyber Exclusion That Leaves Your Board Exposed"
+card_title: "The D&O Cyber Exclusion That Leaves Your Board Exposed"
 description: "A data breach hits a community bank. The D&O policy excludes cyber claims. The cyber policy excludes shareholder suits. Directors face personal liability with no insurance response."
 date: 2026-04-01
 author: Joerg Proeve
@@ -8,8 +9,13 @@ category: Case Study
 read_time: "5 min read"
 image: /assets/images/Blog-Board-Nobody-Insures.png
 image_alt: "Community bank board of directors facing personal liability after a data breach with D&O cyber exclusion blocking coverage"
-last_modified_at: 2026-04-01
+last_modified_at: 2026-07-20
 permalink: /insights/the-board-nobody-insures/
+faq:
+  - question: "What is a D&O cyber exclusion?"
+    answer: "A D&O cyber exclusion is a policy clause that removes coverage for any claim 'arising out of' a cyber event. When a data breach leads to shareholder lawsuits, regulatory investigations, or derivative actions against directors, the D&O policy treats all of those claims as cyber-related and excludes them. The breadth of the exclusion depends on its wording: 'arising out of any cyber event' is broad and eliminates most post-breach director claims, while 'directly resulting from' is narrower and may preserve coverage for governance and oversight claims."
+  - question: "Does D&O insurance cover data breaches at community banks?"
+    answer: "In most community bank D&O policies, no. The typical D&O policy contains a cyber exclusion that blocks coverage for any claim connected to a data breach, including shareholder derivative suits, regulatory defense costs, and class actions. At the same time, the cyber policy usually contains a securities exclusion that bars claims against individual directors. The result is a gap: neither policy covers the directors after a breach. Banks can close this gap by selecting a D&O policy without a blanket cyber exclusion and adding management liability coverage to the cyber policy."
 ---
 
 A data breach at a community bank exposes the personal financial information of more than 50,000 customers. Within 60 days, three things happen at once.

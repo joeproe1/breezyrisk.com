@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "What Your Fidelity Bond Won't Pay"
-card_title: "What Your Fidelity Bond Won't Pay"
+title: "Fidelity Bond Coverage Gaps: What Your Bond Won't Pay"
+card_title: "Fidelity Bond Coverage Gaps"
 description: "Community banks assume the bond covers fraud. It does, with conditions most banks have never read. Here's where bonds fail and what to check before your next renewal."
 date: 2026-05-18
 author: Joerg Proeve
@@ -9,7 +9,7 @@ category: Policy Deep-Dive
 image: /assets/images/Blog-Fidelity-Bond.png
 image_alt: "Fidelity bond coverage gaps at community banks including co-payment traps and verification requirements"
 read_time: "4 min read"
-last_modified_at: 2026-06-27
+last_modified_at: 2026-07-20
 permalink: /insights/fidelity-bond/
 faq:
   - question: "What does a fidelity bond not cover at a community bank?"

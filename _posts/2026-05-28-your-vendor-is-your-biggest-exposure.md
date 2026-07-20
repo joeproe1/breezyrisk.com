@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Your Vendor Is Your Biggest Exposure and Your Smallest Sublimit"
-card_title: "Your Vendor Is Your Biggest Exposure"
+title: "Vendor Risk Insurance Gaps: Your Biggest Exposure, Your Smallest Sublimit"
+card_title: "Vendor Risk Insurance Gaps"
 description: "Community banks depend on core technology vendors for everything. Most insure that dependency with a sublimit that could exhaust in days. Here's what your policy conditions actually say."
 date: 2026-05-28
 author: Joerg Proeve
@@ -9,8 +9,13 @@ category: Policy Deep-Dive
 read_time: "4 min read"
 image: /assets/images/Blog-Vendor-Exposure.png
 image_alt: "Community bank vendor dependency versus cyber policy sublimit showing the gap between exposure and coverage"
-last_modified_at: 2026-05-28
+last_modified_at: 2026-07-20
 permalink: /insights/your-vendor-is-your-biggest-exposure/
+faq:
+  - question: "Does cyber insurance cover vendor outages at community banks?"
+    answer: "It depends on the policy's dependent business interruption coverage. Most community bank cyber policies sublimit vendor outages at $100,000 to $1 million, well below the cost of a multi-day core platform outage. Coverage also depends on the trigger: some policies only cover vendor outages caused by a cyberattack (Security Breach), not outages from software failures or infrastructure upgrades. If your core processor goes down due to a bug rather than a hack, the narrow trigger may exclude you entirely."
+  - question: "What is dependent business interruption coverage in a bank cyber policy?"
+    answer: "Dependent business interruption coverage pays for income losses and extra expenses when a third-party vendor's systems go down and disrupt your bank's operations. For community banks, this typically means a core processor outage (Jack Henry, Fiserv, FIS). The coverage is almost always sublimited, often has a waiting period of 8-10 hours before it kicks in, and may require a written contract with the vendor. The sublimit, trigger type, waiting period, and contract requirement all determine whether a real vendor outage would be covered."
 ---
 
 Your examiner asks about vendor risk. Your insurer sublimits it. Nobody is checking whether the coverage matches the dependency.

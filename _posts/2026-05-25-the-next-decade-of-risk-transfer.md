@@ -11,6 +11,9 @@ image: /assets/images/Blog-Next-Decade-Risk-Transfer.png
 image_alt: "Future of risk transfer showing the gap between how risks behave and how insurance responds over the next decade"
 last_modified_at: 2026-05-25
 permalink: /insights/the-next-decade-of-risk-transfer/
+archived: true
+sitemap: false
+noindex: true
 ---
 
 *The third in a series on parametric insurance. The first post, [Fast Money, Slow Trust](/insights/fast-money-slow-trust/), examined basis risk, trigger design, and the coordination problem. The second post, [The Supply Chain Problem](/insights/the-supply-chain-problem/), tested parametric against a real $450 million semiconductor loss. This one looks forward.*
