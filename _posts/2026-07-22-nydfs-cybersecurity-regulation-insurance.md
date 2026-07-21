@@ -5,7 +5,7 @@ card_title: "NYDFS: What It Means for Your Insurance"
 description: "NYDFS has collected $63 million in cybersecurity penalties under 23 NYCRR 500. No community banks so far. But the per-day penalty rate is the same regardless of size, and most bank D&O policies do not cover the investigation that comes before the fine."
 date: 2026-07-22
 author: Joerg Proeve
-category: Community Banks
+category: Policy Deep-Dive
 read_time: "5 min read"
 image: /assets/images/Blog-NYDFS-Insurance.png
 image_alt: "NYDFS 23 NYCRR 500 cybersecurity regulation and community bank D&O insurance investigative costs gap"
