@@ -49,7 +49,7 @@ I've asked around about what this might cost. One regulatory inquiry runs above 
 D&O policies have a provision for this phase: "pre-claim investigative costs." That pays for responding to regulatory inquiries before formal proceedings begin. In the community bank programs I've audited, this provision has not held up, and the reason goes back to the exclusion on page 35.
 
 <div style="border-left: 3px solid #3B82F6; padding: 16px 20px; background: rgba(59,130,246,0.05); border-radius: 0 8px 8px 0; margin: 24px 0; font-size: 15px; color: #555; line-height: 1.65;">
-Here is how it plays out. The D&O form has an exclusion saying "arising out of any cyber event." A data breach is a cyber event. The NYDFS investigation arose from a data breach. The investigative costs claim arises from the investigation of that breach. The carrier says no, that's excluded. The bank paid for the coverage, the D&O declarations page lists a sublimit, but the exclusion language on page 35 overrides all of it.
+How this plays out: The D&O form has an exclusion saying "arising out of any cyber event." A data breach is a cyber event. The NYDFS investigation arose from a data breach. The investigative costs claim arises from the investigation of that breach. The carrier says no, that's excluded. The bank paid for the coverage, the D&O declarations page lists a sublimit, but the exclusion language on page 35 overrides all of it.
 </div>
 
 I asked brokers whether they read page 35 before renewal and explain the implications to their clients. The answers I am hearing aren't encouraging.
@@ -59,7 +59,7 @@ There are more ways the coverage can fall short. Some programs cap investigative
 ## Penalties and personal exposure
 
 <div style="border-left: 3px solid #F59E0B; padding: 16px 20px; background: rgba(245,158,11,0.05); border-radius: 0 8px 8px 0; margin: 24px 0; font-size: 15px; color: #555; line-height: 1.65;">
-Here is the uncomfortable part. The civil money penalties under Part 500 can't be insured. FDIC prohibits it. The defense costs that come before the penalty? Those can be insured, in theory. But if the D&O won't cover them (and based on what I just described, it often won't), directors end up absorbing the penalty and the legal bills.
+The uncomfortable part: The civil money penalties under Part 500 can't be insured, FDIC prohibits it. The defense costs that come before the penalty? Those can be insured, in theory, but if the D&O won't cover them (and based on what I just described, it often won't), directors end up absorbing the penalty and the legal bills.
 </div>
 
 Community bank board members (many of them volunteer directors) rarely connect a cybersecurity regulation they haven't read to personal financial exposure through a D&O gap their broker hasn't raised. I'm not confident most brokers have thought about it either.
