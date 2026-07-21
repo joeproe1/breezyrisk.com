@@ -196,62 +196,9 @@ permalink: /examiner-readiness/
   margin: 0;
 }
 
-/* Checklist — prep sheet style */
-.exam-checklist {
-  max-width: 720px;
-  margin: 0 auto;
-  background: #fff;
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 8px 0;
-}
-.exam-check-item {
-  padding: 20px 28px;
-  border-bottom: 1px solid var(--border);
-  display: flex;
-  gap: 16px;
-  align-items: flex-start;
-}
-.exam-check-item:last-child { border-bottom: none; }
-.exam-check-box {
-  width: 22px;
-  height: 22px;
-  border: 2px solid var(--border);
-  border-radius: 4px;
-  flex-shrink: 0;
-  margin-top: 2px;
-}
-.exam-check-content { flex: 1; }
-.exam-check-item strong {
-  display: block;
-  color: var(--primary);
-  font-size: 17px;
-  margin-bottom: 4px;
-}
-.exam-check-item p {
-  margin: 0;
-  color: var(--text-secondary);
-  line-height: 1.65;
-  font-size: 15px;
-}
-
-/* Examiner credential callout */
-.exam-credential {
-  max-width: 720px;
-  margin: 0 auto;
-  border: 1px solid var(--border);
-  border-left: 4px solid #3B82F6;
-  border-radius: 0 10px 10px 0;
-  padding: 28px;
-  background: rgba(59,130,246,0.03);
-}
-.exam-credential p {
-  font-size: 16px;
-  line-height: 1.7;
-  color: var(--text-secondary);
-  margin: 0 0 12px;
-}
-.exam-credential p:last-child { margin-bottom: 0; }
+/* Accordion — regulatory section */
+details summary::-webkit-details-marker { display: none; }
+details[open] summary span { transform: rotate(45deg); display: inline-block; }
 
 /* Final CTA — compact */
 .exam-final {
@@ -384,45 +331,8 @@ permalink: /examiner-readiness/
   </div>
 </section>
 
-<!-- HOW TO PREPARE -->
+<!-- REGULATORY FRAMEWORK (accordion) -->
 <section class="exam-section">
-  <div class="container exam-wrap">
-    <div class="exam-center">
-      <h2>How to Prepare Your Insurance for the Examination</h2>
-    </div>
-
-    <div class="exam-checklist">
-      <div class="exam-check-item">
-        <div class="exam-check-box"></div>
-        <div class="exam-check-content">
-          <strong>Match your policy warranties to your IT audit</strong>
-          <p>Pull your carrier's security warranty requirements from your cyber insurance application. Compare every required control to your most recent IT audit findings.</p>
-        </div>
-      </div>
-
-      <div class="exam-check-item">
-        <div class="exam-check-box"></div>
-        <div class="exam-check-content">
-          <strong>Create a one-page coverage summary for the board</strong>
-          <p>What your policy covers, key sublimits, major exclusions. One page. Plain language. Updated at renewal. When the examiner asks whether the board reviewed coverage, this is your answer.</p>
-        </div>
-      </div>
-
-      <div class="exam-check-item">
-        <div class="exam-check-box"></div>
-        <div class="exam-check-content">
-          <strong>Map your three policies against likely cyber incidents</strong>
-          <p>Ransomware, wire fraud, vendor breach, data breach, regulatory investigation. Document which policy (cyber, D&O, fidelity bond) responds to each.</p>
-        </div>
-      </div>
-    </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- REGULATORY FRAMEWORK -->
-<section class="exam-section alt">
   <div class="container exam-wrap">
     <div class="exam-center">
       <h2>Where These Requirements Come From</h2>
@@ -430,30 +340,30 @@ permalink: /examiner-readiness/
     </div>
 
     <div style="max-width: 720px; margin: 0 auto;">
-      <div style="border: 1px solid var(--border); border-left: 4px solid #3B82F6; border-radius: 0 10px 10px 0; padding: 24px 28px; margin-bottom: 16px; background: #fff;">
-        <strong style="color: var(--primary); font-size: 17px;">FDIC Risk Management Manual, Section 4.4</strong>
-        <p style="margin: 8px 0 0; color: var(--text-secondary); font-size: 15px; line-height: 1.65;">Examiners must comment in the Report of Examination on "lack of any significant coverage, board of director approval and review, or deficiencies in a bank's loss prevention program." This is the direct hook: examiners will note deficiencies in the board's review process itself, not just in coverage.</p>
-      </div>
+      <details style="border: 1px solid var(--border); border-left: 4px solid #3B82F6; border-radius: 0 10px 10px 0; margin-bottom: 12px; background: #fff;">
+        <summary style="padding: 20px 24px; cursor: pointer; font-weight: 700; font-size: 16px; color: var(--primary); list-style: none;">FDIC Risk Management Manual, Section 4.4 <span style="float: right; color: var(--text-secondary); font-size: 14px; font-weight: 400;">+</span></summary>
+        <div style="padding: 0 24px 20px; color: var(--text-secondary); font-size: 15px; line-height: 1.65;">Examiners must comment in the Report of Examination on "lack of any significant coverage, board of director approval and review, or deficiencies in a bank's loss prevention program." This is the direct hook: examiners will note deficiencies in the board's review process itself, not just in coverage.</div>
+      </details>
 
-      <div style="border: 1px solid var(--border); border-left: 4px solid #3B82F6; border-radius: 0 10px 10px 0; padding: 24px 28px; margin-bottom: 16px; background: #fff;">
-        <strong style="color: var(--primary); font-size: 17px;">FFIEC IT Examination Handbook — Information Security</strong>
-        <p style="margin: 8px 0 0; color: var(--text-secondary); font-size: 15px; line-height: 1.65;">The primary source. The Information Security booklet identifies cyber insurance as a risk mitigation tool within the bank's information security program. Examiners use this framework to evaluate whether the bank has assessed its cyber risk exposure and whether insurance coverage aligns with that assessment. The handbook does not prescribe coverage amounts but expects documented rationale.</p>
-      </div>
+      <details style="border: 1px solid var(--border); border-left: 4px solid #3B82F6; border-radius: 0 10px 10px 0; margin-bottom: 12px; background: #fff;">
+        <summary style="padding: 20px 24px; cursor: pointer; font-weight: 700; font-size: 16px; color: var(--primary); list-style: none;">FFIEC IT Examination Handbook — Information Security <span style="float: right; color: var(--text-secondary); font-size: 14px; font-weight: 400;">+</span></summary>
+        <div style="padding: 0 24px 20px; color: var(--text-secondary); font-size: 15px; line-height: 1.65;">The primary source. The Information Security booklet identifies cyber insurance as a risk mitigation tool within the bank's information security program. Examiners use this framework to evaluate whether the bank has assessed its cyber risk exposure and whether insurance coverage aligns with that assessment. The handbook does not prescribe coverage amounts but expects documented rationale.</div>
+      </details>
 
-      <div style="border: 1px solid var(--border); border-left: 4px solid #3B82F6; border-radius: 0 10px 10px 0; padding: 24px 28px; margin-bottom: 16px; background: #fff;">
-        <strong style="color: var(--primary); font-size: 17px;">FFIEC IT Examination Handbook — Management (III.C.7)</strong>
-        <p style="margin: 8px 0 0; color: var(--text-secondary); font-size: 15px; line-height: 1.65;">Insurance procedures "should include an annual program review by the board of directors." Management "should consider seeking the help of insurance consultants, attorneys, and other professionals, as necessary, to fully identify and measure the risk." This is where the expectation for independent analysis beyond the placing broker originates.</p>
-      </div>
+      <details style="border: 1px solid var(--border); border-left: 4px solid #3B82F6; border-radius: 0 10px 10px 0; margin-bottom: 12px; background: #fff;">
+        <summary style="padding: 20px 24px; cursor: pointer; font-weight: 700; font-size: 16px; color: var(--primary); list-style: none;">FFIEC IT Examination Handbook — Management (III.C.7) <span style="float: right; color: var(--text-secondary); font-size: 14px; font-weight: 400;">+</span></summary>
+        <div style="padding: 0 24px 20px; color: var(--text-secondary); font-size: 15px; line-height: 1.65;">Insurance procedures "should include an annual program review by the board of directors." Management "should consider seeking the help of insurance consultants, attorneys, and other professionals, as necessary, to fully identify and measure the risk." This is where the expectation for independent analysis beyond the placing broker originates.</div>
+      </details>
 
-      <div style="border: 1px solid var(--border); border-left: 4px solid #3B82F6; border-radius: 0 10px 10px 0; padding: 24px 28px; margin-bottom: 16px; background: #fff;">
-        <strong style="color: var(--primary); font-size: 17px;">FFIEC Joint Statement on Cyber Insurance (2018)</strong>
-        <p style="margin: 8px 0 0; color: var(--text-secondary); font-size: 15px; line-height: 1.65;">Boards should be engaged in insurance program reviews. Institutions should "review the scope of existing or proposed insurance coverage to identify gaps" and engage "outside advisors such as attorneys and brokers." The recommendation to engage advisors beyond the placing broker creates the practical expectation for independent review.</p>
-      </div>
+      <details style="border: 1px solid var(--border); border-left: 4px solid #3B82F6; border-radius: 0 10px 10px 0; margin-bottom: 12px; background: #fff;">
+        <summary style="padding: 20px 24px; cursor: pointer; font-weight: 700; font-size: 16px; color: var(--primary); list-style: none;">FFIEC Joint Statement on Cyber Insurance (2018) <span style="float: right; color: var(--text-secondary); font-size: 14px; font-weight: 400;">+</span></summary>
+        <div style="padding: 0 24px 20px; color: var(--text-secondary); font-size: 15px; line-height: 1.65;">Boards should be engaged in insurance program reviews. Institutions should "review the scope of existing or proposed insurance coverage to identify gaps" and engage "outside advisors such as attorneys and brokers." The recommendation to engage advisors beyond the placing broker creates the practical expectation for independent review.</div>
+      </details>
 
-      <div style="border: 1px solid var(--border); border-left: 4px solid #3B82F6; border-radius: 0 10px 10px 0; padding: 24px 28px; background: #fff;">
-        <strong style="color: var(--primary); font-size: 17px;">NCUA Letter to Credit Unions 18-CU-01 (Cyber Incident Notification)</strong>
-        <p style="margin: 8px 0 0; color: var(--text-secondary); font-size: 15px; line-height: 1.65;">For credit unions, NCUA expects cyber incident reporting within 72 hours and has increased scrutiny of cyber preparedness, including insurance coverage. NCUA examiners follow similar evaluation criteria to bank examiners: board oversight, documented risk assessment, and coverage that reflects the credit union's size and complexity.</p>
-      </div>
+      <details style="border: 1px solid var(--border); border-left: 4px solid #3B82F6; border-radius: 0 10px 10px 0; background: #fff;">
+        <summary style="padding: 20px 24px; cursor: pointer; font-weight: 700; font-size: 16px; color: var(--primary); list-style: none;">NCUA Letter to Credit Unions 18-CU-01 <span style="float: right; color: var(--text-secondary); font-size: 14px; font-weight: 400;">+</span></summary>
+        <div style="padding: 0 24px 20px; color: var(--text-secondary); font-size: 15px; line-height: 1.65;">For credit unions, NCUA expects cyber incident reporting within 72 hours and has increased scrutiny of cyber preparedness, including insurance coverage. NCUA examiners follow similar evaluation criteria to bank examiners: board oversight, documented risk assessment, and coverage that reflects the credit union's size and complexity.</div>
+      </details>
     </div>
   </div>
 </section>
@@ -463,7 +373,6 @@ permalink: /examiner-readiness/
 <section class="exam-final">
   <div class="exam-final-inner">
     <h2>Get a Head Start on Your Examiner's Questions</h2>
-    <p>The Risk Intelligence Report reads your policies, maps coverage against claim scenarios, and produces board-ready documentation. One report. Plain English.</p>
     <a href="{{ '/contact/' | relative_url }}" class="btn-accent">Get in Touch &rarr;</a>
   </div>
 </section>
