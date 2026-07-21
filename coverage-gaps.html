@@ -182,25 +182,21 @@ permalink: /coverage-gaps/
   max-width: 680px;
 }
 
-/* ----- Byline bar (below hero) ----- */
-.gaps-byline-bar {
-  background: #f8f9fa;
-  border-bottom: 1px solid #e5e7eb;
-  padding: 16px 0;
+/* ----- Eyebrow ----- */
+.gaps-eyebrow {
+  display: inline-block;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #00D4AA;
+  background: rgba(0,212,170,0.1);
+  border: 1px solid rgba(0,212,170,0.2);
+  padding: 6px 14px;
+  border-radius: 6px;
+  margin-bottom: 20px;
 }
-.gaps-byline-bar .container { max-width: 780px; }
-.gaps-byline-bar p {
-  font-size: 15px;
-  color: #555;
-  margin: 0;
-  line-height: 1.5;
-}
-.gaps-byline-bar a {
-  color: var(--bank-mid);
-  text-decoration: none;
-  font-weight: 600;
-}
-.gaps-byline-bar a:hover { text-decoration: underline; }
 @media (max-width: 968px) {
   .gaps-hero h1 { font-size: 36px; }
 }
@@ -472,19 +468,11 @@ permalink: /coverage-gaps/
      ======================================== -->
 <section class="gaps-hero">
   <div class="container">
+    <div class="gaps-eyebrow">Coverage Gaps</div>
     <h1>Community Bank Insurance Gaps: Six Patterns That Fail at Claim Time</h1>
     <p class="gaps-hero__sub">
       These six patterns show up in every community bank and credit union policy review I conduct. They come from reading the actual policy language, not from checklists.
     </p>
-  </div>
-</section>
-
-<!-- ========================================
-     BYLINE BAR
-     ======================================== -->
-<section class="gaps-byline-bar">
-  <div class="container">
-    <p>By <a href="{{ '/about/' | relative_url }}">Joerg Proeve</a>, Independent Risk Advisor &middot; Last updated <time datetime="2026-06-30">June 2026</time></p>
   </div>
 </section>
 
