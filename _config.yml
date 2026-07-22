@@ -11,6 +11,7 @@ phone: "(717) 490-7670"
 linkedin: "https://www.linkedin.com/in/joergproeve/"
 
 # Build settings
+timezone: America/New_York
 markdown: kramdown
 permalink: /insights/:title/
 future: true  # Posts go live when committed and pushed; we control timing through git
@@ -37,6 +38,7 @@ exclude:
   - README.md
   - CNAME
   - .gitignore
+  - assets/images/*.html
 
 # Default front matter
 defaults:

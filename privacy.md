@@ -13,7 +13,7 @@ permalink: /privacy/
 .privacy-page ul { margin: 12px 0 20px; padding-left: 24px; }
 .privacy-page li { font-size: 16px; color: var(--text-secondary); line-height: 1.7; margin-bottom: 10px; }
 .privacy-page li strong { color: var(--primary); }
-.privacy-page .effective-date { font-family: var(--font-mono); font-size: 14px; color: var(--text-secondary); margin-bottom: 32px; display: block; }
+.privacy-page .effective-date { font-family: ui-monospace, 'Cascadia Code', 'Consolas', monospace; font-size: 14px; color: var(--text-secondary); margin-bottom: 32px; display: block; }
 @media (max-width: 768px) {
     .privacy-page { padding-top: 100px; }
     .privacy-page h1 { font-size: 32px; }

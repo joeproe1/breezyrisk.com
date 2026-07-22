@@ -10,6 +10,7 @@ read_time: "5 min read"
 image: /assets/images/Blog-Revenue-Your-Policy-Ignores.png
 image_alt: "Community bank interest income excluded from cyber policy business interruption coverage"
 permalink: /insights/the-revenue-your-policy-ignores/
+last_modified_at: 2026-07-10
 ---
 
 A community bank suffers a five-day cyber outage. Systems down. No wire transfers, no ACH processing, no online banking, no loan originations. The bank files a business interruption claim under its cyber policy.
