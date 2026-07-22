@@ -11,6 +11,7 @@ image: /assets/images/Blog-NYDFS-Insurance.png
 image_alt: "NYDFS 23 NYCRR 500 cybersecurity regulation and community bank D&O insurance investigative costs gap"
 last_modified_at: 2026-07-22
 permalink: /insights/nydfs-cybersecurity-regulation-insurance/
+tags: [D&O, NYDFS, 23 NYCRR 500, cyber exclusion, investigative costs, regulatory, community banks]
 faq:
   - question: "Does NYDFS 23 NYCRR 500 apply to community banks?"
     answer: "Yes. 23 NYCRR 500 applies to all entities regulated by the New York Department of Financial Services, including state-chartered community banks operating in New York. The regulation requires covered entities to maintain a cybersecurity program, report incidents within 72 hours, and submit annual compliance certifications. The per-day penalty rate for violations does not change based on institution size."

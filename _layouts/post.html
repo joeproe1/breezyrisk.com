@@ -23,7 +23,9 @@ layout: default
   "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
   {% if page.image %}"image": {
     "@type": "ImageObject",
-    "url": "{{ page.image | absolute_url }}"{% if page.image_alt %},
+    "url": "{{ page.image | absolute_url }}",
+    "width": {{ page.image_width | default: 1200 }},
+    "height": {{ page.image_height | default: 627 }}{% if page.image_alt %},
     "description": {{ page.image_alt | jsonify }}{% endif %}
   },{% endif %}
   {% if page.category %}"articleSection": {{ page.category | jsonify }},{% endif %}
