@@ -121,4 +121,6 @@ You cannot close a gap you have not checked.
 
 Board liability is one of five incident types where coverage breaks down across all three policies. I map the full picture in [Five Common Cyber Incidents, Three Policies, and the Gaps Between Them]({{ '/insights/five-incidents-three-policies/' | relative_url }}).
 
+For banks in New York, this gap has a regulatory enforcement dimension. NYDFS has collected $63 million in penalties under 23 NYCRR 500, and the same D&O cyber exclusion blocks coverage for the investigative costs that follow. I covered this in [What 23 NYCRR 500 Means for Your Bank's Insurance]({{ '/insights/nydfs-cybersecurity-regulation-insurance/' | relative_url }}).
+
 If your board has not reviewed how your D&O and cyber policies interact after a breach, [get in touch]({{ '/contact/' | relative_url }}) and a [Risk Intelligence Report]({{ '/risk-intelligence-report/' | relative_url }}) will show you where the gap is.
