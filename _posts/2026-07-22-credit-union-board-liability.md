@@ -19,7 +19,7 @@ permalink: /insights/credit-union-board-liability/
 }
 </style>
 
-I wrote recently about [the gaps that surface when you read a credit union's cyber, bond, and D&O policies together]({{ '/insights/credit-union-insurance-gaps/' | relative_url }}). Entity-level D&O exclusions, wire fraud co-payments, vendor outage sublimits. Those are the gaps. This article is about what happens when they arrive.
+I wrote recently about [the coverage gaps that surface when you read a credit union's cyber, bond, and D&O policies together]({{ '/insights/credit-union-insurance-gaps/' | relative_url }}). Entity-level D&O exclusions, wire fraud co-payments, vendor outage sublimits. This article is about what happens when those gaps arrive as claims.
 
 They do not arrive all at once. They surface in sequence over the first six months after a breach. And each one compounds the last, because every gap that the D&O policy fails to cover pushes more weight onto the cyber policy.
 
