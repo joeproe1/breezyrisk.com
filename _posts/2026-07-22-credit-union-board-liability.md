@@ -30,12 +30,12 @@ By month six, the cyber policy is funding three separate fights from a single ag
 <div class="cu-board-grid" style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px;">
 <div style="background: rgba(220,38,38,0.1); border-radius: 8px; padding: 20px;">
 <div style="color: #FCA5A5; font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px;">Months 1-2</div>
-<div style="color: #fff; font-size: 20px; font-weight: 700; margin-bottom: 8px; line-height: 1.2;">No investigation coverage</div>
+<div style="color: #fff; font-size: 20px; font-weight: 700; margin-bottom: 8px; line-height: 1.1;">No investigation coverage</div>
 <div style="color: rgba(255,255,255,0.7); font-size: 14px; line-height: 1.5;">NCUA subpoenas before a formal proceeding have zero coverage</div>
 </div>
 <div style="background: rgba(37,99,235,0.1); border-radius: 8px; padding: 20px;">
 <div style="color: #93C5FD; font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px;">Months 3-6</div>
-<div style="color: #fff; font-size: 20px; font-weight: 700; margin-bottom: 8px; line-height: 1.2;">Institution uninsured</div>
+<div style="color: #fff; font-size: 20px; font-weight: 700; margin-bottom: 8px; line-height: 1.1;">Institution uninsured</div>
 <div style="color: rgba(255,255,255,0.7); font-size: 14px; line-height: 1.5;">Member lawsuit defense falls to the cyber policy, not the D&O</div>
 </div>
 <div style="background: rgba(124,58,237,0.1); border-radius: 8px; padding: 20px;">
