@@ -26,16 +26,16 @@ They do not arrive all at once. They surface in sequence over the first six mont
 By month six, the cyber policy is funding three separate fights from a single aggregate limit.
 
 <div style="background: #0A2540; border-radius: 12px; padding: 32px; margin: 32px 0; color: #fff;">
-<div style="color: #fff; font-weight: 700; font-size: 20px; margin-bottom: 24px;">Three gaps surfacing over time.</div>
+<div style="color: #fff; font-weight: 700; font-size: 20px; margin-bottom: 24px;">Coverage gaps surfacing over time.</div>
 <div class="cu-board-grid" style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px;">
 <div style="background: rgba(220,38,38,0.1); border-radius: 8px; padding: 20px;">
 <div style="color: #FCA5A5; font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px;">Months 1-2</div>
-<div style="color: #fff; font-size: 20px; font-weight: 700; margin-bottom: 8px;">No investigation coverage</div>
+<div style="color: #fff; font-size: 20px; font-weight: 700; margin-bottom: 8px; line-height: 1.2;">No investigation coverage</div>
 <div style="color: rgba(255,255,255,0.7); font-size: 14px; line-height: 1.5;">NCUA subpoenas before a formal proceeding have zero coverage</div>
 </div>
 <div style="background: rgba(37,99,235,0.1); border-radius: 8px; padding: 20px;">
 <div style="color: #93C5FD; font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px;">Months 3-6</div>
-<div style="color: #fff; font-size: 20px; font-weight: 700; margin-bottom: 8px;">Institution uninsured</div>
+<div style="color: #fff; font-size: 20px; font-weight: 700; margin-bottom: 8px; line-height: 1.2;">Institution uninsured</div>
 <div style="color: rgba(255,255,255,0.7); font-size: 14px; line-height: 1.5;">Member lawsuit defense falls to the cyber policy, not the D&O</div>
 </div>
 <div style="background: rgba(124,58,237,0.1); border-radius: 8px; padding: 20px;">
@@ -49,8 +49,6 @@ By month six, the cyber policy is funding three separate fights from a single ag
 ## First Week: The Cyber Policy Does Its Job
 
 A breach is discovered. The credit union notifies NCUA within 72 hours. The cyber policy activates: forensics, breach counsel, member notification. This part generally works. The cyber policy was built for it.
-
-No D&O issues yet. The board is informed but not under scrutiny.
 
 <h3 style="display: flex; align-items: center; gap: 12px;"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg><span>Months 1-2: The Investigation Moves to the Boardroom</span></h3>
 
