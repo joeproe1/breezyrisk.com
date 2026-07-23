@@ -29,7 +29,7 @@ By month six, the cyber policy is funding three separate fights from a single ag
 <div style="color: #fff; font-weight: 700; font-size: 20px; margin-bottom: 24px;">Three gaps surfacing over time.</div>
 <div class="cu-board-grid" style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px;">
 <div style="background: rgba(220,38,38,0.1); border-radius: 8px; padding: 20px;">
-<div style="color: #FCA5A5; font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px;">Weeks 2-8</div>
+<div style="color: #FCA5A5; font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px;">Months 1-2</div>
 <div style="color: #fff; font-size: 20px; font-weight: 700; margin-bottom: 8px;">No investigation coverage</div>
 <div style="color: rgba(255,255,255,0.7); font-size: 14px; line-height: 1.5;">NCUA subpoenas before a formal proceeding have zero coverage</div>
 </div>
@@ -52,7 +52,7 @@ A breach is discovered. The credit union notifies NCUA within 72 hours. The cybe
 
 No D&O issues yet. The board is informed but not under scrutiny.
 
-<h3 style="display: flex; align-items: center; gap: 12px;"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg><span>Weeks 2-8: The Investigation Moves to the Boardroom</span></h3>
+<h3 style="display: flex; align-items: center; gap: 12px;"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg><span>Months 1-2: The Investigation Moves to the Boardroom</span></h3>
 
 NCUA begins its examination. It starts with the breach itself, but expands. Did the board approve the information security program? Did directors receive cybersecurity briefings? Did the board allocate adequate resources? The examination shifts from the IT team to the boardroom.
 
@@ -62,9 +62,6 @@ The D&O policy offered coverage for exactly this. A credit union-specific endors
 
 This is not a gap in the policy language. It is a gap in what was bought. The coverage was available for a modest additional premium. At the credit union I reviewed, it would have cost a fraction of the legal bills it was designed to cover. Whether it was a cost decision, an oversight, or a broker recommendation that it wasn't needed, the result is the same: pre-formal NCUA subpoenas have zero coverage. Board members retain counsel at their own expense, or the credit union funds their defense from operating reserves.
 
-<div style="border-left: 3px solid #DC2626; padding: 16px 20px; background: rgba(220,38,38,0.05); border-radius: 0 8px 8px 0; margin: 24px 0; font-size: 18px; font-weight: 600; color: #333;">
-The coverage existed. It was not selected. That is a purchasing decision, not a carrier limitation.
-</div>
 
 <h3 style="display: flex; align-items: center; gap: 12px;"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg><span>Months 3-6: The Member Lawsuit Lands on the Wrong Policy</span></h3>
 
