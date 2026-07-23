@@ -50,7 +50,7 @@ By month six, the cyber policy is funding three separate fights from a single ag
 
 A breach is discovered. The credit union notifies NCUA within 72 hours. The cyber policy activates: forensics, breach counsel, member notification. This part generally works. The cyber policy was built for it.
 
-<h3 style="display: flex; align-items: center; gap: 12px;"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg><span>Months 1-2: The Investigation Moves to the Boardroom</span></h3>
+### Months 1-2: The Investigation Moves to the Boardroom
 
 NCUA begins its examination. It starts with the breach itself, but expands. Did the board approve the information security program? Did directors receive cybersecurity briefings? Did the board allocate adequate resources? The examination shifts from the IT team to the boardroom.
 
@@ -61,7 +61,7 @@ The D&O policy offered coverage for exactly this. A credit union-specific endors
 The coverage was available for a modest additional premium. Without it, pre-formal NCUA subpoenas have zero coverage.
 
 
-<h3 style="display: flex; align-items: center; gap: 12px;"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg><span>Months 3-6: The Member Lawsuit Lands on the Wrong Policy</span></h3>
+### Months 3-6: The Member Lawsuit Lands on the Wrong Policy
 
 Members whose data was exposed file a class action. They allege the board failed to protect their information, failed to oversee cybersecurity, failed to allocate resources. These are **breach-of-fiduciary-duty claims, not securities claims**.
 
@@ -73,7 +73,7 @@ The only option left is the cyber policy. But the cyber policy is already coveri
 Two fights. One policy. Defense costs inside limits means every dollar is a trade-off.
 </div>
 
-<h3 style="display: flex; align-items: center; gap: 12px;"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#7C3AED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg><span>Month 6+: The Safety Valve That Does Not Exist</span></h3>
+### Month 6+: The Safety Valve That Does Not Exist
 
 If NCUA finds the board's cybersecurity oversight was deficient, the investigation becomes a formal enforcement action. Consent orders. Civil money penalties. Personal liability for individual directors.
 
