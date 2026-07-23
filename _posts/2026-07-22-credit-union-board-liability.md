@@ -100,6 +100,8 @@ Each gap pushes more weight onto the cyber policy. By month six, the cyber polic
 
 The D&O was supposed to share that load. At this credit union, it could not. The cyber exclusion removed the institution from coverage, the investigation endorsement was not purchased, and the one carve-back was built for a different kind of institution.
 
+The industry designed the cyber policy to fill the D&O gap. That makes the compounding problem a feature of the architecture, not a mistake. It also makes the aggregate limit, the defense-cost structure, and the investigation endorsement the three things worth reading before renewal.
+
 The individual director protections were strong. TruStage's personal coverage for directors was the best I have seen. If a board member is worried about personal liability, the structure works. But the institution bears the full financial weight of six months of post-breach fallout from one policy that was not designed to carry it alone.
 
 <div style="border-left: 3px solid #F59E0B; padding: 16px 20px; background: rgba(245,158,11,0.05); border-radius: 0 8px 8px 0; margin: 24px 0; font-size: 18px; font-weight: 600; color: #333;">
