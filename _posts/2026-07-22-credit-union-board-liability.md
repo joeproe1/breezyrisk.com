@@ -40,8 +40,8 @@ By month six, the cyber policy is funding three separate fights from a single ag
 </div>
 <div style="background: rgba(124,58,237,0.1); border-radius: 8px; padding: 20px;">
 <div style="color: #C4B5FD; font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 8px;">Month 6+</div>
-<div style="color: #fff; font-size: 20px; font-weight: 700; margin-bottom: 8px;">No carve-back</div>
-<div style="color: rgba(255,255,255,0.7); font-size: 14px; line-height: 1.5;">Formal enforcement excluded by D&O cyber exclusion with no safety valve</div>
+<div style="color: #fff; font-size: 20px; font-weight: 700; margin-bottom: 8px;">Wrong target</div>
+<div style="color: rgba(255,255,255,0.7); font-size: 14px; line-height: 1.5;">D&O carve-back protects individual directors, not the credit union itself</div>
 </div>
 </div>
 </div>
@@ -73,18 +73,16 @@ The only option left is the cyber policy. But the cyber policy is already coveri
 Two fights. One policy. Defense costs inside limits means every dollar is a trade-off.
 </div>
 
-### Month 6+: The Safety Valve That Does Not Exist
+### Month 6+: The Safety Valve Pointed at the Wrong Target
 
 If NCUA finds the board's cybersecurity oversight was deficient, the investigation becomes a formal enforcement action. Consent orders. Civil money penalties. Personal liability for individual directors.
 
-The D&O cyber exclusion denies coverage. Most D&O policies include one safety valve: a carve-back for securities claims. If shareholders of a publicly traded bank sue after the stock drops, the D&O still responds despite the exclusion.
+The D&O does have a surviving carve-back. Individual directors and officers retain personal coverage despite the cyber exclusion. If a director faces personal liability, the D&O responds. That protection was real, and at this credit union it was the strongest individual coverage I have seen.
 
-Credit unions are mutual institutions. No shareholders. No publicly traded securities. No stock price. **The carve-back does nothing.** The exclusion applies with full force.
-
-The formal enforcement action is excluded by the D&O. The credit union is back to the cyber policy. The same cyber policy already covering breach response and already defending the member class action. **Three fights, one aggregate limit.**
+But the formal enforcement action is against the institution. The entity exclusion blocks that. The carve-back protects directors personally, but the institution gets nothing. The credit union is back on the cyber policy. The same cyber policy already covering breach response and already defending the member class action. **Three fights, one aggregate limit.**
 
 <div style="border-left: 3px solid #7C3AED; padding: 16px 20px; background: rgba(124,58,237,0.05); border-radius: 0 8px 8px 0; margin: 24px 0; font-size: 18px; font-weight: 600; color: #333;">
-The D&O's one safety valve was designed for a publicly traded bank. The credit union is not one.
+The D&O's one surviving carve-back protects directors, not the credit union. The institution carries the weight alone.
 </div>
 
 ## The Compounding Problem
@@ -102,5 +100,5 @@ This is the credit union-specific version of a problem that hits banks too. I wr
 If your board has never reviewed the D&O cyber exclusion, the investigation coverage election on the declarations page, and what happens when the cyber policy becomes the sole source of defense funding, those three things are worth reading before your next renewal.
 
 <div style="border-left: 3px solid #00D4AA; padding: 16px 20px; background: rgba(0,212,170,0.05); border-radius: 0 8px 8px 0; margin: 24px 0; font-size: 18px; font-weight: 600; color: #333;">
-Find out whether your D&O policy protects the institution after a cyber event, or just after a securities claim. That is what a Risk Intelligence Report is for. <a href="{{ '/contact/' | relative_url }}" style="color: #00D4AA;">Get in touch</a>.
+Find out whether your D&O policy protects the institution after a cyber event, or just the individual directors. That is what a Risk Intelligence Report is for. <a href="{{ '/contact/' | relative_url }}" style="color: #00D4AA;">Get in touch</a>.
 </div>
