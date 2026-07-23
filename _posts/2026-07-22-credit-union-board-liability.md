@@ -3,13 +3,13 @@ layout: post
 title: "Six Months After a Breach, Your Credit Union's Cyber Policy Is Funding Three Fights Alone"
 card_title: "Credit Union Board Liability Gaps"
 description: "After a data breach, three D&O gaps hit a credit union in sequence. Each one pushes more weight onto the cyber policy. By month six, one policy is funding breach response, a member lawsuit, and regulatory defense from a single aggregate limit."
-date: 2026-07-15
+date: 2026-07-23
 author: Joerg Proeve
 category: Case Study
 read_time: "5 min read"
 image: /assets/images/Blog-Credit-Union-Board-Liability.png
 image_alt: "Credit union D&O policy gaps showing board liability exposure after a cyber event for mutual institutions"
-last_modified_at: 2026-07-15
+last_modified_at: 2026-07-23
 permalink: /insights/credit-union-board-liability/
 ---
 
