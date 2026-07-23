@@ -58,20 +58,18 @@ NCUA begins its examination. It starts with the breach itself, but expands. Did 
 
 NCUA sends document requests. Board meeting minutes. Risk assessment evidence. Training records. The credit union needs counsel to respond, prepare board members for interviews, and assess regulatory exposure.
 
-The D&O policy offered coverage for exactly this. A credit union-specific endorsement covered early-stage investigation costs. But it was not purchased. The declarations page read "No Coverage."
+The D&O policy offered coverage for exactly this. A credit union-specific endorsement covered early-stage investigation costs. But it was not purchased. The declarations page read **"No Coverage."**
 
-This is not a gap in the policy language. It is a gap in what was bought. The coverage was available for a modest additional premium. At the credit union I reviewed, it would have cost a fraction of the legal bills it was designed to cover. Whether it was a cost decision, an oversight, or a broker recommendation that it wasn't needed, the result is the same: pre-formal NCUA subpoenas have zero coverage. Board members retain counsel at their own expense, or the credit union funds their defense from operating reserves.
+The coverage was available for a modest additional premium. Without it, pre-formal NCUA subpoenas have zero coverage.
 
 
 <h3 style="display: flex; align-items: center; gap: 12px;"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg><span>Months 3-6: The Member Lawsuit Lands on the Wrong Policy</span></h3>
 
-Members whose data was exposed file a class action. They allege the board failed to protect their information, failed to oversee cybersecurity, failed to allocate resources. These are breach-of-fiduciary-duty claims, not securities claims.
+Members whose data was exposed file a class action. They allege the board failed to protect their information, failed to oversee cybersecurity, failed to allocate resources. These are **breach-of-fiduciary-duty claims, not securities claims**.
 
 The credit union turns to its D&O. The cyber exclusion denies coverage. At this credit union, the exclusion applied at the entity level: individual directors kept their personal coverage, but the institution itself had no D&O response for the member lawsuit.
 
-The only option left is the cyber policy. But the cyber policy is already covering breach response, and at this credit union, it had defense costs inside limits. Every dollar spent on lawyers for the member lawsuit reduces what is left for forensics, notification, and regulatory defense. Breach response and lawsuit defense are now competing for the same pool of money.
-
-A member class action can run 18 months or longer. The defense costs alone can consume a significant portion of the cyber policy's total coverage. The credit union is choosing between defending the suit and funding the breach response from the same budget.
+The only option left is the cyber policy. But the cyber policy is already covering breach response, and at this credit union, it had **defense costs inside limits**. Every dollar spent on lawyers for the member lawsuit reduces what is left for forensics, notification, and regulatory defense. Breach response and lawsuit defense are now competing for the same pool of money.
 
 <div style="border-left: 3px solid #2563EB; padding: 16px 20px; background: rgba(37,99,235,0.05); border-radius: 0 8px 8px 0; margin: 24px 0; font-size: 18px; font-weight: 600; color: #333;">
 Two fights. One policy. Defense costs inside limits means every dollar is a trade-off.
@@ -81,11 +79,11 @@ Two fights. One policy. Defense costs inside limits means every dollar is a trad
 
 If NCUA finds the board's cybersecurity oversight was deficient, the investigation becomes a formal enforcement action. Consent orders. Civil money penalties. Personal liability for individual directors.
 
-The D&O cyber exclusion denies coverage. Most D&O policies include one safety valve: a carve-back for securities claims. If shareholders of a publicly traded bank sue after the stock drops, the D&O still responds despite the exclusion. I have reviewed D&O policies from four carriers across five financial institution audits. In every case, the securities claims exception was the primary or only opening in the cyber exclusion.
+The D&O cyber exclusion denies coverage. Most D&O policies include one safety valve: a carve-back for securities claims. If shareholders of a publicly traded bank sue after the stock drops, the D&O still responds despite the exclusion.
 
 Credit unions are mutual institutions. No shareholders. No publicly traded securities. No stock price. The carve-back does nothing. The exclusion applies with full force.
 
-The formal enforcement action is excluded by the D&O. The credit union is back to the cyber policy. The same cyber policy already covering breach response and already defending the member class action. Three fights, one aggregate limit.
+The formal enforcement action is excluded by the D&O. The credit union is back to the cyber policy. The same cyber policy already covering breach response and already defending the member class action. **Three fights, one aggregate limit.**
 
 <div style="border-left: 3px solid #7C3AED; padding: 16px 20px; background: rgba(124,58,237,0.05); border-radius: 0 8px 8px 0; margin: 24px 0; font-size: 18px; font-weight: 600; color: #333;">
 The D&O's one safety valve was designed for a publicly traded bank. The credit union is not one.
@@ -93,11 +91,7 @@ The D&O's one safety valve was designed for a publicly traded bank. The credit u
 
 ## The Compounding Problem
 
-Each gap pushes more weight onto the cyber policy. By month six, the cyber policy is covering breach response, member lawsuit defense, and formal regulatory defense from a single aggregate limit. Every dollar spent in one category reduces what is available for the others.
-
-The D&O was supposed to share that load. At this credit union, it could not. The cyber exclusion removed the institution from coverage, the investigation endorsement was not purchased, and the one carve-back was built for a different kind of institution.
-
-The industry designed the cyber policy to fill the D&O gap. That makes the compounding problem a feature of the architecture, not a mistake. It also makes the aggregate limit, the defense-cost structure, and the investigation endorsement the three things worth reading before renewal.
+The D&O was supposed to share the load with the cyber policy. At this credit union, it could not. The industry designed the cyber policy to fill the D&O gap. That makes the compounding problem a feature of the architecture, not a mistake. It also makes the aggregate limit, the defense-cost structure, and the investigation endorsement the three things worth reading before renewal.
 
 The individual director protections were strong. TruStage's personal coverage for directors was the best I have seen. If a board member is worried about personal liability, the structure works. But the institution bears the full financial weight of six months of post-breach fallout from one policy that was not designed to carry it alone.
 
