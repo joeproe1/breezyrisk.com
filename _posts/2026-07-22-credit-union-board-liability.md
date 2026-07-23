@@ -79,7 +79,7 @@ If NCUA finds the board's cybersecurity oversight was deficient, the investigati
 
 The D&O cyber exclusion denies coverage. Most D&O policies include one safety valve: a carve-back for securities claims. If shareholders of a publicly traded bank sue after the stock drops, the D&O still responds despite the exclusion.
 
-Credit unions are mutual institutions. No shareholders. No publicly traded securities. No stock price. The carve-back does nothing. The exclusion applies with full force.
+Credit unions are mutual institutions. No shareholders. No publicly traded securities. No stock price. **The carve-back does nothing.** The exclusion applies with full force.
 
 The formal enforcement action is excluded by the D&O. The credit union is back to the cyber policy. The same cyber policy already covering breach response and already defending the member class action. **Three fights, one aggregate limit.**
 
@@ -97,7 +97,7 @@ The individual director protections were strong. TruStage's personal coverage fo
 Three gaps, six months, one policy absorbing all of it. That is where the exposure sits.
 </div>
 
-This is the credit union-specific version of a problem that hits banks too. I wrote about [the D&O cyber exclusion from the bank side]({{ '/insights/the-board-nobody-insures/' | relative_url }}), where the seam between D&O and cyber leaves directors with zero coverage after a breach. The gap is the same. The compounding is worse for credit unions because the mutual structure removes the one carve-back that gives banks partial relief.
+This is the credit union-specific version of a problem that hits banks too. I wrote about [the D&O cyber exclusion from the bank side]({{ '/insights/the-board-nobody-insures/' | relative_url }}), where the seam between D&O and cyber leaves directors with zero coverage after a breach.
 
 If your board has never reviewed the D&O cyber exclusion, the investigation coverage election on the declarations page, and what happens when the cyber policy becomes the sole source of defense funding, those three things are worth reading before your next renewal.
 
