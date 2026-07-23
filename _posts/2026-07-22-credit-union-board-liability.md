@@ -89,7 +89,7 @@ The D&O's one safety valve was designed for a publicly traded bank. The credit u
 
 ## The Compounding Problem
 
-The D&O was supposed to share the load with the cyber policy. At this credit union, it could not. The industry designed the cyber policy to fill the D&O gap. That makes the compounding problem a feature of the architecture, not a mistake. It also makes the aggregate limit, the defense-cost structure, and the investigation endorsement the three things worth reading before renewal.
+The D&O was supposed to share the load with the cyber policy. When it cannot, the cyber policy carries everything. The industry designed it to fill the D&O gap. That makes the compounding problem a feature of the architecture, not a mistake. It also makes the aggregate limit, the defense-cost structure, and the investigation endorsement the three things worth reading before renewal.
 
 The individual director protections were strong. TruStage's personal coverage for directors was the best I have seen. If a board member is worried about personal liability, the structure works. But the institution bears the full financial weight of six months of post-breach fallout from one policy that was not designed to carry it alone.
 
