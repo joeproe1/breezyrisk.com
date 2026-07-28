@@ -1,0 +1,249 @@
+---
+layout: home
+title: "Independent Community Bank Insurance Audits | Breezy Risk"
+description: "I don't sell insurance. I audit it. Independent Risk Intelligence Reports for community banks and credit unions. Find out where your cyber and D&O coverage, and your fidelity bond, fail before an examiner or a claim does."
+---
+
+<!-- WebPage Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": {{ page.title | jsonify }},
+  "description": {{ page.description | jsonify }},
+  "url": "{{ '/' | absolute_url }}",
+  "about": { "@id": "{{ site.url }}/#organization" },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "{{ '/' | absolute_url }}"
+      }
+    ]
+  }
+}
+</script>
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-split">
+
+      <div class="hero-text">
+        <h1>Your Bank Audits Everything. Except Its Insurance.</h1>
+
+        <p class="hero-tagline">I audit cyber, fidelity bond, and D&O policies for community banks and credit unions. I show you which policies pay after a cyber incident, which deny, and what to fix.</p>
+
+        <div class="hero-chips">
+          <span class="hero-chip">20+ years across insurance</span>
+          <span class="hero-chip">Cybersecurity background</span>
+          <span class="hero-chip">No broker conflict</span>
+        </div>
+
+        <p class="hero-intro">I'm Joerg Proeve. I don't sell insurance. I audit it. <a href="{{ '/about/' | relative_url }}" class="hero-about-link">More about me &rarr;</a></p>
+
+        <p style="font-size: 13px; color: #999; margin: 16px 0 0;">Credit union? <a href="{{ '/credit-unions/' | relative_url }}" style="color: #999; text-decoration: underline;">Your coverage reads differently.</a></p>
+
+      </div>
+
+      <div class="hero-visual">
+        <img src="{{ '/assets/images/joerg-homepage.jpg' | relative_url }}" alt="Joerg Proeve, Independent Risk Advisor at Breezy Risk" class="hero-photo">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Problem + Proof Section -->
+<section class="proof-section">
+  <div class="container">
+    <div class="section-header">
+      <h2 style="color: #fff;">Five Banks. Five Carriers: The Same Coverage Gaps.</h2>
+      <p style="color: rgba(255,255,255,.65); font-size: 18px; margin: 12px auto 0; line-height: 1.6;">Different asset sizes, different carriers, different program structures, similar coverage failures.</p>
+    </div>
+
+    <div class="proof-grid">
+      <div class="proof-card">
+        <svg class="proof-card-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        <h3>Wire fraud: nobody pays.</h3>
+        <p>Coverage topped out at <strong>$500K or even $100K</strong>. One bond had a <strong>50% co-payment clause</strong>. The bank absorbs over half the loss.</p>
+      </div>
+
+      <div class="proof-card">
+        <svg class="proof-card-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        <h3>D&O excludes cyber. Cyber excludes board.</h3>
+        <p>D&O <strong>excluded cyber-related claims</strong>. Cyber didn't cover board defense. After a breach, <strong>neither one pays.</strong></p>
+      </div>
+
+      <div class="proof-card">
+        <svg class="proof-card-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+        <h3>Vendor goes down. No coverage.</h3>
+        <p>Vendor outage sublimits ranged from <strong>$0 to $1M</strong>, against exposures that run <strong>$100K+ per day</strong>. One bank hadn't purchased the coverage at all.</p>
+      </div>
+
+    </div>
+
+    <div class="proof-closing">
+      <p class="proof-testimonial">Every bank had multiple coverage gaps that would have resulted in a denied or reduced claim. The policies were fine individually. Nobody had read them together.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Partner trust line -->
+<div class="partner-trust">
+  <span class="partner-trust-label">Working with:</span>
+
+  <a href="https://foxpointesolutions.com" target="_blank" rel="noopener" class="partner-trust-link">
+    <img src="{{ '/assets/images/foxpointe-logo-color.png' | relative_url }}" alt="FoxPointe Solutions, a Division of The Bonadio Group" class="partner-trust-logo" width="400" height="258" loading="lazy">
+  </a>
+
+  <a href="https://blackknightrm.com/" target="_blank" rel="noopener" class="partner-trust-link partner-trust-link--no-border">
+    <img src="{{ '/assets/images/blackknight-logo.png' | relative_url }}" alt="Black Knight Risk Management" class="partner-trust-logo" width="280" height="262" loading="lazy">
+  </a>
+
+  <span class="partner-trust-label">Members of:</span>
+
+  <a href="https://www.pacb.org/" target="_blank" rel="noopener" class="partner-trust-link partner-trust-link--no-border">
+    <img src="{{ '/assets/images/pacb-logo.png' | relative_url }}" alt="Pennsylvania Association of Community Bankers (PACB)" class="partner-trust-logo" width="234" height="86" loading="lazy">
+  </a>
+
+  <a href="https://ibanys.net/" target="_blank" rel="noopener" class="partner-trust-link partner-trust-link--no-border">
+    <img src="{{ '/assets/images/ibanys-logo.png' | relative_url }}" alt="Independent Bankers Association of New York State (IBANYS)" class="partner-trust-logo" width="300" height="100" loading="lazy">
+  </a>
+</div>
+
+<!-- What You Walk Away With -->
+<section id="walkaway" class="solution-section">
+  <div class="container">
+    <div class="section-header">
+      <h2>What the Risk Intelligence Report Shows You</h2>
+    </div>
+
+    <div class="section-narrow">
+      <ul class="walkaway-list">
+        <li>
+          <svg class="walkaway-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="7 8 3 12 7 16"/><polyline points="17 8 21 12 17 16"/><line x1="12" y1="3" x2="12" y2="21"/></svg>
+          <span>Which insurance policy responds to each incident type, and which denies</span>
+        </li>
+        <li>
+          <svg class="walkaway-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          <span>Exclusions, sublimits, and conditions that can block a claim</span>
+        </li>
+        <li>
+          <svg class="walkaway-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          <span>Vendor risks your policies sublimit or exclude</span>
+        </li>
+        <li>
+          <svg class="walkaway-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          <span>Where policies overlap, where no policy pays, and what it costs you</span>
+        </li>
+      </ul>
+
+      <div class="section-actions">
+        <a href="{{ '/risk-intelligence-report/' | relative_url }}" class="btn btn-secondary">
+          Learn more about the Risk Intelligence Report &rarr;
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include cta-banner.html title="Find Out Where Your Coverage Fails" subtitle="One report. Plain English. Before your next claim, board review, or examination." button="Get in Touch" %}
+
+<style>
+/* Proof cards */
+.proof-card {
+  background: rgba(255,255,255,0.12);
+  border-radius: 10px;
+  padding: 28px 28px;
+  border-left: 3px solid #00D4AA;
+}
+.proof-card h3 {
+  font-size: 20px;
+  color: #fff;
+  margin: 0 0 8px;
+  font-weight: 700;
+}
+.proof-card p {
+  font-size: 17px;
+  line-height: 1.65;
+  color: rgba(255,255,255,0.8);
+  margin: 0;
+}
+.proof-card p strong {
+  color: #fff;
+  font-weight: 600;
+}
+.proof-card-icon {
+  color: #00D4AA;
+  margin-bottom: 12px;
+  display: block;
+}
+
+/* Proof closing */
+.proof-closing {
+  text-align: center;
+  margin-top: 12px;
+}
+.proof-testimonial {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+  line-height: 1.5;
+}
+/* Partner trust line */
+.partner-trust {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  padding: 20px 0 48px;
+  background: #fff;
+}
+.partner-trust-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  letter-spacing: 0.01em;
+}
+.partner-trust-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 120px;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 0;
+  background: #fff;
+  transition: all 0.2s ease;
+}
+.partner-trust-link:hover {
+  opacity: 0.85;
+}
+.partner-trust-link--no-border {
+  border: none;
+  padding: 0;
+}
+.partner-trust-logo {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .proof-card h3 { font-size: 18px; }
+  .proof-card p { font-size: 16px; }
+  .proof-testimonial { font-size: 16px; }
+  .partner-trust { padding: 16px 0 36px; gap: 20px; }
+  .partner-trust-logo { max-width: 100%; }
+  .partner-trust-link { width: 130px; height: 100px; padding: 8px 10px; }
+  .partner-trust-link--no-border { padding: 0; }
+}
+</style>

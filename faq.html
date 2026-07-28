@@ -1,0 +1,375 @@
+---
+layout: page
+title: "Insurance FAQ for Community Banks and Credit Unions"
+description: "Common questions about Risk Intelligence Reports, insurance audits, and working with Breezy Risk. Independent advisory for community banks and credit unions."
+permalink: /faq/
+---
+
+<!-- BreadcrumbList Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "{{ '/' | absolute_url }}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "FAQ",
+      "item": "{{ '/faq/' | absolute_url }}"
+    }
+  ]
+}
+</script>
+
+<style>
+.faq-section { padding: 100px 0; background: var(--bg-light); padding-top: 140px !important; }
+.faq-wrap { max-width: 900px; margin: 0 auto; }
+.faq-header { text-align: center; max-width: 800px; margin: 0 auto 64px; }
+.faq-header h1 { font-size: 48px; font-weight: 800; color: var(--primary); margin: 0 0 12px; letter-spacing: -0.02em; }
+.faq-header p { font-size: 18px; color: var(--text-secondary); margin: 0; line-height: 1.7; }
+.accordion { max-width: 900px; margin: 0 auto; }
+.accordion-item { background: var(--bg-light); border: 2px solid var(--border); border-radius: 12px; margin-bottom: 20px; overflow: hidden; transition: all 0.25s; }
+.accordion-item:hover { border-color: var(--accent); box-shadow: 0 10px 24px rgba(0,0,0,0.06); }
+.accordion-header { padding: 22px 28px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; background: #fff; gap: 16px; }
+.accordion-header h3 { font-size: 20px; color: var(--primary); font-weight: 800; margin: 0; flex: 1; letter-spacing: -0.01em; }
+.accordion-header .icon { font-size: 22px; color: var(--accent); transition: transform 0.25s; flex-shrink: 0; }
+.accordion-item.active .icon { transform: rotate(180deg); }
+.accordion-content { max-height: 0; overflow: hidden; transition: max-height 0.25s ease-out; }
+.accordion-item.active .accordion-content { max-height: 2200px; transition: max-height 0.4s ease-in; }
+.accordion-body { padding: 0 28px 26px; background: #fff; }
+.accordion-body p { color: var(--text-secondary); line-height: 1.75; margin: 0 0 14px; font-size: 16px; }
+.accordion-body p:last-child { margin-bottom: 0; }
+.accordion-body ul { margin: 10px 0 14px 18px; padding-left: 0; }
+.accordion-body li { color: var(--text-secondary); line-height: 1.7; margin-bottom: 8px; font-size: 16px; }
+.accordion-body a { color: var(--accent); text-decoration: none; font-weight: 700; }
+.accordion-body a:hover { text-decoration: underline; }
+.faq-callout { margin-top: 14px; background: rgba(0,212,170,0.08); border: 1px solid rgba(0,212,170,0.22); border-radius: 12px; padding: 14px; color: var(--text-secondary); font-size: 14px; line-height: 1.6; }
+.faq-callout strong { color: var(--primary); font-weight: 800; }
+.faq-category { font-size: 14px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); margin: 48px 0 20px; padding-bottom: 12px; border-bottom: 2px solid var(--border); }
+.faq-category:first-of-type { margin-top: 0; }
+.ask-question-section { background: var(--primary); padding: 64px 0; color: #fff; }
+.ask-question-section .container { max-width: 640px; }
+.ask-question-section h2 { font-size: 28px; font-weight: 800; margin: 0 0 12px; text-align: center; color: #fff; }
+.ask-question-section p { text-align: center; margin: 0 0 28px; color: rgba(255,255,255,0.88); line-height: 1.7; }
+@media (max-width: 768px) {
+    .faq-section { padding-top: 100px !important; }
+    .faq-header h1 { font-size: 34px; }
+    .accordion-header { padding: 18px 22px; }
+    .accordion-header h3 { font-size: 18px; }
+    .accordion-body { padding: 0 22px 22px; }
+}
+</style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is Breezy Risk an insurance broker?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Breezy Risk is a fee-only consulting firm. I do not sell insurance, place policies, or earn commissions. I review and audit your existing insurance program and report what I find. If you want to act on the findings, you take them to your broker, or I can help you find one. The audit is the product, not a step toward a sale."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does an insurance audit differ from what my broker already does?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Your broker places insurance and earns a commission on what they sell. That is a useful service, but it is not an independent assessment. I serve a similar function to an external auditor: independent, fee-based, no broker of record letter. I read the full policy wording, test it against specific incident scenarios, and report what I find. Most broker reviews focus on limits and premiums. I focus on the policy language that determines whether a claim gets paid."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why community banks?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Because of how their insurance programs are structured. Banks carry three overlapping policies, cyber, D&O, and a fidelity bond, that interact in ways most brokers never examine together. I am specialized in analyzing how those three policies respond to common incidents, including wire transfer fraud, ransomware, regulatory investigations, and board liability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does my cyber policy cover wire fraud?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sometimes, partially, with conditions. Most cyber policies treat wire fraud under a social engineering or funds transfer fraud sublimit, often $100K to $250K against a much larger aggregate limit. Many require the bank to prove a verification protocol was followed. The fidelity bond may be invoked as the primary policy, but its voluntary parting exclusion can apply when an employee initiated the transfer. The result is two carriers pointing at each other while the bank carries the loss."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will my D&O policy protect the board after a cyber breach?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Probably less than you think. Most D&O policies for community banks include a cyber exclusion that excludes anything arising out of a cyber event. The intent is to push those claims to the cyber policy, but the cyber policy excludes D&O-style claims like shareholder derivative actions and individual director liability. After a breach, directors can face personal liability with neither policy responding at meaningful limits. I read both policies together and identify the wording that creates the gap, plus any investigative cost coverage the cyber policy may carry that the board can use."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the Risk Intelligence Report?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A line-by-line analysis of your insurance policies against realistic claim scenarios. The report identifies where coverage responds, where it gets disputed, and where it fails. For banks, the centerpiece is the policy interaction analysis: how your cyber and D&O policies, and your fidelity bond, respond to the same incident, and where each carrier points to the other two. The report includes specific findings, policy-language citations, and dollar-range exposure estimates. It is designed for three audiences: the board, the examiner, and the broker."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What will my examiner ask about our insurance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "FDIC and NCUA examiners ask whether the board has reviewed the institution's insurance program in light of actual cyber and operational risk. They look for evidence of an independent assessment, not a renewal summary from a broker. A Risk Intelligence Report is built for that question. It includes specific findings, policy-language citations, dollar-range exposure, and a remediation plan. You can put it in front of an examiner as documented evidence that the board has reviewed coverage against the scenarios most likely to trigger a claim."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does it take to get a Risk Intelligence Report?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Typically one week once I have your documents. You send your current policies. I review coverage against realistic claim scenarios, then deliver the report with a walkthrough call."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need to switch brokers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Most clients take the report to their current broker to renegotiate coverage at renewal, share it with their board or examiner, or use it as a baseline for year-over-year improvement. No broker of record letter, no commitment to move your insurance. The audit is the product. What you do next is up to you."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does an engagement cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Engagements are fixed-fee and project-based. A Risk Intelligence Report for a community bank typically costs less than a single penetration test or SOC 2 audit. No hourly billing, no retainer, no commitment beyond the engagement. Contact me directly for a quote."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do CPA firms and compliance consultants work with Breezy Risk?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "I work alongside CPA firms, IT auditors, and compliance consultants who already serve community banks. You refer a client who needs an independent insurance review. I deliver the report directly to the bank. The bank pays Breezy Risk directly, so there is no conflict with your audit independence."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a cyber insurance audit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A cyber insurance audit is a review of your actual policy language to determine whether your coverage will respond when you file a claim. It is not a cybersecurity compliance check or a questionnaire from your carrier. It examines your cyber and D&O policies, and your fidelity bond, together to find exclusions, sublimits, and gaps that would reduce or deny a payout after a ransomware attack, wire fraud, vendor outage, or data breach. For community banks, the audit also tests how the three policies interact, because that is where the most expensive coverage failures occur."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is an insurance gap analysis for a community bank?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An insurance gap analysis identifies the specific exclusions, sublimits, and policy interactions that would reduce or deny a claim. For community banks, this means reviewing three policies together: cyber, directors and officers (D&O), and the fidelity bond. Common gaps include D&O cyber exclusions that leave the board uninsured after a breach, wire fraud sublimits as low as $100,000, vendor outage coverage that does not match actual vendor dependence, and security warranty language that lets a carrier deny a claim based on a controls questionnaire. Breezy Risk's Bank Coverage Gap Framework tracks 34 named gap patterns across these three policy types."
+      }
+    }
+  ]
+}
+</script>
+
+<section class="faq-section">
+    <div class="container faq-wrap">
+        <div class="faq-header">
+            <h1>Frequently Asked Questions</h1>
+        </div>
+
+        <div class="accordion">
+
+            <!-- Category 1: For Community Banks -->
+            <h2 class="faq-category">For Community Banks</h2>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <h3>What is a cyber insurance audit?</h3>
+                    <span class="icon">&#9660;</span>
+                </div>
+                <div class="accordion-content">
+                    <div class="accordion-body">
+                        <p>A cyber insurance audit is a review of your actual policy language to determine whether your coverage will respond when you file a claim. It is not a cybersecurity compliance check or a questionnaire from your carrier.</p>
+                        <p>It examines your cyber and D&amp;O policies, and your fidelity bond, together to find exclusions, sublimits, and gaps that would reduce or deny a payout after a ransomware attack, wire fraud, vendor outage, or data breach. For community banks, the audit also tests how the three policies interact, because that is where the most expensive coverage failures occur.</p>
+                        <p><a href="{{ '/cyber-insurance-audit/' | relative_url }}">More on what a cyber insurance audit covers &rarr;</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <h3>Why community banks?</h3>
+                    <span class="icon">&#9660;</span>
+                </div>
+                <div class="accordion-content">
+                    <div class="accordion-body">
+                        <p>Because of how their insurance programs are structured. Banks carry three overlapping policies, cyber, D&amp;O, and a fidelity bond, that interact in ways most brokers never examine together. I am specialized in analyzing how those three policies respond to common incidents, including wire transfer fraud, ransomware, regulatory investigations, and board liability.</p>
+                        <p><a href="{{ '/risk-intelligence-report/' | relative_url }}">More on community bank insurance &rarr;</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <h3>Does my cyber policy cover wire fraud?</h3>
+                    <span class="icon">&#9660;</span>
+                </div>
+                <div class="accordion-content">
+                    <div class="accordion-body">
+                        <p>Sometimes, partially, with conditions. Most cyber policies treat wire fraud under a "social engineering" or "funds transfer fraud" sublimit, often $100K to $250K against a much larger aggregate limit. Many require the bank to prove a verification protocol was followed.</p>
+                        <p>The fidelity bond may be invoked as the primary policy for this type of loss, but its "voluntary parting" exclusion can apply when an employee initiated the transfer. The result is two carriers pointing at each other while the bank carries the loss. <a href="{{ '/risk-intelligence-report/' | relative_url }}">More on the three-policy interaction problem &rarr;</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <h3>Will my D&amp;O policy protect the board after a cyber breach?</h3>
+                    <span class="icon">&#9660;</span>
+                </div>
+                <div class="accordion-content">
+                    <div class="accordion-body">
+                        <p>Probably less than you think. Most D&amp;O policies for community banks include a cyber exclusion that excludes anything arising out of a cyber event. The intent is to push those claims to the cyber policy, but the cyber policy excludes D&amp;O-style claims like shareholder derivative actions and individual director liability.</p>
+                        <p>After a breach, directors can face personal liability with neither policy responding at meaningful limits. I read both policies together and identify the wording that creates the gap, plus any investigative cost coverage the cyber policy may carry that the board can use.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category 2: The Risk Intelligence Report -->
+            <h2 class="faq-category">The Risk Intelligence Report</h2>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <h3>What is the Risk Intelligence Report?</h3>
+                    <span class="icon">&#9660;</span>
+                </div>
+                <div class="accordion-content">
+                    <div class="accordion-body">
+                        <p>A line-by-line analysis of your insurance policies against realistic claim scenarios. The report identifies where coverage responds, where it gets disputed, and where it fails. For banks, the centerpiece is the policy interaction analysis: how your cyber and D&amp;O policies, and your fidelity bond, respond to the same incident, and where each carrier points to the other two.</p>
+                        <p>The report includes specific findings, policy-language citations, and dollar-range exposure estimates. It is designed for three audiences: the board, the examiner, and the broker.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <h3>What will my examiner ask about our insurance?</h3>
+                    <span class="icon">&#9660;</span>
+                </div>
+                <div class="accordion-content">
+                    <div class="accordion-body">
+                        <p>FDIC and NCUA examiners ask whether the board has reviewed the institution's insurance program in light of actual cyber and operational risk. They look for evidence of an <strong>independent assessment</strong>, not a renewal summary from a broker.</p>
+                        <p>A <a href="{{ '/risk-intelligence-report/' | relative_url }}">Risk Intelligence Report</a> is built for that question. It includes specific findings, policy-language citations, dollar-range exposure, and a remediation plan. You can put it in front of an examiner as documented evidence that the board has reviewed coverage against the scenarios most likely to trigger a claim.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <h3>How long does it take to get a Risk Intelligence Report?</h3>
+                    <span class="icon">&#9660;</span>
+                </div>
+                <div class="accordion-content">
+                    <div class="accordion-body">
+                        <p>Typically <strong>one week</strong> once I have your documents.</p>
+                        <p>You send your current policies. I review coverage against realistic claim scenarios, then deliver the report with a walkthrough call.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <h3>Do I need to switch brokers?</h3>
+                    <span class="icon">&#9660;</span>
+                </div>
+                <div class="accordion-content">
+                    <div class="accordion-body">
+                        <p>No. Most clients take the report to their current broker to renegotiate coverage at renewal, share it with their board or examiner, or use it as a baseline for year-over-year improvement.</p>
+                        <p>No broker of record letter, no commitment to move your insurance. The audit is the product. What you do next is up to you.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category 3: About Breezy Risk -->
+            <h2 class="faq-category">About Breezy Risk</h2>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <h3>Is Breezy Risk an insurance broker?</h3>
+                    <span class="icon">&#9660;</span>
+                </div>
+                <div class="accordion-content">
+                    <div class="accordion-body">
+                        <p>No. Breezy Risk is a fee-only consulting firm. I do not sell insurance, place policies, or earn commissions. I review and audit your existing insurance program and report what I find. If you want to act on the findings, you take them to your broker, or I can help you find one. The audit is the product, not a step toward a sale.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <h3>How does an insurance audit differ from what my broker already does?</h3>
+                    <span class="icon">&#9660;</span>
+                </div>
+                <div class="accordion-content">
+                    <div class="accordion-body">
+                        <p>Your broker places insurance and earns a commission on what they sell. That is a useful service, but it is not an independent assessment.</p>
+                        <p>I serve a similar function to an external auditor: independent, fee-based, no broker of record letter. I read the full policy wording, test it against specific incident scenarios, and report what I find. Most broker reviews focus on limits and premiums. I focus on the policy language that determines whether a claim gets paid.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category 4: Working Together -->
+            <h2 class="faq-category">Working Together</h2>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <h3>How much does an engagement cost?</h3>
+                    <span class="icon">&#9660;</span>
+                </div>
+                <div class="accordion-content">
+                    <div class="accordion-body">
+                        <p>Engagements are fixed-fee and project-based. A Risk Intelligence Report for a community bank typically costs less than a single penetration test or SOC 2 audit. No hourly billing, no retainer, no commitment beyond the engagement.</p>
+                        <p><a href="{{ '/contact/' | relative_url }}">Contact me directly</a> for a quote.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <h3>How do CPA firms and compliance consultants work with Breezy Risk?</h3>
+                    <span class="icon">&#9660;</span>
+                </div>
+                <div class="accordion-content">
+                    <div class="accordion-body">
+                        <p>I work alongside CPA firms, IT auditors, and compliance consultants who already serve community banks. You refer a client who needs an independent insurance review. I deliver the report directly to the bank. The bank pays Breezy Risk directly, so there is no conflict with your audit independence.</p>
+                        <p><a href="{{ '/contact/' | relative_url }}">Get in touch</a> to discuss a partnership.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="ask-question-section">
+    <div class="container">
+        <h2>Didn't see your question here?</h2>
+        <p>Email <a href="mailto:contact@breezyrisk.com" style="color: var(--accent); font-weight: 700;">contact@breezyrisk.com</a> or <a href="{{ '/contact/' | relative_url }}" style="color: var(--accent); font-weight: 700;">use the contact form</a> and I will get back to you.</p>
+    </div>
+</section>
+
+<script>
+document.querySelectorAll('.accordion-header').forEach(function(header) {
+    header.addEventListener('click', function() {
+        this.parentElement.classList.toggle('active');
+    });
+});
+</script>

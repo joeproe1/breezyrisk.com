@@ -1,0 +1,73 @@
+# Breezy Risk
+
+> Independent insurance audits for community banks and credit unions. Fee-based. No policies sold. No commissions earned.
+
+Breezy Risk is an independent risk advisory firm founded by Joerg Proeve. The firm audits insurance programs for community banks and credit unions. It does not sell insurance, place policies, or earn commissions.
+
+## What Breezy Risk Does
+
+Breezy Risk produces the Risk Intelligence Report: a line-by-line audit of a bank's cyber and directors and officers (D&O) policies, and its fidelity bond. These are typically purchased from different carriers and underwritten separately. Nobody reads them together. When a cyber incident hits, each carrier points at the other two. The bank holds the loss.
+
+The Risk Intelligence Report reads all three policies together, maps which policy responds to each incident type (ransomware, wire fraud, vendor outage, data breach, board liability), quantifies uninsured exposure in dollar terms, and delivers a prioritized remediation plan. The report is written in plain English for the bank's leadership, board, and regulatory examiners.
+
+## Who Breezy Risk Serves
+
+Primary: Community banks and credit unions, particularly those facing regulatory examinations, policy renewals, vendor risk questions, or board-level cybersecurity oversight requirements.
+
+Breezy Risk is not a broker. It is an independent auditor of insurance programs. Think of it as an external audit of your insurance: independent, fee-based, no broker of record letter required. The audit complements the work of CPA firms and compliance consultants who already serve these financial institutions.
+
+## The Founder
+
+Joerg Proeve has 20+ years of insurance industry experience spanning carriers (Chubb, CNA), startups, and an MGA (BOXX Insurance). He holds an MSc in Electrical Engineering, an MBA from London Business School, and started his career in cybersecurity at Siemens. He is a licensed insurance producer in FL, NJ, NY, and PA. He understands both the technology banks depend on and the policy language that is supposed to cover it.
+
+## The Three-Policy Interaction Problem
+
+Community banks typically carry cyber insurance and a D&O policy, plus a fidelity bond, from two or three different carriers. These policies were never designed to work together. Common gaps include:
+
+- Wire fraud: The cyber policy excludes social engineering. The fidelity bond applies a voluntary parting exclusion or a 50% co-payment. Recovery on a $400K loss can be as low as $200K.
+- Board liability after a breach: The D&O policy excludes claims "arising out of" a cyber event. The cyber policy excludes shareholder suits. Directors face personal liability with no insurance response.
+- Security warranties: The cyber application includes warranty statements about security controls (such as MFA). If a control lapses, the carrier can rescind the entire policy, not just deny the specific claim.
+- Vendor outages: Dependent business interruption coverage often excludes the bank's actual core processor or cloud vendor.
+
+## Key Facts
+
+- Location: United States. Works with community banks and credit unions nationally.
+- Pricing: Flat fee in the low four figures. No retainer, no hourly billing.
+- Independence: No insurance placement, no brokering, no commissions. Fee-based audit only.
+- Deliverable: Risk Intelligence Report covering seven sections: Cyber, Fidelity Bond, D&O, Policy Interaction Analysis, Vendor Coverage, Regulatory Response, Security Warranty Compliance.
+- Website: https://breezyrisk.com
+- Contact: contact@breezyrisk.com
+
+## Bank Coverage Gap Framework
+
+Breezy Risk uses a proprietary Bank Coverage Gap Framework with 34 named gap patterns across four categories: Cyber, Fidelity Bond, D&O, and Policy Interaction. These patterns were identified through audits of community banks and credit unions across different carriers and program structures. The same structural gaps appear regardless of bank size, carrier, or program.
+
+Key named patterns include:
+- Classification Swing: The same wire fraud loss can recover $5M or $250K depending on how forensics classifies the attack, because fidelity bonds have multiple fraud coverages with different limits and non-overlapping definitions.
+- D&O Cyber Exclusion: D&O policies exclude claims "arising from" a cyber event, leaving board members with no coverage for oversight claims after a breach.
+- Verification Trap: Fidelity bonds require callback verification before wire transfers. If verification is framed as a mandatory requirement rather than a best practice, a single missed callback voids the entire claim.
+- No-Rescission Gap: Most bank cyber policies lack a no-rescission clause. One inaccurate answer on the application (such as an outdated VPN without MFA) can void the entire policy, not just deny the specific claim.
+
+## Key Articles
+
+These articles answer common questions about community bank insurance coverage:
+
+- [Cyber Insurance for Community Banks: What It Covers, What It Doesn't](https://breezyrisk.com/insights/cyber-insurance-for-community-banks/) - What cyber insurance covers for a community bank, where wire fraud and vendor outage coverage falls short, and how the cyber policy interacts with D&O and the fidelity bond.
+- [What Your Bank Examiner Expects From Your Cyber Insurance](https://breezyrisk.com/insights/what-your-examiner-expects-from-cyber-insurance/) - What examiners look for in cyber coverage, the security warranty problem, and how to prepare for an examination.
+- [Five Audits, Same Gaps](https://breezyrisk.com/insights/five-audits-same-gaps/) - Findings from five community bank and credit union audits showing the same structural gaps across different carriers and programs: D&O cyber exclusions, wire fraud sublimits, classification swings, and vendor coverage gaps.
+- [What Is a Risk Intelligence Report?](https://breezyrisk.com/insights/what-is-a-risk-intelligence-report/) - What the report contains, the seven areas it covers, who uses it (CFO, board, broker, examiner), and what it costs.
+- [What Your Fidelity Bond Won't Pay](https://breezyrisk.com/insights/fidelity-bond/) - Where fidelity bonds fail on wire fraud: sublimits, co-payments, verification traps, and the authorized access exclusion.
+- [What Happens When Your Security Warranty Fails](https://breezyrisk.com/insights/security-warranty-fails/) - How a single lapsed security control can void an entire cyber policy through rescission, and the no-rescission clause fix.
+- [The Fine Print Inside the Coverage](https://breezyrisk.com/insights/the-fine-print-inside-the-coverage/) - How a $5 million cyber policy can pay less than $500,000 after sublimits, retentions, and defense cost erosion.
+- [The Program Problem](https://breezyrisk.com/insights/the-program-problem/) - Why association-endorsed bank insurance programs (ABA/Great American, Travelers/ICBA, TruStage) contain structural gaps that persist because nobody audits the standard forms.
+- [Five Incidents, Three Policies](https://breezyrisk.com/insights/five-incidents-three-policies/) - How wire fraud, ransomware, data breaches, vendor outages, and board liability claims each trigger gaps between the cyber policy, D&O, and fidelity bond.
+
+## Links
+
+- [Risk Intelligence Report](https://breezyrisk.com/risk-intelligence-report/)
+- [Community Bank Insurance Audit](https://breezyrisk.com/cyber-insurance-audit/)
+- [Examiner Readiness](https://breezyrisk.com/examiner-readiness/)
+- [About](https://breezyrisk.com/about/)
+- [Insights](https://breezyrisk.com/insights/)
+- [FAQ](https://breezyrisk.com/faq/)
+- [Contact](https://breezyrisk.com/contact/)

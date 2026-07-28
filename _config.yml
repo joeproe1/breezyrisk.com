@@ -1,0 +1,65 @@
+# Site settings
+title: Breezy Risk
+description: "Independent community bank insurance audits. I review your cyber and D&O policies, and your fidelity bond, line by line to find the gaps that surface at examinations and claims, not at renewals."
+url: "https://breezyrisk.com"
+baseurl: ""
+author: Joerg Proeve
+
+# Contact info
+email: contact@breezyrisk.com
+phone: "(717) 490-7670"
+linkedin: "https://www.linkedin.com/in/joergproeve/"
+
+# Build settings
+timezone: America/New_York
+markdown: kramdown
+permalink: /insights/:title/
+future: true  # Posts go live when committed and pushed; we control timing through git
+
+# Plugins (all GitHub Pages whitelisted)
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+
+# SEO tag defaults
+twitter:
+  card: summary_large_image
+
+# Feed settings
+feed:
+  path: /feed/
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CNAME
+  - .gitignore
+  - assets/images/*.html
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      image: /assets/images/breezy-og-default.png
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Joerg Proeve"
+      image: /assets/images/breezy-og-default.png
+
+# Collections
+collections_dir: ""
+
+# Sass
+sass:
+  style: compressed
+  sass_dir: _sass

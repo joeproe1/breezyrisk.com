@@ -1,0 +1,97 @@
+---
+layout: page
+title: "About Joerg Proeve | Independent Community Bank Insurance Audits | Breezy Risk"
+description: "Independent risk advisory for community banks and credit unions. I audit insurance programs line by line. No policies sold. No commissions earned. Just what is in your coverage."
+permalink: /about/
+image: /assets/images/joerg-portrait.jpg
+---
+
+<!-- BreadcrumbList Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "{{ '/' | absolute_url }}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "About",
+      "item": "{{ '/about/' | absolute_url }}"
+    }
+  ]
+}
+</script>
+
+<style>
+.about-section { padding-top: 140px; padding-bottom: 120px; }
+.bio-content { max-width: 800px; margin: 0 auto; }
+.profile-image { width: 180px; height: 180px; object-fit: cover; border-radius: 50%; box-shadow: 0 8px 30px rgba(0,0,0,0.12); border: 3px solid #FFFFFF; }
+.about-cta { background: #0A2540; padding: 40px 40px; border-radius: 12px; text-align: center; margin: 60px auto 0; max-width: 880px; }
+.about-cta h2 { font-size: 30px; color: #FFFFFF; margin-bottom: 12px; max-width: 780px; margin-left: auto; margin-right: auto; }
+.about-section .about-cta p { font-size: 16px; color: rgba(255,255,255,0.85); margin-bottom: 20px; line-height: 1.6; max-width: 640px; margin-left: auto; margin-right: auto; }
+.cta-buttons { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+.about-section h1 { font-size: 48px; text-align: center; }
+.about-section .subtitle { font-size: 18px; color: #5A7184; text-align: center; margin-bottom: 40px; }
+.about-section h2 { font-size: 28px; margin-top: 48px; margin-bottom: 24px; }
+.about-section h2:first-of-type { margin-top: 0; }
+.about-section p { font-size: 18px; line-height: 1.8; color: #5A7184; margin-bottom: 20px; }
+.about-section a:not(.btn) { color: #00D4AA; font-weight: 600; }
+.about-section a:hover { text-decoration: underline; }
+@media (max-width: 968px) {
+    .about-section { padding-top: 100px; padding-bottom: 80px; }
+    .about-section h1 { font-size: 36px; }
+    .about-cta { padding: 40px 24px; margin-top: 60px; }
+    .about-cta h2 { font-size: 28px; }
+    .cta-buttons { flex-direction: column; align-items: stretch; }
+    .cta-buttons a { width: 100%; text-align: center; }
+}
+@media (max-width: 768px) {
+    .profile-image { width: 150px; height: 150px; }
+    .about-section h1 { font-size: 32px; }
+    .about-section h2 { font-size: 24px; }
+    .about-cta h2 { font-size: 24px; }
+}
+</style>
+
+<section class="about-section">
+    <div class="container">
+        <h1>About Breezy Risk</h1>
+        <p class="subtitle">Independent Risk Advisor</p>
+
+        <div style="text-align: center; margin-bottom: 48px;">
+            <img src="{{ '/assets/images/joerg-portrait.jpg' | relative_url }}" alt="Joerg Proeve, Independent Risk Advisor at Breezy Risk" class="profile-image">
+        </div>
+
+        <div class="bio-content">
+
+            <h2>Who I Am</h2>
+            <p>I'm Joerg Proeve. I've spent my career inside the insurance industry, at Chubb, where I led integration workstreams after its $28B acquisition by ACE, and at CNA as VP of Strategy and Innovation. I have sat in the rooms where carriers decide what gets paid and what gets denied.</p>
+            <p>I earned a Master's in Electrical Engineering and started my career in cybersecurity at Siemens. That means I understand the security controls and vendor systems my clients depend on, not just the policies that are supposed to cover them.</p>
+            <p><a href="https://www.linkedin.com/in/joergproeve/" target="_blank" rel="noopener">View my LinkedIn profile &rarr;</a></p>
+
+            <h2>What Breezy Risk Is</h2>
+            <p>Breezy Risk is a fee-only insurance and risk management consulting firm. I don't place policies. I audit them. No commissions, no broker of record letter. Think of it as an external audit of your insurance program: independent and focused entirely on what is actually in your coverage.</p>
+            <p>I read the full policy wording, test it against real cyber incident scenarios, and identify where policies point fingers instead of paying. My core engagement is the <a href="{{ '/risk-intelligence-report/' | relative_url }}">Risk Intelligence Report</a>: a line-by-line policy audit delivered in plain English with a specific implementation plan to fix the coverage gaps.</p>
+            <p style="margin-top: 32px;"><a href="{{ '/about/facts/' | relative_url }}">See all key facts and credentials &rarr;</a></p>
+
+            <h2>Who I Work With</h2>
+            <p>I work with community banks and credit unions, where overlapping policies create coverage confusion that only surfaces at claim time. If you are responsible for your bank's insurance and no one has ever read the policies together, line by line, that is exactly why this service exists.</p>
+            <p>I partner with IT risk management firms, CPA firms, and compliance consultants who serve community banks. They assess operational risk. I assess whether the insurance covers it.</p>
+
+        </div>
+
+        <div class="about-cta">
+            <h2>Want to Talk About Your Coverage?</h2>
+            <p>Whether you want to understand where you stand, or have a specific insurance question, I'm happy to talk. No commitment required.</p>
+            <div class="cta-buttons">
+                <a href="{{ '/contact/' | relative_url }}" class="btn btn-accent">Get in Touch &rarr;</a>
+            </div>
+        </div>
+    </div>
+</section>

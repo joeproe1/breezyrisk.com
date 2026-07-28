@@ -1,0 +1,104 @@
+---
+layout: post
+title: "Six Months After a Breach, Your Credit Union's Cyber Policy Is Funding Three Fights Alone"
+card_title: "Credit Union Board Liability Gaps"
+description: "After a data breach, three D&O gaps hit a credit union in sequence. Each one pushes more weight onto the cyber policy. By month six, one policy is funding breach response, a member lawsuit, and regulatory defense from a single aggregate limit."
+date: 2026-07-23
+author: Joerg Proeve
+category: Case Study
+read_time: "5 min read"
+image: /assets/images/Blog-Credit-Union-Board-Liability.png
+image_alt: "Credit union D&O policy gaps showing board liability exposure after a cyber event for mutual institutions"
+last_modified_at: 2026-07-23
+permalink: /insights/credit-union-board-liability/
+---
+
+<style>
+@media (max-width: 768px) {
+  .cu-board-grid { grid-template-columns: 1fr !important; }
+}
+</style>
+
+I wrote recently about [the coverage gaps that surface when you read a credit union's cyber, bond, and D&O policies together]({{ '/insights/credit-union-insurance-gaps/' | relative_url }}). Entity-level D&O exclusions, wire fraud co-payments, vendor outage sublimits. This article is about what happens when those gaps arrive as claims.
+
+They do not arrive all at once. They surface in sequence over the first six months after a breach. And each one compounds the last, because every gap that the D&O policy fails to cover pushes more weight onto the cyber policy.
+
+By month six, the cyber policy is funding three separate fights from a single aggregate limit.
+
+<div style="background: #0A2540; border-radius: 12px; padding: 32px; margin: 32px 0; color: #fff;">
+<div style="color: #fff; font-weight: 700; font-size: 20px; margin-bottom: 24px;">Coverage gaps surfacing over time.</div>
+<div class="cu-board-grid" style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px;">
+<div style="background: rgba(220,38,38,0.1); border-radius: 8px; padding: 20px;">
+<div style="color: #FCA5A5; font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px;">Months 1-2</div>
+<div style="color: #fff; font-size: 20px; font-weight: 700; margin-bottom: 8px; line-height: 1.1;">No investigation coverage</div>
+<div style="color: rgba(255,255,255,0.7); font-size: 14px; line-height: 1.5;">NCUA subpoenas before a formal proceeding have zero coverage</div>
+</div>
+<div style="background: rgba(37,99,235,0.1); border-radius: 8px; padding: 20px;">
+<div style="color: #93C5FD; font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px;">Months 3-6</div>
+<div style="color: #fff; font-size: 20px; font-weight: 700; margin-bottom: 8px; line-height: 1.1;">Institution uninsured</div>
+<div style="color: rgba(255,255,255,0.7); font-size: 14px; line-height: 1.5;">Member lawsuit defense falls to the cyber policy, not the D&O</div>
+</div>
+<div style="background: rgba(124,58,237,0.1); border-radius: 8px; padding: 20px;">
+<div style="color: #C4B5FD; font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 8px;">Month 6+</div>
+<div style="color: #fff; font-size: 20px; font-weight: 700; margin-bottom: 8px;">Wrong target</div>
+<div style="color: rgba(255,255,255,0.7); font-size: 14px; line-height: 1.5;">D&O carve-back protects individual directors, not the credit union itself</div>
+</div>
+</div>
+</div>
+
+## First Week: The Cyber Policy Does Its Job
+
+A breach is discovered. The credit union notifies NCUA within 72 hours. The cyber policy activates: forensics, breach counsel, member notification. This part generally works. The cyber policy was built for it.
+
+### Months 1-2: The Investigation Moves to the Boardroom
+
+NCUA begins its examination. It starts with the breach itself, but expands. Did the board approve the information security program? Did directors receive cybersecurity briefings? Did the board allocate adequate resources? The examination shifts from the IT team to the boardroom.
+
+NCUA sends document requests. Board meeting minutes. Risk assessment evidence. Training records. The credit union needs counsel to respond, prepare board members for interviews, and assess regulatory exposure.
+
+The D&O policy offered coverage for exactly this. A credit union-specific endorsement covered early-stage investigation costs. But it was not purchased. The declarations page read **"No Coverage."**
+
+The coverage was available for a modest additional premium. Without it, pre-formal NCUA subpoenas have zero coverage.
+
+
+### Months 3-6: The Member Lawsuit Lands on the Wrong Policy
+
+Members whose data was exposed file a class action. They allege the board failed to protect their information, failed to oversee cybersecurity, failed to allocate resources. These are **breach-of-fiduciary-duty claims, not securities claims**.
+
+The credit union turns to its D&O. The cyber exclusion denies coverage. At this credit union, the exclusion applied at the entity level: individual directors kept their personal coverage, but the institution itself had no D&O response for the member lawsuit.
+
+The only option left is the cyber policy. But the cyber policy is already covering breach response, and at this credit union, it had **defense costs inside limits**. Every dollar spent on lawyers for the member lawsuit reduces what is left for forensics, notification, and regulatory defense. Breach response and lawsuit defense are now competing for the same pool of money.
+
+<div style="border-left: 3px solid #2563EB; padding: 16px 20px; background: rgba(37,99,235,0.05); border-radius: 0 8px 8px 0; margin: 24px 0; font-size: 18px; font-weight: 600; color: #333;">
+Two fights. One policy. Defense costs inside limits means every dollar is a trade-off.
+</div>
+
+### Month 6+: The Safety Valve Pointed at the Wrong Target
+
+If NCUA finds the board's cybersecurity oversight was deficient, the investigation becomes a formal enforcement action. Consent orders. Civil money penalties. Personal liability for individual directors.
+
+The D&O does have a surviving carve-back. Individual directors and officers retain personal coverage despite the cyber exclusion. If a director faces personal liability, the D&O responds. That protection was real, and at this credit union it was the strongest individual coverage I have seen.
+
+But the formal enforcement action is against the institution. The entity exclusion blocks that. The carve-back protects directors personally, but the institution gets nothing. The credit union is back on the cyber policy. The same cyber policy already covering breach response and already defending the member class action. **Three fights, one aggregate limit.**
+
+<div style="border-left: 3px solid #7C3AED; padding: 16px 20px; background: rgba(124,58,237,0.05); border-radius: 0 8px 8px 0; margin: 24px 0; font-size: 18px; font-weight: 600; color: #333;">
+The D&O's one surviving carve-back protects directors, not the credit union. The institution carries the weight alone.
+</div>
+
+## The Compounding Problem
+
+The D&O was supposed to share the load with the cyber policy. When it cannot, the cyber policy carries everything. The industry designed it to fill the D&O gap. That makes the compounding problem a feature of the architecture, not a mistake. It also makes the aggregate limit, the defense-cost structure, and the investigation endorsement the three things worth reading before renewal.
+
+The individual director protections were strong. TruStage's personal coverage for directors was the best I have seen. If a board member is worried about personal liability, the structure works. But the institution bears the full financial weight of six months of post-breach fallout from one policy that was not designed to carry it alone.
+
+<div style="border-left: 3px solid #F59E0B; padding: 16px 20px; background: rgba(245,158,11,0.05); border-radius: 0 8px 8px 0; margin: 24px 0; font-size: 18px; font-weight: 600; color: #333;">
+Three gaps, six months, one policy absorbing all of it. That is where the exposure sits.
+</div>
+
+This is the credit union-specific version of a problem that hits banks too. I wrote about [the D&O cyber exclusion from the bank side]({{ '/insights/the-board-nobody-insures/' | relative_url }}), where the seam between D&O and cyber leaves directors with zero coverage after a breach.
+
+If your board has never reviewed the D&O cyber exclusion, the investigation coverage election on the declarations page, and what happens when the cyber policy becomes the sole source of defense funding, those three things are worth reading before your next renewal.
+
+<div style="border-left: 3px solid #00D4AA; padding: 16px 20px; background: rgba(0,212,170,0.05); border-radius: 0 8px 8px 0; margin: 24px 0; font-size: 18px; font-weight: 600; color: #333;">
+Find out whether your D&O policy protects the institution after a cyber event, or just the individual directors. That is what a Risk Intelligence Report is for. <a href="{{ '/contact/' | relative_url }}" style="color: #00D4AA;">Get in touch</a>.
+</div>

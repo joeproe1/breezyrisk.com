@@ -1,0 +1,181 @@
+// CSS Custom Properties (used by inline styles in pages)
+:root {
+    --primary: #{$primary};
+    --accent: #{$accent};
+    --bg-light: #{$bg-light};
+    --text-primary: #{$text-primary};
+    --text-secondary: #{$text-secondary};
+    --border: #{$border};
+    --brand-primary: #{$primary};
+
+    // MSP palette
+    --msp-dark:        #0d2420;
+    --msp-accent:      #00c9a0;
+    --msp-accent-bg:   #e8f7f2;
+    --msp-accent-border: #a0dfc9;
+    --msp-accent-text: #005c44;
+    --msp-gap-muted:   #6b9e91;
+    --msp-gap-dim:     #4a7a6e;
+
+    // Bank palette
+    --bank-dark:       #0d1f3c;
+    --bank-mid:        #1a3a6b;
+    --bank-accent:     #7eaee8;
+    --bank-accent-bg:  #e8eef8;
+    --bank-accent-border: #b0c4e8;
+    --bank-accent-text: #1a3a6b;
+    --bank-gap-muted:  #6b88ae;
+    --bank-gap-dim:    #4a6888;
+    --bank-text-light: #e8f0fa;
+    --bank-text-mid:   #d8e8f8;
+
+    // Shared
+    --radius-sm: 4px;
+    --radius-md: 6px;
+    --radius-lg: 10px;
+}
+
+// Reset
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: $font-body;
+    font-size: 18px;
+    line-height: 1.7;
+    color: $text-primary;
+    background: $white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.site-main {
+    flex: 1;
+}
+
+// Container
+.container {
+    max-width: $container-max;
+    margin: 0 auto;
+    padding: 0 40px;
+
+    @media (max-width: $bp-tablet) {
+        padding: 0 20px;
+    }
+}
+
+// Typography
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-heading;
+    font-weight: 700;
+    color: $primary;
+    line-height: 1.2;
+}
+
+h1 { font-size: 48px; margin-bottom: 24px; letter-spacing: 0; word-spacing: -0.06em; }
+h2 { font-size: 36px; margin-bottom: 20px; letter-spacing: -0.02em; font-family: $font-body; }
+h3 { font-size: 24px; margin-bottom: 16px; font-family: $font-body; }
+h4 { font-size: 20px; margin-bottom: 12px; }
+
+p {
+    margin-bottom: 18px;
+    color: $text-secondary;
+}
+
+a {
+    color: $primary;
+    text-decoration: none;
+    transition: color 0.2s;
+
+    &:hover {
+        color: $accent;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+// Responsive visibility utilities
+.desktop-only { }
+@media (max-width: $bp-tablet) {
+    .desktop-only { display: none !important; }
+}
+.mobile-only { display: none !important; }
+@media (max-width: $bp-tablet) {
+    .mobile-only { display: block !important; }
+}
+
+ul, ol {
+    margin-bottom: 18px;
+    padding-left: 24px;
+}
+
+// Section headers
+.section-header {
+    text-align: center;
+    margin-bottom: 60px;
+
+    h2 {
+        font-weight: 700;
+    }
+
+    p {
+        font-size: 20px;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+}
+
+// Section narrow (centered content)
+.section-narrow {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.section-lede,
+.section-body {
+    color: $text-secondary;
+    font-size: 18px;
+    line-height: 1.7;
+    margin: 0 0 18px;
+}
+
+.section-body {
+    margin-bottom: 22px;
+}
+
+.section-actions {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-top: 18px;
+}
+
+// Responsive typography
+@media (max-width: $bp-desktop) {
+    h1 { font-size: 38px; }
+    h2 { font-size: 30px; }
+}
+
+@media (max-width: $bp-tablet) {
+    h1 { font-size: 32px; }
+    h2 { font-size: 26px; }
+    body { font-size: 16px; }
+
+    .section-lede,
+    .section-body {
+        font-size: 17px;
+    }
+}
