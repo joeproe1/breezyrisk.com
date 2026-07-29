@@ -26,7 +26,7 @@ The parametric insurance market has passed $20 billion in premium by most market
 
 Parametric insurance has a strong value proposition. But the gap between what the product promises and what buyers actually understand hasn't closed, and that disconnect deserves more attention than it's getting.
 
-I spent more than 20 years on the carrier and MGA side before I started the independent audit work I do now. That included operations and strategy roles at the carrier level, and co-founding and running a parametric MGA. That last part is why this series exists. I've watched this product work, and I've watched it fail to reach the people it was built for.
+I spent most of my career on the carrier and MGA side before I started the independent audit work I do now. That included operations and strategy roles at the carrier level, and co-founding and running a parametric MGA. That last part is why this series exists. I've watched this product work, and I've watched it fail to reach the people it was built for.
 
 ## Where parametric works
 

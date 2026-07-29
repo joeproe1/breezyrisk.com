@@ -23,7 +23,7 @@ noindex: true
 
 Whether you're an MSP in Texas, a pentesting firm in New York, or an MSSP in California, these gaps exist in your policies right now.
 
-As an [insurance specialist who's spent 20+ years](/about/) reviewing policies for MSPs across the United States, I've seen the same coverage gaps destroy businesses from Pennsylvania to Florida. **In my [previous article](/insights/msp-insurance/), I explained WHY MSPs have fundamentally different insurance needs.** You're not just using technology, you're the guardian of it for your clients.
+As an [insurance specialist](/about/) who has spent his career reviewing policies for MSPs across the United States, I've seen the same coverage gaps destroy businesses from Pennsylvania to Florida. **In my [previous article](/insights/msp-insurance/), I explained WHY MSPs have fundamentally different insurance needs.** You're not just using technology, you're the guardian of it for your clients.
 
 Now let me show you the SPECIFIC gaps I find in every [Risk Intelligence Report](/contact/) I conduct. These aren't theoretical risks, these are the exact policy exclusions, sublimits, and compliance failures that turn a "fully covered" business into a bankruptcy case when the wrong claim hits.
 

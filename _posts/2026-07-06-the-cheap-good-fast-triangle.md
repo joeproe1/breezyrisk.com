@@ -50,7 +50,7 @@ Many banks' D&O policies contain a blanket cyber event exclusion: claims "arisin
 
 "Good" means someone reads the policy language and cross-references it against the bank's operations, contracts, regulatory exposure, and the loss scenarios it is most likely to face. It means mapping how multiple policies interact when a single event triggers claims across cyber, the fidelity bond, and D&O simultaneously, because carriers will point at each other before they pay.
 
-I have spent 20 years in insurance, including carrier-side roles at two of the largest insurers in the world. From that vantage point, you learn where the language is tight and where it is ambiguous, and which exclusions carriers will enforce at claim time. That's what "good" means: someone who reads the contract the way the carrier's claims team will read it when a loss is filed.
+I have spent my career in insurance, including carrier-side roles at two of the largest insurers in the world. From that vantage point, you learn where the language is tight and where it is ambiguous, and which exclusions carriers will enforce at claim time. That's what "good" means: someone who reads the contract the way the carrier's claims team will read it when a loss is filed.
 
 ## Two out of three
 
