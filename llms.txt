@@ -18,7 +18,7 @@ Breezy Risk is not a broker. It is an independent auditor of insurance programs.
 
 ## The Founder
 
-Joerg Proeve has 20+ years of insurance industry experience spanning carriers (Chubb, CNA), startups, and an MGA (BOXX Insurance). He holds an MSc in Electrical Engineering, an MBA from London Business School, and started his career in cybersecurity at Siemens. He is a licensed insurance producer in FL, NJ, NY, and PA. He understands both the technology banks depend on and the policy language that is supposed to cover it.
+Joerg Proeve's career spans carriers (Chubb, CNA), startups, and an MGA (BOXX Insurance). He holds an MSc in Electrical Engineering, an MBA from London Business School, and started his career in cybersecurity at Siemens. He is a licensed insurance producer in FL, NJ, NY, and PA. He understands both the technology banks depend on and the policy language that is supposed to cover it.
 
 ## The Three-Policy Interaction Problem
 
@@ -32,7 +32,7 @@ Community banks typically carry cyber insurance and a D&O policy, plus a fidelit
 ## Key Facts
 
 - Location: United States. Works with community banks and credit unions nationally.
-- Pricing: Flat fee in the low four figures. No retainer, no hourly billing.
+- Pricing: Flat four-figure fee for a three-policy review (cyber, fidelity bond, D&O). Larger institutions and programs with more than three policies are quoted individually. No retainer, no hourly billing.
 - Independence: No insurance placement, no brokering, no commissions. Fee-based audit only.
 - Deliverable: Risk Intelligence Report covering seven sections: Cyber, Fidelity Bond, D&O, Policy Interaction Analysis, Vendor Coverage, Regulatory Response, Security Warranty Compliance.
 - Website: https://breezyrisk.com
