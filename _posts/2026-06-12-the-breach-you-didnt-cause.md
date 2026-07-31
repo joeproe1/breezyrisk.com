@@ -7,7 +7,7 @@ author: Joerg Proeve
 category: Case Study
 read_time: "3 min read"
 image: /assets/images/Blog-Breach-You-Didnt-Cause.png
-image_alt: "Vendor sub-vendor breach exposing community bank directors to personal liability through D&O cyber exclusion"
+image_alt: "Vendor sub-vendor breach at a community bank, with the D&O cyber exclusion pushing the board's defense onto the cyber policy"
 last_modified_at: 2026-06-12
 permalink: /insights/the-breach-you-didnt-cause/
 ---
