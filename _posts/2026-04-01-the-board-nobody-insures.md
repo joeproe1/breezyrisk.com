@@ -15,17 +15,19 @@ faq:
   - question: "What is a D&O cyber exclusion?"
     answer: "A D&O cyber exclusion is a policy clause that removes coverage for any claim 'arising out of' a cyber event. When a data breach leads to shareholder lawsuits, regulatory investigations, or derivative actions against directors, the D&O policy treats all of those claims as cyber-related and excludes them. The breadth of the exclusion depends on its wording: 'arising out of any cyber event' is broad and eliminates most post-breach director claims, while 'directly resulting from' is narrower and may preserve coverage for governance and oversight claims."
   - question: "Does D&O insurance cover data breaches at community banks?"
-    answer: "In most community bank D&O policies, no. The typical D&O policy contains a cyber exclusion that blocks coverage for any claim connected to a data breach, including shareholder derivative suits, regulatory defense costs, and class actions. The cyber policy usually picks up part of what falls through, because directors are named in its definition of Insured. What it does not do is behave like a D&O policy: there is no Side A tower reserved for individuals, so directors share one limit with forensics, notification and business interruption, and on some forms a broad securities exclusion still bars a post-breach derivative suit."
+    answer: "In most community bank D&O policies, no. The typical D&O policy contains a cyber exclusion that blocks coverage for any claim connected to a data breach, including shareholder derivative suits, regulatory defense costs, and class actions. The cyber policy usually picks up part of what falls through, because directors are covered persons under it. What it does not do is behave like a D&O policy: there is no Side A tower reserved for individuals, so directors share one limit with forensics, notification and business interruption, and on some forms a broad securities exclusion still bars a post-breach derivative suit."
 ---
 
-> **Updated July 30, 2026.** An earlier version of this post said the cyber
-> policy excludes claims against individual directors, and that recovery after a
-> post-breach board claim is zero across all three policies. That was wrong.
-> After a fee-only bank insurance consultant challenged the finding, I checked
-> the definition of Insured on the three cyber forms I hold in full. Directors
-> are named insureds on all three. The post has been rewritten around what the
-> forms actually say. The D&O cyber exclusion is unchanged and still the
-> headline problem.
+> **Updated July 30, 2026. Verification extended July 31.** An earlier version
+> of this post said the cyber policy excludes claims against individual
+> directors, and that recovery after a post-breach board claim is zero across
+> all three policies. That was wrong. After a fee-only bank insurance
+> consultant challenged the finding, I went back and read the definition of the
+> covered person on every cyber form I hold in full. Five forms, and directors
+> are covered on all five. One of them does not use the word "Insured" at all,
+> which is part of why the error survived as long as it did. The post has been
+> rewritten around what the forms actually say. The D&O cyber exclusion is
+> unchanged and still the headline problem.
 
 A data breach at a community bank exposes the personal financial information of more than 50,000 customers. Within 60 days, three things happen at once.
 
