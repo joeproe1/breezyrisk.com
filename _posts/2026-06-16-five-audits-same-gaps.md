@@ -217,7 +217,7 @@ The fix is not more insurance. It is reading the insurance you already have.
 
 ## About Breezy Risk
 
-Joerg Proeve is an independent risk advisor. Corporate strategy and M&A integration at a global carrier, technology strategy and innovation at a national carrier, operations leadership at a cyber insurance MGA. He does not place policies. He audits them.
+Joerg Proeve is Founder & Principal of Breezy Risk. Corporate strategy and M&A integration at a global carrier, technology strategy and innovation at a national carrier, operations leadership at a cyber insurance MGA. He does not place policies. He audits them.
 
 <div style="border-left: 3px solid #00D4AA; padding: 16px 20px; background: rgba(0,212,170,0.05); border-radius: 0 8px 8px 0; margin: 24px 0; font-size: 18px; font-weight: 600; color: #333;">
 Ready to find out what your insurance will pay? <a href="{{ '/contact/' | relative_url }}" style="color: #00D4AA;">Get in touch</a>.
