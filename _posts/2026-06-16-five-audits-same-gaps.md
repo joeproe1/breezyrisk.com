@@ -118,24 +118,26 @@ The problem is what the endorsement says. Four of five banks had sublimits betwe
 
 ---
 
-<h2 style="display: flex; align-items: center; gap: 14px;"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 0;" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><line x1="9" y1="9" x2="15" y2="15"/><line x1="15" y1="9" x2="9" y2="15"/></svg><span>D&amp;O Cyber Exclusion: Every Director Was Personally Exposed</span></h2>
+<h2 style="display: flex; align-items: center; gap: 14px;"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 0;" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><line x1="9" y1="9" x2="15" y2="15"/><line x1="15" y1="9" x2="9" y2="15"/></svg><span>D&amp;O Cyber Exclusion: Every Board Was Pushed Onto the Cyber Policy</span></h2>
 
 <div style="background: #f0f9ff; border-left: 4px solid #00D4AA; padding: 14px 18px; margin-bottom: 20px; border-radius: 0 4px 4px 0;">
-<p style="margin: 0; color: #1e293b; line-height: 1.55;">Every D&amp;O policy had a cyber exclusion. Zero banks had full board protection after a breach.</p>
+<p style="margin: 0; color: #1e293b; line-height: 1.55;">Every D&amp;O policy had a cyber exclusion. Zero banks had a Side A layer to fall back on.</p>
 </div>
 
 After a breach, regulators investigate the board. Did they approve a cybersecurity strategy? Did they allocate adequate resources? The FFIEC, FDIC, and state regulators have all increased scrutiny of board cybersecurity oversight. These investigations are D&O claims.
 
-Every D&O policy I reviewed had a cyber exclusion. The cyber carrier says board liability is a D&O claim. The D&O carrier says it arises from a cyber event. Directors are in the middle with neither policy responding. Only two banks had partial carve-backs. One credit union protected individual directors but excluded entity-level claims. One bank capped investigative costs at $100,000, but a multi-regulator defense can exceed $500,000 in the first six months. None had a Side A fallback.
+Every D&O policy I reviewed had a cyber exclusion, though they were not uniform. One preserved individual director coverage and excluded only entity-level claims. Another carved back privacy violations while still blocking breach claims. One capped investigative costs at $100,000, against a multi-regulator defense that can exceed $500,000 in the first six months. A fourth had no pre-claim investigative coverage in its loss definition at all. Four carriers, four failure modes, same destination for the most common scenario.
+
+The board is not left with nothing. Directors are named in the cyber policy's definition of Insured, so the cyber policy picks up what the D&O drops. What it does not do is behave like a D&O policy. No Side A, so the directors share one limit with breach response, and breach response spends first.
 
 **What to check**
 
 - Does your D&O policy have a cyber exclusion? Does it use "arising from" language (broad) or something narrower?
 - Is there a carve-back for regulatory investigations of individual directors?
-- Does your cyber policy include any board coverage provisions? (Most do not.)
-- Do you have a Side A difference-in-conditions layer?
+- Open the cyber policy's definitions and confirm your directors are named as insureds. Then read the securities exclusion, which is where a post-breach derivative suit can still fail.
+- If the breach response spends the cyber limit in the first sixty days, what is left for the board six months later?
 
-[The Board Nobody Insures]({{ '/insights/the-board-nobody-insures/' | relative_url }})
+[The D&O Cyber Exclusion That Leaves Your Board Exposed]({{ '/insights/the-board-nobody-insures/' | relative_url }})
 
 ---
 

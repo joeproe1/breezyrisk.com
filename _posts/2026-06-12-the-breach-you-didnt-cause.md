@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Breach You Didn't Cause"
-description: "A vendor's sub-vendor gets breached. The bank's systems are untouched. But when regulators investigate the board's vendor oversight, the D&O cyber exclusion blocks the defense costs. Directors face personal exposure for an incident that started two links down the supply chain."
+description: "A vendor's sub-vendor gets breached. The bank's systems are untouched. But when regulators investigate the board's vendor oversight, the D&O cyber exclusion blocks the defense costs and the board lands on a cyber limit the breach response is already spending."
 date: 2026-06-12
 author: Joerg Proeve
 category: Case Study
@@ -18,7 +18,7 @@ The bank's own systems were never touched. Its firewalls held. Its SOC monitorin
 
 ## Three Policies, One Coverage Gap That Matters
 
-The cyber policy covers part of the breach response: notification, forensics, credit monitoring. But [dependent business interruption]({{ '/insights/your-vendor-is-your-biggest-exposure/' | relative_url }}) coverage for vendor-caused losses may not apply when the sub-vendor isn't on the policy schedule. The fidelity bond doesn't apply. Neither policy covers what happens next.
+The cyber policy covers part of the breach response: notification, forensics, credit monitoring. But [dependent business interruption]({{ '/insights/your-vendor-is-your-biggest-exposure/' | relative_url }}) coverage for vendor-caused losses may not apply when the sub-vendor isn't on the policy schedule. The fidelity bond doesn't apply. What happens next is where the program gets tested.
 
 Once the bank files its 36-hour notification with the regulator, the OCC opens a targeted examination of the bank's vendor risk management program. The Federal Financial Institutions Examination Council's ([FFIEC](https://www.federalregister.gov/documents/2023/06/09/2023-12340/interagency-guidance-on-third-party-relationships-risk-management)) guidance on third-party relationships is specific: the board is responsible for overseeing vendor risk, which includes sub-contractors. The examiner asks whether the board approved the vendor risk management policy, whether it reviewed the vendor's SOC reports, whether it evaluated fourth-party concentrations, and whether management escalated known risks.
 
@@ -26,12 +26,18 @@ The board's attorneys begin preparing for the examination. Defense costs will ru
 
 The carrier reviews the claim and points to the policy's cyber exclusion: "arising out of or in any way involving any cyber event." A vendor breach is a cyber event. The regulatory investigation arises from it. Coverage denied.
 
+So the defense falls to the cyber policy, which does pick it up. Directors are named in the cyber policy's definition of Insured, and a regulatory proceeding against them is a covered loss. That is more than most boards expect, and more than I used to think.
+
+Two things narrow it, and this scenario surfaces both. The first is timing. A targeted examination is not a formal proceeding. One of the community bank cyber forms I have read only recognizes a claim once something is "commenced by the filing of a notice of charges, formal investigative order or similar document," which means the examiner's document requests and the attorneys' preparation are not yet a claim on that form. Two others reach a plain request for information and would respond from the first letter. Same scenario, two different answers, decided by a definition.
+
+The second is capacity. The bank has already been spending the cyber limit on notification and credit monitoring for 50,000 records. A cyber policy has no Side A, no tower held back for individuals the way a D&O program is built. The board's defense costs queue up behind the breach response on the same limit.
+
 <div style="background: #0A2540; border-radius: 12px; padding: 32px; margin: 32px 0; color: #fff;">
 <h3 style="color: #00D4AA; margin-top: 0; font-size: 18px;">Three-Policy Breakdown</h3>
 <div style="display: flex; flex-wrap: wrap; gap: 16px;">
 <div style="flex: 1; min-width: 180px; background: rgba(59,130,246,0.1); border-left: 4px solid #3B82F6; border-radius: 8px; padding: 20px; display: flex; flex-direction: column;">
 <div style="color: #93C5FD; font-weight: 700; font-size: 14px; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 10px;">Cyber Policy</div>
-<div style="color: rgba(255,255,255,0.8); font-size: 15px; line-height: 1.55;">Covers breach response. Dependent business interruption may not apply if sub-vendor isn't on the policy schedule. No coverage for board defense costs.</div>
+<div style="color: rgba(255,255,255,0.8); font-size: 15px; line-height: 1.55;">Covers breach response. Dependent business interruption may not apply if sub-vendor isn't on the policy schedule. Picks up the board defense too, but on the same limit and, on some forms, not until a formal proceeding opens.</div>
 <div style="margin-top: auto; padding-top: 10px; border-top: 1px solid rgba(255,255,255,0.12);"><div style="font-size: 20px; font-weight: 700; color: #93C5FD;">Partial</div></div>
 </div>
 <div style="flex: 1; min-width: 180px; background: rgba(245,158,11,0.1); border-left: 4px solid #F59E0B; border-radius: 8px; padding: 20px; display: flex; flex-direction: column;">
@@ -41,12 +47,12 @@ The carrier reviews the claim and points to the policy's cyber exclusion: "arisi
 </div>
 <div style="flex: 1; min-width: 180px; background: rgba(139,92,246,0.1); border-left: 4px solid #8B5CF6; border-radius: 8px; padding: 20px; display: flex; flex-direction: column;">
 <div style="color: #C4B5FD; font-weight: 700; font-size: 14px; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 10px;">D&amp;O Policy</div>
-<div style="color: rgba(255,255,255,0.8); font-size: 15px; line-height: 1.55;">The cyber exclusion on the D&amp;O policy blocks regulatory defense costs. Directors are personally exposed.</div>
+<div style="color: rgba(255,255,255,0.8); font-size: 15px; line-height: 1.55;">The cyber exclusion blocks regulatory defense costs. The policy built to protect directors steps out entirely.</div>
 <div style="margin-top: auto; padding-top: 10px; border-top: 1px solid rgba(255,255,255,0.12);"><div style="font-size: 20px; font-weight: 700; color: #C4B5FD;">$0</div></div>
 </div>
 </div>
 <p style="margin-top: 20px; padding-top: 16px; border-top: 1px solid rgba(255,255,255,0.15); font-size: 20px; font-weight: 700; color: #fff;">
-Partial recovery on breach response. Zero on board defense.
+Partial recovery on breach response. Board defense falls to the policy that was not designed to carry it.
 </p>
 </div>
 
@@ -56,7 +62,7 @@ In this scenario, the bank's own security worked. The data breach happened two l
 
 Under the FFIEC's 2023 updated guidance on third-party risk management, banks are expected to assess risks throughout the vendor lifecycle, which includes sub-contracting arrangements. For community banks, where the board often relies on management to handle vendor due diligence, that means the examiner will ask the board what they knew and when.
 
-I [wrote about a similar gap]({{ '/insights/the-board-nobody-insures/' | relative_url }}) in April, where a breach at the bank itself triggered shareholder claims alleging the board failed to oversee cybersecurity. The D&O cyber exclusion blocked those claims too. Different fact pattern, same result: directors face personal exposure because the D&O and cyber policies point at each other.
+I [wrote about a similar gap]({{ '/insights/the-board-nobody-insures/' | relative_url }}) in April, where a breach at the bank itself triggered shareholder claims alleging the board failed to oversee cybersecurity. The D&O cyber exclusion blocked those claims too. Different fact pattern, same architecture: the D&O steps out, and everything the board needs is riding on a cyber policy that was underwritten for breach response.
 
 It has already happened at scale. The [MOVEit vulnerability in 2023](https://www.americanbanker.com/news/flagstar-latest-of-60-banks-affected-by-moveit-breaches) compromised more than 60 banks through file transfer vendors embedded in their core platforms. A ransomware attack on [Marquis Software Solutions](https://www.americanbanker.com/news/marquis-breach-toll-rises-to-80-banks-824-000-consumers) in 2025 exposed data for more than 800,000 customers across 80 banks and credit unions. In both cases, the banks' own systems were unaffected. The breach came from outside, and the liability followed it in.
 

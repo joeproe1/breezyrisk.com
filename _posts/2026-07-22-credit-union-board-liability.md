@@ -95,7 +95,7 @@ The individual director protections were strong. TruStage's personal coverage fo
 Three gaps, six months, one policy absorbing all of it. That is where the exposure sits.
 </div>
 
-This is the credit union-specific version of a problem that hits banks too. I wrote about [the D&O cyber exclusion from the bank side]({{ '/insights/the-board-nobody-insures/' | relative_url }}), where the seam between D&O and cyber leaves directors with zero coverage after a breach.
+This is the credit union-specific version of a problem that hits banks too. I wrote about [the D&O cyber exclusion from the bank side]({{ '/insights/the-board-nobody-insures/' | relative_url }}), where the D&O steps out and the cyber policy ends up carrying a board defense it was never structured to fund.
 
 If your board has never reviewed the D&O cyber exclusion, the investigation coverage election on the declarations page, and what happens when the cyber policy becomes the sole source of defense funding, those three things are worth reading before your next renewal.
 

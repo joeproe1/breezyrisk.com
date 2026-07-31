@@ -101,7 +101,11 @@ Some programs put electronic crime coverage on both the cyber and bond sides for
 
 One program's D&O form contains what I consider among the broadest cyber exclusions in the bank D&O market. It blocks all D&O claims "arising out of or in any way involving" cyber banking services, electronic funds transfers, privacy and security regulations, or cyber publishing.
 
-What this means in practice: after a data breach, the board and individual directors have zero D&O coverage for a regulatory investigation into cyber oversight failures. The cyber policy covers breach response costs. But if the regulator investigates whether the board met its oversight obligations, or names an individual director for failure of duty of care, that's a D&O matter, and the D&O policy excludes it because it "involves" a cyber event.
+What this means in practice: after a data breach, the board and individual directors have zero D&O coverage for a regulatory investigation into cyber oversight failures. The entire response then rests on the program's cyber policy, which does name directors as insureds and will defend them.
+
+The catch is that this is the same program, so the same underwriter decided both. And the cyber form in this program is the stricter of the two designs in the market. It only recognizes a claim once a proceeding is "commenced by the filing of a notice of charges, formal investigative order or similar document," which leaves the examiner's early document requests outside coverage. It excludes civil and criminal fines from loss. And its securities exclusion reaches common law claims "pled in tandem with, or in lieu of" a securities violation, brought "directly or derivatively," which is broad enough to capture a post-breach derivative suit against the board.
+
+That is the program problem in one paragraph. When one carrier writes both policies, a gap on one side is not automatically covered on the other. It can be the same underwriting appetite expressed twice.
 
 ### Credential-Based Fraud Falls Between Policies
 

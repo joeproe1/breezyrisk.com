@@ -44,7 +44,7 @@ Business email compromise, deepfake voice fraud, and vendor impersonation are th
 D&O: the exclusion nobody read.
 </div>
 
-Many banks' D&O policies contain a blanket cyber event exclusion: claims "arising from" a data breach or failure of computer security. After a breach, examiners investigate the board's cybersecurity oversight. That is a D&O matter. But the D&O policy does not respond because the claim "arises from" a cyber event. The cyber policy covers breach response costs, not claims against individual board members for oversight failures. After a breach, neither policy covers the investigation of the board.
+Many banks' D&O policies contain a blanket cyber event exclusion: claims "arising from" a data breach or failure of computer security. After a breach, examiners investigate the board's cybersecurity oversight. That is a D&O matter. But the D&O policy does not respond because the claim "arises from" a cyber event. The cyber policy is what catches the board because directors are typically named in its definition of Insured. What it does not carry is a Side A layer. The board's defense competes for the same limit that has been paying forensics and notification since day one, and on some forms nothing is a claim until a formal proceeding opens.
 
 ## What "good" looks like
 

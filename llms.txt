@@ -25,7 +25,7 @@ Joerg Proeve's career spans carriers (Chubb, CNA), startups, and an MGA (BOXX In
 Community banks typically carry cyber insurance and a D&O policy, plus a fidelity bond, from two or three different carriers. These policies were never designed to work together. Common gaps include:
 
 - Wire fraud: The cyber policy excludes social engineering. The fidelity bond applies a voluntary parting exclusion or a 50% co-payment. Recovery on a $400K loss can be as low as $200K.
-- Board liability after a breach: The D&O policy excludes claims "arising out of" a cyber event. The cyber policy excludes shareholder suits. Directors face personal liability with no insurance response.
+- Board liability after a breach: The D&O policy excludes claims "arising out of" a cyber event. The cyber policy picks the directors up, because on every community bank form reviewed so far they are named in its definition of Insured, but there is no Side A tower, so they share one limit with forensics and notification. On some forms a broad securities exclusion still bars a post-breach derivative suit.
 - Security warranties: The cyber application includes warranty statements about security controls (such as MFA). If a control lapses, the carrier can rescind the entire policy, not just deny the specific claim.
 - Vendor outages: Dependent business interruption coverage often excludes the bank's actual core processor or cloud vendor.
 
