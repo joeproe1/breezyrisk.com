@@ -102,7 +102,7 @@ The result is a table that shows for each incident, which policy responds and wh
 
 Most coverage gaps are not inside a single policy. They live in the seams between the policies that were written by different teams and for different risks. Nobody tested whether they work together. The interaction map does that test.
 
-You can see a [sample interaction map]({{ '/community-bank-insurance/' | relative_url }}) on the community bank insurance page.
+You can see a [sample interaction map]({{ '/cyber-insurance-audit/' | relative_url }}) on the cyber insurance audit page.
 
 ## Who Can Benefit from this Report?
 

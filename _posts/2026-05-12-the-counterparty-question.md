@@ -60,7 +60,7 @@ Reinsurance cession is normal. Established carriers do it too, and for good reas
 
 ## Why this matters more for community banks than for other buyers
 
-A startup that loses its cyber coverage in a carrier failure has a bad day. A [community bank]({{ '/community-bank-insurance/' | relative_url }}) that loses its cyber coverage in a carrier failure has a regulatory event.
+A startup that loses its cyber coverage in a carrier failure has a bad day. A [community bank]({{ '/cyber-insurance-audit/' | relative_url }}) that loses its cyber coverage in a carrier failure has a regulatory event.
 
 Federal examiners are looking more closely at vendor and counterparty risk every cycle. Your cyber insurance carrier is your vendor. That means the bank is expected to run due diligence on the carrier's financial condition, not just accept the broker's recommendation. If the carrier turns out to be inadequate, the bank owns the regulatory consequences.
 
