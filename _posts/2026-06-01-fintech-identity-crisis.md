@@ -132,4 +132,4 @@ If you run a FinTech or manage its insurance program, you should be able to answ
 </div>
 </div>
 
-If nobody has read your policies together against your bank partner agreements and regulatory requirements, that's the gap I fill. [Get in touch]({{ '/contact/' | relative_url }}) and I'll tell you whether your program holds up.
+Find out whether your policies hold up when read against your bank partner agreements. [Get in touch]({{ '/contact/' | relative_url }}).

@@ -176,4 +176,4 @@ If your broker can't answer these without checking, that's not a criticism of th
 
 For more on how wire fraud specifically falls between the bond and cyber policy, see [The Wire Nobody Covers]({{ '/insights/the-wire-nobody-covers/' | relative_url }}).
 
-If your bank is on a program, someone should be reading the standard forms against your actual operations. That is what a [Risk Intelligence Report]({{ '/risk-intelligence-report/' | relative_url }}) does. [Get in touch]({{ '/contact/' | relative_url }}) if you want to know what your program covers and what it doesn't.
+Find out what your program's standard forms actually cover once they meet your operations. [Get in touch]({{ '/contact/' | relative_url }}).

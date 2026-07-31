@@ -58,4 +58,6 @@ Two out of three works fine until a loss hits. Then the side you chose not to ma
 
 If nobody has read your policies side by side and tested which one pays for realistic scenarios, you know what you bought, but you don't know what you'll collect.
 
-For the complete analysis with additional examples, [read the full article on Substack](https://breezyrisk.substack.com/p/the-cheap-good-fast-triangle-of-insurance). If you want to know what your bank's insurance program covers, [get in touch]({{ '/contact/' | relative_url }}).
+I worked through additional examples of this trade-off in [a longer essay on Substack](https://breezyrisk.substack.com/p/the-cheap-good-fast-triangle-of-insurance).
+
+Find out which of your policies pays first on a realistic loss, and which one steps out. [Get in touch]({{ '/contact/' | relative_url }}).

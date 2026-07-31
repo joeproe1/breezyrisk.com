@@ -158,7 +158,7 @@ One bank had no vendor coverage at all. One had $100,000; a three-day outage wou
 - Does it cover system failure, or only security breach?
 - Is your core vendor named, or covered only by a class definition?
 
-[The Vendor You Cannot Replace]({{ '/insights/the-vendor-you-cannot-replace/' | relative_url }})
+[Vendor Risk Insurance Gaps]({{ '/insights/your-vendor-is-your-biggest-exposure/' | relative_url }})
 
 ---
 

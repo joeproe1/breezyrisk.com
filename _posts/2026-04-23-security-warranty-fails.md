@@ -118,6 +118,6 @@ In the bank cyber policies I have reviewed to date, none included a no-rescissio
 </div>
 </div>
 
-Security warranties are one of the first things examiners will question after a breach. For more on what they expect, see [What Your Bank Examiner Expects From Your Cyber Insurance]({{ '/insights/what-your-examiner-expects-from-cyber-insurance/' | relative_url }}).
+Security warranties are one of the first things examiners will question after a breach. For more on what they expect, see [Examiner Readiness]({{ '/examiner-readiness/' | relative_url }}).
 
-Your bank probably spends more time reviewing the premium than the application behind it. If nobody has compared your cyber application to your current IT environment, a [Risk Intelligence Report]({{ '/risk-intelligence-report/' | relative_url }}) will catch the gap before a claim does. [Get in touch]({{ '/contact/' | relative_url }}).
+Find out whether the MFA representation on your signed cyber application still matches what is deployed today. [Get in touch]({{ '/contact/' | relative_url }}).

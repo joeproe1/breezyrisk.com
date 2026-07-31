@@ -11,6 +11,7 @@ image_alt: "Risk Intelligence Report overview showing line-by-line policy analys
 read_time: "5 min read"
 last_modified_at: 2026-06-03
 permalink: /insights/what-is-a-risk-intelligence-report/
+hide_from_index: true
 faq:
   - question: "What is a Risk Intelligence Report?"
     answer: "A Risk Intelligence Report is a line-by-line analysis of your insurance policies against realistic claim scenarios. It reads your cyber policy, D&O policy, and fidelity bond together to identify where coverage responds, where it gets disputed, and where it fails. The report includes specific findings, policy-language citations, and dollar-range exposure estimates. It is designed for four audiences: the CFO, the board, the examiner, and the broker."

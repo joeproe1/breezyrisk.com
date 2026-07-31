@@ -102,4 +102,4 @@ Knowing where the bond stops and the cyber policy starts matters because the two
 </div>
 </div>
 
-If you haven't read your bond's social engineering endorsement, checked the sublimit against your wire transfer volume, or verified whether the authorized access exclusion applies to your operations, a [Risk Intelligence Report]({{ '/risk-intelligence-report/' | relative_url }}) will surface those gaps before a claim does. [Get in touch]({{ '/contact/' | relative_url }}).
+Find out whether your bond's authorized access exclusion reaches your operations, and whether the social engineering sublimit matches your wire volume. [Get in touch]({{ '/contact/' | relative_url }}).

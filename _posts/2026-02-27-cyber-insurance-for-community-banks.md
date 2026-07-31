@@ -140,7 +140,7 @@ Carriers require specific security controls as conditions of coverage: MFA on al
 
 If any control is missing when a claim hits, coverage can be voided. A security gap is not just a vulnerability. It is an insurance gap. For a real-world example of how one missing MFA deployment voided an entire $5 million cyber policy, see [What Happens When Your Security Warranty Fails]({{ '/insights/security-warranty-fails/' | relative_url }}).
 
-If your bank works with an IT auditor or security firm, have them review your carrier's warranty requirements alongside their assessment. For more on how examiner expectations and carrier requirements overlap, see [What Your Examiner Expects From Your Cyber Insurance]({{ '/insights/what-your-examiner-expects-from-cyber-insurance/' | relative_url }}).
+If your bank works with an IT auditor or security firm, have them review your carrier's warranty requirements alongside their assessment. For more on how examiner expectations and carrier requirements overlap, see [Examiner Readiness]({{ '/examiner-readiness/' | relative_url }}).
 
 ## 5 Things to Check Before Your Next Board Meeting
 

@@ -117,4 +117,6 @@ Some carriers offer an endorsement that explicitly adds interest income to the B
 
 Your bank's cyber policy was designed to cover system outages. For most businesses, that coverage works. For a bank, it only recognizes 15-30% of revenue and ignores the rest.
 
-The interest income exclusion is one of several gaps that appear when cyber, fidelity bond, and D&O policies are read together. I map the full picture in [Five Audits. Same Gaps.]({{ '/insights/five-audits-same-gaps/' | relative_url }}). If your bank has not checked whether interest income is covered in your cyber BI definition, [get in touch]({{ '/contact/' | relative_url }}). A [Risk Intelligence Report]({{ '/risk-intelligence-report/' | relative_url }}) will show you exactly what your policy pays on a five-day outage, and whether the answer should concern your board.
+The interest income exclusion is one of several gaps that appear when cyber, fidelity bond, and D&O policies are read together. I map the full picture in [Five Audits. Same Gaps.]({{ '/insights/five-audits-same-gaps/' | relative_url }}).
+
+Find out whether your cyber BI definition counts net interest income as covered revenue. [Get in touch]({{ '/contact/' | relative_url }}).

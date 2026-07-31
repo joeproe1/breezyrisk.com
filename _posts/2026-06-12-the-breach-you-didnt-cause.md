@@ -87,4 +87,4 @@ A vendor breach creates the same D&O exposure as a breach at the bank itself. Th
 
 For the full picture of how cyber, D&O, and fidelity bond policies interact across five common cyber incidents, see [Five Common Cyber Incidents, Three Policies, and the Gaps Between Them]({{ '/insights/five-incidents-three-policies/' | relative_url }}).
 
-If your board hasn't reviewed how your D&O policy responds after a vendor breach, [get in touch]({{ '/contact/' | relative_url }}) and I will show you where your coverage gap might be.
+Find out whether your D&O policy responds when the breach happened at your vendor, not at your bank. [Get in touch]({{ '/contact/' | relative_url }}).
