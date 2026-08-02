@@ -13,7 +13,7 @@ last_modified_at: 2026-07-11
 permalink: /insights/five-audits-same-gaps/
 faq:
   - question: "What are the most common insurance gaps at community banks?"
-    answer: "Based on audits of five community banks and credit unions across different carriers and program structures, the most common gaps are: wire fraud conditions that can reduce recovery to zero, D&O cyber exclusions that leave board members uninsured after a breach, vendor outage coverage that does not match vendor dependence, headline limits that overstate realistic recovery by 70 to 85 percent, and business interruption definitions that exclude the bank's primary revenue stream."
+    answer: "Based on audits of five community banks and credit unions across different carriers and program structures, the most common gaps are: wire fraud conditions that can reduce recovery to zero, D&O cyber exclusions that shift the board's post-breach defense onto the cyber policy, vendor outage coverage that does not match vendor dependence, headline limits that overstate realistic recovery by 70 to 85 percent, and business interruption definitions that exclude the bank's primary revenue stream."
   - question: "Do headline insurance limits reflect what a bank will recover?"
     answer: "No. Across five banks, combined headline limits ranged from $12 million to $27 million. Realistic recovery on a multi-front cyber incident ranged from $500,000 to $3 million. The erosion comes from sublimits, defense costs inside the limit, co-payment clauses, D&O cyber exclusions, and coverage gaps between the three policies."
   - question: "Does cyber insurance cover a bank's interest income during an outage?"
@@ -103,7 +103,7 @@ The coverage gaps across the banks were strikingly similar. Five structural prob
 <p style="margin: 0; color: #1e293b; line-height: 1.55;">On a $500,000 wire fraud loss, recovery ranged from $0 to $250,000.<br>All five banks had conditions that could void coverage entirely.</p>
 </div>
 
-Wire fraud is the number one fraud threat to community banks ($3 billion in FBI-reported BEC losses, 2025). Every bank had social engineering coverage on its fidelity bond. Not the cyber policy. Carriers will not sell eCrime coverage to financial institutions. The bond carries the full load.
+Wire fraud is not the loss a community bank suffers most often. Check fraud is, by a wide margin. Wire fraud is the loss the bond is actually asked to pay. A check fraud incident averages around $45,000 and mostly sits below the bond deductible, absorbed as an operating loss that never reaches an insurer. A wire fraud incident averages $141,000 to $295,000, clears every deductible in this sample, and lands squarely on a sublimit. Every bank had social engineering coverage on its fidelity bond. Not the cyber policy. Hardly any cyber carrier writes eCrime coverage for financial institutions, so the bond carries the load.
 
 The problem is what the endorsement says. Four of five banks had sublimits between $250,000 and $500,000. All five had a verification warranty written as a condition precedent: if the employee skips the callback, coverage drops to zero. That warranty was designed for email-based BEC, not deepfake voice calls. One bank had a 50% co-payment clause the board did not know about. And in two banks, recovery swung by $4.5 to $4.75 million depending on how forensics classified the attack after the fact, a judgment the bank does not control.
 

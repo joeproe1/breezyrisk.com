@@ -15,7 +15,7 @@ faq:
   - question: "What does cyber insurance cover for a community bank?"
     answer: "A community bank cyber policy covers two sides: first-party losses (breach response, business interruption, ransomware, data restoration) and third-party liability (network security lawsuits, privacy claims, regulatory proceedings). The standard package works for most businesses, but community banks have blind spots around wire fraud, vendor outages, and policy interactions with D&O and fidelity bond coverage."
   - question: "Does cyber insurance cover wire fraud at a community bank?"
-    answer: "Most cyber policies offer social engineering coverage only as an endorsement with sublimits typically between $100,000 and $250,000. For a bank that regularly processes wire transfers in the hundreds of thousands, the sublimit can be exhausted by a single incident. The fidelity bond may or may not respond depending on verification requirements and how the loss is categorized."
+    answer: "Usually not. Cyber carriers generally do not write eCrime or social engineering coverage to financial institutions, so the fidelity bond is the only policy that pays a wire fraud loss at a bank. Every bond reviewed so far carries a social engineering endorsement, so the question is the sublimit rather than whether the coverage exists. It is often $250,000 against a computer fraud limit many times larger, and a verification condition attached to it can deny the claim outright if the required callback was not made."
   - question: "Does a community bank D&O policy cover board liability after a cyber breach?"
     answer: "Many D&O policies now exclude claims arising from a cyber event, pushing everything to the cyber policy. The cyber policy does catch the directors, because they are named in its definition of Insured, but it was not built to carry them. There is no Side A tower, so the board shares one limit with forensics and notification, and those costs land first. On some forms nothing counts as a claim until a formal proceeding opens, which leaves early examiner activity uncovered."
   - question: "Does cyber insurance cover vendor outages at a community bank?"
@@ -67,16 +67,18 @@ That's the standard package. For a typical business, it works reasonably well. F
 
 ## Blind Spots: Where Cyber Insurance Falls Short for Community Banks
 
-### Wire fraud and social engineering coverage is probably sublimited
+### Wire fraud coverage is probably not on your cyber policy at all
 
 Wire fraud and business email compromise (BEC) are among the costliest cyber threats facing banks. BEC alone accounts for roughly $3 billion in reported losses annually. Banks are in the business of moving money, and attackers know it.
 
-Most cyber policies offer social engineering coverage as an endorsement, not a core coverage. Sublimits typically range from $100K to $250K. If a bank employee is tricked into wiring $500K to a fraudulent account, the cyber policy sublimit may cover half. The fidelity bond may or may not respond, depending on whether the loss qualifies under the bond language.
+Outside banking, cyber policies commonly offer social engineering coverage as an endorsement with a $100K to $250K sublimit. Financial institutions are the exception. Cyber carriers generally do not write eCrime or social engineering coverage to FIs at all, so the line item on your declarations page may be one the underwriter never intended to sell you. This is a market appetite issue, not a broker miss.
+
+That leaves the fidelity bond as the only policy that pays a wire fraud loss. Every bond I have read carries a social engineering endorsement, so the question is not whether you have it. It is the sublimit, which is often $250K against a computer fraud limit many times larger. If an employee is tricked into wiring $500K, the bond's social engineering sublimit is the ceiling on recovery, not the bond's headline limit.
 
 And it is getting worse. AI-generated voice and video can now impersonate executives in real time, and most policy language was written for email-based scams. For a deeper look at how deepfakes are breaking callback verification procedures and widening this gap, see [When AI Clones Your CFO's Voice]({{ '/insights/when-ai-clones-your-cfos-voice/' | relative_url }})
 
 <div style="border-left: 3px solid #00D4AA; padding: 16px 20px; background: rgba(0,212,170,0.05); border-radius: 0 8px 8px 0; margin: 24px 0;">
-<strong>What to look for:</strong> Check whether your social engineering sublimit is adequate for your wire transfer volume. Check whether the policy defines "social engineering" broadly enough to include AI-generated voice and video. And if your policy requires a callback verification procedure, ask whether that procedure accounts for voice impersonation.
+<strong>What to look for:</strong> Find the social engineering sublimit <em>on your bond</em>, not your cyber policy, and compare it to a single day's wire volume. Check whether the bond defines "social engineering" broadly enough to include AI-generated voice and video. And if the bond requires a callback verification procedure, read whether it is a condition precedent, because a missed callback denies the claim rather than reducing it.
 </div>
 
 ### Your cyber and D&O policies, and your fidelity bond, may be pointing at each other
@@ -85,7 +87,7 @@ Banks carry fidelity bonds (covering employee dishonesty, forgery, computer frau
 
 Social engineering and fraudulent wire transfers are the most common gap. The fidelity bond may require "direct" fraud, someone physically stealing or forging. The cyber policy requires a "cyber event." A BEC scam that tricks an employee into voluntarily initiating a legitimate wire transfer may not clearly fit either definition. The employee was not dishonest. There was no hack. Both carriers can argue it belongs to the other policy.
 
-Directors and Officers (D&O) coverage adds another layer. If the Board is sued after a breach for inadequate oversight of cybersecurity, does the D&O policy respond? Some D&O policies now exclude claims "arising from" a cyber event, pushing everything to the cyber policy. But the cyber policy may not cover Board liability claims.
+Directors and Officers (D&O) coverage adds another layer. If the Board is sued after a breach for inadequate oversight of cybersecurity, does the D&O policy respond? Most community bank D&O policies now carry a cyber exclusion, though the wording varies enough that two banks can get opposite answers. Where the exclusion is broad, it pushes everything to the cyber policy. The cyber policy does catch the directors, because they are named in its definition of Insured. What it does not do is behave like a D&O policy: there is no Side A tower, so the board shares one limit with forensics and notification, and those costs land first.
 
 <div style="border-left: 3px solid #00D4AA; padding: 16px 20px; background: rgba(0,212,170,0.05); border-radius: 0 8px 8px 0; margin: 24px 0;">
 <strong>What to look for:</strong> Pull your cyber policy, D&O policy, and fidelity bond side by side. Check whether any of them have exclusions that push claims to one of the other policies. If you see phrases like "arising from a cyber event" in your D&O exclusions, or "computer fraud" carved out of your fidelity bond, those are the seams where coverage can fail.
@@ -146,7 +148,7 @@ If your bank works with an IT auditor or security firm, have them review your ca
 
 Thirty minutes. If you get through all five, you will know more about your cyber coverage than most community banks ever will.
 
-1. **Find your sublimits.** Check ransomware and social engineering sublimits against your aggregate. Below 25%? Flag it.
+1. **Find your sublimits.** Check the ransomware sublimit on the cyber policy against your aggregate, and the social engineering sublimit on the bond against a day's wire volume. Below 25%? Flag it.
 
 2. **Read your security warranties.** List every control your policy requires. Verify your bank meets each one. One gap can void everything.
 
@@ -154,7 +156,7 @@ Thirty minutes. If you get through all five, you will know more about your cyber
 
 4. **Look at your policies together.** Pull cyber, D&O, and your fidelity bond. Look for exclusions that push claims to another policy. "Arising from a cyber event" in your D&O? That is a gap.
 
-5. **Ask about deepfake coverage.** Does your social engineering coverage include AI-generated voice and video, or just written communications?
+5. **Ask about deepfake coverage.** Does the social engineering endorsement on your bond include AI-generated voice and video, or just written communications?
 
 If any of these raises a question you cannot answer, bring it to your next broker conversation. For a detailed breakdown of how sublimits, retentions, and defense costs can reduce a $5 million policy to under $500,000 in actual recovery, see [The Fine Print Inside the Coverage]({{ '/insights/the-fine-print-inside-the-coverage/' | relative_url }}).
 

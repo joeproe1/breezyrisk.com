@@ -97,7 +97,7 @@ Three things to check now:
 </div>
 <div style="display: flex; gap: 16px;">
 <div style="min-width: 32px; height: 32px; background: #00D4AA; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #0A2540; font-size: 16px;">3</div>
-<div><strong>If your cyber form offers social engineering or eCrime coverage, add it.</strong> Some cyber policies do include this option for financial institutions. If yours does and it was not selected, that is worth fixing. But do not assume your cyber policy can carry this risk. For most banks, the bond is the policy that pays on wire fraud.</div>
+<div><strong>Do not wait for the cyber policy to backstop the bond.</strong> Cyber carriers generally do not write eCrime or social engineering coverage to financial institutions. If you see the line item on your declarations page, ask the underwriter directly whether it is in force for an FI risk, because it usually is not. This is a market appetite question, not something to fix at renewal. The bond is the policy that pays on wire fraud, which means every dollar of this exposure sits behind a single sublimit.</div>
 </div>
 </div>
 

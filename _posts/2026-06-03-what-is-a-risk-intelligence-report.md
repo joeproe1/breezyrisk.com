@@ -130,7 +130,7 @@ The report is designed for four audiences.
 
 ## Common Findings
 
-In the banks I have reviewed, I often find these coverage gaps: social engineering sublimits that cap wire fraud recovery at a fraction of the loss, vendor coverage that does not match the bank's dependency on its core banking platform, and D&O cyber exclusions that eliminate board protection after a breach.
+In the banks I have reviewed, I often find these coverage gaps: social engineering sublimits on the bond that cap wire fraud recovery at a fraction of the loss, vendor coverage that does not match the bank's dependency on its core banking platform, and D&O cyber exclusions that shift the board's post-breach defense onto a cyber policy already spending its limit on forensics and notification.
 
 ## Where To Start
 

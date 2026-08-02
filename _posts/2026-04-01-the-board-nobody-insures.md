@@ -13,9 +13,9 @@ last_modified_at: 2026-07-30
 permalink: /insights/the-board-nobody-insures/
 faq:
   - question: "What is a D&O cyber exclusion?"
-    answer: "A D&O cyber exclusion is a policy clause that removes coverage for any claim 'arising out of' a cyber event. When a data breach leads to shareholder lawsuits, regulatory investigations, or derivative actions against directors, the D&O policy treats all of those claims as cyber-related and excludes them. The breadth of the exclusion depends on its wording: 'arising out of any cyber event' is broad and eliminates most post-breach director claims, while 'directly resulting from' is narrower and may preserve coverage for governance and oversight claims."
+    answer: "A D&O cyber exclusion is a policy clause that removes coverage for claims connected to a cyber event, so that a data breach leading to shareholder lawsuits, regulatory investigations, or derivative actions against directors can fall outside the D&O policy. How much it removes depends on two things. First the trigger wording: 'arising out of any cyber event' is broad, while 'directly resulting from' is narrower and may preserve governance and oversight claims. Second, and more often decisive, whether the exclusion carries a carve-back. On half the community bank D&O forms compared so far there is one, either stating that the exclusion does not apply to a director or officer, or expressly preserving security holder derivative claims. Two policies with the same broad trigger can produce opposite outcomes depending on that carve-back."
   - question: "Does D&O insurance cover data breaches at community banks?"
-    answer: "In most community bank D&O policies, no. The typical D&O policy contains a cyber exclusion that blocks coverage for any claim connected to a data breach, including shareholder derivative suits, regulatory defense costs, and class actions. The cyber policy usually picks up part of what falls through, because directors are covered persons under it. What it does not do is behave like a D&O policy: there is no Side A tower reserved for individuals, so directors share one limit with forensics, notification and business interruption, and on some forms a broad securities exclusion still bars a post-breach derivative suit."
+    answer: "Usually not directly. Every community bank D&O policy reviewed so far carries a cyber exclusion, so regulatory defense costs and class actions following a breach are commonly pushed off the D&O and onto the cyber policy. The cyber policy does pick the directors up, because they are covered persons under it. What it does not do is behave like a D&O policy: there is no Side A tower reserved for individuals, so directors share one limit with forensics, notification and business interruption. The shareholder derivative suit is the exception worth checking separately. It is barred only when the D&O cyber exclusion has no director carve-back and the cyber policy's securities exclusion is broad enough to reach a common law oversight claim. Both conditions have to hold, and on half the D&O forms compared so far the carve-back is present."
 ---
 
 > **Updated July 30, 2026. Verification extended July 31.** An earlier version
@@ -59,12 +59,18 @@ What survives is narrower and more mechanical. Three things.
 
 **The derivative suit is the real seam.** Here the original version of this post was half right. Cyber policies carry a securities exclusion, and its breadth varies enormously. One form defines a securities claim to include a common law action "pled in tandem with, or in lieu of" a securities violation, brought "directly or derivatively," and then bars any loss that "in any way involves" such a claim. A Caremark suit alleging the board failed to oversee cybersecurity looks like it lands inside that. The other two forms are limited to securities transactions and securities law violations, with no derivative language at all. Same product, opposite answer.
 
+The D&O side varies just as much, and this is the part I had wrong for longer. The cyber exclusion is not a single clause that behaves the same way everywhere. On two of the four D&O forms I have compared, the exclusion carries a carve-back that keeps the derivative suit alive. One says plainly that the exclusion "shall not apply to any director or officer," which is unconditional. Another deletes privacy violations from the cyber exclusion altogether and then names security holder derivative claims in an express carve-back. On the other two forms there is no carve-back and the derivative suit is excluded.
+
+Which means the seam only actually opens when both sides fail at once: a D&O cyber exclusion with no derivative carve-back, sitting next to a cyber policy whose securities exclusion is broad enough to reach a Caremark claim. That combination is real, and I have seen it. It is also not the default. Two doors have to be shut, and on most programs at least one of them is open.
+
+Do not read that as reassurance, and do not read it as a reason to switch carriers. The forms that close the seam and the forms that leave it open are not sorted by carrier reputation or price, and a bank that moves to escape one bad clause can land on a form that is worse on both sides. This is a question you answer by reading the two policies you already have, not by shopping.
+
 <div style="background: #0A2540; border-radius: 12px; padding: 32px; margin: 32px 0; color: #fff;">
 <h3 style="color: #00D4AA; margin-top: 0; font-size: 18px;">Three-Policy Breakdown</h3>
 <div style="display: flex; flex-wrap: wrap; gap: 16px;">
 <div style="flex: 1; min-width: 180px; background: rgba(139,92,246,0.1); border-left: 4px solid #8B5CF6; border-radius: 8px; padding: 20px; display: flex; flex-direction: column;">
 <div style="color: #C4B5FD; font-weight: 700; font-size: 14px; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 10px;">D&amp;O Policy</div>
-<div style="color: rgba(255,255,255,0.8); font-size: 15px; line-height: 1.55;">Cyber exclusion: "arising out of any cyber event." All three claims denied.</div>
+<div style="color: rgba(255,255,255,0.8); font-size: 15px; line-height: 1.55;">On this bank's form: cyber exclusion reads "arising out of any cyber event," with no carve-back for directors or derivative claims. All three claims denied. On a form with a carve-back, the derivative suit stays with the D&amp;O.</div>
 <div style="margin-top: auto; padding-top: 10px; border-top: 1px solid rgba(255,255,255,0.12); display: flex; align-items: baseline; gap: 8px;"><div style="font-size: 12px; color: rgba(255,255,255,0.45); text-transform: uppercase; letter-spacing: 0.05em;">Recovery</div><div style="font-size: 20px; font-weight: 700; color: #C4B5FD;">$0</div></div>
 </div>
 <div style="flex: 1; min-width: 180px; background: rgba(59,130,246,0.1); border-left: 4px solid #3B82F6; border-radius: 8px; padding: 20px; display: flex; flex-direction: column;">
@@ -93,9 +99,9 @@ But the deeper problem is governance. After a breach, regulators and shareholder
 
 About 45 percent of companies that experience a significant cyber event also face a D&O event: securities suits, regulatory actions, or derivative claims ([WTW, 2024 FINEX Observer](https://www.wtwco.com/en-us/insights/2024/09/the-rising-frequency-of-d-and-o-exposures-following-material-cyber-incidents)). Cyber has ranked among the top three concerns for directors and officers in WTW's global D&O survey every year since 2020.
 
-I review community bank insurance programs. This gap appears in nearly every one.
+I review community bank insurance programs. Every D&O policy I have read carries a cyber exclusion. What differs is how far it reaches, and whether anything is carved back out of it, and that difference decides whether a board is exposed or merely inconvenienced. It is not a question you can answer from the declarations page.
 
-For community bank board members, many of whom serve as a civic duty rather than as professional directors, the idea that their personal assets are at risk because of a policy exclusion they have never read is sobering.
+For community bank board members, many of whom serve as a civic duty rather than as professional directors, the point is not that personal assets are certain to be at risk. It is that whether they are turns on two clauses in two policies that nobody at the table has read.
 
 ## The Courts Are Watching
 
@@ -124,7 +130,7 @@ Four things to check now:
 <div style="background: #f8faf9; border-radius: 10px; padding: 28px 32px; margin: 24px 0;">
 <div style="display: flex; gap: 16px; margin-bottom: 20px;">
 <div style="min-width: 32px; height: 32px; background: #00D4AA; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #0A2540; font-size: 16px;">1</div>
-<div><strong>Check whether your D&O cyber exclusion is broad or narrow.</strong> "Arising out of any cyber event" eliminates coverage for everything after a breach. "Directly resulting from" is narrower and may preserve coverage for oversight and governance claims. The difference between those two phrases can be the difference between a covered defense and a personal liability.</div>
+<div><strong>Check whether your D&O cyber exclusion is broad or narrow, then read to the end of it.</strong> "Arising out of any cyber event" is broad. "Directly resulting from" is narrower and may preserve coverage for oversight and governance claims. But the wording of the trigger is only half of it. Keep reading for a carve-back, because on half the forms I have compared there is one: language saying the exclusion does not apply to a director or officer, or naming security holder derivative claims as preserved. A carve-back on the D&O side closes the seam by itself, no matter what the cyber policy says.</div>
 </div>
 <div style="display: flex; gap: 16px; margin-bottom: 20px;">
 <div style="min-width: 32px; height: 32px; background: #00D4AA; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #0A2540; font-size: 16px;">2</div>

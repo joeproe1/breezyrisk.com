@@ -29,7 +29,7 @@ The policy interaction map below shows how this plays out, row by row.
 
 ### Wire Fraud
 
-Wire transfer fraud may be the most common and most expensive cyber-related loss at community banks. However, the cyber policy often excludes it unless social engineering coverage was purchased as an add-on, or sublimits it well below the policy's headline limit. The fidelity bond often covers wire fraud, but with strict conditions: a co-payment, a sublimit, or a verification step the bank may not have documented. The D&O does not respond directly. The result: the bank's largest realistic loss is often the one with the weakest coverage. I wrote a [detailed walkthrough of how this plays out]({{ '/insights/the-wire-nobody-covers/' | relative_url }}) in a separate post.
+Wire transfer fraud may be the most common and most expensive cyber-related loss at community banks. The cyber policy does not respond, and not because it was not bought: cyber carriers generally do not write eCrime or social engineering coverage to financial institutions. That puts the entire exposure on one policy. The fidelity bond does cover wire fraud, and every bond I have read carries a social engineering endorsement, but with structural conditions attached: a sublimit well below the bond's headline limit, a deductible, on some carriers a co-payment, and a verification step the bank may not have documented. The D&O does not respond directly. The result: the bank's largest realistic loss is often the one with the weakest coverage. I wrote a [detailed walkthrough of how this plays out]({{ '/insights/the-wire-nobody-covers/' | relative_url }}) in a separate post.
 
 ### Ransomware
 

@@ -89,13 +89,15 @@ In addition to auditing individual policies, I started auditing the programs the
 
 On one program, the cyber policy contains no wire fraud or social engineering coverage. All of that sits on the bond.
 
-That's not inherently a problem. If the bond's Funds Transfer Fraud and Social Engineering riders are in place and properly structured, the bank has coverage. The issue is that many banks on this program don't know their cyber policy doesn't cover wire fraud. They assume it does. And the bond riders that do cover it are optional, not included by default. If they weren't purchased, or if the bank didn't follow the verification procedures the bond requires, the claim gets denied.
+That's not inherently a problem. The bond riders do cover it. Every bond I have read carries a social engineering endorsement, so the question is never whether the coverage was bought. The issue is that many banks on this program don't know their cyber policy doesn't cover wire fraud. They assume it does.
+
+What the riders are is sublimited. Coverage that reads as a $5 million bond in the board packet is $250,000 once you find the agreement that covers the bank's own funds rather than a customer's. And the rider carries a verification condition. If the bank didn't follow the callback procedure the bond requires, the claim isn't reduced to the sublimit. It's denied.
 
 <div style="border-left: 3px solid #F59E0B; padding: 16px 20px; background: rgba(245,158,11,0.05); border-radius: 0 8px 8px 0; margin: 24px 0; font-size: 18px; font-weight: 600; color: #333;">
-The gap isn't that wire fraud coverage is on the bond. The gap is that many banks don't know it's only on the bond, and haven't confirmed the right riders are in place.
+The gap isn't that wire fraud coverage is on the bond. The gap is that many banks don't know it's only on the bond, and haven't checked what the sublimit on that rider actually is.
 </div>
 
-Some programs put electronic crime coverage on both the cyber and bond sides for layered protection. That's worth knowing when you compare programs.
+Do not count on the cyber side to backstop this. Cyber carriers generally do not write eCrime or social engineering coverage to financial institutions at all, on this program or any other. The bond is the layer.
 
 ### The D&O Cyber Exclusion
 
@@ -148,7 +150,7 @@ The fix is understanding what the standard forms do and don't cover, then closin
 <div style="background: #f8faf9; border-radius: 10px; padding: 28px 32px; margin: 24px 0;">
 <div style="display: flex; gap: 16px; margin-bottom: 20px;">
 <div style="min-width: 32px; height: 32px; background: #00D4AA; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #0A2540; font-size: 16px;">1</div>
-<div><strong>Fix within the program.</strong> Add relevant endorsements and riders that are available but weren't included at placement. Social engineering riders, cyber extortion endorsements, increased sublimits.</div>
+<div><strong>Fix within the program.</strong> Mostly this means raising sublimits rather than adding coverage. The social engineering rider is already on the bond; what it needs is a bigger number. $250,000 is the floor in this market, not a target, and a $1 million sublimit is achievable on a community bank-sized bond. Confirm the increase applies to the agreement covering the bank's own funds, not only the one covering a customer's.</div>
 </div>
 <div style="display: flex; gap: 16px; margin-bottom: 20px;">
 <div style="min-width: 32px; height: 32px; background: #00D4AA; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #0A2540; font-size: 16px;">2</div>

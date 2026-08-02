@@ -12,9 +12,9 @@ last_modified_at: 2026-06-27
 permalink: /insights/the-fine-print-inside-the-coverage/
 faq:
   - question: "How much does a $5 million cyber policy actually pay after a community bank data breach?"
-    answer: "After sublimits, retentions, defense costs, and carve-outs, the actual recovery on a multi-front breach may be a fraction of the stated limit. A 45,000-record breach can generate five simultaneous costs (breach response, federal and state regulatory defense, class action defense, and settlement) that all draw from the same aggregate pool. Sublimits on ransomware, social engineering, and regulatory defense further cap individual recoveries below the headline number."
+    answer: "After sublimits, retentions, defense costs, and carve-outs, the actual recovery on a multi-front breach may be a fraction of the stated limit. A 45,000-record breach can generate five simultaneous costs (breach response, federal and state regulatory defense, class action defense, and settlement) that all draw from the same aggregate pool. Sublimits on ransomware, breach response, and regulatory defense further cap individual recoveries below the headline number."
   - question: "What are sublimits in a community bank cyber insurance policy?"
-    answer: "Sublimits are individual caps on specific coverages inside the policy's overall aggregate limit. A $5 million policy may sublimit ransomware at $1 million, social engineering at $250,000, dependent business interruption at $1 million, and regulatory defense at $500,000. A single incident can trigger multiple sublimits simultaneously, and each cap reduces what the bank collects. The aggregate is the theoretical maximum. The sublimits define the actual maximum."
+    answer: "Sublimits are individual caps on specific coverages inside the policy's overall aggregate limit. A $5 million policy may sublimit ransomware at $1 million, breach response at $250,000, dependent business interruption at $1 million, and regulatory defense at $500,000. A single incident can trigger multiple sublimits simultaneously, and each cap reduces what the bank collects. The aggregate is the theoretical maximum. The sublimits define the actual maximum."
   - question: "Are defense costs inside or outside the limit on a cyber policy?"
     answer: "It depends on the policy. If defense costs are inside the aggregate, every dollar spent on lawyers reduces the money available for settlements and breach response. Defense alone can consume 40 percent of the aggregate in a multi-front incident. Policies with defense outside the limit cost 15 to 25 percent more in premium, but the math usually justifies it for community banks facing multiple regulatory investigations after a breach."
 ---
@@ -101,7 +101,9 @@ The $5 million on the declarations page is not $5 million of usable coverage. In
 
 **Ransomware sublimit:** $1 million. If the breach also involves an extortion demand, the bank can recover up to $1 million for the ransom payment and associated costs, not the full $5 million. The rest of the aggregate covers the rest of the incident, but the extortion component has its own ceiling.
 
-**Social engineering sublimit:** $250,000. If the breach originated from a phishing attack that also enabled a wire transfer, the social engineering coverage is capped at a fraction of the aggregate.
+**Breach response sublimit:** $250,000. Forensics, notification, and credit monitoring draw against this cap rather than the full aggregate. This sublimit is also the one most likely to be stale: when a broker raises the aggregate at renewal or midterm, the breach response sublimit often stays where it was set at original placement.
+
+Note what is *not* on this list. Social engineering and wire fraud are absent, because cyber carriers generally do not write that coverage to financial institutions. If a phishing attack enables a fraudulent wire, the cyber policy is not the policy that pays. The bond is, at whatever sublimit the bond carries.
 
 **Dependent business interruption:** $1 million. If the breach originated at a vendor, the bank's business interruption recovery is limited to the sublimit, not the full BI coverage.
 
@@ -135,7 +137,7 @@ I see this in every bank insurance program I review. The limit is real. So is th
 </div>
 <div style="display: flex; gap: 16px; margin-bottom: 20px;">
 <div style="min-width: 32px; height: 32px; background: #00D4AA; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #0A2540; font-size: 16px;">2</div>
-<div><strong>List every sublimit in the policy.</strong> Ransomware, social engineering, dependent BI, regulatory proceedings, PCI fines, crisis management. Add them up against a realistic scenario. If they collectively cap recovery well below the aggregate, the limit on the declarations page is aspirational.</div>
+<div><strong>List every sublimit in the policy.</strong> Ransomware, breach response, dependent BI, regulatory proceedings, PCI fines, crisis management. Check each one against the aggregate it was written under, since a midterm limit increase does not always carry the sublimits with it. Add them up against a realistic scenario. If they collectively cap recovery well below the aggregate, the limit on the declarations page is aspirational.</div>
 </div>
 <div style="display: flex; gap: 16px; margin-bottom: 20px;">
 <div style="min-width: 32px; height: 32px; background: #00D4AA; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #0A2540; font-size: 16px;">3</div>

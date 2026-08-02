@@ -32,7 +32,7 @@ Wire fraud is the most common fraud threat to community banks, and it isn't clos
 
 The social engineering sublimit on many fidelity bonds sits at $100,000 or $250,000. For a bank that regularly processes wire transfers in the hundreds of thousands, that sublimit can be exhausted by a single incident.
 
-A $500,000 wire fraud loss with a $250,000 social engineering sublimit means the bank absorbs the other $250,000 out of operating income. If the bond also applies a co-payment (which [many do]({{ '/insights/the-wire-nobody-covers/' | relative_url }})), the bank's share grows even larger.
+A $500,000 wire fraud loss with a $250,000 social engineering sublimit means the bank absorbs the other $250,000 out of operating income. If the bond also applies a co-payment, the bank's share grows even larger. That one is not market-wide. I have seen it on one carrier of four, and where it appears it is the carrier's substitute for a callback condition rather than an extra penalty on top of one. Check the declarations page before assuming it applies to you, and check it before assuming it does not, because [it is the difference between recovering $250,000 and $125,000]({{ '/insights/the-wire-nobody-covers/' | relative_url }}).
 
 <div style="border-left: 3px solid #F59E0B; padding: 16px 20px; background: rgba(245,158,11,0.05); border-radius: 0 8px 8px 0; margin: 24px 0; font-size: 18px; font-weight: 600; color: #333;">
 This isn't a gap hiding in fine print. It's sitting on the declarations page. Most banks have never compared the number to their wire transfer volume.

@@ -35,10 +35,10 @@ Cyber: the limit that disappears.
 A bank buys a $5 million cyber policy. The number looks sufficient on the declarations page. But defense costs sit inside that aggregate limit. A data breach triggers simultaneous investigations from the FDIC, state banking examiners, and the state attorney general. A class action from affected customers adds another front. Legal fees across four simultaneous proceedings consume the aggregate before any damages or settlements are paid. The bank bought a $5 million limit. That limit was consumed before indemnity applied.
 
 <div style="border-left: 3px solid #00D4AA; padding: 16px 20px; background: rgba(0,212,170,0.05); border-radius: 0 8px 8px 0; margin: 24px 0; font-size: 18px; font-weight: 600; color: #333;">
-Fidelity bond: the fraud coverage that isn't there.
+Fidelity bond: the fraud coverage that is there, at a fraction of the number you think.
 </div>
 
-Business email compromise, deepfake voice fraud, and vendor impersonation are the number one fraud threat to financial institutions. The FBI estimates over $3 billion in annual business email compromise losses. Most fidelity bonds carry a social engineering endorsement, but it often comes with sublimits, co-payment clauses, or verification requirements that reduce recovery well below the face amount. A bank with a $2 million bond may collect less than half that on a wire fraud loss, and the board may never have been told.
+Business email compromise, deepfake voice fraud, and vendor impersonation are not the fraud a bank sees most often. Check fraud is. They are the fraud most likely to reach the bond, because a check fraud loss usually sits below the deductible and gets absorbed as an operating expense, while a wire loss clears the deductible and lands on a sublimit. Most fidelity bonds carry a social engineering endorsement, but it often comes with sublimits, co-payment clauses, or verification requirements that reduce recovery well below the face amount. A bank with a $2 million bond may collect less than half that on a wire fraud loss, and the board may never have been told.
 
 <div style="border-left: 3px solid #00D4AA; padding: 16px 20px; background: rgba(0,212,170,0.05); border-radius: 0 8px 8px 0; margin: 24px 0; font-size: 18px; font-weight: 600; color: #333;">
 D&O: the exclusion nobody read.

@@ -28,7 +28,7 @@ permalink: /coverage-gaps/
     }
   },
   "datePublished": "2026-04-27",
-  "dateModified": "2026-06-30",
+  "dateModified": "2026-08-02",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "{{ '/coverage-gaps/' | absolute_url }}"
@@ -92,7 +92,7 @@ permalink: /coverage-gaps/
       "name": "What coverage gaps do community banks typically have?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Six patterns appear in nearly every community bank policy review: (1) wire fraud falls between the cyber policy and the fidelity bond, with both carriers denying or sublimiting the claim; (2) D&O policies contain cyber exclusions that push board defense onto a cyber policy with no Side A layer; (3) vendor outage coverage is sublimited far below actual dependence on core processors; (4) OFAC sanctions can block ransom payments the carrier would otherwise authorize; (5) security warranty language lets carriers void coverage after a loss if controls did not match the application; and (6) sublimits, retentions, and carve-outs reduce a $5 million policy to a fraction of its stated limit."
+        "text": "Six of the patterns checked in a community bank policy review, drawn from a framework of 24 scored gaps and 16 further observations: (1) wire fraud sits entirely on the fidelity bond, because cyber carriers generally do not write social engineering coverage to financial institutions, and most bonds cap it at $250,000; (2) every bank D&O policy reviewed carries a cyber exclusion, and where it is worded broadly with no carve-back it pushes board defense onto a cyber policy with no Side A layer behind it; (3) vendor outage coverage is sublimited far below actual dependence on core processors, on every form reviewed; (4) OFAC sanctions can block ransom payments the carrier would otherwise authorize; (5) no bank cyber form reviewed carries a no-rescission clause, so inaccurate application answers about security controls leave the carrier a right to void the policy, though no rescission claim against a bank cyber policy is known; and (6) sublimits sit inside the aggregate rather than on top of it on every form reviewed, so a $5 million policy pays a fraction of its stated limit on a sublimited loss."
       }
     },
     {
@@ -108,7 +108,7 @@ permalink: /coverage-gaps/
       "name": "What is the three-policy interaction problem for community banks?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Community banks carry three policies that all respond to a cyber incident: the cyber policy, the fidelity bond (Financial Institution Bond), and directors and officers (D&O) coverage. Each policy is written by a different carrier, using different definitions, with different exclusions. When a single incident triggers all three, the carriers look at each other's policies to find reasons to deny. A wire fraud claim denied by the cyber carrier for lack of social engineering coverage gets denied by the bond carrier for voluntary parting. A D&O cyber exclusion pushes the board's defense onto the cyber policy, which names directors as insureds but shares one limit with breach response. The gaps are not in any single policy. They are in the spaces between all three."
+        "text": "Community banks carry three policies that all respond to a cyber incident: the cyber policy, the fidelity bond (Financial Institution Bond), and directors and officers (D&O) coverage. Each policy is written by a different carrier, using different definitions, with different exclusions. When a single incident triggers all three, the carriers look at each other's policies to find reasons to deny. A wire fraud claim gets no response at all from the cyber carrier, because carriers do not write social engineering coverage to financial institutions, and then gets denied or sublimited by the bond carrier for voluntary parting or a missed verification callback. A D&O cyber exclusion pushes the board's defense onto the cyber policy, which names directors as insureds but shares one limit with breach response. The gaps are not in any single policy. They are in the spaces between all three."
       }
     },
     {
@@ -470,7 +470,7 @@ permalink: /coverage-gaps/
   <div class="container">
     <h1>Community Bank Insurance Gaps: Six Patterns That Fail at Claim Time</h1>
     <p class="gaps-hero__sub">
-      These six patterns show up in every community bank and credit union policy review I conduct. They come from reading the actual policy language, not from checklists.
+      Six of the patterns I look for in every community bank and credit union policy review. They are drawn from a longer framework of 24 scored gaps and 16 further observations, and they come from reading the actual policy language, not from checklists. Each one carries a count of how many forms I have actually seen it on, so a finding is called market-wide only where the forms support it.
     </p>
   </div>
 </section>
@@ -501,9 +501,9 @@ permalink: /coverage-gaps/
         <div class="gap-card__number">Gap 1</div>
         <h2 class="gap-card__title">The Wire That Never Comes Back</h2>
         <p class="gap-card__body">
-          Spoofed instructions, real wire. The cyber policy never included a social engineering fraud endorsement. The Financial Institution Bond excludes "voluntary parting." Both carriers point at each other.
+          Spoofed instructions, real wire. The cyber policy does not respond, because carriers generally do not write social engineering coverage to financial institutions. That leaves the Financial Institution Bond. Every bond I have read carries the coverage, so it is rarely missing; most cap it at $250,000, and the bond also excludes "voluntary parting." One policy, one number, and it is smaller than the board thinks.
         </p>
-        <p class="gap-card__verdict">On a $400K wire fraud, the bank can recover as little as half.</p>
+        <p class="gap-card__verdict">On a $400K wire fraud, a $250,000 sublimit is what stands behind the loss.</p>
         <a href="{{ '/insights/the-wire-nobody-covers/' | relative_url }}" class="gap-card__link">See the full analysis &rarr;</a>
       </div>
 
