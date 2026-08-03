@@ -35,10 +35,10 @@ permalink: /examiner-readiness/
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the FFIEC cyber insurance requirements for community banks?",
+      "name": "Does the FFIEC require community banks to have cyber insurance?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The FFIEC IT Examination Handbook requires banks to evaluate whether cyber insurance coverage is adequate for their risk profile. Examiners assess four areas: board-level review of coverage, limits aligned to the bank's risk exposure, compliance with security warranties on the cyber application, and understanding of how cyber, D&O, and fidelity bond policies interact during a cyber incident. The FFIEC does not mandate specific coverage amounts but expects documented rationale for the coverage the bank carries."
+        "text": "The FFIEC does not mandate cyber insurance and does not prescribe coverage amounts. The FFIEC IT Examination Handbook identifies it as a component of a sound information security program, and examiners expect the bank to have evaluated whether coverage is adequate for its risk profile and to have documented the rationale. That applies whether the bank carries coverage or has decided the risk is otherwise mitigated. Banks without cyber insurance should expect questions about how residual cyber risk is addressed."
       }
     },
     {
@@ -55,22 +55,6 @@ permalink: /examiner-readiness/
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Prepare by matching policy security warranties to your IT audit findings, creating a one-page board coverage summary, and mapping your three policies (cyber, bond, D&O) against likely incident scenarios. Document which policy responds to each scenario and where gaps exist."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is an independent insurance audit for community banks?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An independent insurance audit reads your cyber and D&O policies, and your fidelity bond, line by line, tests them against realistic claim scenarios, and identifies coverage gaps, sublimits, and exclusions. The output is an examiner-ready report with dollar amounts and specific fixes."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does the FFIEC require banks to have cyber insurance?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The FFIEC does not mandate cyber insurance as a regulatory requirement. However, the FFIEC IT Examination Handbook identifies cyber insurance as a component of a sound information security program. In practice, examiners expect banks to have evaluated cyber insurance and to document their rationale, whether the bank carries coverage or has decided the risk is otherwise mitigated. Banks without cyber insurance should expect questions about how residual cyber risk is addressed."
       }
     }
   ]
@@ -153,7 +137,7 @@ permalink: /examiner-readiness/
 /* Question cards — single row */
 .exam-questions {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   max-width: 1100px;
   margin: 0 auto;
@@ -244,7 +228,7 @@ details[open] summary span { transform: rotate(45deg); display: inline-block; }
 /* Responsive */
 @media (max-width: 968px) {
   .exam-hero h1 { font-size: 36px; }
-  .exam-questions { grid-template-columns: 1fr 1fr; }
+  .exam-questions { grid-template-columns: 1fr; }
 }
 @media (max-width: 768px) {
   .exam-hero { padding: 72px 0 36px; }
@@ -272,33 +256,27 @@ details[open] summary span { transform: rotate(45deg); display: inline-block; }
   <div class="container exam-wrap">
     <div class="exam-center">
       <h2>What's Inside</h2>
-      <p>Ten questions, grouped into the four areas examiners look at across cyber, D&O and the fidelity bond.</p>
+      <p>Ten questions across cyber, D&O and the fidelity bond, in three sections.</p>
     </div>
 
     <div class="exam-questions">
 
       <div class="exam-question">
         <div class="exam-question-num">01</div>
-        <h3>Board-Level Coverage Review</h3>
-        <p>The board should be able to say what each policy covers and where the gaps are. "Our broker recommended this" is not a review.</p>
+        <h3>Board Governance</h3>
+        <p>Two questions. The board should be able to say what each policy covers and where the gaps are. "Our broker recommended this" is not a review.</p>
       </div>
 
       <div class="exam-question">
         <div class="exam-question-num">02</div>
-        <h3>Limits Aligned to Risk</h3>
-        <p>The number that fails is rarely the policy limit. It is the sublimit beneath it — social engineering on the bond is often a fraction of the wire volume it covers.</p>
+        <h3>Policy Coverage</h3>
+        <p>Five questions. The number that fails is rarely the policy limit, it is the sublimit beneath it. And a security warranty your last IT audit contradicts is a condition you have already broken.</p>
       </div>
 
       <div class="exam-question">
         <div class="exam-question-num">03</div>
-        <h3>Security Warranty Compliance</h3>
-        <p>You warranted MFA on privileged accounts, tested backups, endpoint detection. If your last IT audit found an exception, the warranty no longer matches the environment.</p>
-      </div>
-
-      <div class="exam-question">
-        <div class="exam-question-num">04</div>
         <h3>Policy Interactions</h3>
-        <p>One wire fraud can land on two different bond agreements, and on most bonds one is 10x to 20x the other. Forensics decides which, after the money is gone.</p>
+        <p>Three questions. One wire fraud can land on two different bond agreements, and on most bonds one is 10x to 20x the other. Forensics decides which, after the money is gone.</p>
       </div>
 
     </div>
@@ -345,30 +323,14 @@ details[open] summary span { transform: rotate(45deg); display: inline-block; }
     </div>
 
     <div style="max-width: 720px; margin: 0 auto;">
-      <details style="border: 1px solid var(--border); border-left: 4px solid #3B82F6; border-radius: 0 10px 10px 0; margin-bottom: 12px; background: #fff;">
-        <summary style="padding: 20px 24px; cursor: pointer; font-weight: 700; font-size: 16px; color: var(--primary); list-style: none;">What are the FFIEC cyber insurance requirements for community banks? <span style="float: right; color: var(--text-secondary); font-size: 14px; font-weight: 400;">+</span></summary>
-        <div style="padding: 0 24px 20px; color: var(--text-secondary); font-size: 15px; line-height: 1.65;">The FFIEC IT Examination Handbook requires banks to evaluate whether cyber insurance coverage is adequate for their risk profile. Examiners assess four areas: board-level review of coverage, limits aligned to the bank's risk exposure, compliance with security warranties on the cyber application, and understanding of how cyber, D&O, and fidelity bond policies interact during a cyber incident. The FFIEC does not mandate specific coverage amounts but expects documented rationale for the coverage the bank carries.</div>
-      </details>
+      <h3 style="font-size: 18px; font-weight: 700; color: var(--primary); margin: 0 0 10px;">Does the FFIEC require community banks to have cyber insurance?</h3>
+      <p style="color: var(--text-secondary); font-size: 15px; line-height: 1.7; margin: 0 0 28px;">The FFIEC does not mandate cyber insurance and does not prescribe coverage amounts. The FFIEC IT Examination Handbook identifies it as a component of a sound information security program, and examiners expect the bank to have evaluated whether coverage is adequate for its risk profile and to have documented the rationale. That applies whether the bank carries coverage or has decided the risk is otherwise mitigated. Banks without cyber insurance should expect questions about how residual cyber risk is addressed.</p>
 
-      <details style="border: 1px solid var(--border); border-left: 4px solid #3B82F6; border-radius: 0 10px 10px 0; margin-bottom: 12px; background: #fff;">
-        <summary style="padding: 20px 24px; cursor: pointer; font-weight: 700; font-size: 16px; color: var(--primary); list-style: none;">What do FDIC examiners ask about cyber insurance? <span style="float: right; color: var(--text-secondary); font-size: 14px; font-weight: 400;">+</span></summary>
-        <div style="padding: 0 24px 20px; color: var(--text-secondary); font-size: 15px; line-height: 1.65;">Examiners now ask "How do you know your cyber insurance is adequate?" They want evidence that the board reviewed coverage against realistic claim scenarios, not just approved the premium. They look for documented limits rationale, security warranty compliance, and understanding of how cyber and D&O policies, and the fidelity bond, interact.</div>
-      </details>
+      <h3 style="font-size: 18px; font-weight: 700; color: var(--primary); margin: 0 0 10px;">What do FDIC examiners ask about cyber insurance?</h3>
+      <p style="color: var(--text-secondary); font-size: 15px; line-height: 1.7; margin: 0 0 28px;">Examiners now ask "How do you know your cyber insurance is adequate?" They want evidence that the board reviewed coverage against realistic claim scenarios, not just approved the premium. They look for documented limits rationale, security warranty compliance, and understanding of how cyber and D&O policies, and the fidelity bond, interact.</p>
 
-      <details style="border: 1px solid var(--border); border-left: 4px solid #3B82F6; border-radius: 0 10px 10px 0; margin-bottom: 12px; background: #fff;">
-        <summary style="padding: 20px 24px; cursor: pointer; font-weight: 700; font-size: 16px; color: var(--primary); list-style: none;">How should a community bank prepare for insurance questions during an examination? <span style="float: right; color: var(--text-secondary); font-size: 14px; font-weight: 400;">+</span></summary>
-        <div style="padding: 0 24px 20px; color: var(--text-secondary); font-size: 15px; line-height: 1.65;">Prepare by matching policy security warranties to your IT audit findings, creating a one-page board coverage summary, and mapping your three policies (cyber, bond, D&O) against likely incident scenarios. Document which policy responds to each scenario and where gaps exist.</div>
-      </details>
-
-      <details style="border: 1px solid var(--border); border-left: 4px solid #3B82F6; border-radius: 0 10px 10px 0; margin-bottom: 12px; background: #fff;">
-        <summary style="padding: 20px 24px; cursor: pointer; font-weight: 700; font-size: 16px; color: var(--primary); list-style: none;">What is an independent insurance audit for community banks? <span style="float: right; color: var(--text-secondary); font-size: 14px; font-weight: 400;">+</span></summary>
-        <div style="padding: 0 24px 20px; color: var(--text-secondary); font-size: 15px; line-height: 1.65;">An independent insurance audit reads your cyber and D&O policies, and your fidelity bond, line by line, tests them against realistic claim scenarios, and identifies coverage gaps, sublimits, and exclusions. The output is an examiner-ready report with dollar amounts and specific fixes.</div>
-      </details>
-
-      <details style="border: 1px solid var(--border); border-left: 4px solid #3B82F6; border-radius: 0 10px 10px 0; background: #fff;">
-        <summary style="padding: 20px 24px; cursor: pointer; font-weight: 700; font-size: 16px; color: var(--primary); list-style: none;">Does the FFIEC require banks to have cyber insurance? <span style="float: right; color: var(--text-secondary); font-size: 14px; font-weight: 400;">+</span></summary>
-        <div style="padding: 0 24px 20px; color: var(--text-secondary); font-size: 15px; line-height: 1.65;">The FFIEC does not mandate cyber insurance as a regulatory requirement. However, the FFIEC IT Examination Handbook identifies cyber insurance as a component of a sound information security program. In practice, examiners expect banks to have evaluated cyber insurance and to document their rationale, whether the bank carries coverage or has decided the risk is otherwise mitigated. Banks without cyber insurance should expect questions about how residual cyber risk is addressed.</div>
-      </details>
+      <h3 style="font-size: 18px; font-weight: 700; color: var(--primary); margin: 0 0 10px;">How should a community bank prepare for insurance questions during an examination?</h3>
+      <p style="color: var(--text-secondary); font-size: 15px; line-height: 1.7; margin: 0;">Prepare by matching policy security warranties to your IT audit findings, creating a one-page board coverage summary, and mapping your three policies (cyber, bond, D&O) against likely incident scenarios. Document which policy responds to each scenario and where gaps exist.</p>
     </div>
   </div>
 </section>
@@ -376,8 +338,7 @@ details[open] summary span { transform: rotate(45deg); display: inline-block; }
 <!-- FINAL CTA -->
 <section class="exam-final">
   <div class="exam-final-inner">
-    <h2>Take the Ten Questions Into Your Next Board Meeting</h2>
+    <h2>Ten Questions for Your Next Board Meeting</h2>
     <a href="{{ '/assets/downloads/Breezy_Risk_Examiner_Checklist.pdf' | relative_url }}" class="btn-accent" download>Download the Examiner Checklist &darr;</a>
-    <p style="margin-top: 22px; margin-bottom: 0;">If the answers come back "not sure," the <a href="{{ '/risk-intelligence-report/' | relative_url }}" style="color: #00D4AA;">Risk Intelligence Report</a> works through them against your actual policy wording. <a href="{{ '/contact/' | relative_url }}" style="color: #00D4AA;">Get in touch</a>.</p>
   </div>
 </section>
