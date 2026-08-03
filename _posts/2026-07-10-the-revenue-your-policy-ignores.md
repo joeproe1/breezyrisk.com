@@ -2,121 +2,118 @@
 layout: post
 title: "The Revenue Your Policy Ignores: Cyber BI Doesn't Cover a Bank's Primary Income"
 card_title: "The Revenue Your Policy Ignores"
-description: "Community banks earn 70-85% of their revenue from net interest income. Most cyber policies exclude it from the business interruption definition. In a five-day outage, BI may cover less than 20% of the bank's revenue."
+description: "Most cyber BI definitions exclude interest income, which is the bulk of a community bank's revenue. The exclusion is real, but it does not bite where most people point. Here is where it actually costs you."
 date: 2026-07-10
 author: Joerg Proeve
 category: Policy Deep-Dive
-read_time: "5 min read"
+read_time: "6 min read"
 image: /assets/images/Blog-Revenue-Your-Policy-Ignores.png
 image_alt: "Community bank interest income excluded from cyber policy business interruption coverage"
 permalink: /insights/the-revenue-your-policy-ignores/
-last_modified_at: 2026-07-10
+last_modified_at: 2026-08-03
 ---
 
-A community bank suffers a five-day cyber outage. Systems down. No wire transfers, no ACH processing, no online banking, no loan originations. The bank files a business interruption claim under its cyber policy.
+A community bank loses its core platform for five days. No wires, no ACH, no online banking, no originations. It files a business interruption claim on the cyber policy and recovers $48,000, against a five-day revenue figure well north of $200,000.
 
-The BI payout: $48,000. The bank's total revenue over those five days: closer to $270,000. The policy recognized less than 20% of it.
+That comparison gets used to sell a lot of policy reviews. I used it myself in the first version of this article. It is the wrong comparison, and working out why it is wrong tells you more about your cyber policy than the original point did.
 
-The policy didn't fail because of a low limit, or a coverage exclusion buried on page 40. It failed because the definition of "income" in the BI section was written for commercial businesses, not for banks. Interest income, which makes up 70-85% of a community bank's revenue, is either excluded from the definition or left in a gray area the carrier controls at claim time.
+## The arithmetic that does not hold
 
-## Why Bank Revenue Is Different
+Start with what makes a bank different. Net interest income, the spread between what the loan book earns and what the deposit book costs, is the large majority of a community bank's revenue. Fee and service income is the rest. Pull your last call report if you want your own split; the non-interest income line gives it to you directly.
 
-A software company earns revenue from subscriptions and services. When it suffers a cyber outage, the Business Interruption definition in a standard cyber policy captures most of the lost income because it is tied to operations the company cannot perform while systems are down.
+From there the intuition is easy and wrong: if the systems that run the bank stop, the income the bank earns stops with them.
 
-A community bank's revenue works differently. 70-85% of it is net interest income from the existing loan portfolio. During a cyber outage, those loans continue to accrue interest contractually. A carrier can argue the bank hasn't been "prevented from earning" that income. Most cyber policies either explicitly exclude interest income from BI recovery or leave the language ambiguous enough to support that argument at claim time.
+It doesn't. A loan accrues interest under its note. A deposit accrues interest expense under its terms. Neither obligation is conditioned on whether the servicing platform is up. When the core comes back, the accruals are sitting there. The income was earned during the outage in the only sense that matters, which is contractually. Multiplying net interest income by outage days produces a large and frightening number that is not a loss.
 
 <div style="background: #0A2540; border-radius: 12px; padding: 32px; margin: 32px 0; color: #fff;">
-<h3 style="color: #00D4AA; margin-top: 0; font-size: 18px;">Revenue Breakdown: Typical Community Bank</h3>
-<div style="display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 20px;">
-<div style="flex: 1; min-width: 200px; background: rgba(252,165,165,0.12); border-left: 4px solid #FCA5A5; border-radius: 8px; padding: 20px;">
-<div style="color: #FCA5A5; font-weight: 700; font-size: 14px; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 10px;">Net Interest Income</div>
-<div style="font-size: 36px; font-weight: 700; color: #FCA5A5;">70-85%</div>
-<div style="color: rgba(255,255,255,0.7); font-size: 15px; margin-top: 8px;">Excluded, or at least ambiguous in most cyber BI definitions</div>
+<h3 style="color: #00D4AA; margin-top: 0; font-size: 18px;">What a Five-Day Outage Does to Each Revenue Stream</h3>
+<div style="display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 4px;">
+<div style="flex: 1; min-width: 200px; background: rgba(255,255,255,0.06); border-left: 4px solid #94A3B8; border-radius: 8px; padding: 20px;">
+<div style="color: #94A3B8; font-weight: 700; font-size: 14px; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 10px;">Net Interest Income</div>
+<div style="font-size: 26px; font-weight: 700; color: #94A3B8; line-height: 1.2;">Keeps accruing</div>
+<div style="color: rgba(255,255,255,0.7); font-size: 15px; margin-top: 8px;">Excluded or ambiguous in most BI definitions. In a short outage there is little here to claim, because little of it was lost.</div>
 </div>
 <div style="flex: 1; min-width: 200px; background: rgba(0,212,170,0.12); border-left: 4px solid #00D4AA; border-radius: 8px; padding: 20px;">
 <div style="color: #00D4AA; font-weight: 700; font-size: 14px; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 10px;">Fee &amp; Service Income</div>
-<div style="font-size: 36px; font-weight: 700; color: #00D4AA;">15-30%</div>
-<div style="color: rgba(255,255,255,0.7); font-size: 15px; margin-top: 8px;">Typically covered under standard BI definitions</div>
+<div style="font-size: 26px; font-weight: 700; color: #00D4AA; line-height: 1.2;">Stops, and does not return</div>
+<div style="color: rgba(255,255,255,0.7); font-size: 15px; margin-top: 8px;">NSF and overdraft, interchange, wire fees, service charges, ATM. This is the real business interruption claim.</div>
 </div>
 </div>
 </div>
 
-## Two Ways the Policy Strips It Out
+## What actually stops
 
-**Hourly rates.** Some policies use a pre-set hourly rate for BI recovery. In the banks I reviewed, the rate covered only 20-25% of the bank's income. The math was set without interest income.
+Fee income. Overdraft and NSF charges, interchange, wire fees, service charges, ATM fees. Those are earned per transaction, and a transaction that does not happen does not come back. No customer overdrafts twice the following week to make up for the week your systems were down.
 
-**The ambiguous definition.** Other policies define income loss as "income from business operations" or "net profit before income taxes" without addressing interest income. For a commercial business, those phrases capture the main revenue stream. For a bank, they leave 70-85% of revenue in a gray area that the carrier controls at claim time.
+Two more categories sit next to it. Loan originations deferred during the outage, most of which get booked afterward, so the damage is timing rather than principal. And remediation and extra expense, which is real money and usually sits under a separate part of the cyber policy with its own sublimit.
 
-Most banks I reviewed had some form of this gap. Only one bank had solved it: through an endorsement that deletes the exclusion.
+Add that up and the honest reading of the opening scenario changes. The $48,000 recovery that looked like it covered less than a fifth of the loss may have covered most of what was actually lost.
 
-## The Scale of the Problem
+## So why does the exclusion matter
 
-This issue affects most institutions. The two largest insurance programs for community banks both have policy forms where this gap is structural. Whether through an hourly rate or an ambiguous definition, the outcome is the same: the bank's primary revenue stream is not clearly covered.
+Because the five-day outage is not the event that hurts you.
+
+Run the clock out to two or three weeks and two things happen that do not happen in five days. Depositors who cannot reach their money start moving it, and replacing runoff means paying up for funding on a loan book you cannot reprice at the same speed. That compresses the spread. Separately, borrowers under stress stop paying, loans migrate toward non-accrual, and previously booked interest gets reversed off the income statement.
+
+Both of those are interest income losses in the plain sense. They are also exactly what the exclusion bars.
+
+So the gap is real, and the market has it priced backwards. It is overstated for the short outage that every tabletop exercise models, and understated for the severe event that almost nobody models.
 
 <div style="background: #0A2540; border-radius: 12px; padding: 28px 32px; margin: 32px 0; color: #fff;">
-<h3 style="color: #00D4AA; margin-top: 0; margin-bottom: 12px; font-size: 18px;">Five-Day Outage: Revenue vs. BI Recovery</h3>
-<div style="overflow-x: auto;">
-<table style="width: 100%; border-collapse: collapse; font-size: 15px; color: #fff; margin: 0 !important;">
-<thead>
-<tr>
-<th style="text-align: left; padding: 12px 16px; color: #00D4AA !important; font-weight: 700; background: transparent !important; border-bottom: 1px solid #00D4AA !important;">Bank Size</th>
-<th style="text-align: right; padding: 12px 16px; color: #00D4AA !important; font-weight: 700; background: transparent !important; border-bottom: 1px solid #00D4AA !important;">5-Day Interest Income</th>
-<th style="text-align: right; padding: 12px 16px; color: #00D4AA !important; font-weight: 700; background: transparent !important; border-bottom: 1px solid #00D4AA !important;">Typical BI Recovery</th>
-<th style="text-align: right; padding: 12px 16px; color: #00D4AA !important; font-weight: 700; background: transparent !important; border-bottom: 1px solid #00D4AA !important;">Not Covered</th>
-</tr>
-</thead>
-<tbody>
-<tr style="background: transparent !important;">
-<td style="padding: 12px 16px; color: #fff !important; border-bottom: 1px solid rgba(0,212,170,0.3) !important;">$500M assets</td>
-<td style="text-align: right; padding: 12px 16px; color: #fff !important; border-bottom: 1px solid rgba(0,212,170,0.3) !important;">~$205,000</td>
-<td style="text-align: right; padding: 12px 16px; color: #fff !important; border-bottom: 1px solid rgba(0,212,170,0.3) !important;">$48,000</td>
-<td style="text-align: right; padding: 12px 16px; color: #FCA5A5 !important; border-bottom: 1px solid rgba(0,212,170,0.3) !important;">77%</td>
-</tr>
-<tr style="background: transparent !important;">
-<td style="padding: 12px 16px; color: #fff !important; border-bottom: 1px solid rgba(0,212,170,0.3) !important;">$1B assets</td>
-<td style="text-align: right; padding: 12px 16px; color: #fff !important; border-bottom: 1px solid rgba(0,212,170,0.3) !important;">~$410,000</td>
-<td style="text-align: right; padding: 12px 16px; color: #fff !important; border-bottom: 1px solid rgba(0,212,170,0.3) !important;">Ambiguous</td>
-<td style="text-align: right; padding: 12px 16px; color: #FCA5A5 !important; border-bottom: 1px solid rgba(0,212,170,0.3) !important;">Up to 100%</td>
-</tr>
-<tr style="background: transparent !important;">
-<td style="padding: 12px 16px; color: #fff !important; border-bottom: none !important;">$2B assets</td>
-<td style="text-align: right; padding: 12px 16px; color: #fff !important; border-bottom: none !important;">~$820,000</td>
-<td style="text-align: right; padding: 12px 16px; color: #fff !important; border-bottom: none !important;">Ambiguous</td>
-<td style="text-align: right; padding: 12px 16px; color: #FCA5A5 !important; border-bottom: none !important;">Up to 100%</td>
-</tr>
-</tbody>
-</table>
+<h3 style="color: #00D4AA; margin-top: 0; margin-bottom: 16px; font-size: 18px;">Where the Exclusion Bites</h3>
+<div style="display: flex; flex-wrap: wrap; gap: 16px;">
+<div style="flex: 1; min-width: 220px; padding: 4px 0;">
+<div style="color: #94A3B8; font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 10px;">Short outage, three to five days</div>
+<div style="color: rgba(255,255,255,0.85); font-size: 15px; line-height: 1.6;">Interest accrues through it. Fee income is the loss, and most BI definitions cover fee income. The exclusion costs you little.</div>
 </div>
-<p style="margin-top: 8px; font-size: 14px; color: rgba(255,255,255,0.5); line-height: 1.5;">Based on 3% net interest margin, five-day outage. Five days is a conservative assumption. Most ransomware incidents take longer to resolve. Interest income continues to accrue during an outage, but most BI definitions either exclude it or leave coverage ambiguous.</p>
+<div style="flex: 1; min-width: 220px; padding: 4px 0; border-left: 1px solid rgba(0,212,170,0.35); padding-left: 24px;">
+<div style="color: #00D4AA; font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 10px;">Severe event, two weeks and beyond</div>
+<div style="color: rgba(255,255,255,0.85); font-size: 15px; line-height: 1.6;">Deposit runoff raises funding cost. Non-accrual reversals claw back booked interest. Now interest income is a genuine loss, and now the exclusion bars it.</div>
+</div>
+</div>
 </div>
 
-I nearly missed this gap myself, and only added it to my framework after recognizing the pattern across multiple audits. The odds that a generalist broker is checking for this gap are low.
+## Three ways it shows up in the form
 
-## The Fix
+**Explicit exclusion.** The income definition carves out "interest or investment income" by name. This is the cleanest version, and the easiest to argue about before a claim rather than during one.
 
-Some carriers offer an endorsement that explicitly adds interest income to the BI definition. One bank in my initial sample had it, and it was the single most valuable endorsement in their program.
+**Ambiguous definition.** The form says "income from business operations" or "net profit before income taxes" and never addresses interest income. For a commercial business those phrases capture the main revenue stream and nobody thinks about it. For a bank they leave the largest line on the income statement to be characterized by a carrier at claim time.
+
+**Flat hourly rate.** Some programs pay BI at a set rate per hour. One I reviewed paid $500. A flat rate is not a measurement of anything; it is a substitute for measuring. It does not ask what you lost, which means it can overpay a short outage and badly underpay a long one, and the bank has no way to tell which side it is on until the claim is open.
+
+Most banks I reviewed had one of these three. One had solved it.
+
+## The fix
+
+Some carriers write an endorsement that deletes the interest and investment income exclusion from the income definition. Where I have seen it, it cost between nothing and $2,000 a year. One bank in my sample had it, and given what a severe event does to a bank's accrual book, it was the single most valuable endorsement in their program.
+
+If your carrier does not offer it, ask for written confirmation that "income from business operations" includes net interest income for a financial institution. Ask at renewal, in writing, and keep the answer. An ambiguity resolved in advance is worth more than an argument you win eighteen months into a claim.
 
 <div style="background: #f8faf9; border-radius: 10px; padding: 28px 32px; margin: 24px 0;">
 <div style="display: flex; gap: 16px; margin-bottom: 16px;">
 <div style="min-width: 32px; height: 32px; background: #00D4AA; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #0A2540; font-size: 16px;">1</div>
-<div><strong>Find the BI or Income Loss definition in your cyber policy.</strong> If "interest income" is not mentioned, or if the definition says "income from business operations" without specifying it, you have an ambiguity the carrier can use against you.</div>
+<div><strong>Find the BI or Income Loss definition in your cyber policy.</strong> Look for "interest income" by name. If it is absent, and the definition rests on "income from business operations," you have an ambiguity the carrier controls at claim time.</div>
 </div>
 <div style="display: flex; gap: 16px; margin-bottom: 16px;">
 <div style="min-width: 32px; height: 32px; background: #00D4AA; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #0A2540; font-size: 16px;">2</div>
-<div><strong>If your BI uses a flat hourly rate, run the math.</strong> Multiply the rate by 96 covered hours (five days minus a 24-hour waiting period). If recovery is less than half of your bank's income loss over the same period, the rate was set without your primary revenue stream.</div>
+<div><strong>If your BI pays a flat hourly rate, ask what the rate was based on.</strong> Note the rate and the waiting period. If nobody at the carrier or the brokerage can tell you how the number was derived for a bank, it was not derived for a bank.</div>
 </div>
 <div style="display: flex; gap: 16px; margin-bottom: 16px;">
 <div style="min-width: 32px; height: 32px; background: #00D4AA; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #0A2540; font-size: 16px;">3</div>
-<div><strong>Ask your broker about an Interest Income endorsement.</strong> Some carriers offer it. If yours does not, factor that into your next renewal decision.</div>
+<div><strong>Ask your broker about an interest income endorsement.</strong> Some carriers offer one. If yours does not, that belongs in the renewal decision alongside price.</div>
 </div>
 <div style="display: flex; gap: 16px;">
 <div style="min-width: 32px; height: 32px; background: #00D4AA; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #0A2540; font-size: 16px;">4</div>
-<div><strong>If no endorsement is available, quantify the gap for your board.</strong> Run the five-day outage scenario with your bank's net interest income. That dollar amount belongs in the risk register and in your next examiner conversation.</div>
+<div><strong>Size it from fee income, not from net interest income.</strong> Take the non-interest income line off your call report, reduce it to a daily figure, and apply your outage assumption. That is your realistic BI claim. Then model the severe case separately: what two or three weeks down does to deposit runoff and to your accrual book. The second number is the one that belongs in the risk register, and it is the one the exclusion is standing in front of.</div>
 </div>
 </div>
 
-Your bank's cyber policy was designed to cover system outages. For most businesses, that coverage works. For a bank, it only recognizes 15-30% of revenue and ignores the rest.
+Your cyber policy was written to cover system outages for businesses that stop earning when the systems stop. A bank does not work that way, and the BI definition was never adjusted for it. In a short outage that mismatch is mostly harmless. In the event that actually threatens the institution, it is the difference between a covered loss and an argument.
 
-The interest income exclusion is one of several gaps that appear when cyber, fidelity bond, and D&O policies are read together. I map the full picture in [Five Audits. Same Gaps.]({{ '/insights/five-audits-same-gaps/' | relative_url }}).
+The interest income exclusion is one of several gaps that only surface when cyber, fidelity bond, and D&O policies are read together. I map the full picture in [Five Audits. Same Gaps.]({{ '/insights/five-audits-same-gaps/' | relative_url }}).
 
 Find out whether your cyber BI definition counts net interest income as covered revenue. [Get in touch]({{ '/contact/' | relative_url }}).
+
+<div style="border-top: 1px solid #e5e7eb; margin-top: 40px; padding-top: 20px; font-size: 14px; color: #6b7280; line-height: 1.6;">
+<strong>Updated August 3, 2026.</strong> The original version of this article quantified the gap by multiplying net interest income by outage days, and presented a five-day recovery shortfall of 77 to 82 percent. That arithmetic does not hold, because interest accrues under the note whether or not the core platform is running. I have corrected the analysis and moved the exposure to where it belongs, which is the severe extended event rather than the short outage. The exclusion itself, the three policy patterns, and the endorsement fix are unchanged.
+</div>
