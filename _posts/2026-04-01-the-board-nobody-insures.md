@@ -18,17 +18,6 @@ faq:
     answer: "Usually not directly. Every community bank D&O policy reviewed so far carries a cyber exclusion, so regulatory defense costs and class actions following a breach are commonly pushed off the D&O and onto the cyber policy. The cyber policy does pick the directors up, because they are covered persons under it. What it does not do is behave like a D&O policy: there is no Side A tower reserved for individuals, so directors share one limit with forensics, notification and business interruption. The shareholder derivative suit is the exception worth checking separately. It is barred only when the D&O cyber exclusion has no director carve-back and the cyber policy's securities exclusion is broad enough to reach a common law oversight claim. Both conditions have to hold, and on half the D&O forms compared so far the carve-back is present."
 ---
 
-> **Updated July 30, 2026. Verification extended July 31.** An earlier version
-> of this post said the cyber policy excludes claims against individual
-> directors, and that recovery after a post-breach board claim is zero across
-> all three policies. That was wrong. After a fee-only bank insurance
-> consultant challenged the finding, I went back and read the definition of the
-> covered person on every cyber form I hold in full. Five forms, and directors
-> are covered on all five. One of them does not use the word "Insured" at all,
-> which is part of why the error survived as long as it did. The post has been
-> rewritten around what the forms actually say. The D&O cyber exclusion is
-> unchanged and still the headline problem.
-
 A data breach at a community bank exposes the personal financial information of more than 50,000 customers. Within 60 days, three things happen at once.
 
 1. A group of shareholders files a derivative action in state court. The allegation: the board of directors failed to maintain adequate cybersecurity oversight. This is what courts call a Caremark claim, the legal theory that directors can be held personally liable for failing to monitor known compliance risks.
@@ -153,3 +142,7 @@ Board liability is one of five incident types where coverage breaks down across 
 For banks in New York, this gap has a regulatory enforcement dimension. NYDFS has collected $63 million in penalties under 23 NYCRR 500, and the same D&O cyber exclusion blocks coverage for the investigative costs that follow. I covered this in [What 23 NYCRR 500 Means for Your Bank's Insurance]({{ '/insights/nydfs-cybersecurity-regulation-insurance/' | relative_url }}).
 
 Find out whether your D&O cyber exclusion reaches a post-breach derivative claim, and whether any Side A layer sits behind it. [Get in touch]({{ '/contact/' | relative_url }}).
+
+<div style="border-top: 1px solid #e5e7eb; margin-top: 40px; padding-top: 20px; font-size: 14px; color: #6b7280; line-height: 1.6;">
+<strong>Updated July 31, 2026.</strong> An earlier version said the cyber policy excludes claims against individual directors, and that recovery after a post-breach board claim is zero. That was wrong. Directors are covered persons on all five cyber forms I hold, and the post has been rewritten around what the forms say. The D&O cyber exclusion is unchanged and still the headline problem.
+</div>
