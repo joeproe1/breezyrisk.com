@@ -5,7 +5,6 @@
   // ----- Hide non-content elements -----
   .site-header,
   .nav-links,
-  .site-footer,
   .btn,
   .btn-primary,
   .gaps-final-wrap,
@@ -216,15 +215,60 @@
     font-style: italic;
   }
 
-  // ----- Footer URL attribution -----
+  // ----- Contact trailer -----
+  // The footer is reduced to its contact line so a printed page kept in a
+  // board packet still shows how to reach us. Phone and email come from the
+  // footer markup, which reads _config.yml, so they cannot drift out of date.
+  .site-footer {
+    background: #fff !important;
+    color: #333 !important;
+    border-top: 1px solid #ddd !important;
+    padding: 10pt 0 0 !important;
+    margin-top: 18pt !important;
+  }
+
+  .footer-links,
+  .footer-bottom,
+  .footer-brand .logo,
+  .footer-brand > p {
+    display: none !important;
+  }
+
+  .footer-content {
+    display: block !important;
+    margin: 0 !important;
+    gap: 0 !important;
+  }
+
+  .footer-contact {
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: center;
+
+    li {
+      display: inline;
+      font-size: 9pt;
+      color: #333 !important;
+    }
+
+    li + li::before {
+      content: " \00B7  ";
+      color: #999;
+    }
+
+    a {
+      color: #333 !important;
+      text-decoration: none !important;
+    }
+  }
+
+  // ----- Site attribution -----
   body::after {
-    content: "breezyrisk.com";
+    content: "Breezy Risk  \00B7  breezyrisk.com";
     display: block;
     text-align: center;
     font-size: 8pt;
     color: #999;
-    padding-top: 10pt;
-    border-top: 1px solid #ddd;
-    margin-top: 18pt;
+    padding-top: 4pt;
   }
 }
