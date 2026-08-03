@@ -6,7 +6,7 @@ description: "Most cyber BI definitions exclude interest income, which is the bu
 date: 2026-07-10
 author: Joerg Proeve
 category: Policy Deep-Dive
-read_time: "3 min read"
+read_time: "4 min read"
 image: /assets/images/Blog-Revenue-Your-Policy-Ignores.png
 image_alt: "Community bank interest income excluded from cyber policy business interruption coverage"
 permalink: /insights/the-revenue-your-policy-ignores/
@@ -21,15 +21,17 @@ That comparison is the intuitive one, and it is wrong, because a bank does not e
 
 Even if the servicing platform is down, a loan still accrues interest, a deposit still accrues interest expense. Neither is conditioned on whether the platform is up and running. So, when the platform comes back, the accruals are sitting there. Multiplying net interest income by outage days produces a large number that is not a loss.
 
-What the bank is losing is fee income. Overdraft and NSF charges, interchange, wire fees, service charges, ATM fees. Those are earned per transaction, and a transaction that doesn't happen, because the systems are down, does not come back. That is your realistic BI claim, and most BI definitions cover it. Against the fee income a bank actually loses in five days, $48,000 may not be far off.
+What the bank is losing is fee income. Overdraft charges, wire fees, service charges. Those are earned per transaction, and a transaction that doesn't happen, because the systems are down, does not come back. That is your realistic BI claim, and most BI definitions cover it. Against the fee income a bank actually loses in five days, $48,000 may not be far off.
 
 ## Where the exclusion does bite
 
 If the platform outage extends to two or three weeks, the loss stops being fee income and becomes interest income. Depositors who cannot reach their money move it, and replacing that funding costs more on a loan book you cannot reprice at the same speed. Borrowers under stress stop paying, loans migrate toward non-accrual, and booked interest gets reversed.
 
-Both are interest income losses, and both are what the exclusion bars. So the gap is real, but it sits in the long event rather than the short one, and the short one is what most banks tabletop.
+At that length it has also stopped being a systems problem. Deposits leave because customers lose confidence in the bank, and confidence returns more slowly than the platform does.
 
-## Three ways it shows up in the form
+Deposit runoff and non-accrual reversals are both interest income losses, and both are what the exclusion bars. There is also a second limit sitting behind that one: business interruption runs to the end of the period of restoration, and the runoff does not stop when the core comes back. So the gap is real, but it sits in the long event rather than the short one, and the short one is what most banks tabletop.
+
+## Three ways your form treats interest income
 
 **Explicit exclusion.** The income definition carves out "interest or investment income" by name.
 
@@ -37,7 +39,7 @@ Both are interest income losses, and both are what the exclusion bars. So the ga
 
 **Flat hourly rate.** Some programs pay a set rate per hour, and the $500 in the example above is a rate I have seen on a real program. The rate takes no account of what you actually lost, so it can overpay a short outage and badly underpay a long one.
 
-Four of the five bank programs I have reviewed carried one of these three. The fifth had the endorsement.
+Four of the five bank programs I have reviewed carried one of these three: an explicit carve-out, an ambiguous definition, or a flat hourly rate.
 
 ## First, does the policy respond at all?
 
@@ -47,9 +49,9 @@ If that grant is missing, or the sublimit is low, the income definition never ge
 
 ## The fix
 
-Some carriers write an endorsement deleting the interest and investment income exclusion from the income definition. Where I have seen it, it cost between nothing and $2,000 a year. If your carrier does not offer one, ask in writing whether "income from business operations" includes net interest income for a financial institution, and keep the answer. It is much easier to settle that question at renewal than during a claim.
+Some carriers write an endorsement deleting the interest and investment income exclusion from the income definition. One of the five programs I reviewed carried it. Where I have seen it priced, it cost between nothing and $2,000 a year. If your carrier does not offer one, ask in writing whether "income from business operations" includes net interest income for a financial institution, and keep the answer. It is much easier to settle that question at renewal than during a claim.
 
-When you size the exposure, take it from the non-interest income line on your call report rather than from net interest income. The extended event needs modelling separately, and that is the figure that belongs in your risk register.
+Size the exposure from the non-interest income line on your call report rather than from net interest income, and model the extended event separately. That second number is the one for the risk register.
 
 For most banks, checking this will end with the conclusion that the exposure is small. The outage you are planning for is the short one, and the coverage mostly works there. It is still worth having that answer in writing rather than assuming it. The reason to look at all is the other case, and the endorsement that covers it has to be bought at renewal, not after a claim is open.
 
