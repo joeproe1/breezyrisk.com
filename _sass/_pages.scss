@@ -607,35 +607,11 @@
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
 }
 
-.hero-intro {
-    font-size: 17px;
-    line-height: 1.6;
-    color: $text-secondary;
-    margin: 20px 0 0;
-}
-
-.hero-about-link {
-    color: $accent;
-    font-weight: 600;
-    text-decoration: none;
-    white-space: nowrap;
-    margin-left: 12px;
-
-    &:hover {
-        text-decoration: underline;
-    }
-}
-
 // Byline under the hero photo
 .hero-byline {
     margin-top: 20px;
     max-width: 300px;
     text-align: center;
-
-    .hero-about-link {
-        margin-left: 0;
-        font-size: 15px;
-    }
 }
 
 .hero-byline-name {
@@ -644,6 +620,15 @@
     font-weight: 700;
     color: $text-primary;
     margin: 0 0 6px;
+
+    a {
+        color: $text-primary;
+        text-decoration: none;
+
+        &:hover {
+            color: $accent;
+        }
+    }
 }
 
 .hero-byline-credentials {
@@ -658,17 +643,13 @@
     font-weight: 600;
     line-height: 1.5;
     color: $text-primary;
-    margin: 0 0 12px;
+    margin: 0;
 }
 
 @media (max-width: $bp-tablet) {
     .hero-photo {
         width: 160px;
         height: 160px;
-    }
-
-    .hero-intro {
-        font-size: 16px;
     }
 
     .hero-byline-name {
