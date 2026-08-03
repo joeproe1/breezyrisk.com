@@ -4,22 +4,35 @@
             <div class="footer-brand">
                 <a href="{{ '/' | relative_url }}" class="logo">BREEZY<span>.risk</span></a>
                 <p>Independent Community Bank<br>Insurance Audits</p>
+                <ul class="footer-contact">
+                    <li><a href="tel:+17174907670">{{ site.phone }}</a></li>
+                    <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+                    <li>Pennsylvania, USA</li>
+                </ul>
             </div>
             <div class="footer-links">
                 <div class="footer-col">
+                    <p class="footer-col-title">Audits</p>
                     <ul>
                         <li><a href="{{ '/risk-intelligence-report/' | relative_url }}">Risk Intelligence Report</a></li>
-                        <li><a href="{{ '/insights/' | relative_url }}">Insights</a></li>
+                        <li><a href="{{ '/cyber-insurance-audit/' | relative_url }}">Cyber Insurance Audit</a></li>
+                        <li><a href="{{ '/credit-unions/' | relative_url }}">Credit Unions</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
+                    <p class="footer-col-title">Resources</p>
+                    <ul>
+                        <li><a href="{{ '/coverage-gaps/' | relative_url }}">Coverage Gaps</a></li>
+                        <li><a href="{{ '/examiner-readiness/' | relative_url }}">Examiner Readiness</a></li>
+                        <li><a href="{{ '/insights/' | relative_url }}">Insights</a></li>
+                        <li><a href="{{ '/faq/' | relative_url }}">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <p class="footer-col-title">Company</p>
                     <ul>
                         <li><a href="{{ '/about/' | relative_url }}">About</a></li>
                         <li><a href="{{ '/about/facts/' | relative_url }}">Key Facts &amp; Credentials</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <ul>
                         <li><a href="{{ '/contact/' | relative_url }}">Get in Touch</a></li>
                         <li><a href="{{ '/privacy/' | relative_url }}">Privacy Policy</a></li>
                     </ul>
@@ -27,8 +40,8 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; {{ site.time | date: '%Y' }} Breezy Risk. All rights reserved.</p>
-            <p><a href="{{ site.linkedin }}" target="_blank" rel="noopener">LinkedIn</a> | <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+            <p>&copy; {{ site.time | date: '%Y' }} Breezy Risk</p>
+            <p><a href="{{ site.linkedin }}" target="_blank" rel="noopener">LinkedIn</a></p>
         </div>
     </div>
 </footer>
