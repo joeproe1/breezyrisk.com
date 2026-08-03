@@ -9,15 +9,15 @@ category: Case Study
 read_time: "4 min read"
 image: /assets/images/Blog-Five-Audits-Same-Gaps.png
 image_alt: "Five community bank insurance audits revealing similar coverage gaps across different carriers and program structures"
-last_modified_at: 2026-07-11
+last_modified_at: 2026-08-03
 permalink: /insights/five-audits-same-gaps/
 faq:
   - question: "What are the most common insurance gaps at community banks?"
-    answer: "Based on audits of five community banks and credit unions across different carriers and program structures, the most common gaps are: wire fraud conditions that can reduce recovery to zero, D&O cyber exclusions that shift the board's post-breach defense onto the cyber policy, vendor outage coverage that does not match vendor dependence, headline limits that overstate realistic recovery by 70 to 85 percent, and business interruption definitions that exclude the bank's primary revenue stream."
+    answer: "Based on audits of five community banks and credit unions across different carriers and program structures, the most common gaps are: wire fraud conditions that can reduce recovery to zero, D&O cyber exclusions that shift the board's post-breach defense onto the cyber policy, vendor outage coverage that does not match vendor dependence, headline limits that overstate realistic recovery by 70 to 85 percent, and business interruption definitions that stop paying at the point an outage turns serious."
   - question: "Do headline insurance limits reflect what a bank will recover?"
     answer: "No. Across five banks, combined headline limits ranged from $12 million to $27 million. Realistic recovery on a multi-front cyber incident ranged from $500,000 to $3 million. The erosion comes from sublimits, defense costs inside the limit, co-payment clauses, D&O cyber exclusions, and coverage gaps between the three policies."
   - question: "Does cyber insurance cover a bank's interest income during an outage?"
-    answer: "Most cyber policies exclude interest income from the business interruption definition. For a community bank, interest income is 70 to 85 percent of revenue. Two banks in this sample had a flat BI rate of $500 per hour against hourly interest income of $1,400 to $2,200. Only one carrier offered an endorsement that fixes this."
+    answer: "Most cyber policies exclude interest income from the business interruption definition. That matters less than it looks in a short outage, because a loan keeps accruing interest whether or not the servicing platform is up. What the bank actually loses is fee income, and most BI definitions cover that. The exclusion bites in an extended outage, where deposit runoff and non-accrual reversals turn interest income into a genuine loss, and that is the loss the exclusion bars. Two banks in this sample were on a flat BI rate of $500 per hour, which takes no account of what was lost. Only one carrier offered an endorsement that deletes the exclusion."
 ---
 
 Over the past months, I audited the insurance policies at five community banks and credit unions. I read the policy forms, endorsements, and amendments across their cyber and D&O policies, and their fidelity bonds. Different carriers. Different program structures.
@@ -183,23 +183,26 @@ The erosion comes from sublimits that share the aggregate, defense costs paid in
 
 ---
 
-<h2 style="display: flex; align-items: center; gap: 14px;"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 0;" aria-hidden="true"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg><span>Interest Income: Most of a Bank's Revenue, Not Covered</span></h2>
+<h2 style="display: flex; align-items: center; gap: 14px;"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 0;" aria-hidden="true"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg><span>Interest Income: The Exclusion That Bites in the Long Outage</span></h2>
 
 <div style="background: #f0f9ff; border-left: 4px solid #00D4AA; padding: 14px 18px; margin-bottom: 20px; border-radius: 0 4px 4px 0;">
-<p style="margin: 0; color: #1e293b; line-height: 1.55;">70-85% of bank revenue is interest income. Most cyber BI definitions exclude it. One bank had an endorsement that fixes this.</p>
+<p style="margin: 0; color: #1e293b; line-height: 1.55;">Four of five BI definitions excluded interest income or left it ambiguous.<br>It costs little in a five-day outage and becomes the whole loss in a three-week one.</p>
 </div>
 
-Community banks earn 70-85% of revenue from net interest income. During a cyber outage, those loans continue to accrue interest contractually, but the BI definition in most cyber policies either excludes interest income or leaves it ambiguous. The definition was written for commercial businesses where interest income is incidental.
+The BI definition in most cyber policies either excludes "interest or investment income" by name or never mentions it. The definition was written for commercial businesses, where interest income is incidental. For a bank it is the largest line on the income statement, so the exclusion looks devastating.
 
-Two banks were on a carrier program that pays BI at a flat $500 per hour, a rate that covered only 20-25% of the bank's hourly revenue. The math was set without interest income. Two other banks had ambiguous definitions, worded in a way that pays when the carrier wants it to, not when the bank needs it to. One bank had an endorsement that deletes the interest income exclusion entirely. It was the single most valuable endorsement in the sample.
+It is not, in the outage most banks tabletop. A loan accrues interest under its note and a deposit accrues interest expense under its terms whether or not the servicing platform is available. Five days down, the accruals are still there when the system comes back. What the bank genuinely loses is fee income: overdraft charges, interchange, wire fees, service charges, earned per transaction and gone when the transaction does not happen. Most BI definitions cover that.
 
-I nearly missed this gap myself. It was not in my initial methodology. The odds that a generalist broker is checking are low.
+The exclusion bites in the extended event. Two or three weeks down, depositors who cannot reach their money move it, replacement funding costs more, and borrowers under stress push loans toward non-accrual, reversing booked interest. Deposit runoff and non-accrual reversals are interest income losses, and they are exactly what the exclusion bars.
+
+Two banks were on a carrier program that pays BI at a flat $500 per hour, a rate set without reference to what the bank actually lost, which can overpay a short outage and badly underpay a long one. Two others had ambiguous definitions, worded so the largest line on the income statement gets characterized by a carrier at claim time. One bank had an endorsement deleting the interest income exclusion outright. Where it is offered it costs between nothing and $2,000 a year.
 
 **What to check**
 
-- Does the BI definition use a flat hourly rate? Compare it to your hourly interest income.
-- Look for the phrase "interest or investment income." If excluded, your primary revenue stream is outside the BI definition.
-- Ask whether an Interest Income endorsement is available. The cost is a fraction of the premium.
+- Does the BI definition use a flat hourly rate? A flat rate is not a measure of your loss.
+- Look for the phrase "interest or investment income." If it is excluded, the extended-outage loss is outside the definition.
+- Ask whether an Interest Income endorsement is available. If it is not, get written confirmation that "income from business operations" includes net interest income for a financial institution.
+- Size the short outage from the non-interest income line on your call report, not from net interest income, and model the extended event separately.
 
 [The Revenue Your Policy Ignores]({{ '/insights/the-revenue-your-policy-ignores/' | relative_url }})
 
@@ -207,7 +210,7 @@ I nearly missed this gap myself. It was not in my initial methodology. The odds 
 
 ## The Pattern
 
-These findings compound. A single cyber incident touches all three policies, but none of them respond the way the board expects. The cyber carrier denies under a sublimit. The bond carrier denies under a verification condition. The D&O carrier denies under a cyber exclusion. The BI definition excludes the bank's primary revenue. Each carrier points to the others.
+These findings compound. A single cyber incident touches all three policies, but none of them respond the way the board expects. The cyber carrier denies under a sublimit. The bond carrier denies under a verification condition. The D&O carrier denies under a cyber exclusion. The BI definition stops paying at the point the outage turns serious. Each carrier points to the others.
 
 Every bank in this sample was paying for insurance. None had a clear picture of what it would pay. The gaps are not broker errors. They are policy language designed for commercial businesses, applied to financial institutions without modification.
 
@@ -221,4 +224,8 @@ Joerg Proeve is Founder & Principal of Breezy Risk. Corporate strategy and M&A i
 
 <div style="border-left: 3px solid #00D4AA; padding: 16px 20px; background: rgba(0,212,170,0.05); border-radius: 0 8px 8px 0; margin: 24px 0; font-size: 18px; font-weight: 600; color: #333;">
 Ready to find out what your insurance will pay? <a href="{{ '/contact/' | relative_url }}" style="color: #00D4AA;">Get in touch</a>.
+</div>
+
+<div style="border-top: 1px solid #e5e7eb; margin-top: 40px; padding-top: 20px; font-size: 14px; color: #6b7280; line-height: 1.6;">
+<strong>Updated August 3, 2026.</strong> An earlier version of the interest income finding sized the gap by comparing a flat hourly BI rate against hourly interest income. That arithmetic does not hold, because interest accrues whether or not the platform is up, and the finding has been corrected.
 </div>
