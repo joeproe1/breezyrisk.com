@@ -8,7 +8,7 @@ category: Policy Deep-Dive
 read_time: "5 min read"
 image: /assets/images/Blog-Fine-Print-Inside-Coverage.png
 image_alt: "Cyber policy sublimits and retentions reducing a 5 million dollar policy to under 500,000 in actual recovery for a community bank"
-last_modified_at: 2026-06-27
+last_modified_at: 2026-08-03
 permalink: /insights/the-fine-print-inside-the-coverage/
 faq:
   - question: "How much does a $5 million cyber policy actually pay after a community bank data breach?"
@@ -39,25 +39,6 @@ Five separate costs hit at once: breach response, two regulatory investigations,
 
 **Settlement or judgment.** The class action settles for $1.5 million, a modest result for 45,000 affected records. Covered, but only if every prior cost came in at the low end.
 
-<div style="background: #0A2540; border-radius: 12px; padding: 28px 32px; margin: 32px 0; color: #fff;">
-<h3 style="color: #00D4AA; margin-top: 0; font-size: 18px;">Where the $5 Million Went</h3>
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 16px;">
-<div style="color: rgba(255,255,255,0.6); font-size: 16px;">Breach response</div>
-<div style="color: #fff; font-weight: 600; text-align: right;">$1,200,000</div>
-<div style="color: rgba(255,255,255,0.6); font-size: 16px;">Federal regulatory defense</div>
-<div style="color: #fff; font-weight: 600; text-align: right;">$500,000</div>
-<div style="color: rgba(255,255,255,0.6); font-size: 16px;">State regulatory defense</div>
-<div style="color: #fff; font-weight: 600; text-align: right;">$400,000</div>
-<div style="color: rgba(255,255,255,0.6); font-size: 16px;">Class action defense</div>
-<div style="color: #fff; font-weight: 600; text-align: right;">$750,000</div>
-<div style="color: rgba(255,255,255,0.6); font-size: 16px;">Settlement</div>
-<div style="color: #fff; font-weight: 600; text-align: right;">$1,500,000</div>
-<div style="border-top: 1px solid rgba(255,255,255,0.2); padding-top: 8px; color: rgba(255,255,255,0.6); font-size: 16px;">Total</div>
-<div style="border-top: 1px solid rgba(255,255,255,0.2); padding-top: 8px; color: #00D4AA; font-weight: 700; text-align: right; font-size: 18px;">$4,350,000</div>
-</div>
-<p style="margin-top: 16px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.15); color: rgba(255,255,255,0.7); font-size: 14px; line-height: 1.55; margin-bottom: 0;">Illustrative estimates. Actual costs vary by breach severity and jurisdiction. But the pattern holds: when costs escalate, the aggregate runs out.</p>
-</div>
-
 <div style="background: #f8faf9; border-radius: 12px; padding: 28px 32px; margin: 32px 0;">
 <h3 style="margin-top: 0; font-size: 16px; color: #333; font-weight: 700;">Aggregate Erosion</h3>
 <div style="position: relative; margin-top: 16px;">
@@ -70,27 +51,33 @@ Five separate costs hit at once: breach response, two regulatory investigations,
 <div style="background: #E5E7EB; border-radius: 8px; height: 36px; width: 100%; position: relative; overflow: hidden;">
 <div style="background: #60A5FA; height: 100%; width: 76%; border-radius: 8px;"></div>
 </div>
-<div style="display: flex; justify-content: space-between; font-size: 13px; color: #666; margin-top: 4px;"><span>After breach response</span><span style="color: #60A5FA; font-weight: 600;">$3,800,000</span></div>
+<div style="display: flex; justify-content: space-between; font-size: 13px; color: #666; margin-top: 4px;"><span>After breach response, $1.2M</span><span style="color: #60A5FA; font-weight: 600;">$3,800,000</span></div>
 </div>
 <div style="position: relative; margin-top: 12px;">
 <div style="background: #E5E7EB; border-radius: 8px; height: 36px; width: 100%; position: relative; overflow: hidden;">
-<div style="background: #818CF8; height: 100%; width: 58%; border-radius: 8px;"></div>
+<div style="background: #818CF8; height: 100%; width: 66%; border-radius: 8px;"></div>
 </div>
-<div style="display: flex; justify-content: space-between; font-size: 13px; color: #666; margin-top: 4px;"><span>After regulatory defense</span><span style="color: #818CF8; font-weight: 600;">$2,900,000</span></div>
+<div style="display: flex; justify-content: space-between; font-size: 13px; color: #666; margin-top: 4px;"><span>After federal regulatory defense, $500K</span><span style="color: #818CF8; font-weight: 600;">$3,300,000</span></div>
 </div>
 <div style="position: relative; margin-top: 12px;">
 <div style="background: #E5E7EB; border-radius: 8px; height: 36px; width: 100%; position: relative; overflow: hidden;">
-<div style="background: #A78BFA; height: 100%; width: 43%; border-radius: 8px;"></div>
+<div style="background: #A78BFA; height: 100%; width: 58%; border-radius: 8px;"></div>
 </div>
-<div style="display: flex; justify-content: space-between; font-size: 13px; color: #666; margin-top: 4px;"><span>After class action defense</span><span style="color: #A78BFA; font-weight: 600;">$2,150,000</span></div>
+<div style="display: flex; justify-content: space-between; font-size: 13px; color: #666; margin-top: 4px;"><span>After state regulatory defense, $400K</span><span style="color: #A78BFA; font-weight: 600;">$2,900,000</span></div>
+</div>
+<div style="position: relative; margin-top: 12px;">
+<div style="background: #E5E7EB; border-radius: 8px; height: 36px; width: 100%; position: relative; overflow: hidden;">
+<div style="background: #C084FC; height: 100%; width: 43%; border-radius: 8px;"></div>
+</div>
+<div style="display: flex; justify-content: space-between; font-size: 13px; color: #666; margin-top: 4px;"><span>After class action defense, $750K</span><span style="color: #C084FC; font-weight: 600;">$2,150,000</span></div>
 </div>
 <div style="position: relative; margin-top: 12px;">
 <div style="background: #E5E7EB; border-radius: 8px; height: 36px; width: 100%; position: relative; overflow: hidden;">
 <div style="background: #F59E0B; height: 100%; width: 13%; border-radius: 8px;"></div>
 </div>
-<div style="display: flex; justify-content: space-between; font-size: 13px; color: #666; margin-top: 4px;"><span>After settlement</span><span style="color: #F59E0B; font-weight: 600;">$650,000</span></div>
+<div style="display: flex; justify-content: space-between; font-size: 13px; color: #666; margin-top: 4px;"><span>After settlement, $1.5M</span><span style="color: #F59E0B; font-weight: 600;">$650,000</span></div>
 </div>
-<p style="margin-top: 16px; margin-bottom: 0; font-size: 14px; color: #555; line-height: 1.5; border-top: 1px solid #E5E7EB; padding-top: 12px;">Before sublimits and retentions. The actual recovery is lower.</p>
+<p style="margin-top: 16px; margin-bottom: 0; font-size: 14px; color: #555; line-height: 1.5; border-top: 1px solid #E5E7EB; padding-top: 12px;">Illustrative estimates, and the best case for the bank: every dollar of cost draws against the aggregate and the bank pays only its retention. The sublimits below do not allow that.</p>
 </div>
 
 That is the optimistic version. Now add the sublimits.
@@ -110,6 +97,10 @@ Note what is *not* on this list. Social engineering and wire fraud are absent, b
 **Regulatory defense sublimit:** $500,000. Some policies cap regulatory proceedings costs. The bank absorbs everything above that threshold out of pocket, even though the aggregate has not been exhausted.
 
 These sublimits do not stack neatly. A single incident can trigger multiple sublimits simultaneously. Each cap reduces what the bank collects. The aggregate is the theoretical maximum. The sublimits define the actual maximum.
+
+Run the same incident through those caps. Breach response cost $1.2 million and the sublimit pays $250,000. Federal and state regulatory defense together cost $900,000 and the regulatory sublimit pays $500,000. Class action defense and the settlement carry no sublimit, so they draw in full. The policy pays $3 million against $4.35 million of cost, the bank absorbs $1.35 million, and $2 million of the aggregate is never touched.
+
+That last part is what boards find hardest to accept. The limit did not run out. The bank paid $1.35 million anyway, because the money it needed sat behind a cap rather than behind the aggregate. Sublimits do not drain the limit faster. They strand it.
 
 ## The Retention Layer
 
