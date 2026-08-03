@@ -99,20 +99,6 @@ permalink: /examiner-readiness/
   pointer-events: none;
 }
 .exam-wrap { max-width: 1100px; margin: 0 auto; }
-.exam-eyebrow {
-  display: inline-block;
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: #00D4AA;
-  background: rgba(0,212,170,0.1);
-  border: 1px solid rgba(0,212,170,0.2);
-  padding: 6px 14px;
-  border-radius: 6px;
-  margin-bottom: 20px;
-}
 .exam-hero h1 {
   font-size: 42px;
   line-height: 1.15;
@@ -269,12 +255,9 @@ details[open] summary span { transform: rotate(45deg); display: inline-block; }
 <!-- HERO -->
 <section class="exam-hero">
   <div class="container exam-wrap">
-    <div class="exam-eyebrow">Examiner Readiness</div>
     <h1>What Your Bank Examiner Will Ask About Insurance</h1>
-    <p class="exam-subhead">
-      Regulators require your board to review insurance adequacy, and document it. They don't tell you how to do it well.<br>
-      That's what the Risk Intelligence Report is for.
-    </p>
+    <p class="exam-subhead">Regulators require your board to review insurance adequacy, and document it. They don't tell you how to do it well. That's what the <a href="{{ '/risk-intelligence-report/' | relative_url }}">Risk Intelligence Report</a> is for.</p>
+    <a href="{{ '/assets/downloads/Breezy_Risk_Examiner_Checklist.pdf' | relative_url }}" style="display: inline-block; margin-top: 28px; padding: 16px 36px; background: #00D4AA; color: #0A2540; font-weight: 700; text-decoration: none; border-radius: 8px; font-size: 17px; box-shadow: 0 4px 20px rgba(0,212,170,.3);" download>Download the Examiner Checklist &darr;</a>
   </div>
 </section>
 
@@ -282,56 +265,42 @@ details[open] summary span { transform: rotate(45deg); display: inline-block; }
 <section class="exam-section">
   <div class="container exam-wrap">
     <div class="exam-center">
-      <h2>What Do Examiners Want to See?</h2>
-      <p>Examiners evaluate your insurance program, including cyber, D&O, and fidelity bond. They look for evidence in four areas.</p>
+      <h2>What's Inside</h2>
+      <p>Ten questions, grouped into the four areas examiners look at across cyber, D&O and the fidelity bond.</p>
     </div>
 
     <div class="exam-questions">
 
       <div class="exam-question">
-        <div class="exam-question-num">Checkpoint 1</div>
+        <div class="exam-question-num">01</div>
         <h3>Board-Level Coverage Review</h3>
-        <p>The board should articulate what each policy covers and where the gaps are. "Our broker recommended this" is not a review.</p>
+        <p>The board should be able to say what each policy covers and where the gaps are. "Our broker recommended this" is not a review.</p>
       </div>
 
       <div class="exam-question">
-        <div class="exam-question-num">Checkpoint 2</div>
+        <div class="exam-question-num">02</div>
         <h3>Limits Aligned to Risk</h3>
-        <p>Examiners expect documented rationale for coverage limits across cyber, D&O, and bond — not just a declarations page.</p>
+        <p>The number that fails is rarely the policy limit. It is the sublimit beneath it — social engineering on the bond is often a fraction of the wire volume it covers.</p>
       </div>
 
       <div class="exam-question">
-        <div class="exam-question-num">Checkpoint 3</div>
+        <div class="exam-question-num">03</div>
         <h3>Security Warranty Compliance</h3>
-        <p>Your carrier requires specific controls as conditions of coverage. If your IT environment doesn't match, the carrier can deny a claim.</p>
+        <p>You warranted MFA on privileged accounts, tested backups, endpoint detection. If your last IT audit found an exception, the warranty no longer matches the environment.</p>
       </div>
 
       <div class="exam-question">
-        <div class="exam-question-num">Checkpoint 4</div>
+        <div class="exam-question-num">04</div>
         <h3>Policy Interactions</h3>
-        <p>A ransomware attack, wire fraud loss, and board investigation touch multiple policies. Which one responds to which part?</p>
+        <p>One wire fraud can land on two different bond agreements, and on most bonds one is 10x to 20x the other. Forensics decides which, after the money is gone.</p>
       </div>
 
-    </div>
-  </div>
-</section>
-
-<!-- DOWNLOAD CHECKLIST -->
-<section class="exam-section alt">
-  <div class="container exam-wrap">
-    <div class="exam-center">
-      <h2>Download the Examiner Checklist</h2>
-      <p>Ten questions across board governance, policy coverage, and policy interactions to check whether you are in good shape.</p>
-    </div>
-
-    <div style="max-width: 720px; margin: 0 auto; text-align: center;">
-      <a href="{{ '/assets/downloads/Breezy_Risk_Examiner_Checklist.pdf' | relative_url }}" class="btn-accent" style="display: inline-block; padding: 16px 36px; background: #00D4AA; color: #0A2540; font-weight: 700; text-decoration: none; border-radius: 8px; font-size: 17px; transition: all .3s cubic-bezier(.4,0,.2,1); box-shadow: 0 4px 20px rgba(0,212,170,.3);" download>Download the Checklist &darr;</a>
     </div>
   </div>
 </section>
 
 <!-- REGULATORY FRAMEWORK (accordion) -->
-<section class="exam-section">
+<section class="exam-section alt">
   <div class="container exam-wrap">
     <div class="exam-center">
       <h2>Where These Requirements Come From</h2>
@@ -340,13 +309,13 @@ details[open] summary span { transform: rotate(45deg); display: inline-block; }
 
     <div style="max-width: 720px; margin: 0 auto;">
       <details style="border: 1px solid var(--border); border-left: 4px solid #3B82F6; border-radius: 0 10px 10px 0; margin-bottom: 12px; background: #fff;">
-        <summary style="padding: 20px 24px; cursor: pointer; font-weight: 700; font-size: 16px; color: var(--primary); list-style: none;"><a href="https://www.fdic.gov/resources/supervision-and-examinations/examination-policies-manual/section4-4.pdf" target="_blank" rel="noopener" style="color: inherit; text-decoration: none;">FDIC Risk Management Manual, Section 4.4</a> <span style="float: right; color: var(--text-secondary); font-size: 14px; font-weight: 400;">+</span></summary>
-        <div style="padding: 0 24px 20px; color: var(--text-secondary); font-size: 15px; line-height: 1.65;">Examiners must comment in the Report of Examination on "lack of any significant coverage, board of director approval and review, or deficiencies in a bank's loss prevention program." This is the direct hook: examiners will note deficiencies in the board's review process itself, not just in coverage.</div>
+        <summary style="padding: 20px 24px; cursor: pointer; font-weight: 700; font-size: 16px; color: var(--primary); list-style: none;"><a href="https://ithandbook.ffiec.gov/it-booklets/information-security" target="_blank" rel="noopener" style="color: inherit; text-decoration: none;">FFIEC IT Examination Handbook — Information Security</a> <span style="float: right; color: var(--text-secondary); font-size: 14px; font-weight: 400;">+</span></summary>
+        <div style="padding: 0 24px 20px; color: var(--text-secondary); font-size: 15px; line-height: 1.65;">The primary source. The Information Security booklet identifies cyber insurance as a risk mitigation tool within the bank's information security program. Examiners use this framework to evaluate whether the bank has assessed its cyber risk exposure and whether insurance coverage aligns with that assessment. The handbook does not prescribe coverage amounts but expects documented rationale.</div>
       </details>
 
       <details style="border: 1px solid var(--border); border-left: 4px solid #3B82F6; border-radius: 0 10px 10px 0; margin-bottom: 12px; background: #fff;">
-        <summary style="padding: 20px 24px; cursor: pointer; font-weight: 700; font-size: 16px; color: var(--primary); list-style: none;"><a href="https://ithandbook.ffiec.gov/it-booklets/information-security" target="_blank" rel="noopener" style="color: inherit; text-decoration: none;">FFIEC IT Examination Handbook — Information Security</a> <span style="float: right; color: var(--text-secondary); font-size: 14px; font-weight: 400;">+</span></summary>
-        <div style="padding: 0 24px 20px; color: var(--text-secondary); font-size: 15px; line-height: 1.65;">The primary source. The Information Security booklet identifies cyber insurance as a risk mitigation tool within the bank's information security program. Examiners use this framework to evaluate whether the bank has assessed its cyber risk exposure and whether insurance coverage aligns with that assessment. The handbook does not prescribe coverage amounts but expects documented rationale.</div>
+        <summary style="padding: 20px 24px; cursor: pointer; font-weight: 700; font-size: 16px; color: var(--primary); list-style: none;"><a href="https://www.fdic.gov/resources/supervision-and-examinations/examination-policies-manual/section4-4.pdf" target="_blank" rel="noopener" style="color: inherit; text-decoration: none;">FDIC Risk Management Manual, Section 4.4</a> <span style="float: right; color: var(--text-secondary); font-size: 14px; font-weight: 400;">+</span></summary>
+        <div style="padding: 0 24px 20px; color: var(--text-secondary); font-size: 15px; line-height: 1.65;">Examiners must comment in the Report of Examination on "lack of any significant coverage, board of director approval and review, or deficiencies in a bank's loss prevention program." This is the direct hook: examiners will note deficiencies in the board's review process itself, not just in coverage.</div>
       </details>
 
       <details style="border: 1px solid var(--border); border-left: 4px solid #3B82F6; border-radius: 0 10px 10px 0; margin-bottom: 12px; background: #fff;">
@@ -362,10 +331,47 @@ details[open] summary span { transform: rotate(45deg); display: inline-block; }
   </div>
 </section>
 
+<!-- FAQ -->
+<section class="exam-section">
+  <div class="container exam-wrap">
+    <div class="exam-center">
+      <h2>Common Questions</h2>
+    </div>
+
+    <div style="max-width: 720px; margin: 0 auto;">
+      <details style="border: 1px solid var(--border); border-left: 4px solid #3B82F6; border-radius: 0 10px 10px 0; margin-bottom: 12px; background: #fff;">
+        <summary style="padding: 20px 24px; cursor: pointer; font-weight: 700; font-size: 16px; color: var(--primary); list-style: none;">What are the FFIEC cyber insurance requirements for community banks? <span style="float: right; color: var(--text-secondary); font-size: 14px; font-weight: 400;">+</span></summary>
+        <div style="padding: 0 24px 20px; color: var(--text-secondary); font-size: 15px; line-height: 1.65;">The FFIEC IT Examination Handbook requires banks to evaluate whether cyber insurance coverage is adequate for their risk profile. Examiners assess four areas: board-level review of coverage, limits aligned to the bank's risk exposure, compliance with security warranties on the cyber application, and understanding of how cyber, D&O, and fidelity bond policies interact during a cyber incident. The FFIEC does not mandate specific coverage amounts but expects documented rationale for the coverage the bank carries.</div>
+      </details>
+
+      <details style="border: 1px solid var(--border); border-left: 4px solid #3B82F6; border-radius: 0 10px 10px 0; margin-bottom: 12px; background: #fff;">
+        <summary style="padding: 20px 24px; cursor: pointer; font-weight: 700; font-size: 16px; color: var(--primary); list-style: none;">What do FDIC examiners ask about cyber insurance? <span style="float: right; color: var(--text-secondary); font-size: 14px; font-weight: 400;">+</span></summary>
+        <div style="padding: 0 24px 20px; color: var(--text-secondary); font-size: 15px; line-height: 1.65;">Examiners now ask "How do you know your cyber insurance is adequate?" They want evidence that the board reviewed coverage against realistic claim scenarios, not just approved the premium. They look for documented limits rationale, security warranty compliance, and understanding of how cyber and D&O policies, and the fidelity bond, interact.</div>
+      </details>
+
+      <details style="border: 1px solid var(--border); border-left: 4px solid #3B82F6; border-radius: 0 10px 10px 0; margin-bottom: 12px; background: #fff;">
+        <summary style="padding: 20px 24px; cursor: pointer; font-weight: 700; font-size: 16px; color: var(--primary); list-style: none;">How should a community bank prepare for insurance questions during an examination? <span style="float: right; color: var(--text-secondary); font-size: 14px; font-weight: 400;">+</span></summary>
+        <div style="padding: 0 24px 20px; color: var(--text-secondary); font-size: 15px; line-height: 1.65;">Prepare by matching policy security warranties to your IT audit findings, creating a one-page board coverage summary, and mapping your three policies (cyber, bond, D&O) against likely incident scenarios. Document which policy responds to each scenario and where gaps exist.</div>
+      </details>
+
+      <details style="border: 1px solid var(--border); border-left: 4px solid #3B82F6; border-radius: 0 10px 10px 0; margin-bottom: 12px; background: #fff;">
+        <summary style="padding: 20px 24px; cursor: pointer; font-weight: 700; font-size: 16px; color: var(--primary); list-style: none;">What is an independent insurance audit for community banks? <span style="float: right; color: var(--text-secondary); font-size: 14px; font-weight: 400;">+</span></summary>
+        <div style="padding: 0 24px 20px; color: var(--text-secondary); font-size: 15px; line-height: 1.65;">An independent insurance audit reads your cyber and D&O policies, and your fidelity bond, line by line, tests them against realistic claim scenarios, and identifies coverage gaps, sublimits, and exclusions. The output is an examiner-ready report with dollar amounts and specific fixes.</div>
+      </details>
+
+      <details style="border: 1px solid var(--border); border-left: 4px solid #3B82F6; border-radius: 0 10px 10px 0; background: #fff;">
+        <summary style="padding: 20px 24px; cursor: pointer; font-weight: 700; font-size: 16px; color: var(--primary); list-style: none;">Does the FFIEC require banks to have cyber insurance? <span style="float: right; color: var(--text-secondary); font-size: 14px; font-weight: 400;">+</span></summary>
+        <div style="padding: 0 24px 20px; color: var(--text-secondary); font-size: 15px; line-height: 1.65;">The FFIEC does not mandate cyber insurance as a regulatory requirement. However, the FFIEC IT Examination Handbook identifies cyber insurance as a component of a sound information security program. In practice, examiners expect banks to have evaluated cyber insurance and to document their rationale, whether the bank carries coverage or has decided the risk is otherwise mitigated. Banks without cyber insurance should expect questions about how residual cyber risk is addressed.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
 <!-- FINAL CTA -->
 <section class="exam-final">
   <div class="exam-final-inner">
-    <h2>Get a Head Start on Your Examiner's Questions</h2>
-    <a href="{{ '/contact/' | relative_url }}" class="btn-accent">Get in Touch &rarr;</a>
+    <h2>Take the Ten Questions Into Your Next Board Meeting</h2>
+    <a href="{{ '/assets/downloads/Breezy_Risk_Examiner_Checklist.pdf' | relative_url }}" class="btn-accent" download>Download the Examiner Checklist &darr;</a>
+    <p style="margin-top: 22px; margin-bottom: 0;">If the answers come back "not sure," the <a href="{{ '/risk-intelligence-report/' | relative_url }}" style="color: #00D4AA;">Risk Intelligence Report</a> works through them against your actual policy wording. <a href="{{ '/contact/' | relative_url }}" style="color: #00D4AA;">Get in touch</a>.</p>
   </div>
 </section>
