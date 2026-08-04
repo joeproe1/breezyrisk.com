@@ -99,13 +99,6 @@ permalink: /examiner-readiness/
   max-width: 840px;
   margin: 0 auto 28px;
 }
-.exam-subhead a {
-  color: #00D4AA;
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
-.exam-subhead a:hover { color: #fff; }
-
 /* Sections */
 .exam-section {
   padding: 72px 0;
@@ -180,6 +173,24 @@ permalink: /examiner-readiness/
 details summary::-webkit-details-marker { display: none; }
 details[open] summary span { transform: rotate(45deg); display: inline-block; }
 
+/* Bridge to RIR */
+.exam-bridge {
+  background: #fff;
+  padding: 0 0 56px;
+}
+.exam-bridge p {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 16px;
+  line-height: 1.75;
+}
+.exam-bridge a {
+  color: var(--primary);
+  font-weight: 600;
+}
+
 /* Final CTA — compact */
 .exam-final {
   background: #fff;
@@ -250,7 +261,7 @@ details[open] summary span { transform: rotate(45deg); display: inline-block; }
 <section class="exam-hero">
   <div class="container exam-wrap">
     <h1>What Your Bank Examiner Will Ask About Insurance</h1>
-    <p class="exam-subhead">When an examiner asks whether a community bank's cyber insurance is adequate, most struggle to give a defensible answer. Regulators require your board to review coverage and document it. They don't tell you how to do it well. That's what the <a href="{{ '/risk-intelligence-report/' | relative_url }}">Risk Intelligence Report</a> is for.</p>
+    <p class="exam-subhead">When an examiner asks whether a community bank's cyber insurance is adequate, most struggle to give a defensible answer. Regulators require your board to review coverage and document it. They don't tell you how to do it well.</p>
     <a href="{{ '/assets/downloads/Breezy_Risk_Examiner_Checklist.pdf' | relative_url }}" style="display: inline-block; margin-top: 28px; padding: 16px 36px; background: #00D4AA; color: #0A2540; font-weight: 700; text-decoration: none; border-radius: 8px; font-size: 17px; box-shadow: 0 4px 20px rgba(0,212,170,.3);" download>Download the Examiner Checklist &darr;</a>
   </div>
 </section>
@@ -339,10 +350,18 @@ details[open] summary span { transform: rotate(45deg); display: inline-block; }
   </div>
 </section>
 
+<!-- BRIDGE -->
+<section class="exam-bridge">
+  <div class="container exam-wrap">
+    <p>The checklist shows you which questions your board cannot answer. Answering them means reading your cyber policy, your bond and your D&amp;O against each other, using your actual limits and exclusions. That is what the <a href="{{ '/risk-intelligence-report/' | relative_url }}">Risk Intelligence Report</a> does.</p>
+  </div>
+</section>
+
 <!-- FINAL CTA -->
 <section class="exam-final">
   <div class="exam-final-inner">
-    <h2>Ten Questions for Your Next Board Meeting</h2>
-    <a href="{{ '/assets/downloads/Breezy_Risk_Examiner_Checklist.pdf' | relative_url }}" class="btn-accent" download>Download the Examiner Checklist &darr;</a>
+    <h2>Answer Them Before an Examiner Does</h2>
+    <p>One report. Plain English. Before your next board review or examination.</p>
+    <a href="{{ '/contact/' | relative_url }}" class="btn-accent">Get in Touch</a>
   </div>
 </section>
