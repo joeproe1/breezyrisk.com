@@ -2,7 +2,7 @@
 layout: post
 title: "The Revenue Your Policy Ignores: Cyber BI Doesn't Cover a Bank's Primary Income"
 card_title: "The Revenue Your Policy Ignores"
-description: "Most cyber BI definitions exclude interest income, which is the bulk of a community bank's revenue. The exclusion is real, but it does not bite where most people point."
+description: "Cyber BI definitions exclude interest income — the bulk of a bank's revenue. The exclusion is real, but it does not bite where most people point."
 date: 2026-07-10
 author: Joerg Proeve
 category: Policy Deep-Dive

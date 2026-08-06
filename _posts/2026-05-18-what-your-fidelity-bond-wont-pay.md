@@ -2,7 +2,7 @@
 layout: post
 title: "Fidelity Bond Coverage Gaps: What Your Bond Won't Pay"
 card_title: "Fidelity Bond Coverage Gaps"
-description: "Community banks assume the bond covers fraud. It does, with conditions most banks have never read. Here's where bonds fail and what to check before your next renewal."
+description: "Banks assume the bond covers fraud. It does — with conditions most have never read. Where bonds fail and what to check before renewal."
 date: 2026-05-18
 author: Joerg Proeve
 category: Policy Deep-Dive

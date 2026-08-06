@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Counterparty Question: AI-Native Insurance Carriers"
-description: "AI-native insurance carriers raise $260M and quote policies in minutes. But when a community bank needs to file a claim, who pays? Seven questions every board should be asking."
+description: "AI-native carriers raise $260M and quote in minutes. When a bank needs to file a claim, who pays? Seven questions every board should ask."
 date: 2026-05-12
 author: Joerg Proeve
 category: Industry Trends

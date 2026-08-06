@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Vendor Risk Insurance Gaps: Your Biggest Exposure, Your Smallest Sublimit"
+title: "Your Biggest Exposure, Your Smallest Sublimit"
 card_title: "Vendor Risk Insurance Gaps"
-description: "Community banks depend on core technology vendors for everything. Most insure that dependency with a sublimit that could exhaust in days. Here's what your policy conditions actually say."
+description: "Banks depend on core vendors for everything. Most insure that dependency with a sublimit that could exhaust in days. Here is what to check."
 date: 2026-05-28
 author: Joerg Proeve
 category: Policy Deep-Dive

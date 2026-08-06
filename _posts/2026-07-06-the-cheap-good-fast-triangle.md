@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Cheap-Good-Fast Triangle of Insurance"
-description: "Insurance distribution chose cheap and fast. The side that fell away was good. Most bank insurance programs have never had a line-by-line review of what the policy language says versus what the financial institution faces."
+description: "Insurance distribution chose cheap and fast. The side that fell away was good. Most bank programs have never had a line-by-line policy review."
 date: 2026-07-06
 author: Joerg Proeve
 category: Industry Trends

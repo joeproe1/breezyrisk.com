@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Premiums Down, Claims Up"
-description: "US cyber insurance premiums fell 7% while claims rose nearly 40%. For community banks at renewal, a lower premium is not necessarily a win. Here is what to check before signing."
+description: "US cyber premiums fell 7% while claims rose 40%. For community banks at renewal, a lower premium is not necessarily a win. What to check."
 date: 2026-04-26
 author: Joerg Proeve
 category: Industry Trends

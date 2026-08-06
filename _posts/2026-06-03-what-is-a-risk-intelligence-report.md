@@ -2,7 +2,7 @@
 layout: post
 title: "What Is a Risk Intelligence Report?"
 card_title: "What Is a Risk Intelligence Report?"
-description: "Your bank audits its financials, its IT controls, its vendor compliance. A Risk Intelligence Report audits the insurance that is supposed to pay when those controls fail. Here is what the report contains and who uses it."
+description: "Your bank audits its financials, IT controls, and vendor compliance. A Risk Intelligence Report audits the insurance that pays when those controls fail."
 date: 2026-06-03
 author: Joerg Proeve
 category: Policy Deep-Dive

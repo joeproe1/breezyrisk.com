@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "The D&O Cyber Exclusion That Leaves Your Board Exposed"
-card_title: "The D&O Cyber Exclusion That Leaves Your Board Exposed"
-description: "A data breach hits a community bank. The D&O policy excludes cyber claims. Directors are named insureds on the cyber policy, but on a limit the breach response spends first."
+title: "The D&O Cyber Exclusion"
+description: "A breach hits a bank. The D&O excludes cyber claims. Directors fall back on the cyber policy — but breach response spends that limit first."
 date: 2026-04-01
 author: Joerg Proeve
 category: Case Study

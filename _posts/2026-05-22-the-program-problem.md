@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "The Program Problem: Why Bundled Bank Insurance Leaves Gaps Nobody Checks"
-card_title: "The Program Problem"
-description: "Most community banks buy insurance through association-endorsed programs. The programs have real strengths. They also have structural gaps that persist because nobody has incentive to audit them."
+title: "The Program Problem"
+description: "Association-endorsed bank insurance programs have real strengths — and structural gaps that persist because nobody has incentive to audit them."
 date: 2026-05-22
 author: Joerg Proeve
 category: Policy Deep-Dive

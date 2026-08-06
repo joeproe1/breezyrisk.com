@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "Your Credit Union Bought a Bundle. Claims Get Paid Policy by Policy."
-card_title: "Credit Union Insurance Gaps"
-description: "Credit union insurance programs bundle cyber, D&O, and bond under one relationship. But when a claim hits, each policy responds separately, with its own exclusions, sublimits, and conditions. The gaps between them are where the real exposure sits."
+title: "Credit Union Insurance Gaps"
+description: "Credit union programs bundle cyber, D&O, and bond under one relationship. Claims get paid policy by policy. The gaps between them are the real exposure."
 date: 2026-07-01
 author: Joerg Proeve
 category: Case Study

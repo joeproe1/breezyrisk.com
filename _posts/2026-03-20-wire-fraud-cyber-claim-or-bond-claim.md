@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "When AI Clones Your CFO's Voice"
-description: "AI voice cloning just broke callback verification. Most social engineering coverage was written for email scams. A deepfake phone call may not be covered at all."
+description: "AI voice cloning broke callback verification. Most social engineering coverage was written for email scams. A deepfake call may not be covered."
 date: 2026-03-20
 author: Joerg Proeve
 category: Case Study

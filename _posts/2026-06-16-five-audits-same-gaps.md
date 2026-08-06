@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "I Audited Five Community Banks and Credit Unions. They All Had Similar Gaps."
-card_title: "Five Audits, Similar Gaps"
-description: "Five community banks. Different carriers. Different programs. The same five coverage failures. Aggregate findings from independent policy reviews, including a bank-by-bank scorecard, data callouts, and checklists for each finding."
+title: "Five Audits, Same Gaps"
+description: "Five community banks. Different carriers. Different programs. The same five coverage failures. Aggregate findings with a bank-by-bank scorecard."
 date: 2026-06-16
 author: Joerg Proeve
 category: Case Study

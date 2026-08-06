@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Fine Print Inside the Coverage"
-description: "A community bank has a $5 million cyber policy. After sublimits, retentions, defense costs, and carve-outs, the actual recovery on a multi-front breach may be closer to $500,000."
+description: "A $5M cyber policy. After sublimits, retentions, defense costs, and carve-outs, actual recovery on a multi-front breach may be closer to $500K."
 date: 2026-06-15
 author: Joerg Proeve
 category: Policy Deep-Dive

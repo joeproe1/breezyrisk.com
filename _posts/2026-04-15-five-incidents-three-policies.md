@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "Five Common Cyber Incidents, Three Policies, and the Gaps Between Them"
-card_title: "Five Incidents, Three Policies, and the Gaps Between Them"
-description: "Most community banks carry cyber and D&O policies, plus a fidelity bond, from different carriers. Here is how those policies respond when five common cyber incidents hit, and where coverage falls apart."
+title: "Five Incidents, Three Policies"
+description: "Five common cyber incidents mapped against cyber, D&O, and bond policies from different carriers. Where each responds, and where coverage falls apart."
 date: 2026-04-15
 author: Joerg Proeve
 category: Case Study
