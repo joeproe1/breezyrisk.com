@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Before Your Renewal"
+title: "Before Your Next Renewal"
 description: "Three-year programs give banks bundled pricing and stable coverage. They also give carriers three years to revise forms while nobody reads the amendments."
 date: 2026-08-05
 author: Joerg Proeve
@@ -8,7 +8,7 @@ category: Community Banks
 read_time: "5 min read"
 image: /assets/images/Blog-Before-Your-Renewal.png
 image_alt: "Before your renewal: three-year insurance program gaps that community banks miss between formal renewals"
-last_modified_at: 2026-08-05
+last_modified_at: 2026-08-07
 permalink: /insights/before-your-renewal/
 tags: [three-year insurance program, community bank insurance, fidelity bond, social engineering sublimit, condition precedent, insurance renewal, D&O, cyber insurance, ABA Insurance Services, policy interaction]
 faq:
@@ -22,6 +22,8 @@ faq:
     answer: "Some gaps can be addressed immediately. Wire procedure mismatches with the bond's verification requirement can be fixed at any time by aligning the bank's internal procedures to what the bond requires. Sublimit adjustments and policy coordination gaps typically need to wait for the next renewal negotiation, but identifying them now means the bank is prepared when that window opens."
 ---
 
+<p style="font-size: 22px; color: #555; font-style: italic; margin-bottom: 32px;">When was the last time anyone read the forms?</p>
+
 The CFO gets the continuation notice. Three policies: cyber, fidelity bond, D&O. The summary page compares this year's premium to last year's. Cyber up 4%. Bond is slightly down because of a clean loss year, D&O is flat.
 
 All three policies are bundled to a program. ABA Insurance Services covers roughly a third of community banks; Travelers Select+ covers another large share. Most community banks I talk to carry at least part of their coverage through a program: multiple lines, one carrier family, and three-year policy term.
@@ -33,6 +35,16 @@ For this bank, the real renewal was two years ago. That's when the broker went t
 A wire fraud hits the community bank. $400,000 is stolen. IT responds immediately, but the money is gone.
 
 The CFO files a claim and is blindsided. The bond carrier pays $187,500 on a $400,000 loss.
+
+<div style="background: #0A2540; border-radius: 12px; padding: 28px 32px; margin: 28px 0; color: #fff;">
+<div style="font-size: 14px; font-weight: 700; color: #00D4AA; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 12px;">Scenario outcome</div>
+<div style="display: flex; flex-wrap: wrap; gap: 24px; align-items: baseline;">
+<div><div style="font-size: 13px; color: rgba(255,255,255,0.5); margin-bottom: 4px;">Loss</div><div style="font-size: 28px; font-weight: 700;">$400,000</div></div>
+<div><div style="font-size: 13px; color: rgba(255,255,255,0.5); margin-bottom: 4px;">Bond recovery</div><div style="font-size: 28px; font-weight: 700; color: #F59E0B;">$187,500</div></div>
+<div><div style="font-size: 13px; color: rgba(255,255,255,0.5); margin-bottom: 4px;">Bank absorbs</div><div style="font-size: 28px; font-weight: 700; color: #EF4444;">$212,500</div></div>
+</div>
+<div style="margin-top: 16px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.12); font-size: 14px; color: rgba(255,255,255,0.6); line-height: 1.55;">Social engineering sublimit: $250,000 (frozen since placement). Co-payment: 25% (added at last anniversary).</div>
+</div>
 
 He finds out that the social engineering add-on had a sublimit of $250,000 (set when the program was placed initially, and never adjusted) and a 25% co-payment the carrier added at the last anniversary when it revised the form. The co-payment means the bank absorbs 25 cents of every dollar of loss. Both numbers were on the declarations page. The broker's continuation notice focused on premium, not these "nuances."
 
@@ -66,6 +78,10 @@ On a three-year program this compounds. Wire volume increased. The bank added di
 
 ### The verification requirement
 
+<div style="border-left: 3px solid #F59E0B; padding: 16px 20px; background: rgba(245,158,11,0.05); border-radius: 0 8px 8px 0; margin: 24px 0; font-size: 15px; color: #555; line-height: 1.65;">
+This is the one finding I flag for immediate action at every audit, regardless of where the bank stands in its policy term. It doesn't wait for renewal.
+</div>
+
 The bond's social engineering add-on requires the bank to follow a specific callback procedure above a threshold (often $25,000). If the bank didn't follow the steps exactly, the claim gets denied. This is a "condition precedent": the carrier declines the claim, and doesn't need to prove that the failure to follow the callback procedure caused the loss.
 
 The bond requires a callback to a number the bank already has on file. The number in the wire instructions doesn't count. Email doesn't count.
@@ -88,6 +104,15 @@ Renewal is when that second job counts. After the policies bind, the language is
 
 Most banks review their premium at renewal. On a three-year program, that's once every three years. Almost none review the language.
 
-If your renewal is within 90 days, that's the window to read the forms before they bind. If you are mid-term, the language is already fixed, but the risks it's supposed to cover are not. You can still check whether your wire procedures match the bond's requirements, whether your sublimits reflect your current exposure, and whether you know which policy responds to which loss. That work doesn't require a renewal. Wire procedure mismatches you can fix today. Sublimit and coordination gaps go on the list for your next renewal negotiation.
+<div style="background: #f8faf9; border-radius: 10px; padding: 28px 32px; margin: 24px 0;">
+<div style="display: flex; gap: 16px; margin-bottom: 20px;">
+<div style="min-width: 32px; height: 32px; background: #00D4AA; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #0A2540; font-size: 16px;">1</div>
+<div><strong>Renewal within 90 days?</strong> That's the window to read the forms before they bind. Review sublimits, verify the callback procedure matches your wire process, and confirm which policy responds to which loss.</div>
+</div>
+<div style="display: flex; gap: 16px;">
+<div style="min-width: 32px; height: 32px; background: #00D4AA; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #0A2540; font-size: 16px;">2</div>
+<div><strong>Mid-term on a multi-year program?</strong> The language is already fixed, but the risks it's supposed to cover are not. Wire procedure mismatches you can fix today. Sublimit and coordination gaps go on the list for your next renewal negotiation.</div>
+</div>
+</div>
 
 [Get in touch]({{ '/contact/' | relative_url }}).
