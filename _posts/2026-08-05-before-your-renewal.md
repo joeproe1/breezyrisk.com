@@ -37,11 +37,22 @@ A wire fraud hits the community bank. $400,000 is stolen. IT responds immediatel
 The CFO files a claim and is blindsided. The bond carrier pays $187,500 on a $400,000 loss.
 
 <div style="background: #0A2540; border-radius: 12px; padding: 28px 32px; margin: 28px 0; color: #fff;">
-<div style="font-size: 14px; font-weight: 700; color: #00D4AA; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 12px;">Scenario outcome</div>
-<div style="display: flex; flex-wrap: wrap; gap: 24px; align-items: baseline;">
-<div><div style="font-size: 13px; color: rgba(255,255,255,0.5); margin-bottom: 4px;">Loss</div><div style="font-size: 28px; font-weight: 700;">$400,000</div></div>
-<div><div style="font-size: 13px; color: rgba(255,255,255,0.5); margin-bottom: 4px;">Bond recovery</div><div style="font-size: 28px; font-weight: 700; color: #F59E0B;">$187,500</div></div>
-<div><div style="font-size: 13px; color: rgba(255,255,255,0.5); margin-bottom: 4px;">Bank absorbs</div><div style="font-size: 28px; font-weight: 700; color: #EF4444;">$212,500</div></div>
+<div style="font-size: 14px; font-weight: 700; color: #00D4AA; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 16px;">Scenario outcome</div>
+<div style="margin-bottom: 8px;">
+<div style="background: rgba(255,255,255,0.1); border-radius: 6px; padding: 14px 20px; display: flex; justify-content: space-between; align-items: baseline;">
+<div style="font-size: 14px; font-weight: 600; color: rgba(255,255,255,0.7);">Loss</div>
+<div style="font-size: 26px; font-weight: 700; color: #fff;">$400,000</div>
+</div>
+</div>
+<div style="display: flex; gap: 6px;">
+<div style="width: 47%; background: rgba(245,158,11,0.15); border-left: 4px solid #F59E0B; border-radius: 6px; padding: 14px 16px;">
+<div style="font-size: 12px; font-weight: 600; color: #FCD34D; text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 4px;">Bond recovery</div>
+<div style="font-size: 22px; font-weight: 700; color: #F59E0B;">$187,500</div>
+</div>
+<div style="width: 53%; background: rgba(239,68,68,0.12); border-left: 4px solid #EF4444; border-radius: 6px; padding: 14px 16px;">
+<div style="font-size: 12px; font-weight: 600; color: #FCA5A5; text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 4px;">Bank absorbs</div>
+<div style="font-size: 22px; font-weight: 700; color: #EF4444;">$212,500</div>
+</div>
 </div>
 <div style="margin-top: 16px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.12); font-size: 14px; color: rgba(255,255,255,0.6); line-height: 1.55;">Social engineering sublimit: $250,000 (frozen since placement). Co-payment: 25% (added at last anniversary).</div>
 </div>
@@ -79,7 +90,7 @@ On a three-year program this compounds. Wire volume increased. The bank added di
 ### The verification requirement
 
 <div style="border-left: 3px solid #F59E0B; padding: 16px 20px; background: rgba(245,158,11,0.05); border-radius: 0 8px 8px 0; margin: 24px 0; font-size: 15px; color: #555; line-height: 1.65;">
-This is the one finding I flag for immediate action at every audit, regardless of where the bank stands in its policy term. It doesn't wait for renewal.
+This is the one finding I flag for immediate action at every audit, regardless of where the bank stands in its policy term. It doesn't need to wait for renewal.
 </div>
 
 The bond's social engineering add-on requires the bank to follow a specific callback procedure above a threshold (often $25,000). If the bank didn't follow the steps exactly, the claim gets denied. This is a "condition precedent": the carrier declines the claim, and doesn't need to prove that the failure to follow the callback procedure caused the loss.
@@ -105,13 +116,11 @@ Renewal is when that second job counts. After the policies bind, the language is
 Most banks review their premium at renewal. On a three-year program, that's once every three years. Almost none review the language.
 
 <div style="background: #f8faf9; border-radius: 10px; padding: 28px 32px; margin: 24px 0;">
-<div style="display: flex; gap: 16px; margin-bottom: 20px;">
-<div style="min-width: 32px; height: 32px; background: #00D4AA; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #0A2540; font-size: 16px;">1</div>
-<div><strong>Renewal within 90 days?</strong> That's the window to read the forms before they bind. Review sublimits, verify the callback procedure matches your wire process, and confirm which policy responds to which loss.</div>
+<div style="margin-bottom: 20px;">
+<strong>Renewal within 90 days?</strong> That's the window to read the forms before they bind. Review sublimits, verify the callback procedure matches your wire process, and confirm which policy responds to which loss.
 </div>
-<div style="display: flex; gap: 16px;">
-<div style="min-width: 32px; height: 32px; background: #00D4AA; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #0A2540; font-size: 16px;">2</div>
-<div><strong>Mid-term on a multi-year program?</strong> The language is already fixed, but the risks it's supposed to cover are not. Wire procedure mismatches you can fix today. Sublimit and coordination gaps go on the list for your next renewal negotiation.</div>
+<div>
+<strong>Mid-term on a multi-year program?</strong> The language is already fixed, but the risks it's supposed to cover are not. Wire procedure mismatches you can fix today. Sublimit and coordination gaps go on the list for your next renewal negotiation.
 </div>
 </div>
 
