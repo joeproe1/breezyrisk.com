@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Before Your Next Renewal"
+subtitle: "When was the last time anyone read the forms?"
 description: "Three-year programs give banks bundled pricing and stable coverage. They also give carriers three years to revise forms while nobody reads the amendments."
 date: 2026-08-05
 author: Joerg Proeve
@@ -22,8 +23,6 @@ faq:
     answer: "Some gaps can be addressed immediately. Wire procedure mismatches with the bond's verification requirement can be fixed at any time by aligning the bank's internal procedures to what the bond requires. Sublimit adjustments and policy coordination gaps typically need to wait for the next renewal negotiation, but identifying them now means the bank is prepared when that window opens."
 ---
 
-<p style="font-size: 22px; color: #555; font-style: italic; margin-bottom: 32px;">When was the last time anyone read the forms?</p>
-
 The CFO gets the continuation notice. Three policies: cyber, fidelity bond, D&O. The summary page compares this year's premium to last year's. Cyber up 4%. Bond is slightly down because of a clean loss year, D&O is flat.
 
 All three policies are bundled to a program. ABA Insurance Services covers roughly a third of community banks; Travelers Select+ covers another large share. Most community banks I talk to carry at least part of their coverage through a program: multiple lines, one carrier family, and three-year policy term.
@@ -36,15 +35,15 @@ A wire fraud hits the community bank. $400,000 is stolen. IT responds immediatel
 
 The CFO files a claim and is blindsided. The bond carrier pays $187,500 on a $400,000 loss.
 
-<div style="background: #0A2540; border-radius: 12px; padding: 28px 32px; margin: 28px 0; color: #fff;">
+<div style="background: #0A2540; border-radius: 12px; padding: 28px 40px; margin: 28px 0; color: #fff;">
 <div style="font-size: 14px; font-weight: 700; color: #00D4AA; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 16px;">Scenario outcome</div>
-<div style="margin-bottom: 8px;">
+<div style="max-width: 480px; margin-bottom: 8px;">
 <div style="background: rgba(255,255,255,0.1); border-radius: 6px; padding: 14px 20px; display: flex; justify-content: space-between; align-items: baseline;">
 <div style="font-size: 14px; font-weight: 600; color: rgba(255,255,255,0.7);">Loss</div>
 <div style="font-size: 26px; font-weight: 700; color: #fff;">$400,000</div>
 </div>
 </div>
-<div style="display: flex; gap: 6px;">
+<div style="max-width: 480px; display: flex; gap: 6px;">
 <div style="width: 47%; background: rgba(245,158,11,0.15); border-left: 4px solid #F59E0B; border-radius: 6px; padding: 14px 16px;">
 <div style="font-size: 12px; font-weight: 600; color: #FCD34D; text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 4px;">Bond recovery</div>
 <div style="font-size: 22px; font-weight: 700; color: #F59E0B;">$187,500</div>
@@ -54,7 +53,7 @@ The CFO files a claim and is blindsided. The bond carrier pays $187,500 on a $40
 <div style="font-size: 22px; font-weight: 700; color: #EF4444;">$212,500</div>
 </div>
 </div>
-<div style="margin-top: 16px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.12); font-size: 14px; color: rgba(255,255,255,0.6); line-height: 1.55;">Social engineering sublimit: $250,000 (frozen since placement). Co-payment: 25% (added at last anniversary).</div>
+<div style="margin-top: 16px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.12); font-size: 14px; color: rgba(255,255,255,0.6); line-height: 1.55;">Social engineering sublimit: $250,000 (frozen since placement).<br>Co-payment: 25% (added at last anniversary).</div>
 </div>
 
 He finds out that the social engineering add-on had a sublimit of $250,000 (set when the program was placed initially, and never adjusted) and a 25% co-payment the carrier added at the last anniversary when it revised the form. The co-payment means the bank absorbs 25 cents of every dollar of loss. Both numbers were on the declarations page. The broker's continuation notice focused on premium, not these "nuances."
