@@ -5,7 +5,7 @@ description: "The first cohort of AI liability writers is live. The measurement 
 date: 2026-08-31
 author: Joerg Proeve
 category: Industry Trends
-read_time: "13 min read"
+read_time: "9 min read"
 last_modified_at: 2026-08-31
 image: /assets/images/Blog-AI-Liability-Measurement-Gap.png
 image_alt: "AI liability insurance measurement gap — who is writing coverage and what data they are pricing from"
