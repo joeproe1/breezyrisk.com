@@ -236,6 +236,13 @@ image: /assets/images/breezy-og-default.png
   padding: 56px 0;
   background: #fff;
 }
+.bia-deliverables-frame {
+  border: 2px solid #00D4AA;
+  border-radius: 12px;
+  padding: 40px 48px 36px;
+  max-width: 960px;
+  margin: 0 auto;
+}
 .bia-deliverable-list {
   max-width: 880px;
   margin: 0 auto;
@@ -347,6 +354,7 @@ image: /assets/images/breezy-og-default.png
 @media (max-width: 768px) {
   .bia-header { padding: 100px 0 36px; }
   .bia-header-title { font-size: 30px; }
+  .bia-deliverables-frame { padding: 28px 20px 24px; }
   .bia-cta { padding: 40px 24px; }
   .bia-cta h2 { font-size: 24px; }
   .partner-trust { padding: 16px 0 36px; gap: 20px; flex-wrap: wrap; }
@@ -422,27 +430,29 @@ image: /assets/images/breezy-og-default.png
 <!-- What You Get -->
 <section class="bia-deliverables-section">
   <div class="container">
-    <div class="bia-center">
-      <h2>What Does a <a href="{{ '/insights/what-is-a-risk-intelligence-report/' | relative_url }}" style="color:inherit;text-decoration:underline;text-decoration-color:#D97706;text-underline-offset:4px;">Risk Intelligence Report</a> Include?</h2>
+    <div class="bia-deliverables-frame">
+      <div class="bia-center">
+        <h2>What Does a <a href="{{ '/insights/what-is-a-risk-intelligence-report/' | relative_url }}" style="color:inherit;text-decoration:underline;text-decoration-color:#D97706;text-underline-offset:4px;">Risk Intelligence Report</a> Include?</h2>
+      </div>
+      <dl class="bia-deliverable-list">
+        <div class="bia-dl-item">
+          <dt>Forensic Risk Scorecard</dt>
+          <dd>One-page summary across seven risk categories. Designed for board review and examination.</dd>
+        </div>
+        <div class="bia-dl-item">
+          <dt>Policy Interaction Map</dt>
+          <dd>Built from your policies with dollar amounts. Shows where carriers point at each other and where the bank holds the loss.</dd>
+        </div>
+        <div class="bia-dl-item">
+          <dt>Policy Deep Dives</dt>
+          <dd>Each policy tested against real incident scenarios, down to the exclusions and conditions that determine whether a claim gets paid.</dd>
+        </div>
+        <div class="bia-dl-item">
+          <dt>Implementation Roadmap</dt>
+          <dd>Specific fixes ranked by exposure, with the language to request at renewal.</dd>
+        </div>
+      </dl>
     </div>
-    <dl class="bia-deliverable-list">
-      <div class="bia-dl-item">
-        <dt>Forensic Risk Scorecard</dt>
-        <dd>One-page summary across seven risk categories. Designed for board review and examination.</dd>
-      </div>
-      <div class="bia-dl-item">
-        <dt>Policy Interaction Map</dt>
-        <dd>Built from your policies with dollar amounts. Shows where carriers point at each other and where the bank holds the loss.</dd>
-      </div>
-      <div class="bia-dl-item">
-        <dt>Policy Deep Dives</dt>
-        <dd>Each policy tested against real incident scenarios, down to the exclusions and conditions that determine whether a claim gets paid.</dd>
-      </div>
-      <div class="bia-dl-item">
-        <dt>Implementation Roadmap</dt>
-        <dd>Specific fixes ranked by exposure, with the language to request at renewal.</dd>
-      </div>
-    </dl>
   </div>
 </section>
 
