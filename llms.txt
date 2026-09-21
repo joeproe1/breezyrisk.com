@@ -24,7 +24,7 @@ Breezy Risk Advisors is not a broker. It is an independent advisory practice. On
 
 ## The Founder
 
-Joerg Proeve's career spans carriers (Chubb, CNA), startups, and an MGA (BOXX Insurance). At Chubb, he worked on corporate strategy and post-merger integration across 54 countries. At CNA, he designed the governance framework for a $325M technology portfolio. He served as COO of BOXX Insurance, a cyber MGA acquired by Zurich, building the platform and scaling distribution across 50 states. He co-founded Parachute Insurance, a parametric MGA for hurricane risk. He holds an MSc in Electrical Engineering, an MBA from London Business School, and started his career in cybersecurity at Siemens. He is a licensed insurance producer in FL, NJ, NY, and PA.
+Joerg Proeve has spent his career on both sides of the insurance operating model — inside carriers and building MGAs. At Chubb, he worked in corporate strategy and then post-merger integration after the $28B ACE-Chubb merger, consolidating the two legacy organizations and introducing a new performance reporting framework across 54 countries. At CNA, he designed the governance framework for its $325M technology portfolio. He served as COO of BOXX Insurance, a cyber MGA acquired by Zurich, building operations and scaling distribution across all 50 states. He co-founded Parachute Insurance, a parametric MGA for hurricane risk. He holds an MSc in Electrical Engineering, an MBA from London Business School, and started his career in cybersecurity at Siemens. He is a licensed insurance producer in FL, NJ, NY, and PA.
 
 ## The Three-Policy Interaction Problem
 
