@@ -209,29 +209,37 @@ image: /assets/images/breezy-og-default.png
 /* Findings */
 .bia-findings-section {
   padding: 56px 0;
-  background: var(--bg-light);
+  background: #0A2540;
+}
+.bia-findings-section .bia-center h2 {
+  color: #fff;
+}
+.bia-findings-section .bia-center p {
+  color: rgba(255,255,255,0.8);
 }
 .bia-finding {
   max-width: 680px;
   margin: 0 auto;
-  border: 1px solid var(--border);
+  border: none;
   border-left: 4px solid #D97706;
   border-radius: 10px;
   padding: 28px 28px 24px;
-  background: #fff;
-  box-shadow: 0 4px 16px rgba(0,0,0,.07);
+  background: rgba(255,255,255,0.10);
 }
 .bia-finding-title {
   font-size: 20px;
   font-weight: 800;
-  color: var(--primary);
+  color: #fff;
   margin-bottom: 12px;
 }
 .bia-finding p {
   font-size: 15px;
   line-height: 1.7;
-  color: var(--text-secondary);
+  color: rgba(255,255,255,0.8);
   margin: 0 0 12px;
+}
+.bia-finding p strong {
+  color: #fff;
 }
 .bia-finding p:last-child { margin-bottom: 0; }
 
@@ -290,7 +298,7 @@ image: /assets/images/breezy-og-default.png
 <section class="bia-header">
   <div class="container">
     <h1 class="bia-header-title">Bank Insurance Audits</h1>
-    <p class="bia-header-intro">I run independent insurance audits for community banks and credit unions.<br>I test your cyber, D&amp;O, and fidelity bond coverage against real loss scenarios &mdash; not a broker scorecard.</p>
+    <p class="bia-header-intro">I run independent insurance audits for community banks and credit unions.<br>I test your cyber, D&amp;O, and fidelity bond coverage against real loss scenarios &mdash; not a broker scorecard &mdash; and prepare you for regulatory examination.</p>
   </div>
 </section>
 
@@ -350,18 +358,18 @@ image: /assets/images/breezy-og-default.png
   <div class="container">
     <div class="bia-center">
       <h2>Coverage Gaps From Recent Bank Audits</h2>
-      <p>Every bank I audited had material gaps. Individually, the policies were fine, but nobody had read them together.</p>
+      <p>Every bank I audited had material coverage gaps. Individually, most policies were fine &mdash; but nobody had read them together, and that's where the seams were.</p>
     </div>
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:28px;max-width:960px;margin:0 auto;">
       <div class="bia-finding">
         <div class="bia-finding-title">The D&amp;O Policy That Steps Back</div>
-        <p><strong style="color:var(--primary);">Gap:</strong> Every D&amp;O I reviewed carries a cyber exclusion. A breach that triggers a regulatory investigation takes the D&amp;O out of the picture. Which wording you have is a question nobody asks until the claim.</p>
-        <p><strong style="color:var(--primary);">Impact:</strong> The board's defense falls entirely to the cyber policy, sharing one limit with forensics and notification.</p>
+        <p><strong>Gap:</strong> Every D&amp;O I reviewed carries a cyber exclusion. A breach that triggers a regulatory investigation takes the D&amp;O out of the picture. Which wording you have is a question nobody asks until the claim.</p>
+        <p><strong>Impact:</strong> The board's defense falls entirely to the cyber policy, sharing one limit with forensics and notification.</p>
       </div>
-      <div class="bia-finding" style="border-left-color:#D97706;background:rgba(217,119,6,0.04);">
+      <div class="bia-finding">
         <div class="bia-finding-title">The Vendor Outage Nobody Sized</div>
-        <p><strong style="color:var(--primary);">Gap:</strong> Dependent business interruption sublimits ranged from zero to $1M. A multi-day core processor outage would exceed the sublimit before recovery begins.</p>
-        <p><strong style="color:var(--primary);">Impact:</strong> Potentially seven figures of uninsured exposure. Nobody had tested the limit against actual vendor dependence.</p>
+        <p><strong>Gap:</strong> Dependent business interruption sublimits ranged from zero to $1M. A multi-day core processor outage would exceed the sublimit before recovery begins.</p>
+        <p><strong>Impact:</strong> Potentially seven figures of uninsured exposure. Nobody had tested the limit against actual vendor dependence.</p>
       </div>
     </div>
   </div>
