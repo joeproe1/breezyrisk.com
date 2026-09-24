@@ -85,78 +85,6 @@ image: /assets/images/breezy-og-default.png
   margin: 0 auto;
 }
 
-/* Proof section */
-.proof-section {
-  padding: 56px 0;
-  background: #0A2540;
-  position: relative;
-  overflow: hidden;
-}
-.proof-section::before {
-  content: '';
-  position: absolute;
-  top: -40%;
-  right: -15%;
-  width: 600px;
-  height: 600px;
-  background: radial-gradient(circle, rgba(0, 212, 170, 0.10) 0%, transparent 70%);
-  pointer-events: none;
-}
-.proof-card {
-  background: rgba(255,255,255,0.12);
-  border-radius: 10px;
-  padding: 28px 28px;
-  border-left: 3px solid #00D4AA;
-}
-.proof-card h3 {
-  font-size: 20px;
-  color: #fff;
-  margin: 0 0 8px;
-  font-weight: 700;
-}
-.proof-card p {
-  font-size: 17px;
-  line-height: 1.65;
-  color: rgba(255,255,255,0.8);
-  margin: 0;
-}
-.proof-card p strong {
-  color: #fff;
-  font-weight: 600;
-}
-.proof-card-icon {
-  color: #00D4AA;
-  margin-bottom: 12px;
-  display: block;
-}
-.proof-layout {
-  display: flex;
-  gap: 32px;
-  max-width: 1200px;
-  margin: 0 auto;
-  align-items: center;
-}
-.proof-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  flex: 3;
-}
-.proof-closing {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  border-left: 1px solid rgba(255,255,255,0.15);
-  padding-left: 32px;
-}
-.proof-summary {
-  font-size: 17px;
-  font-weight: 600;
-  color: rgba(255,255,255,0.85);
-  margin: 0;
-  line-height: 1.7;
-}
-
 /* Partner trust line */
 .partner-trust {
   display: flex;
@@ -342,14 +270,8 @@ image: /assets/images/breezy-og-default.png
 
 /* Responsive */
 @media (max-width: 968px) {
-  .proof-layout { flex-direction: column; }
-  .proof-grid { grid-template-columns: 1fr; }
-  .proof-closing { border-left: none; padding-left: 0; border-top: 1px solid rgba(255,255,255,0.15); padding-top: 24px; text-align: center; }
   .bia-header { padding: 120px 0 40px; }
   .bia-header-title { font-size: 36px; }
-  .proof-card h3 { font-size: 18px; }
-  .proof-card p { font-size: 16px; }
-  .proof-summary { font-size: 16px; }
 }
 @media (max-width: 768px) {
   .bia-header { padding: 100px 0 36px; }
@@ -369,39 +291,6 @@ image: /assets/images/breezy-og-default.png
   <div class="container">
     <h1 class="bia-header-title">Bank Insurance Audits</h1>
     <p class="bia-header-intro">I run independent insurance audits for community banks and credit unions.<br>I test your cyber, D&amp;O, and fidelity bond coverage against real loss scenarios &mdash; not a broker scorecard.</p>
-  </div>
-</section>
-
-<!-- Proof Section -->
-<section class="proof-section">
-  <div class="container">
-    <h2 style="color: #fff; text-align: center; font-size: 28px; margin-bottom: 28px;">Different Banks. Different Carriers. Same Coverage Gaps.</h2>
-
-    <div class="proof-layout">
-      <div class="proof-grid">
-        <div class="proof-card">
-          <svg class="proof-card-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-          <h3>Wire fraud: nobody pays.</h3>
-          <p>Coverage topped out at $500K. Another bond had a <strong>50% co-payment clause</strong>.</p>
-        </div>
-
-        <div class="proof-card">
-          <svg class="proof-card-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-          <h3>D&amp;O excludes cyber.</h3>
-          <p>The board's defense shares the <strong>same limit</strong> with forensics and notification.</p>
-        </div>
-
-        <div class="proof-card">
-          <svg class="proof-card-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
-          <h3>Vendor goes down. No coverage.</h3>
-          <p>One bank had no vendor outage coverage, others had <strong>sublimits</strong> too low for their exposure.</p>
-        </div>
-      </div>
-
-      <div class="proof-closing">
-        <p class="proof-summary">Every bank I audited had material gaps. Individually, the policies were fine, but nobody had read them together.</p>
-      </div>
-    </div>
   </div>
 </section>
 
@@ -461,6 +350,7 @@ image: /assets/images/breezy-og-default.png
   <div class="container">
     <div class="bia-center">
       <h2>Coverage Gaps From Recent Bank Audits</h2>
+      <p>Every bank I audited had material gaps. Individually, the policies were fine, but nobody had read them together.</p>
     </div>
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:28px;max-width:960px;margin:0 auto;">
       <div class="bia-finding">
@@ -482,7 +372,7 @@ image: /assets/images/breezy-og-default.png
   <div class="container">
     <div class="bia-cta">
       <h2>A Risk Intelligence Report Tests Your Coverage Before a Claim Does</h2>
-      <p>Flat fee. No hourly billing. No broker of record letter required.</p>
+      <p>If you're interested in this work or want to learn more, I'm happy to talk.</p>
       <a href="{{ '/contact/' | relative_url }}" class="btn btn-accent">Get in Touch &rarr;</a>
     </div>
   </div>
