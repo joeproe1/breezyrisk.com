@@ -28,12 +28,12 @@ permalink: /contact/
 </script>
 
 <style>
-.contact-page { padding-top: 140px !important; }
+.contact-header-section { padding: 140px 0 48px; background: #0A2540; text-align: center; }
+.contact-header-section h1 { font-size: 48px; font-weight: 800; color: #fff; margin: 0 0 14px; letter-spacing: -0.02em; }
+.contact-header-section p { font-size: 18px; color: rgba(255,255,255,0.8); max-width: 600px; margin: 0 auto; line-height: 1.7; }
+.contact-page { padding-top: 48px !important; }
 .page-content { padding-bottom: 0 !important; }
 .contact-shell { max-width: 720px; margin: 0 auto; padding: 0 40px; }
-.contact-header { text-align: center; margin-bottom: 48px; }
-.contact-header h1 { font-size: 48px; font-weight: 800; color: var(--primary); margin: 0 0 14px; letter-spacing: -0.02em; }
-.contact-header p { font-size: 18px; color: var(--text-secondary); max-width: 600px; margin: 0 auto; line-height: 1.7; }
 .contact-form { margin-bottom: 48px; }
 .contact-form label {
     display: block;
@@ -103,8 +103,8 @@ permalink: /contact/
 .alt-divider { width: 1px; background: var(--border); }
 @media (max-width: 900px) {
     .contact-shell { padding: 0 24px; }
-    .contact-page { padding-top: 100px !important; }
-    .contact-header h1 { font-size: 36px; }
+    .contact-header-section { padding: 100px 0 36px; }
+    .contact-header-section h1 { font-size: 36px; }
 }
 @media (max-width: 480px) {
     .alt-options { flex-direction: column; gap: 20px; }
@@ -113,12 +113,15 @@ permalink: /contact/
 }
 </style>
 
-<section class="contact-page" style="padding: 80px 0 32px; background: var(--bg-light);">
+<section class="contact-header-section">
+    <div class="container">
+        <h1>Get in Touch</h1>
+        <p>Whether it's an insurance technology problem, a coverage question, or a conversation about working together &mdash; I'm happy to talk.</p>
+    </div>
+</section>
+
+<section class="contact-page" style="padding: 48px 0 32px; background: var(--bg-light);">
     <div class="contact-shell">
-        <div class="contact-header">
-            <h1>Get in Touch</h1>
-            <p>Whether it's an insurance technology problem, a coverage question, or a conversation about working together &mdash; I'm happy to talk.</p>
-        </div>
 
         <div class="contact-options">
             <div class="alt-options">
