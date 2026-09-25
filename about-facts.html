@@ -104,19 +104,6 @@ permalink: /about/facts/
 .fact-card .fact-number { font-family: 'JetBrains Mono', monospace; font-size: 32px; font-weight: 700; color: #0A2540; line-height: 1.2; }
 .fact-card .fact-label { font-size: 14px; color: #5A7184; margin-top: 6px; line-height: 1.4; }
 
-/* Is / Is Not columns */
-.is-isnot { display: flex; gap: 24px; margin-bottom: 16px; }
-.is-col, .isnot-col { flex: 1; }
-.is-col { background: #f0fdf9; border-radius: 10px; padding: 24px; border: 1px solid #d1fae5; }
-.isnot-col { background: #fef2f2; border-radius: 10px; padding: 24px; border: 1px solid #fecaca; }
-.is-col h3, .isnot-col h3 { font-size: 18px; margin-bottom: 12px; }
-.is-col h3 { color: #065f46; }
-.isnot-col h3 { color: #991b1b; }
-.is-col ul, .isnot-col ul { list-style: none; padding: 0; margin: 0; }
-.is-col li, .isnot-col li { font-size: 15px; line-height: 1.6; padding: 4px 0; color: #555; }
-.is-col li::before { content: "\2713 "; color: #059669; font-weight: 700; margin-right: 6px; }
-.isnot-col li::before { content: "\2717 "; color: #DC2626; font-weight: 700; margin-right: 6px; }
-
 /* Credentials list */
 .credentials-list { list-style: none; padding: 0; margin: 0 0 16px 0; }
 .credentials-list li { font-size: 16px; line-height: 1.7; color: #5A7184; padding: 4px 0; padding-left: 20px; position: relative; }
@@ -139,7 +126,6 @@ permalink: /about/facts/
 @media (max-width: 968px) {
     .facts-section { padding-top: 100px; padding-bottom: 80px; }
     .facts-section h1 { font-size: 34px; }
-    .is-isnot { flex-direction: column; gap: 16px; }
     .services-row { flex-direction: column; gap: 16px; }
     .facts-cta { padding: 32px 24px; }
     .facts-cta h2 { font-size: 24px; }
@@ -160,7 +146,7 @@ permalink: /about/facts/
 <section class="facts-section">
     <div class="container">
         <h1>Key Facts About Breezy Risk Advisors</h1>
-        <p class="subtitle">A reference page for journalists, partners, AI engines, and anyone who wants the short version.</p>
+        <p class="subtitle">A quick reference for background and credentials.</p>
 
         <div class="facts-content">
 
@@ -183,31 +169,6 @@ permalink: /about/facts/
                 <div class="fact-card">
                     <div class="fact-number">2024</div>
                     <div class="fact-label">Year founded</div>
-                </div>
-            </div>
-
-            <!-- What Breezy Risk Advisors Is / Is Not -->
-            <h2>What Breezy Risk Advisors Is and Is Not</h2>
-            <div class="is-isnot">
-                <div class="is-col">
-                    <h3>Breezy Risk Advisors Is</h3>
-                    <ul>
-                        <li>An independent, fee-based advisory practice</li>
-                        <li>Founded by a carrier and MGA veteran (CNA, Chubb, BOXX, Parachute)</li>
-                        <li>Focused on insurance technology, strategy, and risk analysis</li>
-                        <li>Published in Insurance Thought Leadership and American Banker</li>
-                        <li>Carrier-independent — no affiliations or commissions</li>
-                    </ul>
-                </div>
-                <div class="isnot-col">
-                    <h3>Breezy Risk Advisors Is Not</h3>
-                    <ul>
-                        <li>An insurance broker or agent</li>
-                        <li>A technology vendor or SaaS company</li>
-                        <li>A cybersecurity compliance firm</li>
-                        <li>Tied to any carrier, MGA, or program</li>
-                        <li>Commission-based</li>
-                    </ul>
                 </div>
             </div>
 
