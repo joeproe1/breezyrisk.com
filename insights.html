@@ -101,9 +101,9 @@ permalink: /insights/
             {% assign visible_posts = site.posts | where_exp: "post", "post.archived != true" | where_exp: "post", "post.hide_from_index != true" | where_exp: "post", "post.redirect_to == nil" | sort: 'date' | reverse %}
             {% for post in visible_posts limit: 9 %}
             <div class="post-card">
-                <div class="post-card-accent post-card-accent--{{ post.category | default: 'community-banks' | slugify }}"></div>
+                <div class="post-card-accent post-card-accent--{{ post.category | default: 'industry-trends' | slugify }}"></div>
                 <div class="post-card-body">
-                    <span class="post-category post-category--{{ post.category | default: 'community-banks' | slugify }}">{{ post.category }}</span>
+                    <span class="post-category post-category--{{ post.category | default: 'industry-trends' | slugify }}">{{ post.category }}</span>
                     {% if post.series_label %}<span class="post-series">{{ post.series_label }}</span>{% endif %}
                     <h2><a href="{{ post.url | relative_url }}">{{ post.card_title | default: post.title }}</a></h2>
                     <p class="post-excerpt">{{ post.description | default: post.excerpt | strip_html | truncatewords: 18 }}</p>
