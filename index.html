@@ -91,21 +91,14 @@ description: "Insurance strategy, technology, and operations advisory. Carrier t
     <div class="container">
         <h2>Recent Writing on Industry Trends</h2>
         <div class="writing-grid">
+            {% assign industry_posts = site.posts | where: "category", "Industry Trends" %}
+            {% for post in industry_posts limit:3 %}
             <div class="writing-card">
-                <span class="writing-date">October 2026</span>
-                <a href="{{ '/insights/ai-liability-arrived-before-the-loss-model/' | relative_url }}">AI Liability: The Insurance Arrived Before the Loss Model</a>
-                <p class="writing-desc">Three different approaches are emerging to price AI liability without historical loss data. Endorsements will scale fastest, but the companies building measurement alongside coverage are making the better bet.</p>
+                <span class="writing-date">{{ post.date | date: "%B %Y" }}</span>
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                <p class="writing-desc">{{ post.description }}</p>
             </div>
-            <div class="writing-card">
-                <span class="writing-date">October 2026</span>
-                <a href="{{ '/insights/the-cost-of-disassembly/' | relative_url }}">The Cost of Disassembly</a>
-                <p class="writing-desc">The disassembled insurance value chain consumes 35 cents of every premium dollar before a single claim is paid. The economics hold only if loss ratios stay well below average.</p>
-            </div>
-            <div class="writing-card">
-                <span class="writing-date">September 2026</span>
-                <a href="{{ '/insights/every-carrier-wants-its-own-cyber-mga/' | relative_url }}">Every Carrier Wants Its Own Cyber MGA</a>
-                <p class="writing-desc">Six deals in thirty months paired global balance sheets with cyber underwriting platforms. The independent model still works, but the list of willing partners is shrinking.</p>
-            </div>
+            {% endfor %}
         </div>
         <p class="writing-more"><a href="{{ '/insights/industry-trends/' | relative_url }}">All Industry Trends &rarr;</a></p>
     </div>
