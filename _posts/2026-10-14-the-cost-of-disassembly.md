@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Cost of Disassembly"
-description: "The disassembled insurance value chain consumes 35 cents of every premium dollar before a single claim is paid. The economics hold only if loss ratios stay well below the industry average."
+description: "The disassembled insurance value chain consumes 35 cents of every premium dollar before a single claim is paid — and the economics only hold under conditions most programs can't sustain."
 date: 2026-10-14
 author: Joerg Proeve
 category: Industry Trends

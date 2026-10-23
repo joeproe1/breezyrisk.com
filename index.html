@@ -75,31 +75,19 @@ description: "Insurance strategy, technology, and operations advisory. Carrier t
     </div>
 </section>
 
-<!-- Background -->
-<section class="advisory-background">
-    <div class="container">
-        <div class="advisory-inner">
-            <h2>Background</h2>
-            <p>My name is Joerg Proeve. I have spent my career on both sides of the insurance operating model &mdash; inside carriers like Chubb and CNA, and building MGAs from scratch. My background bridges business and engineering: MBA from London Business School and Master&rsquo;s in Electrical Engineering from Karlsruhe Institute of Technology, Germany.</p>
-            <p><a href="{{ '/about/' | relative_url }}">Full bio and credentials &rarr;</a></p>
-        </div>
-    </div>
-</section>
-
 <!-- Recent Writing -->
 <section class="advisory-writing">
     <div class="container">
         <h2>Recent Writing on Industry Trends</h2>
-        <div class="writing-grid">
+        <ul class="writing-list">
             {% assign industry_posts = site.posts | where: "category", "Industry Trends" %}
-            {% for post in industry_posts limit:3 %}
-            <div class="writing-card">
-                <span class="writing-date">{{ post.date | date: "%B %Y" }}</span>
-                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-                <p class="writing-desc">{{ post.description }}</p>
-            </div>
+            {% for post in industry_posts limit:4 %}
+            <li class="writing-item">
+                <a href="{{ post.url | relative_url }}" class="writing-title">{{ post.title }}</a>
+                {% if post.description %}<span class="writing-meta">{{ post.description | split: ". " | first }}.</span>{% endif %}
+            </li>
             {% endfor %}
-        </div>
+        </ul>
         <p class="writing-more"><a href="{{ '/insights/industry-trends/' | relative_url }}">All Industry Trends &rarr;</a></p>
     </div>
 </section>
@@ -163,35 +151,6 @@ description: "Insurance strategy, technology, and operations advisory. Carrier t
     padding-top: 12px;
 }
 
-/* Background section */
-.advisory-background {
-    padding: 48px 0;
-    background: var(--bg-light);
-}
-.advisory-background .advisory-inner {
-    max-width: 1000px;
-    margin: 0 auto;
-}
-.advisory-background h2 {
-    font-size: 28px;
-    margin-bottom: 24px;
-    text-align: center;
-}
-.advisory-background p {
-    font-size: 18px;
-    line-height: 1.8;
-    color: var(--text-secondary);
-    margin-bottom: 20px;
-}
-.advisory-background a:not(.btn) {
-    color: #00D4AA;
-    font-weight: 600;
-    text-decoration: none;
-}
-.advisory-background a:hover {
-    text-decoration: underline;
-}
-
 /* Recent writing section */
 .advisory-writing {
     padding: 48px 0;
@@ -203,26 +162,36 @@ description: "Insurance strategy, technology, and operations advisory. Carrier t
     margin-bottom: 24px;
     text-align: center;
 }
-.writing-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
-    max-width: 1080px;
+.writing-list {
+    max-width: 720px;
     margin: 0 auto;
     list-style: none;
     padding: 0;
 }
-.writing-card {
-    padding: 24px;
-    border-left: 3px solid #00D4AA;
-    background: rgba(255,255,255,0.10);
-    border-radius: 0 12px 12px 0;
-    transition: background 0.2s;
-    display: flex;
-    flex-direction: column;
+.writing-item {
+    padding: 18px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
 }
-.writing-card:hover {
-    background: rgba(255,255,255,0.15);
+.writing-item:last-child {
+    border-bottom: none;
+}
+.writing-title {
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    line-height: 1.4;
+    display: block;
+}
+.writing-title:hover {
+    color: #00D4AA;
+}
+.writing-meta {
+    display: block;
+    margin-top: 6px;
+    font-size: 14px;
+    color: rgba(255,255,255,0.45);
+    line-height: 1.5;
 }
 .writing-more {
     text-align: center;
@@ -231,46 +200,19 @@ description: "Insurance strategy, technology, and operations advisory. Carrier t
 .writing-more a {
     font-size: 15px;
     font-weight: 600;
-    color: rgba(255,255,255,0.6);
+    color: #00D4AA;
     text-decoration: none;
 }
 .writing-more a:hover {
-    color: #00D4AA;
-}
-.writing-date {
-    font-size: 13px;
-    font-weight: 500;
-    color: rgba(255,255,255,0.4);
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-    display: block;
-    margin-bottom: 8px;
-}
-.writing-card a {
-    font-size: 17px;
-    font-weight: 600;
-    color: #fff;
-    text-decoration: none;
-    line-height: 1.4;
-}
-.writing-card a:hover {
-    color: #00D4AA;
-}
-.writing-card .writing-desc {
-    font-size: 15px;
-    color: rgba(255,255,255,0.6);
-    margin: 10px 0 0;
-    line-height: 1.6;
-    flex: 1;
+    text-decoration: underline;
 }
 
 @media (max-width: 968px) {
-    .advisory-focus, .advisory-background { padding: 60px 0; }
+    .advisory-focus { padding: 60px 0; }
     .advisory-writing { padding: 56px 0; }
-    .focus-grid, .writing-grid { grid-template-columns: 1fr; }
+    .focus-grid { grid-template-columns: 1fr; }
 }
 @media (max-width: 768px) {
-    .advisory-focus h2, .advisory-background h2, .advisory-writing h2 { font-size: 24px; }
-    .writing-card { padding: 20px; }
+    .advisory-focus h2, .advisory-writing h2 { font-size: 24px; }
 }
 </style>
