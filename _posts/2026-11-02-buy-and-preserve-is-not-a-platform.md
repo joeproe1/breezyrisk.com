@@ -33,11 +33,85 @@ And the autonomy has an expiration date. Most earn-outs tie the founder for 3-5 
 
 In 2022, Carlyle acquired NSM Insurance Group for $1.8 billion -- programs across specialty P&C, accident & health, and reinsurance. Three years later, Carlyle split NSM into two entities: the commercial programs were sold to New Mountain Capital and rebranded as Novacore, the niche specialty businesses were retained as Ignyte, and the NSM brand was retired. Six months after the split, Ignyte sold its collector vehicle division to Philadelphia Insurance Companies for $615 million. The platform is being monetized as parts.
 
+<div style="margin: 32px 0; padding: 0 12px;">
+<div style="display: flex; align-items: center; gap: 0; position: relative;">
+<!-- Timeline bar -->
+<div style="position: absolute; top: 50%; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, #00D4AA, #0A2540); transform: translateY(-50%); z-index: 0;"></div>
+<!-- Node 1 -->
+<div style="flex: 1; text-align: center; position: relative; z-index: 1;">
+<div style="width: 14px; height: 14px; background: #00D4AA; border-radius: 50%; margin: 0 auto 10px;"></div>
+<div style="font-size: 13px; font-weight: 700; color: #0A2540;">Aug 2022</div>
+<div style="font-size: 12px; color: #6B7B8D; line-height: 1.4; margin-top: 4px;">Carlyle acquires NSM<br>$1.8B</div>
+</div>
+<!-- Node 2 -->
+<div style="flex: 1; text-align: center; position: relative; z-index: 1;">
+<div style="width: 14px; height: 14px; background: #00D4AA; border-radius: 50%; margin: 0 auto 10px;"></div>
+<div style="font-size: 13px; font-weight: 700; color: #0A2540;">Apr 2025</div>
+<div style="font-size: 12px; color: #6B7B8D; line-height: 1.4; margin-top: 4px;">Split: Novacore sold,<br>Ignyte retained, NSM retired</div>
+</div>
+<!-- Node 3 -->
+<div style="flex: 1; text-align: center; position: relative; z-index: 1;">
+<div style="width: 14px; height: 14px; background: #00D4AA; border-radius: 50%; margin: 0 auto 10px;"></div>
+<div style="font-size: 13px; font-weight: 700; color: #0A2540;">Oct 2025</div>
+<div style="font-size: 12px; color: #6B7B8D; line-height: 1.4; margin-top: 4px;">Ignyte sells collector<br>vehicles to PHLY — $615M</div>
+</div>
+</div>
+</div>
+
 NSM's separation raises a question every MGA platform should be able to answer: which businesses benefit from common ownership, and what capabilities make that ownership valuable?
 
 A back of the envelope illustration: Assume an MGA platform with 20 programs of similar size. A buyer looks at the programs individually. Fourteen are performing well and get valued at 15x EBITDA. Three have deteriorating loss ratios and get valued at 7x. Two have earn-outs expiring within 12 months with no clear successor -- without the team, they only get valued at 4x. One is in a capacity dispute and gets excluded from the bid.
 
 The gross sum-of-parts comes to roughly 12x across the portfolio. Then the buyer subtracts the platform management layer and applies a conglomerate discount because the programs operate independently and could be owned separately. Net to the buyer: 10-11x. The sponsor assembled the portfolio at 12x over seven years.
+
+<div style="margin: 28px 0; overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse; font-size: 15px; line-height: 1.5;">
+<thead>
+<tr style="border-bottom: 2px solid #0A2540;">
+<th style="text-align: left; padding: 10px 16px; color: #0A2540; font-weight: 700;">Programs</th>
+<th style="text-align: center; padding: 10px 16px; color: #0A2540; font-weight: 700;">Count</th>
+<th style="text-align: center; padding: 10px 16px; color: #0A2540; font-weight: 700;">Multiple</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border-bottom: 1px solid #E5E7EB;">
+<td style="padding: 10px 16px; color: #374151;">Performing well</td>
+<td style="text-align: center; padding: 10px 16px; color: #374151;">14</td>
+<td style="text-align: center; padding: 10px 16px; color: #374151;">15x</td>
+</tr>
+<tr style="border-bottom: 1px solid #E5E7EB;">
+<td style="padding: 10px 16px; color: #374151;">Deteriorating loss ratios</td>
+<td style="text-align: center; padding: 10px 16px; color: #374151;">3</td>
+<td style="text-align: center; padding: 10px 16px; color: #374151;">7x</td>
+</tr>
+<tr style="border-bottom: 1px solid #E5E7EB;">
+<td style="padding: 10px 16px; color: #374151;">Earn-out expiring, no successor</td>
+<td style="text-align: center; padding: 10px 16px; color: #374151;">2</td>
+<td style="text-align: center; padding: 10px 16px; color: #374151;">4x</td>
+</tr>
+<tr style="border-bottom: 1px solid #E5E7EB;">
+<td style="padding: 10px 16px; color: #374151;">Capacity dispute</td>
+<td style="text-align: center; padding: 10px 16px; color: #374151;">1</td>
+<td style="text-align: center; padding: 10px 16px; color: #6B7B8D; font-style: italic;">Excluded</td>
+</tr>
+<tr style="border-bottom: 2px solid #0A2540; background: #f8faf9;">
+<td style="padding: 10px 16px; font-weight: 700; color: #0A2540;">Gross sum-of-parts</td>
+<td style="text-align: center; padding: 10px 16px;"></td>
+<td style="text-align: center; padding: 10px 16px; font-weight: 700; color: #0A2540;">~12x</td>
+</tr>
+<tr style="border-bottom: 1px solid #E5E7EB;">
+<td style="padding: 10px 16px; color: #6B7B8D;">Less: platform overhead, conglomerate discount</td>
+<td style="text-align: center; padding: 10px 16px;"></td>
+<td style="text-align: center; padding: 10px 16px;"></td>
+</tr>
+<tr style="background: #f8faf9;">
+<td style="padding: 10px 16px; font-weight: 700; color: #0A2540;">Net to buyer</td>
+<td style="text-align: center; padding: 10px 16px;"></td>
+<td style="text-align: center; padding: 10px 16px; font-weight: 700; color: #0A2540;">10–11x</td>
+</tr>
+</tbody>
+</table>
+</div>
 
 Of course, this is simplified, not a valuation model. But it shows how program-level diligence can disaggregate a portfolio story that looks compelling in aggregate.
 
