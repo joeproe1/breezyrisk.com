@@ -4,7 +4,7 @@ title: "Credit Union Insurance Gaps"
 description: "Credit union programs bundle cyber, D&O, and bond under one relationship. Claims get paid policy by policy. The gaps between them are the real exposure."
 date: 2026-07-01
 author: Joerg Proeve
-category: Case Study
+category: Financial Institutions
 read_time: "5 min read"
 image: /assets/images/Blog-Credit-Union-Insurance-Gaps.png
 image_alt: "Credit union insurance program gaps between bundled cyber, fidelity bond, and D&O policies when a claim hits"

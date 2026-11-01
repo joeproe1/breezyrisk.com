@@ -5,7 +5,7 @@ card_title: "The Next Decade of Risk Transfer"
 description: "The gap between how risks behave and how insurance responds is widening. Speed, correlation, and traceability are outpacing traditional models. Where does parametric fit in the next decade of risk transfer?"
 date: 2026-05-25
 author: Joerg Proeve
-category: Parametric
+category: "AI & Emerging Risks"
 read_time: "7 min read"
 image: /assets/images/Blog-Next-Decade-Risk-Transfer.png
 image_alt: "Future of risk transfer showing the gap between how risks behave and how insurance responds over the next decade"

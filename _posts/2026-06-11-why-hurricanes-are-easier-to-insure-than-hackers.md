@@ -5,7 +5,7 @@ card_title: "Hurricanes vs. Hackers"
 description: "Cyber catastrophe bonds have crossed $1.2 billion. The capital markets are betting on a risk they cannot fully model."
 date: 2026-06-11
 author: Joerg Proeve
-category: Industry Trends
+category: Cyber Insurance
 read_time: "4 min read"
 image: /assets/images/Blog-Hurricanes-vs-Hackers.png
 image_alt: "Cyber catastrophe bonds crossing 1.2 billion dollars compared to mature hurricane catastrophe bond market"

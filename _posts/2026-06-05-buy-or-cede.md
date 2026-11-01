@@ -5,7 +5,7 @@ card_title: "Buy or Cede"
 description: "Zurich paid $10.9B for Beazley. Allianz handed its cyber book to Coalition. Two opposite strategies, one admission: we cannot build this internally."
 date: 2026-06-05
 author: Joerg Proeve
-category: Industry Trends
+category: MGA Operations
 read_time: "6 min read"
 image: /assets/images/Blog-Buy-or-Cede.png
 image_alt: "Zurich Beazley acquisition versus Allianz Coalition cyber underwriting deal showing two opposite carrier strategies"

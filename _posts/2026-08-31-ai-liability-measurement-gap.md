@@ -4,7 +4,7 @@ title: "Insuring AI Liability Without Measuring the Risks"
 description: "The first cohort of AI liability writers is live. The measurement infrastructure underneath them is not. A map of who is writing, what they are pricing from, and what is missing."
 date: 2026-08-31
 author: Joerg Proeve
-category: Industry Trends
+category: "AI & Emerging Risks"
 read_time: "9 min read"
 last_modified_at: 2026-08-31
 image: /assets/images/Blog-AI-Liability-Measurement-Gap.png

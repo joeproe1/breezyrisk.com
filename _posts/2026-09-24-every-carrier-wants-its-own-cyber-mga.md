@@ -4,7 +4,7 @@ title: "Every Carrier Wants Its Own Cyber MGA"
 description: "Six deals in thirty months paired global balance sheets with cyber underwriting platforms. The independent MGA model still works, but the list of willing partners is shrinking."
 date: 2026-09-24
 author: Joerg Proeve
-category: Industry Trends
+category: MGA Operations
 read_time: "11 min read"
 last_modified_at: 2026-09-24
 image: /assets/images/cyber-mga-landscape.png

@@ -4,7 +4,7 @@ title: "The Cost of Disassembly"
 description: "The disassembled insurance value chain consumes 35 cents of every premium dollar before a single claim is paid — and the economics only hold under conditions most programs can't sustain."
 date: 2026-10-14
 author: Joerg Proeve
-category: Industry Trends
+category: MGA Operations
 read_time: "11 min read"
 image: /assets/images/Blog-Cost-of-Disassembly.png
 image_alt: "Disassembled precision cylinder components arranged in sequence, illustrating how the insurance value chain has been pulled apart into separate specialists."

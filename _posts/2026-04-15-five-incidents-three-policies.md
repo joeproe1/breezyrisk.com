@@ -4,7 +4,7 @@ title: "Five Incidents, Three Policies"
 description: "Five common cyber incidents mapped against cyber, D&O, and bond policies from different carriers. Where each responds, and where coverage falls apart."
 date: 2026-04-15
 author: Joerg Proeve
-category: Case Study
+category: Cyber Insurance
 read_time: "4 min read"
 image: /assets/images/Blog-Policy-Interaction-Map.png
 image_alt: "Policy interaction map showing how five cyber incidents trigger gaps between cyber, D&O, and fidelity bond policies"

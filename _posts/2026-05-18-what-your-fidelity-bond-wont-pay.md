@@ -5,7 +5,7 @@ card_title: "Fidelity Bond Coverage Gaps"
 description: "Banks assume the bond covers fraud. It does — with conditions most have never read. Where bonds fail and what to check before renewal."
 date: 2026-05-18
 author: Joerg Proeve
-category: Policy Deep-Dive
+category: Financial Institutions
 image: /assets/images/Blog-Fidelity-Bond.png
 image_alt: "Fidelity bond coverage gaps at community banks including co-payment traps and verification requirements"
 read_time: "4 min read"

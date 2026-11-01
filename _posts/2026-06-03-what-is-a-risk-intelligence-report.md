@@ -5,7 +5,7 @@ card_title: "What Is a Risk Intelligence Report?"
 description: "Your bank audits its financials, IT controls, and vendor compliance. A Risk Intelligence Report audits the insurance that pays when those controls fail."
 date: 2026-06-03
 author: Joerg Proeve
-category: Policy Deep-Dive
+category: Financial Institutions
 image: /assets/images/Blog-What-Is-RIR.png
 image_alt: "Risk Intelligence Report overview showing line-by-line policy analysis for community bank cyber, D&O, and fidelity bond coverage"
 read_time: "5 min read"

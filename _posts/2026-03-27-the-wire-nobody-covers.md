@@ -4,7 +4,7 @@ title: "The Wire Nobody Covers"
 description: "A bank wires $400,000 on a fraudulent email. The cyber policy won't pay. The bond says voluntary. The bank recovers less than half."
 date: 2026-03-27
 author: Joerg Proeve
-category: Case Study
+category: Financial Institutions
 read_time: "5 min read"
 image: /assets/images/Blog-Wire-Nobody-Covers.png
 image_alt: "Wire fraud loss falling between cyber policy, fidelity bond, and D&O coverage at a community bank"

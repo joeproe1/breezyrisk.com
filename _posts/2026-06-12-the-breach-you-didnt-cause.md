@@ -4,7 +4,7 @@ title: "The Breach You Didn't Cause"
 description: "A vendor's sub-vendor gets breached. The bank is untouched, but the D&O exclusion blocks defense costs. The board lands on a cyber limit already being spent."
 date: 2026-06-12
 author: Joerg Proeve
-category: Case Study
+category: Cyber Insurance
 read_time: "3 min read"
 image: /assets/images/Blog-Breach-You-Didnt-Cause.png
 image_alt: "Vendor sub-vendor breach at a community bank, with the D&O cyber exclusion pushing the board's defense onto the cyber policy"

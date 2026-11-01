@@ -4,7 +4,7 @@ title: "The Counterparty Question: AI-Native Insurance Carriers"
 description: "AI-native carriers raise $260M and quote in minutes. When a bank needs to file a claim, who pays? Seven questions every board should ask."
 date: 2026-05-12
 author: Joerg Proeve
-category: Industry Trends
+category: MGA Operations
 read_time: "6 min read"
 image: /assets/images/Blog-Counterparty-Question.png
 image_alt: "AI-native insurance carrier counterparty risk questions for community bank boards evaluating new cyber insurers"

@@ -4,7 +4,7 @@ title: "AI Liability: The Insurance Arrived Before the Loss Model"
 description: "Three different approaches are emerging to price AI liability without historical loss data. Endorsements will scale fastest, but the companies building measurement alongside coverage are making the better bet."
 date: 2026-10-19
 author: Joerg Proeve
-category: Industry Trends
+category: "AI & Emerging Risks"
 read_time: "9 min read"
 image: /assets/images/Blog-AI-Liability-Arrived-Before-Loss-Model.png
 image_alt: "AI liability insurance inversion — the coverage arrived before the loss model to price it"

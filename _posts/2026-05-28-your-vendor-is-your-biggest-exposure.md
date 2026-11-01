@@ -5,7 +5,7 @@ card_title: "Vendor Risk Insurance Gaps"
 description: "Banks depend on core vendors for everything. Most insure that dependency with a sublimit that could exhaust in days. Here is what to check."
 date: 2026-05-28
 author: Joerg Proeve
-category: Policy Deep-Dive
+category: Cyber Insurance
 read_time: "7 min read"
 image: /assets/images/Blog-Vendor-Exposure.png
 image_alt: "Community bank vendor dependency versus cyber policy sublimit showing the gap between exposure and coverage"

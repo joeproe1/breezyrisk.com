@@ -78,17 +78,17 @@ description: "Insurance strategy, technology, and operations advisory. Carrier t
 <!-- Recent Writing -->
 <section class="advisory-writing">
     <div class="container">
-        <h2>Recent Writing on Industry Trends</h2>
+        <h2>Recent Writing</h2>
         <ul class="writing-list">
-            {% assign industry_posts = site.posts | where: "category", "Industry Trends" %}
-            {% for post in industry_posts limit:4 %}
+            {% assign recent_posts = site.posts | where_exp: "post", "post.archived != true" | where_exp: "post", "post.hide_from_index != true" | where_exp: "post", "post.redirect_to == nil" %}
+            {% for post in recent_posts limit:4 %}
             <li class="writing-item">
                 <a href="{{ post.url | relative_url }}" class="writing-title">{{ post.title }}</a>
                 {% if post.description %}<span class="writing-meta">{{ post.description | split: ". " | first }}.</span>{% endif %}
             </li>
             {% endfor %}
         </ul>
-        <p class="writing-more"><a href="{{ '/insights/industry-trends/' | relative_url }}">All Industry Trends &rarr;</a></p>
+        <p class="writing-more"><a href="{{ '/insights/' | relative_url }}">All Insights &rarr;</a></p>
     </div>
 </section>
 

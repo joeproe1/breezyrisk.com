@@ -4,7 +4,7 @@ title: "Everything Scarce in Insurance Is Becoming Abundant. Except Three Things
 description: "How information, technology, and capital stopped being scarce, and who owns the scarcities that remain."
 date: 2026-09-17
 author: Joerg Proeve
-category: Industry Trends
+category: Carrier Technology Strategy
 read_time: "9 min read"
 last_modified_at: 2026-09-17
 image: /assets/images/Blog-Everything-Scarce-Becoming-Abundant.png

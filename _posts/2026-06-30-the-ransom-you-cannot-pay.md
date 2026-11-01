@@ -4,7 +4,7 @@ title: "The Ransom You Cannot Pay"
 description: "Ransomware encrypts your bank's data. The carrier won't authorize payment because the threat actor is on an OFAC sanctions list. Your cyber policy has coverage. Your compliance obligations won't let you use it."
 date: 2026-06-30
 author: Joerg Proeve
-category: Policy Deep-Dive
+category: Cyber Insurance
 read_time: "1 min read"
 permalink: /insights/the-ransom-you-cannot-pay/
 last_modified_at: 2026-06-30

@@ -5,7 +5,7 @@ card_title: "Buy and Preserve Is Not a Platform"
 description: "PE-backed MGA platforms promise founders autonomy. That autonomy also prevents the platform from building the underwriting intelligence that would make it worth more than the sum of its parts."
 date: 2026-11-02
 author: Joerg Proeve
-category: Industry Trends
+category: MGA Operations
 read_time: "6 min read"
 image: /assets/images/Blog-Buy-and-Preserve.png
 image_alt: "Stacked shipping containers in a grid pattern with two empty slots, illustrating a collection that looks integrated but has structural gaps."

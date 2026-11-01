@@ -4,7 +4,7 @@ title: "The Program Problem"
 description: "Association-endorsed bank insurance programs have real strengths — and structural gaps that persist because nobody has incentive to audit them."
 date: 2026-05-22
 author: Joerg Proeve
-category: Policy Deep-Dive
+category: Financial Institutions
 image: /assets/images/Blog-Program-Problem.png
 image_alt: "Structural gaps in association-endorsed bank insurance programs that persist because nobody audits them"
 read_time: "6 min read"

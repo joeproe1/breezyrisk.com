@@ -5,7 +5,7 @@ card_title: "Fast Money, Slow Trust"
 description: "The parametric insurance market has passed $20 billion but the conversation about basis risk, trigger design, and coordination with existing coverage is not keeping pace. Five questions every buyer should answer."
 date: 2026-05-15
 author: Joerg Proeve
-category: Parametric
+category: "AI & Emerging Risks"
 read_time: "6 min read"
 image: /assets/images/Blog-Fast-Money-Slow-Trust.png
 image_alt: "Parametric insurance market growth outpacing confidence in basis risk and trigger design"

@@ -5,7 +5,7 @@ card_title: "What RPA Should Have Taught Carriers About AI"
 description: "Almost all P&C carriers are using AI somewhere. Only 10% have scaled it beyond pilots. The structural problems are twenty years old."
 date: 2026-08-13
 author: Joerg Proeve
-category: Industry Trends
+category: Carrier Technology Strategy
 read_time: "8 min read"
 image: /assets/images/Blog-RPA-Lessons-AI.png
 image_alt: "What RPA should have taught P&C carriers about AI — legacy architecture, talent gaps, and pilot purgatory"

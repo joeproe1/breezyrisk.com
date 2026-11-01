@@ -4,7 +4,7 @@ title: "The D&O Cyber Exclusion"
 description: "A breach hits a bank. The D&O excludes cyber claims. Directors fall back on the cyber policy — but breach response spends that limit first."
 date: 2026-04-01
 author: Joerg Proeve
-category: Case Study
+category: Financial Institutions
 read_time: "5 min read"
 image: /assets/images/Blog-Board-Nobody-Insures.png
 image_alt: "Community bank board of directors after a data breach, with the D&O cyber exclusion blocking coverage and the defense falling to the cyber policy"

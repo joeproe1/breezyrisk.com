@@ -5,7 +5,7 @@ card_title: "NYDFS: What It Means for Your Insurance"
 description: "NYDFS has collected $63M in penalties under 23 NYCRR 500. The per-day rate applies regardless of size, and most D&O policies exclude the investigation costs."
 date: 2026-07-22
 author: Joerg Proeve
-category: Policy Deep-Dive
+category: Cyber Insurance
 read_time: "5 min read"
 image: /assets/images/Blog-NYDFS-Insurance.png
 image_alt: "NYDFS 23 NYCRR 500 cybersecurity regulation and community bank D&O insurance investigative costs gap"

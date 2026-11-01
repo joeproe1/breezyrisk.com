@@ -4,7 +4,7 @@ title: "The Two-Track MGA Market"
 description: "PE-backed platforms and AI-native MGAs share a label but run on two distinct tracks. Different talent, technology, capital, and capacity. When they converge, it will run through the carriers."
 date: 2026-10-22
 author: Joerg Proeve
-category: Industry Trends
+category: MGA Operations
 read_time: "9 min read"
 image: /assets/images/Blog-Two-Track-MGA-Market.jpg
 image_alt: "Aerial view of Passau, Germany, where the Danube, Inn, and Ilz rivers converge — three currents running side by side before merging."

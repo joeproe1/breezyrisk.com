@@ -4,7 +4,7 @@ title: "Five Audits, Same Gaps"
 description: "Five community banks. Different carriers. Different programs. The same five coverage failures. Aggregate findings with a bank-by-bank scorecard."
 date: 2026-06-16
 author: Joerg Proeve
-category: Case Study
+category: Financial Institutions
 read_time: "4 min read"
 image: /assets/images/Blog-Five-Audits-Same-Gaps.png
 image_alt: "Five community bank insurance audits revealing similar coverage gaps across different carriers and program structures"

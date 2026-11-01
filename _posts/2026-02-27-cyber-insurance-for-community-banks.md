@@ -4,7 +4,7 @@ title: "Cyber Insurance for Community Banks"
 description: "Most community banks have a cyber policy. Few understand what it actually covers. Here is what to check before your next board meeting or examination."
 date: 2026-02-27
 author: Joerg Proeve
-category: Policy Deep-Dive
+category: Financial Institutions
 read_time: "7 min read"
 image: /assets/images/Blog-Cyber-Insurance-Banks.png
 image_alt: "Community bank cyber insurance policy analysis showing coverage gaps in first-party and third-party sections"

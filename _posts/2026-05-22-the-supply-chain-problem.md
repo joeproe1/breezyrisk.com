@@ -5,7 +5,7 @@ card_title: "The Supply Chain Problem"
 description: "A single ransomware attack caused $450M+ in semiconductor supply chain losses. Traditional insurance covered the downstream impact at zero dollars. Is parametric the right answer, or are we reaching for the nearest product?"
 date: 2026-05-22
 author: Joerg Proeve
-category: Parametric
+category: "AI & Emerging Risks"
 read_time: "7 min read"
 image: /assets/images/Blog-Supply-Chain-Problem.png
 image_alt: "Semiconductor supply chain ransomware loss of 450 million dollars with zero traditional insurance recovery"

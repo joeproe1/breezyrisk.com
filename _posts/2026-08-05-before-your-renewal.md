@@ -5,7 +5,7 @@ subtitle: "When was the last time anyone read the forms?"
 description: "Three-year programs give banks bundled pricing and stable coverage. They also give carriers three years to revise forms while nobody reads the amendments."
 date: 2026-08-05
 author: Joerg Proeve
-category: Community Banks
+category: Financial Institutions
 read_time: "5 min read"
 image: /assets/images/Blog-Before-Your-Renewal.png
 image_alt: "Before your renewal: three-year insurance program gaps that community banks miss between formal renewals"

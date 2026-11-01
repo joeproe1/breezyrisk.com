@@ -4,7 +4,7 @@ title: "The Cheap-Good-Fast Triangle of Insurance"
 description: "Insurance distribution chose cheap and fast. The side that fell away was good. Most bank programs have never had a line-by-line policy review."
 date: 2026-07-06
 author: Joerg Proeve
-category: Industry Trends
+category: Financial Institutions
 read_time: "3 min read"
 image: /assets/images/Blog-Cheap-Good-Fast-Triangle.png
 image_alt: "The cheap good fast triangle applied to insurance distribution for community banks"
