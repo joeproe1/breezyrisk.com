@@ -102,7 +102,7 @@ Any carrier evaluating its AI path should answer three questions.
 <div style="margin: 28px 0; display: flex; flex-direction: column; gap: 16px;">
 <div style="display: flex; gap: 16px; align-items: baseline;">
 <span style="font-family: var(--font-mono), 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; color: #00D4AA; text-transform: uppercase; letter-spacing: 0.05em; min-width: 52px;">Buy</span>
-<span style="font-size: 16px; color: var(--text-secondary); line-height: 1.6;">From whom, and how does the vendor's output enter your existing workflow?</span>
+<span style="font-size: 16px; color: var(--text-secondary); line-height: 1.6;">From whom, and what happens to your underwriting data once it's inside their platform?</span>
 </div>
 <div style="display: flex; gap: 16px; align-items: baseline;">
 <span style="font-family: var(--font-mono), 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; color: #00D4AA; text-transform: uppercase; letter-spacing: 0.05em; min-width: 52px;">Build</span>
@@ -110,7 +110,7 @@ Any carrier evaluating its AI path should answer three questions.
 </div>
 <div style="display: flex; gap: 16px; align-items: baseline;">
 <span style="font-family: var(--font-mono), 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; color: #00D4AA; text-transform: uppercase; letter-spacing: 0.05em; min-width: 52px;">Wait</span>
-<span style="font-size: 16px; color: var(--text-secondary); line-height: 1.6;">How long before your competitors' AI advantage compounds into a permanent gap?</span>
+<span style="font-size: 16px; color: var(--text-secondary); line-height: 1.6;">How many renewal cycles before your competitors' pricing models are trained on data you haven't started collecting?</span>
 </div>
 </div>
 
