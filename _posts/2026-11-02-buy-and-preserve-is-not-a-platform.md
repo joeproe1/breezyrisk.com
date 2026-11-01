@@ -33,28 +33,23 @@ And the autonomy has an expiration date. Most earn-outs tie the founder for 3-5 
 
 In 2022, Carlyle acquired NSM Insurance Group for $1.8 billion -- programs across specialty P&C, accident & health, and reinsurance. Three years later, Carlyle split NSM into two entities: the commercial programs were sold to New Mountain Capital and rebranded as Novacore, the niche specialty businesses were retained as Ignyte, and the NSM brand was retired. Six months after the split, Ignyte sold its collector vehicle division to Philadelphia Insurance Companies for $615 million. The platform is being monetized as parts.
 
-<div style="margin: 32px 0; padding: 0 12px;">
-<div style="display: flex; align-items: center; gap: 0; position: relative;">
-<!-- Timeline bar -->
-<div style="position: absolute; top: 50%; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, #00D4AA, #0A2540); transform: translateY(-50%); z-index: 0;"></div>
-<!-- Node 1 -->
-<div style="flex: 1; text-align: center; position: relative; z-index: 1;">
-<div style="width: 14px; height: 14px; background: #00D4AA; border-radius: 50%; margin: 0 auto 10px;"></div>
-<div style="font-size: 13px; font-weight: 700; color: #0A2540;">Aug 2022</div>
-<div style="font-size: 12px; color: #6B7B8D; line-height: 1.4; margin-top: 4px;">Carlyle acquires NSM<br>$1.8B</div>
+<div style="margin: 32px 0; padding: 0 24px 0 12px;">
+<!-- Dates -->
+<div style="display: flex; margin-bottom: 10px;">
+<div style="flex: 1; text-align: center; font-size: 14px; font-weight: 700; color: #0A2540;">Aug 2022</div>
+<div style="flex: 1; text-align: center; font-size: 14px; font-weight: 700; color: #0A2540;">Apr 2025</div>
+<div style="flex: 1; text-align: center; font-size: 14px; font-weight: 700; color: #0A2540;">Oct 2025</div>
 </div>
-<!-- Node 2 -->
-<div style="flex: 1; text-align: center; position: relative; z-index: 1;">
-<div style="width: 14px; height: 14px; background: #00D4AA; border-radius: 50%; margin: 0 auto 10px;"></div>
-<div style="font-size: 13px; font-weight: 700; color: #0A2540;">Apr 2025</div>
-<div style="font-size: 12px; color: #6B7B8D; line-height: 1.4; margin-top: 4px;">Split: Novacore sold,<br>Ignyte retained, NSM retired</div>
+<!-- Timeline bar with arrow -->
+<div style="position: relative; height: 3px; margin-bottom: 10px;">
+<div style="position: absolute; top: 0; left: 0; right: 12px; height: 3px; background: linear-gradient(90deg, #00D4AA, #0A2540);"></div>
+<div style="position: absolute; top: -5px; right: 0; width: 0; height: 0; border-top: 6.5px solid transparent; border-bottom: 6.5px solid transparent; border-left: 12px solid #0A2540;"></div>
 </div>
-<!-- Node 3 -->
-<div style="flex: 1; text-align: center; position: relative; z-index: 1;">
-<div style="width: 14px; height: 14px; background: #00D4AA; border-radius: 50%; margin: 0 auto 10px;"></div>
-<div style="font-size: 13px; font-weight: 700; color: #0A2540;">Oct 2025</div>
-<div style="font-size: 12px; color: #6B7B8D; line-height: 1.4; margin-top: 4px;">Ignyte sells collector<br>vehicles to PHLY — $615M</div>
-</div>
+<!-- Descriptions -->
+<div style="display: flex;">
+<div style="flex: 1; text-align: center; font-size: 12px; color: #6B7B8D; line-height: 1.4;">Carlyle acquires NSM<br>$1.8B</div>
+<div style="flex: 1; text-align: center; font-size: 12px; color: #6B7B8D; line-height: 1.4;">Novacore sold to New Mountain,<br>Ignyte retained, NSM retired</div>
+<div style="flex: 1; text-align: center; font-size: 12px; color: #6B7B8D; line-height: 1.4;">Ignyte sells collector<br>vehicles to PHLY — $615M</div>
 </div>
 </div>
 
@@ -68,9 +63,9 @@ The gross sum-of-parts comes to roughly 12x across the portfolio. Then the buyer
 <table style="width: 100%; border-collapse: collapse; font-size: 15px; line-height: 1.5;">
 <thead>
 <tr style="border-bottom: 2px solid #0A2540;">
-<th style="text-align: left; padding: 10px 16px; color: #0A2540; font-weight: 700;">Programs</th>
-<th style="text-align: center; padding: 10px 16px; color: #0A2540; font-weight: 700;">Count</th>
-<th style="text-align: center; padding: 10px 16px; color: #0A2540; font-weight: 700;">Multiple</th>
+<th style="text-align: left; padding: 10px 16px; color: #FFFFFF; font-weight: 700;">Programs</th>
+<th style="text-align: center; padding: 10px 16px; color: #FFFFFF; font-weight: 700;">Count</th>
+<th style="text-align: center; padding: 10px 16px; color: #FFFFFF; font-weight: 700;">Multiple</th>
 </tr>
 </thead>
 <tbody>
