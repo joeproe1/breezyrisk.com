@@ -83,6 +83,7 @@ description: "Insurance strategy, technology, and operations advisory. Carrier t
             {% assign recent_posts = site.posts | where_exp: "post", "post.archived != true" | where_exp: "post", "post.hide_from_index != true" | where_exp: "post", "post.redirect_to == nil" %}
             {% for post in recent_posts limit:4 %}
             <li class="writing-item">
+                <span class="writing-category writing-category--{{ post.category | slugify }}">{{ post.category }}</span>
                 <a href="{{ post.url | relative_url }}" class="writing-title">{{ post.title }}</a>
                 {% if post.description %}<span class="writing-meta">{{ post.description | split: ". " | first }}.</span>{% endif %}
             </li>
@@ -175,6 +176,20 @@ description: "Insurance strategy, technology, and operations advisory. Carrier t
 .writing-item:last-child {
     border-bottom: none;
 }
+.writing-category {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    display: block;
+    margin-bottom: 4px;
+}
+.writing-category--mga-operations { color: #0EA5E9; }
+.writing-category--carrier-technology-strategy { color: #3B82F6; }
+.writing-category--ai-emerging-risks { color: #F59E0B; }
+.writing-category--cyber-insurance { color: #EC4899; }
+.writing-category--financial-institutions { color: #8B5CF6; }
 .writing-title {
     font-size: 17px;
     font-weight: 600;
