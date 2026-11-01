@@ -29,6 +29,44 @@ Then AI arrived, and the talent that did exist started leaving. Mid-career AVPs 
 
 Insurance has a problem most industries don't: core systems sit between AI and the work.
 
+<div style="margin: 36px auto; max-width: 480px; font-family: var(--font-mono), 'JetBrains Mono', monospace;">
+<!-- AI Layer -->
+<div style="background: #0A2540; border: 2px solid #3B82F6; border-radius: 10px; padding: 18px 24px; text-align: center;">
+<div style="font-size: 13px; font-weight: 700; color: #3B82F6; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px;">AI Capabilities</div>
+<div style="font-size: 12px; color: rgba(255,255,255,0.5); line-height: 1.5;">hyperexponential &middot; Send &middot; Planck &middot; Cytora</div>
+</div>
+<!-- Integration gap -->
+<div style="display: flex; align-items: center; gap: 10px; padding: 10px 0; justify-content: center;">
+<div style="flex: 1; height: 1px; background: repeating-linear-gradient(90deg, #F59E0B 0, #F59E0B 6px, transparent 6px, transparent 12px);"></div>
+<span style="font-size: 11px; font-weight: 700; color: #F59E0B; text-transform: uppercase; letter-spacing: 0.08em; white-space: nowrap;">Integration Gap</span>
+<div style="flex: 1; height: 1px; background: repeating-linear-gradient(90deg, #F59E0B 0, #F59E0B 6px, transparent 6px, transparent 12px);"></div>
+</div>
+<!-- Core Systems -->
+<div style="background: #0A2540; border: 2px solid rgba(255,255,255,0.2); border-radius: 10px; padding: 18px 24px; text-align: center;">
+<div style="font-size: 13px; font-weight: 700; color: #fff; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px;">Core Systems</div>
+<div style="display: flex; justify-content: center; gap: 24px; margin-top: 8px;">
+<div>
+<div style="font-size: 11px; font-weight: 600; color: rgba(255,255,255,0.7); margin-bottom: 4px;">PAS (Carrier)</div>
+<div style="font-size: 11px; color: rgba(255,255,255,0.4); line-height: 1.5;">Guidewire<br>Duck Creek<br>Majesco</div>
+</div>
+<div style="width: 1px; background: rgba(255,255,255,0.1);"></div>
+<div>
+<div style="font-size: 11px; font-weight: 600; color: rgba(255,255,255,0.7); margin-bottom: 4px;">AMS (Distribution)</div>
+<div style="font-size: 11px; color: rgba(255,255,255,0.4); line-height: 1.5;">Applied Epic<br>Vertafore</div>
+</div>
+</div>
+</div>
+<!-- Connector -->
+<div style="display: flex; justify-content: center; padding: 6px 0;">
+<div style="width: 1px; height: 20px; background: rgba(255,255,255,0.15);"></div>
+</div>
+<!-- Carrier Operations -->
+<div style="background: #0A2540; border: 2px solid rgba(255,255,255,0.1); border-radius: 10px; padding: 18px 24px; text-align: center;">
+<div style="font-size: 13px; font-weight: 700; color: rgba(255,255,255,0.5); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px;">Carrier Operations</div>
+<div style="font-size: 12px; color: rgba(255,255,255,0.35);">Underwriting &middot; Claims &middot; Pricing &middot; Distribution</div>
+</div>
+</div>
+
 On the carrier side, the Policy Administration System (Guidewire, Duck Creek, Majesco, Socotra) organizes everything around the policy. Quote, bind, issue, endorse, renew, cancel. Every active policy lives in this system, along with billing, regulatory reporting, and claims data. You cannot rip out a PAS without migrating every in-force policy. AI that touches underwriting has to integrate with the PAS, and the PAS doesn't make that easy.
 
 On the distribution side, the Agency Management System (Applied Epic, Vertafore) organizes everything around the account. The customer, the relationship, the book, the commissions. Applied Systems has made thirteen acquisitions including Planck and Cytora, embedding AI directly into the platform. Seven of the ten largest agencies run on Applied Epic.
@@ -49,7 +87,9 @@ Don't build the commodity capabilities: submission intake, document parsing, bas
 
 ## The judgment question
 
-Buying AI software is procurement. Building AI capability is organizational development. Procurement gives you tools. Organizational development gives you the muscle to use them and know when to override them.
+<div style="border-left: 3px solid #00D4AA; padding: 20px 24px; margin: 32px 0; background: rgba(0, 212, 170, 0.04); border-radius: 0 8px 8px 0;">
+<p style="font-size: 18px; font-weight: 600; color: var(--primary); line-height: 1.6; margin: 0;">Buying AI software is procurement. Building AI capability is organizational development. Procurement gives you tools. Organizational development gives you the muscle to use them and know when to override them.</p>
+</div>
 
 The senior underwriter who knows when the model is wrong (she's seen enough cycles, enough edge cases, enough claims that didn't follow the pattern) is the most valuable person in the building. AI doesn't reduce the need for that judgment. It raises the cost of not having it. A carrier that skips the organizational development part has outsourced judgment to a vendor.
 
@@ -57,6 +97,21 @@ The senior underwriter who knows when the model is wrong (she's seen enough cycl
 
 I've been on both sides. At a global carrier, I designed the governance framework that determined which technology investments moved forward. Most proposals that cleared the technical bar stalled on operating model fit. The technology was ready, but the organization needed to change around it, and that change didn't have a sponsor. At a cyber MGA, we built the policy admin system from scratch. No legacy system, no committee. The build was still harder than anyone expected. State-by-state compliance, rating algorithms, carrier integrations, and the domain complexity of insurance turned a few months into over a year.
 
-Any carrier evaluating its AI path should answer three questions. If you buy: from whom, and how does the vendor's output enter your existing workflow? If you build: can your engineering team explain what a loss ratio is, why a state filing matters, and how an endorsement changes the risk? If you wait: how long before your competitors' AI advantage compounds into a permanent gap?
+Any carrier evaluating its AI path should answer three questions.
+
+<div style="margin: 28px 0; display: flex; flex-direction: column; gap: 16px;">
+<div style="display: flex; gap: 16px; align-items: baseline;">
+<span style="font-family: var(--font-mono), 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; color: #00D4AA; text-transform: uppercase; letter-spacing: 0.05em; min-width: 52px;">Buy</span>
+<span style="font-size: 16px; color: var(--text-secondary); line-height: 1.6;">From whom, and how does the vendor's output enter your existing workflow?</span>
+</div>
+<div style="display: flex; gap: 16px; align-items: baseline;">
+<span style="font-family: var(--font-mono), 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; color: #00D4AA; text-transform: uppercase; letter-spacing: 0.05em; min-width: 52px;">Build</span>
+<span style="font-size: 16px; color: var(--text-secondary); line-height: 1.6;">Can your engineering team explain what a loss ratio is, why a state filing matters, and how an endorsement changes the risk?</span>
+</div>
+<div style="display: flex; gap: 16px; align-items: baseline;">
+<span style="font-family: var(--font-mono), 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; color: #00D4AA; text-transform: uppercase; letter-spacing: 0.05em; min-width: 52px;">Wait</span>
+<span style="font-size: 16px; color: var(--text-secondary); line-height: 1.6;">How long before your competitors' AI advantage compounds into a permanent gap?</span>
+</div>
+</div>
 
 Guidewire and Duck Creek have made their choice. The core system vendors are buying AI because they know their carrier clients can't build it and won't wait forever. Whether that AI serves the carrier's interests or the vendor's is the question nobody is asking loudly enough.
