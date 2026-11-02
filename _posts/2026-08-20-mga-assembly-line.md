@@ -26,13 +26,45 @@ This is a structural shift in where value is created in insurance. Depending on 
 
 What gets lost is accountability for the assembled product. An integrated carrier underwrites, prices, issues the policy, and pays the claim. The entity closest to the policyholder is the same one bearing the risk. Separate capital from distribution, and this alignment breaks. The MGA closest to the risk does not bear it. The reinsurer that bears it has no relationship with the policyholder. The fronting carrier on the declarations page may do neither. Each party owns its piece. Nobody owns the whole.
 
+<div style="margin: 32px 0; padding: 24px 28px; background: #f8faf9; border-radius: 10px;">
+<div style="font-size: 13px; font-weight: 700; color: #0A2540; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 20px;">The Assembled Value Chain</div>
+<!-- Flow row -->
+<div style="display: flex; align-items: stretch; gap: 0; flex-wrap: wrap;">
+<div style="flex: 1; min-width: 80px; text-align: center; padding: 12px 4px; border: 1px solid #E5E7EB; border-radius: 6px 0 0 6px; background: #fff; display: flex; flex-direction: column; justify-content: space-between;">
+<div style="font-size: 12px; font-weight: 700; color: #0A2540;">Policyholder</div>
+<div style="font-size: 11px; color: #6B7B8D; margin-top: 4px;">Pays premium</div>
+</div>
+<div style="display: flex; align-items: center; color: #6B7B8D; font-size: 16px;">&#8594;</div>
+<div style="flex: 1; min-width: 80px; text-align: center; padding: 12px 4px; border: 1px solid #E5E7EB; background: #fff; display: flex; flex-direction: column; justify-content: space-between;">
+<div style="font-size: 12px; font-weight: 700; color: #0A2540;">Retail Broker</div>
+<div style="font-size: 11px; color: #6B7B8D; margin-top: 4px;">Originates</div>
+</div>
+<div style="display: flex; align-items: center; color: #6B7B8D; font-size: 16px;">&#8594;</div>
+<div style="flex: 1; min-width: 80px; text-align: center; padding: 12px 4px; border: 1px solid #E5E7EB; background: #fff; display: flex; flex-direction: column; justify-content: space-between;">
+<div style="font-size: 12px; font-weight: 700; color: #0A2540;">Wholesaler</div>
+<div style="font-size: 11px; color: #6B7B8D; margin-top: 4px;">Routes</div>
+</div>
+<div style="display: flex; align-items: center; color: #6B7B8D; font-size: 16px;">&#8594;</div>
+<div style="flex: 1; min-width: 80px; text-align: center; padding: 12px 4px; border: 1px solid #E5E7EB; background: #fff; display: flex; flex-direction: column; justify-content: space-between;">
+<div style="font-size: 12px; font-weight: 700; color: #0A2540;">MGA</div>
+<div style="font-size: 11px; color: #6B7B8D; margin-top: 4px;">Underwrites</div>
+</div>
+<div style="display: flex; align-items: center; color: #6B7B8D; font-size: 16px;">&#8594;</div>
+<div style="flex: 1; min-width: 80px; text-align: center; padding: 12px 4px; border: 1px solid #E5E7EB; background: #fff; display: flex; flex-direction: column; justify-content: space-between;">
+<div style="font-size: 12px; font-weight: 700; color: #0A2540;">Fronting Carrier</div>
+<div style="font-size: 11px; color: #6B7B8D; margin-top: 4px;">Issues paper</div>
+</div>
+<div style="display: flex; align-items: center; color: #6B7B8D; font-size: 16px;">&#8594;</div>
+<div style="flex: 1; min-width: 80px; text-align: center; padding: 12px 4px; border: 1px solid #E5E7EB; border-radius: 0 6px 6px 0; background: #fff; display: flex; flex-direction: column; justify-content: space-between;">
+<div style="font-size: 12px; font-weight: 700; color: #0A2540;">Reinsurer</div>
+<div style="font-size: 11px; color: #6B7B8D; margin-top: 4px;">Bears risk</div>
+</div>
+</div>
+</div>
+
 ## Why do carriers hand over underwriting authority?
 
-The standard answer is niche expertise and speed to market. Carriers cannot build the required specialist underwriting capabilities fast enough, especially in newer lines that demand domain knowledge, fast product iteration, and specialist distribution: cyber, environmental, construction, to name a few. The MGA delivers the expertise, the carrier earns fee income without building out the overhead. Everybody is happy. So far.
-
-MGAs are also pulling entrepreneurial underwriting talent out of carriers with modern analytics, less overhead, and equity. That talent drain is part of why carriers struggle to build the capabilities in-house.
-
-But MGAs do not stop at specialty lines. They span traditional lines too: commercial auto, property, workers' comp. They compete on distribution efficiency and pricing models as much as domain expertise. Over half of the delegated business is now <a href="https://news.ambest.com/articlecontent.aspx?refnum=307787&altsrc=43" target="_blank" rel="noopener">non-exclusive</a>, meaning MGAs can move their book when a fronting carrier offers better economics. Carriers are losing power.
+Carriers cannot build specialist underwriting capabilities fast enough in lines that demand domain knowledge, fast product iteration, and specialist distribution. MGAs deliver the expertise; carriers earn fee income without the overhead. And MGAs are pulling entrepreneurial underwriting talent out of carriers with modern analytics, less overhead, and equity -- making it harder for carriers to build the capabilities in-house. Over half of the delegated business is now <a href="https://news.ambest.com/articlecontent.aspx?refnum=307787&altsrc=43" target="_blank" rel="noopener">non-exclusive</a>, meaning MGAs can move their book when a fronting carrier offers better economics. Carriers are losing power.
 
 ## What brokers and customers see
 
@@ -62,7 +94,7 @@ A challenge in this model is the volatility of capital. After the ransomware sur
 
 The assembled model also breaks feedback loops that integrated carriers take for granted. When the MGA underwrites, a separate TPA handles claims, and the data connecting them flows through delayed bordereaux reports, the link between claims experience and underwriting decisions fractures.
 
-And then there is outright fraud. In mid-2023, Vesttoo, an ILS marketplace startup, was found to have used fabricated letters of credit to back collateralized reinsurance — roughly $4 billion in exposure across multiple fronting carriers. The collateral that was supposed to back the reinsurance didn't exist. Multiple fronting carriers were left holding exposure they thought was ceded.
+And then there is outright fraud. In mid-2023, Vesttoo, an ILS marketplace startup, was found to have used fabricated letters of credit to back collateralized reinsurance -- roughly $4 billion in exposure across multiple fronting carriers. The collateral that was supposed to back the reinsurance didn't exist. Multiple fronting carriers were left holding exposure they thought was ceded. Vesttoo is the single most dramatic proof that the assembly line has a quality control problem. The chain had a broker, a fronting carrier, and a reinsurer -- and none of them verified that the collateral was real. Each party assumed someone else in the chain had checked. That assumption is the structural weakness of the assembled model: accountability distributed across so many parties that no single one owns the verification.
 
 ## Who is accountable?
 

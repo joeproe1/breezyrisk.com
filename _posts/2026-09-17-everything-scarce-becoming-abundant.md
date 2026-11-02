@@ -54,6 +54,8 @@ The first three scarcities are structural, they are hard to build, slow to earn.
 
 > **Capital is not scarce. Confident capital is.**
 
+Confident capital is sticky -- it doesn't recede when losses rise. What makes capital confident is reliable risk models built on reliable data, backed by credible loss history and a defensible forecast. In cyber, Munich Re built that confidence by providing capacity to At-Bay for years before acquiring it -- loss data on the book converted skeptical capital to committed capital. In parametric, the confidence comes from independent, verifiable triggers (cat models, weather stations) that remove reserve uncertainty entirely. Capital that lacks any of these -- reliable model, reliable data, reliable history -- is tourist capital. It shows up in soft markets and vanishes at the first sign of stress.
+
 The first three scarcities determine who captures value. Capital determines whether that value holds through a cycle.
 
 ## Which scarcity do you own?
@@ -64,9 +66,55 @@ The broker who serves complex risks with genuine placement advice owns judgment,
 
 An MGA with proprietary origination or genuine underwriting insight is the natural winner of this transition, the program that capital lines up behind. I say this as someone who co-founded an MGA and spent twelve months discovering that we had conviction but not enough proprietary origination. We could build the product, but we couldn't find the buyer without going through someone who already owned that relationship. An MGA that is a distribution arrangement with delegated authority and rented paper owns none of the four scarcities.
 
+An MGA I helped build believed its scarcity was a proprietary policy administration system and custom policy wording. Neither was the actual moat -- you could buy the same capability off the shelf. The real scarcity was origination: getting on wholesaler panels, targeting segments that others ignored, offering limits that others couldn't provide. The team spent its first year building technology when it should have been working the wholesale channel and the capacity provider to increase limits.
+
 The mid-tier generalist carrier is the most exposed to this transition: too small to be a capital utility, too undifferentiated to own origination, spending its transformation budget to arrive where the moat used to be. Small specialty carriers are a different story.
 
 ## How scarcities combine
+
+<div style="margin: 32px 0; overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse; font-size: 14px; line-height: 1.2;">
+<thead>
+<tr style="border-bottom: 2px solid #0A2540;">
+<th style="text-align: left; padding: 10px 16px; color: #FFFFFF; font-weight: 700;"></th>
+<th style="text-align: left; padding: 10px 16px; color: #FFFFFF; font-weight: 700;">Origination</th>
+<th style="text-align: left; padding: 10px 16px; color: #FFFFFF; font-weight: 700;">Judgment</th>
+<th style="text-align: left; padding: 10px 16px; color: #FFFFFF; font-weight: 700;">Reg. Permission</th>
+<th style="text-align: left; padding: 10px 16px; color: #FFFFFF; font-weight: 700;">Confident Capital</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border-bottom: 1px solid #E5E7EB;">
+<td style="padding: 10px 16px; font-weight: 600; color: #0A2540;">Carrier (integrated)</td>
+<td style="padding: 10px 16px;"><span style="font-weight: 700; color: #EF4444;">Weak</span><br><span style="font-size: 12px; color: #6B7B8D;">Via broker channel</span></td>
+<td style="padding: 10px 16px;"><span style="font-weight: 700; color: #00D4AA;">Strong</span></td>
+<td style="padding: 10px 16px;"><span style="font-weight: 700; color: #00D4AA;">Strong</span></td>
+<td style="padding: 10px 16px;"><span style="font-weight: 700; color: #00D4AA;">Strong</span></td>
+</tr>
+<tr style="border-bottom: 1px solid #E5E7EB;">
+<td style="padding: 10px 16px; font-weight: 600; color: #0A2540;">MGA</td>
+<td style="padding: 10px 16px;"><span style="font-weight: 700; color: #F59E0B;">Varies</span></td>
+<td style="padding: 10px 16px;"><span style="font-weight: 700; color: #00D4AA;">Strong</span><br><span style="font-size: 12px; color: #6B7B8D;">Niche</span></td>
+<td style="padding: 10px 16px;"><span style="font-weight: 700; color: #F59E0B;">Rented</span><br><span style="font-size: 12px; color: #6B7B8D;">Fronting</span></td>
+<td style="padding: 10px 16px;"><span style="font-weight: 700; color: #F59E0B;">Rented</span><br><span style="font-size: 12px; color: #6B7B8D;">Reinsurer</span></td>
+</tr>
+<tr style="border-bottom: 1px solid #E5E7EB;">
+<td style="padding: 10px 16px; font-weight: 600; color: #0A2540;">Broker</td>
+<td style="padding: 10px 16px;"><span style="font-weight: 700; color: #00D4AA;">Strong</span></td>
+<td style="padding: 10px 16px;"><span style="font-weight: 700; color: #F59E0B;">Varies</span></td>
+<td style="padding: 10px 16px;"><span style="font-weight: 700; color: #EF4444;">None</span></td>
+<td style="padding: 10px 16px;"><span style="font-weight: 700; color: #EF4444;">None</span></td>
+</tr>
+<tr>
+<td style="padding: 10px 16px; font-weight: 600; color: #0A2540;">Insurtech / Embedded</td>
+<td style="padding: 10px 16px;"><span style="font-weight: 700; color: #00D4AA;">Strong</span><br><span style="font-size: 12px; color: #6B7B8D;">Platform</span></td>
+<td style="padding: 10px 16px;"><span style="font-weight: 700; color: #EF4444;">Weak</span></td>
+<td style="padding: 10px 16px;"><span style="font-weight: 700; color: #F59E0B;">Rented</span></td>
+<td style="padding: 10px 16px;"><span style="font-weight: 700; color: #F59E0B;">Rented</span></td>
+</tr>
+</tbody>
+</table>
+</div>
 
 No scarcity works in isolation. Judgment without regulatory permission is an MGA, relying on its fronting carrier's appetite and economics. Permission without judgment is a fronting carrier backing someone else's underwriting decisions. Clear Blue has turned one scarcity into a business model by renting paper to MGAs that own another. Judgment combined with permission is a specialty carrier that underwrites its own paper -- and that combination is why companies like Kinsale and RLI trade at premium multiples despite their size.
 

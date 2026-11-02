@@ -37,6 +37,51 @@ And then there's the rest of the market. Technology companies can buy standard T
 
 A handful of players are experimenting with AI-specific underwriting. A much larger market isn't measuring AI risks at all. Total dedicated premium for AI liability: immaterial.
 
+<div style="margin: 32px 0; overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse; font-size: 14px; line-height: 1.5;">
+<thead>
+<tr style="border-bottom: 2px solid #0A2540;">
+<th style="text-align: left; padding: 10px 12px; color: #FFFFFF; font-weight: 700;"></th>
+<th style="text-align: left; padding: 10px 12px; color: #FFFFFF; font-weight: 700;">Endorsements</th>
+<th style="text-align: left; padding: 10px 12px; color: #FFFFFF; font-weight: 700;">Standalone</th>
+<th style="text-align: left; padding: 10px 12px; color: #FFFFFF; font-weight: 700;">Certification-led</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border-bottom: 1px solid #E5E7EB;">
+<td style="padding: 10px 12px; font-weight: 600; color: #0A2540;">Pricing accuracy</td>
+<td style="padding: 10px 12px; color: #374151;">Low<br><span style="font-size: 12px; color: #6B7B8D;">Legacy loss data</span></td>
+<td style="padding: 10px 12px; color: #374151;">Medium<br><span style="font-size: 12px; color: #6B7B8D;">Governance-based</span></td>
+<td style="padding: 10px 12px; color: #374151;">Highest<br><span style="font-size: 12px; color: #6B7B8D;">Evaluation-based</span></td>
+</tr>
+<tr style="border-bottom: 1px solid #E5E7EB;">
+<td style="padding: 10px 12px; font-weight: 600; color: #0A2540;">Distribution ease</td>
+<td style="padding: 10px 12px; color: #374151;">High<br><span style="font-size: 12px; color: #6B7B8D;">Existing channels</span></td>
+<td style="padding: 10px 12px; color: #374151;">Low<br><span style="font-size: 12px; color: #6B7B8D;">New product, new sale</span></td>
+<td style="padding: 10px 12px; color: #374151;">Low<br><span style="font-size: 12px; color: #6B7B8D;">Niche, high-touch</span></td>
+</tr>
+<tr style="border-bottom: 1px solid #E5E7EB;">
+<td style="padding: 10px 12px; font-weight: 600; color: #0A2540;">Regulatory acceptance</td>
+<td style="padding: 10px 12px; color: #374151;">High<br><span style="font-size: 12px; color: #6B7B8D;">Filed forms</span></td>
+<td style="padding: 10px 12px; color: #374151;">Medium<br><span style="font-size: 12px; color: #6B7B8D;">E&S / Lloyd's</span></td>
+<td style="padding: 10px 12px; color: #374151;">Medium<br><span style="font-size: 12px; color: #6B7B8D;">Standards emerging</span></td>
+</tr>
+<tr style="border-bottom: 1px solid #E5E7EB;">
+<td style="padding: 10px 12px; font-weight: 600; color: #0A2540;">Scalability</td>
+<td style="padding: 10px 12px; color: #374151;">High<br><span style="font-size: 12px; color: #6B7B8D;">Bolt-on to existing</span></td>
+<td style="padding: 10px 12px; color: #374151;">Medium<br><span style="font-size: 12px; color: #6B7B8D;">Grows post-trigger</span></td>
+<td style="padding: 10px 12px; color: #374151;">Low<br><span style="font-size: 12px; color: #6B7B8D;">Evaluation bottleneck</span></td>
+</tr>
+<tr>
+<td style="padding: 10px 12px; font-weight: 600; color: #0A2540;">Claims defensibility</td>
+<td style="padding: 10px 12px; color: #374151;">Low<br><span style="font-size: 12px; color: #6B7B8D;">Untested terms</span></td>
+<td style="padding: 10px 12px; color: #374151;">Medium<br><span style="font-size: 12px; color: #6B7B8D;">Purpose-built forms</span></td>
+<td style="padding: 10px 12px; color: #374151;">Highest<br><span style="font-size: 12px; color: #6B7B8D;">Pre-tested systems</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+
 ## The cycle every peril follows
 
 Every complex liability class follows the same cycle. A new peril emerges. Carriers realize their existing policy language covers it by accident. They add exclusions. A small group of specialty writers launches affirmative products covering what the mainstream is excluding. Eventually, measurement infrastructure follows, the market matures, and mainstream carriers absorb some of the specialty insurers.
@@ -50,6 +95,8 @@ Each of these perils also had a defining event that flushed the exposure into th
 AI liability is unlikely to have its NotPetya moment. Cyber risk manifests in discrete events: a ransomware attack, a data breach. AI produces outputs that become part of a company's own conduct -- giving advice, hiring, communicating with customers. The exposure does not surface through a single catastrophic event. It accumulates across claims frequency: a professional liability claim where the advice relied on a hallucinated regulatory requirement, a wrongful termination suit where the hiring tool screened out protected classes, a tribunal ruling where an airline was bound by a discount its chatbot fabricated.
 
 That gradual accumulation makes AI structurally different. There will be no moment where the industry collectively discovers it has an AI liability problem. And unlike previous perils, there may be no single event that forces the industry to build the measurement foundation it skipped.
+
+My estimate: stable pricing is a few years away, accelerated by a large loss, a series of claims, or regulatory action that forces the industry to build the measurement infrastructure it skipped.
 
 ## From signal to pricing
 
@@ -104,4 +151,10 @@ AI insurance will need at least one credible, independent source of underwriting
 The credit-rating-agency analogy is useful but misleading. The 2008 financial crisis demonstrated what happens when the entities being rated are also the rating agency's largest clients.
 
 An AI measurement layer faces the same tension. If the AI company pays for the evaluation, the evaluator has an incentive to certify. If the insurer pays, the evaluator has an incentive to flag risks that justify higher premiums. If the policyholder pays, they want a clean report. AIUC's approach -- certify first, then insure -- puts certification and insurance under the same commercial umbrella. Even if the methodology is rigorous, that is not independence.
+
+The measurement layer will likely be funded as an underwriting cost by the carriers and MGAs writing coverage, but demanded as a condition of capacity by the reinsurers behind them. The parallel is cat modeling: reinsurers don't fund RMS or Moody's directly, but they won't allocate capacity without the output.
+
+---
+
+<p style="font-size: 15px; color: #6B7B8D; line-height: 1.6;">This article maps the first cohort of AI liability writers and the measurement infrastructure underneath them. A follow-up, <a href="/insights/ai-liability-arrived-before-the-loss-model/">AI Liability: The Insurance Arrived Before the Loss Model</a>, analyzes the three pricing approaches emerging in the market and where they are heading.</p>
 
