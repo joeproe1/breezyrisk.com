@@ -110,16 +110,16 @@ Any carrier evaluating its AI path should answer three questions.
 
 <div style="margin: 28px 0; display: flex; flex-direction: column; gap: 16px;">
 <div style="display: flex; gap: 16px; align-items: baseline;">
-<span style="font-family: var(--font-mono), 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; color: #00D4AA; text-transform: uppercase; letter-spacing: 0.05em; min-width: 52px;">Buy</span>
-<span style="font-size: 16px; color: var(--text-secondary); line-height: 1.6;">From whom, and what happens to your underwriting data once it's inside their platform?</span>
+<span style="font-family: var(--font-mono), 'JetBrains Mono', monospace; font-size: 15px; font-weight: 700; color: #00D4AA; text-transform: uppercase; letter-spacing: 0.05em; min-width: 56px;">Buy</span>
+<span style="font-size: 16px; color: var(--text-secondary); line-height: 1.6;">Who do we buy from, and what happens to our underwriting data once it's inside their platform?</span>
 </div>
 <div style="display: flex; gap: 16px; align-items: baseline;">
-<span style="font-family: var(--font-mono), 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; color: #00D4AA; text-transform: uppercase; letter-spacing: 0.05em; min-width: 52px;">Build</span>
-<span style="font-size: 16px; color: var(--text-secondary); line-height: 1.6;">Can your engineering team explain what a loss ratio is, why a state filing matters, and how an endorsement changes the risk?</span>
+<span style="font-family: var(--font-mono), 'JetBrains Mono', monospace; font-size: 15px; font-weight: 700; color: #00D4AA; text-transform: uppercase; letter-spacing: 0.05em; min-width: 56px;">Build</span>
+<span style="font-size: 16px; color: var(--text-secondary); line-height: 1.6;">Can my organization build an AI model, integrate it with our core systems, and keep it running in production?</span>
 </div>
 <div style="display: flex; gap: 16px; align-items: baseline;">
-<span style="font-family: var(--font-mono), 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; color: #00D4AA; text-transform: uppercase; letter-spacing: 0.05em; min-width: 52px;">Wait</span>
-<span style="font-size: 16px; color: var(--text-secondary); line-height: 1.6;">How many renewal cycles before your competitors' pricing models are trained on data you haven't started collecting?</span>
+<span style="font-family: var(--font-mono), 'JetBrains Mono', monospace; font-size: 15px; font-weight: 700; color: #00D4AA; text-transform: uppercase; letter-spacing: 0.05em; min-width: 56px;">Wait</span>
+<span style="font-size: 16px; color: var(--text-secondary); line-height: 1.6;">How many renewal cycles before competitors already running AI pricing models have an advantage I can't close?</span>
 </div>
 </div>
 
