@@ -17,11 +17,7 @@ The companies that sit between carriers and their data are the ones making the a
 
 ## How we got here
 
-Insurance carriers spent two decades reshaping their technology organizations. In the 2000s, the move was to outsource: managed services, offshore development, vendor-run infrastructure. IT became a cost center to be managed down.
-
-Then the modernization wave arrived. Guidewire migrations that were supposed to take 18 months stretched past three years. Data lake initiatives consumed millions and delivered dashboards nobody trusted. The carriers that survived it learned that you can't modernize what you don't understand internally.
-
-Most didn't finish rebuilding. The engineering bench had thinned to the point where "technology strategy" meant vendor selection. The same organizations that outsourced their way out of engineering in 2005 were trying to insource their way back by 2020, and the talent market had moved on.
+Insurance carriers spent two decades outsourcing engineering, then trying to rebuild it. Most didn't finish. Guidewire migrations stretched past three years. Data lake initiatives consumed millions and delivered dashboards nobody trusted. By 2020, the engineering bench had thinned to where "technology strategy" meant vendor selection.
 
 Then AI arrived, and the talent that did exist started leaving. Mid-career AVPs and directors stuck behind deep promotion queues traded a slow carrier climb for equity and autonomy at AI-native startups. Federato poached its CRO from Duck Creek and its APAC lead from Guidewire. Reserv's founders came from Snapsheet. When carriers want AI capability at the leadership level now, they buy entire companies. Travelers paid $435 million for Corvus. ERGO paid $2.6 billion for NEXT Insurance. These are talent acquisitions as much as book acquisitions.
 
@@ -38,11 +34,11 @@ Insurance has a problem most industries don't: core systems sit between AI and t
 <!-- AI Layer -->
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
 <div style="background: #0A2540; border: 2px solid #3B82F6; border-radius: 10px; padding: 16px 20px; text-align: center;">
-<div style="font-size: 12px; font-weight: 700; color: #3B82F6; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px;">Acquired AI</div>
+<div style="font-size: 12px; font-weight: 700; color: #3B82F6; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px;">AI Capabilities (Acquired)</div>
 <div style="font-size: 11px; color: rgba(255,255,255,0.5); line-height: 1.6;">hyperexponential &middot; Send</div>
 </div>
 <div style="background: #0A2540; border: 2px solid #3B82F6; border-radius: 10px; padding: 16px 20px; text-align: center;">
-<div style="font-size: 12px; font-weight: 700; color: #3B82F6; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px;">Acquired AI</div>
+<div style="font-size: 12px; font-weight: 700; color: #3B82F6; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px;">AI Capabilities (Acquired)</div>
 <div style="font-size: 11px; color: rgba(255,255,255,0.5); line-height: 1.6;">Planck &middot; Cytora</div>
 </div>
 </div>
@@ -94,6 +90,50 @@ The distinction: focus resources on the capabilities that compound with propriet
 
 Don't build the commodity capabilities: submission intake, document parsing, basic extraction. Multiple vendors do them well for a reasonable cost, and they don't differentiate you.
 
+Take professional liability. A mid-market carrier writing lawyers E&O with 15 years of claims data -- firm size, practice area, jurisdiction, prior claims, policy limits, actual outcomes -- has a dataset no vendor can replicate. An AI model trained on that history can identify which firms represent the best risks for that carrier's specific appetite and risk tolerance. The model improves every quarter as new claims develop. Building it is feasible now. A vendor's generic model trained on industry composites would miss the patterns that make the carrier's book profitable.
+
+<div style="margin: 32px 0; padding: 24px 28px; background: #f8faf9; border-radius: 10px;">
+<div style="font-size: 13px; font-weight: 700; color: #0A2540; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 16px;">Where to Build vs. Buy</div>
+<div style="display: grid; grid-template-columns: auto 1fr 1fr; gap: 10px; font-size: 13px; align-items: stretch;">
+<!-- Header row -->
+<div></div>
+<div style="padding: 8px 16px; font-weight: 700; color: #0A2540; text-align: center; font-size: 14px;">Build</div>
+<div style="padding: 8px 16px; font-weight: 700; color: #0A2540; text-align: center; font-size: 14px;">Buy</div>
+<!-- Differentiating row -->
+<div style="padding: 14px 16px 14px 0; font-weight: 700; color: #0A2540; font-size: 13px; line-height: 1.3; display: flex; align-items: center;">Differentiating<br>Capabilities</div>
+<div style="padding: 14px 16px; background: rgba(0,212,170,0.08); border: 1px solid rgba(0,212,170,0.2); border-radius: 6px; line-height: 1.6; color: #374151; display: flex; flex-direction: column;">
+<div style="flex: 1;">
+&bull; Risk scoring on proprietary loss data<br>
+&bull; Underwriting appetite models<br>
+&bull; Claims triage calibrated to own reserves
+</div>
+<div style="margin-top: 12px; font-weight: 600; color: #0A2540; font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; text-align: right;">Focus here.</div>
+</div>
+<div style="padding: 14px 16px; background: rgba(245,158,11,0.06); border: 1px solid rgba(245,158,11,0.15); border-radius: 6px; line-height: 1.6; color: #6B7B8D; display: flex; flex-direction: column;">
+<div style="flex: 1;">
+&bull; Vendor models lack your data advantage<br>
+&bull; Proprietary data flows upstream
+</div>
+<div style="margin-top: 12px; font-weight: 600; color: #92400E; font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; text-align: right;">Caution.</div>
+</div>
+<!-- Commodity row -->
+<div style="padding: 14px 16px 14px 0; font-weight: 700; color: #0A2540; font-size: 13px; line-height: 1.3; display: flex; align-items: center;">Commodity<br>Capabilities</div>
+<div style="padding: 14px 16px; background: rgba(239,68,68,0.05); border: 1px solid rgba(239,68,68,0.12); border-radius: 6px; line-height: 1.6; color: #6B7B8D; display: flex; flex-direction: column;">
+<div style="flex: 1;">
+&bull; Commodity tools don't compound with your data — buy them
+</div>
+<div style="margin-top: 12px; font-weight: 600; color: #DC2626; font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; text-align: right;">Avoid.</div>
+</div>
+<div style="padding: 14px 16px; background: rgba(0,212,170,0.08); border: 1px solid rgba(0,212,170,0.2); border-radius: 6px; line-height: 1.6; color: #374151; display: flex; flex-direction: column;">
+<div style="flex: 1;">
+&bull; Submission intake, document parsing<br>
+&bull; FNOL triage, fraud pattern detection
+</div>
+<div style="margin-top: 12px; font-weight: 600; color: #0A2540; font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; text-align: right;">Outsource.</div>
+</div>
+</div>
+</div>
+
 ## The judgment question
 
 <div style="border-left: 3px solid #00D4AA; padding: 20px 24px; margin: 32px 0; background: rgba(0, 212, 170, 0.04); border-radius: 0 8px 8px 0;">
@@ -123,4 +163,4 @@ Any carrier evaluating its AI path should answer three questions.
 </div>
 </div>
 
-Guidewire and Duck Creek have made their choice. The core system vendors are buying AI because they know their carrier clients can't build it and won't wait forever. Whether that AI serves the carrier's interests or the vendor's is the question nobody is asking loudly enough.
+Guidewire and Duck Creek have made their choice. The core system vendors are buying AI because they know their carrier clients can't build it and won't wait forever. The AI they embed will serve the vendor's interests first: underwriting data flows upstream into platforms the carrier doesn't control, switching costs compound with every renewal, and the carrier's optionality narrows as the integration deepens. A carrier running vendor-embedded AI for five years may discover it has outsourced not just technology, but the underwriting intelligence that was supposed to be its competitive advantage.

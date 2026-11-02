@@ -110,6 +110,50 @@ The gross sum-of-parts comes to roughly 12x across the portfolio. Then the buyer
 
 Of course, this is simplified, not a valuation model. But it shows how program-level diligence can disaggregate a portfolio story that looks compelling in aggregate.
 
+For most PE-backed platforms assembled over the past decade, the arithmetic doesn't work. Sponsors built portfolios at 12x. At exit, the gross sum-of-parts comes in near the same number -- meaning the platform created no portfolio premium. Subtract the management layer and cost of capital over a seven-year hold, and the return on the platform itself is at or near zero. The programs inside may have performed. The wrapper didn't earn its keep.
+
+<div style="margin: 32px 0; padding: 24px 28px; background: #f8faf9; border-radius: 10px;">
+<div style="font-size: 13px; font-weight: 700; color: #0A2540; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 20px;">From Assembly to Exit</div>
+<!-- Assembly cost -->
+<div style="margin-bottom: 14px;">
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 5px;">
+<span style="font-size: 13px; color: #6B7B8D;">Sponsors assembled at</span>
+<span style="font-size: 15px; font-weight: 700; color: #0A2540;">12x EBITDA</span>
+</div>
+<div style="height: 24px; width: 100%; background: rgba(10,37,64,0.12); border-radius: 4px;"></div>
+</div>
+<!-- Gross sum-of-parts -->
+<div style="margin-bottom: 14px;">
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 5px;">
+<span style="font-size: 13px; color: #6B7B8D;">Gross sum-of-parts at exit</span>
+<span style="font-size: 15px; font-weight: 700; color: #0A2540;">~12x</span>
+</div>
+<div style="height: 24px; width: 100%; background: rgba(0,212,170,0.2); border: 1px solid rgba(0,212,170,0.3); border-radius: 4px;"></div>
+<div style="font-size: 11px; color: #9CA3AF; margin-top: 3px;">No portfolio premium created</div>
+</div>
+<!-- Deductions -->
+<div style="margin-bottom: 14px; padding-left: 20px; border-left: 2px solid #EF4444;">
+<div style="font-size: 12px; color: #EF4444; font-weight: 600; margin-bottom: 4px;">Subtract:</div>
+<div style="font-size: 13px; color: #6B7B8D; margin-bottom: 2px;">Platform management overhead</div>
+<div style="font-size: 13px; color: #6B7B8D;">Conglomerate discount (independent operations)</div>
+</div>
+<!-- Net to buyer -->
+<div>
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 5px;">
+<span style="font-size: 13px; color: #6B7B8D;">Net to buyer</span>
+<span style="font-size: 15px; font-weight: 700; color: #0A2540;">10–11x EBITDA</span>
+</div>
+<div style="height: 24px; display: flex; border-radius: 4px; overflow: hidden;">
+<div style="width: 87%; background: #0A2540; border-radius: 4px 0 0 4px;"></div>
+<div style="width: 13%; background: #EF4444; border-radius: 0 4px 4px 0; opacity: 0.6;"></div>
+</div>
+<div style="display: flex; justify-content: flex-end; margin-top: 4px;">
+<span style="font-size: 11px; color: #EF4444;">1–2x value erosion</span>
+</div>
+</div>
+<div style="font-size: 11px; color: #9CA3AF; font-style: italic; margin-top: 14px; text-align: center;">Illustrative. Equal-size programs. Exit multiple only — excludes cost of capital, interim distributions, and operating cash flow during hold period.</div>
+</div>
+
 Shared infrastructure has value, but it's a cost center, not a source of underwriting returns. The fee stack already consumes 35 cents of every premium dollar before a claim is paid ([The Cost of Disassembly](/insights/the-cost-of-disassembly/)). The platform's management layer sits on top of that. A buyer will subtract the overhead, not add a premium for it.
 
 ## When the capacity providers start asking questions
@@ -118,7 +162,9 @@ Every MGA depends on borrowed capacity -- that's the Achilles heel of the model.
 
 If a capacity provider non-renews a program inside a PE platform, the signal doesn't stop at the program boundary. Other capacity providers look at their own exposure to the same platform. The diversification that investors treat as protection also works in reverse: programs are associated through the platform, and a problem in one raises questions about the rest.
 
-In September, the French regulator barred Wakam SA (a capacity provider to MGAs across Europe) from writing new business after its solvency ratio fell below the minimum. Programs that depended on Wakam's paper were disrupted. AmTrust acquired Wakam in late October and recapitalized it -- the programs are writing again, but the resolution required a global specialty carrier stepping in. The MGAs themselves had no lever to pull.
+<div style="border-left: 3px solid #00D4AA; padding: 16px 24px; margin: 24px 0; background: rgba(0, 212, 170, 0.04); border-radius: 0 8px 8px 0;">
+In September, the French regulator barred Wakam SA (a capacity provider to MGAs across Europe) from writing new business after its solvency ratio fell below the minimum. Programs that depended on Wakam's paper were disrupted. AmTrust acquired Wakam in late October and recapitalized it - the programs are writing again, but the resolution required a global specialty carrier stepping in. The MGAs themselves had no lever to pull.
+</div>
 
 I've seen a smaller version of this firsthand. A deductible buyback program lost its capacity not because of underperformance, but because the capacity provider reorganized and changed its appetite. The underwriting was sound, but this single dependency was fatal.
 
