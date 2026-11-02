@@ -29,49 +29,58 @@ Then AI arrived, and the talent that did exist started leaving. Mid-career AVPs 
 
 Insurance has a problem most industries don't: core systems sit between AI and the work.
 
-<div style="margin: 36px auto; max-width: 480px; font-family: var(--font-mono), 'JetBrains Mono', monospace;">
+<div style="margin: 36px auto; max-width: 680px; font-family: var(--font-mono), 'JetBrains Mono', monospace;">
+<!-- Column headers -->
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 12px;">
+<div style="font-size: 14px; font-weight: 700; color: #0A2540; text-transform: uppercase; letter-spacing: 0.1em; text-align: center;">Carriers</div>
+<div style="font-size: 14px; font-weight: 700; color: #0A2540; text-transform: uppercase; letter-spacing: 0.1em; text-align: center;">Distribution</div>
+</div>
 <!-- AI Layer -->
-<div style="background: #0A2540; border: 2px solid #3B82F6; border-radius: 10px; padding: 18px 24px; text-align: center;">
-<div style="font-size: 13px; font-weight: 700; color: #3B82F6; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px;">AI Capabilities</div>
-<div style="font-size: 12px; color: rgba(255,255,255,0.5); line-height: 1.5;">hyperexponential &middot; Send &middot; Planck &middot; Cytora</div>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+<div style="background: #0A2540; border: 2px solid #3B82F6; border-radius: 10px; padding: 16px 20px; text-align: center;">
+<div style="font-size: 12px; font-weight: 700; color: #3B82F6; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px;">Acquired AI</div>
+<div style="font-size: 11px; color: rgba(255,255,255,0.5); line-height: 1.6;">hyperexponential &middot; Send</div>
+</div>
+<div style="background: #0A2540; border: 2px solid #3B82F6; border-radius: 10px; padding: 16px 20px; text-align: center;">
+<div style="font-size: 12px; font-weight: 700; color: #3B82F6; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px;">Acquired AI</div>
+<div style="font-size: 11px; color: rgba(255,255,255,0.5); line-height: 1.6;">Planck &middot; Cytora</div>
+</div>
 </div>
 <!-- Integration gap -->
-<div style="display: flex; align-items: center; gap: 10px; padding: 10px 0; justify-content: center;">
-<div style="flex: 1; height: 1px; background: repeating-linear-gradient(90deg, #F59E0B 0, #F59E0B 6px, transparent 6px, transparent 12px);"></div>
-<span style="font-size: 11px; font-weight: 700; color: #F59E0B; text-transform: uppercase; letter-spacing: 0.08em; white-space: nowrap;">Integration Gap</span>
-<div style="flex: 1; height: 1px; background: repeating-linear-gradient(90deg, #F59E0B 0, #F59E0B 6px, transparent 6px, transparent 12px);"></div>
+<div style="display: flex; align-items: center; gap: 12px; padding: 14px 0;">
+<div style="flex: 1; height: 2px; background: repeating-linear-gradient(90deg, #F59E0B 0, #F59E0B 8px, transparent 8px, transparent 14px);"></div>
+<span style="font-size: 14px; font-weight: 700; color: #F59E0B; text-transform: uppercase; letter-spacing: 0.1em; white-space: nowrap;">Integration Gap</span>
+<div style="flex: 1; height: 2px; background: repeating-linear-gradient(90deg, #F59E0B 0, #F59E0B 8px, transparent 8px, transparent 14px);"></div>
 </div>
 <!-- Core Systems -->
-<div style="background: #0A2540; border: 2px solid rgba(255,255,255,0.2); border-radius: 10px; padding: 18px 24px; text-align: center;">
-<div style="font-size: 13px; font-weight: 700; color: #fff; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px;">Core Systems</div>
-<div style="display: flex; justify-content: center; gap: 24px; margin-top: 8px;">
-<div>
-<div style="font-size: 11px; font-weight: 600; color: rgba(255,255,255,0.7); margin-bottom: 4px;">PAS (Carrier)</div>
-<div style="font-size: 11px; color: rgba(255,255,255,0.4); line-height: 1.5;">Guidewire<br>Duck Creek<br>Majesco</div>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+<div style="background: #0A2540; border: 2px solid rgba(255,255,255,0.2); border-radius: 10px; padding: 16px 20px; text-align: center;">
+<div style="font-size: 12px; font-weight: 700; color: #fff; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px;">Policy Admin System (PAS)</div>
+<div style="font-size: 11px; color: rgba(255,255,255,0.4); line-height: 1.6;">Guidewire &middot; Duck Creek<br>Majesco &middot; Socotra &middot; &#8230;</div>
 </div>
-<div style="width: 1px; background: rgba(255,255,255,0.1);"></div>
-<div>
-<div style="font-size: 11px; font-weight: 600; color: rgba(255,255,255,0.7); margin-bottom: 4px;">AMS (Distribution)</div>
-<div style="font-size: 11px; color: rgba(255,255,255,0.4); line-height: 1.5;">Applied Epic<br>Vertafore</div>
+<div style="background: #0A2540; border: 2px solid rgba(255,255,255,0.2); border-radius: 10px; padding: 16px 20px; text-align: center;">
+<div style="font-size: 12px; font-weight: 700; color: #fff; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px;">Agency Mgmt System (AMS)</div>
+<div style="font-size: 11px; color: rgba(255,255,255,0.4); line-height: 1.6;">Applied Epic &middot; Vertafore<br>HawkSoft &middot; EZLynx &middot; &#8230;</div>
 </div>
 </div>
+<!-- Operations -->
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 20px;">
+<div style="background: #0A2540; border: 2px dashed rgba(255,255,255,0.12); border-radius: 10px; padding: 16px 20px; text-align: center;">
+<div style="font-size: 12px; font-weight: 700; color: #fff; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px;">Carrier Operations</div>
+<div style="font-size: 11px; color: rgba(255,255,255,0.35); line-height: 1.6; font-style: italic;">Underwriting &middot; Claims<br>Pricing &middot; Actuarial</div>
 </div>
-<!-- Connector -->
-<div style="display: flex; justify-content: center; padding: 6px 0;">
-<div style="width: 1px; height: 20px; background: rgba(255,255,255,0.15);"></div>
+<div style="background: #0A2540; border: 2px dashed rgba(255,255,255,0.12); border-radius: 10px; padding: 16px 20px; text-align: center;">
+<div style="font-size: 12px; font-weight: 700; color: #fff; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px;">Distribution Operations</div>
+<div style="font-size: 11px; color: rgba(255,255,255,0.35); line-height: 1.6; font-style: italic;">Placement &middot; Quoting<br>Account Mgmt &middot; Servicing</div>
 </div>
-<!-- Carrier Operations -->
-<div style="background: #0A2540; border: 2px solid rgba(255,255,255,0.1); border-radius: 10px; padding: 18px 24px; text-align: center;">
-<div style="font-size: 13px; font-weight: 700; color: rgba(255,255,255,0.5); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px;">Carrier Operations</div>
-<div style="font-size: 12px; color: rgba(255,255,255,0.35);">Underwriting &middot; Claims &middot; Pricing &middot; Distribution</div>
 </div>
 </div>
 
 On the carrier side, the Policy Administration System (Guidewire, Duck Creek, Majesco, Socotra) organizes everything around the policy. Quote, bind, issue, endorse, renew, cancel. Every active policy lives in this system, along with billing, regulatory reporting, and claims data. You cannot rip out a PAS without migrating every in-force policy. AI that touches underwriting has to integrate with the PAS, and the PAS doesn't make that easy.
 
-On the distribution side, the Agency Management System (Applied Epic, Vertafore) organizes everything around the account. The customer, the relationship, the book, the commissions. Applied Systems has made thirteen acquisitions including Planck and Cytora, embedding AI directly into the platform. Seven of the ten largest agencies run on Applied Epic.
+On the distribution side, the Agency Management System (Applied Epic, Vertafore) organizes everything around the account. The customer, the relationship, the book, the commissions. Applied Systems has made thirteen acquisitions including Planck and Cytora, embedding AI directly into the platform. Seven of the ten largest agencies run on Applied Epic. And now Hellman & Friedman is exploring a sale of Applied Systems itself at up to $10 billion. The company that spent a decade acquiring AI capabilities to lock in distribution is now on the block — meaning the consolidation layer is itself being consolidated.
 
-This is why Guidewire buying hyperexponential matters. The vendors that own the system of record are embedding AI into their platforms. Carriers that buy from these vendors get AI that works within the ecosystem. Carriers that want to build independently have to solve the integration themselves.
+This is why Guidewire buying hyperexponential matters. The vendors that own the system of record are embedding AI into their platforms. Carriers that buy from these vendors get AI that works within the ecosystem. Carriers that want to build independently have to solve the integration themselves. Independent AI vendors like Federato and Sixfold offer a middle path — purpose-built underwriting intelligence without core system lock-in — but the carrier still owns the integration, and that requires engineering talent most carriers don't have.
 
 Most carriers underestimate that integration complexity: how data moves between systems, what the standards are, and what breaks when something upstream changes. This knowledge lives inside the organization, or it doesn't exist at all. Carriers that lost it during the outsourcing wave are the ones struggling hardest to absorb AI tools now.
 
