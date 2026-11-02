@@ -48,6 +48,71 @@ Now compare that with an integrated carrier writing the same risk. The carrier s
 
 At a 55% loss ratio, the integrated carrier keeps $18 on every $100. The disassembled chain keeps only $2. That's the cost of disassembly.
 
+The disassembled chain breaks even at a 57% loss ratio. The integrated carrier doesn't break even until 73%. That 16-point gap is the structural price of running the value chain through six intermediaries instead of one balance sheet.
+
+<div style="margin: 32px 0; padding: 24px 28px; background: #f8faf9; border-radius: 10px;">
+<div style="font-size: 13px; font-weight: 700; color: #0A2540; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 20px;">Where $100 of Premium Goes</div>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px;">
+<!-- Disassembled column -->
+<div style="display: flex; flex-direction: column;">
+<div style="font-size: 13px; font-weight: 700; color: #0A2540; margin-bottom: 12px;">Disassembled Chain</div>
+<div style="display: flex; flex-direction: column; gap: 3px;">
+<div style="display: flex; align-items: center; gap: 8px;">
+<div style="height: 22px; width: 12%; background: #6B7B8D; border-radius: 3px;"></div>
+<span style="font-size: 11px; color: #6B7B8D;">Retail broker $12</span>
+</div>
+<div style="display: flex; align-items: center; gap: 8px;">
+<div style="height: 22px; width: 8%; background: #6B7B8D; border-radius: 3px;"></div>
+<span style="font-size: 11px; color: #6B7B8D;">Wholesale broker $8</span>
+</div>
+<div style="display: flex; align-items: center; gap: 8px;">
+<div style="height: 22px; width: 7%; background: #6B7B8D; border-radius: 3px;"></div>
+<span style="font-size: 11px; color: #6B7B8D;">MGA net $7</span>
+</div>
+<div style="display: flex; align-items: center; gap: 8px;">
+<div style="height: 22px; width: 5%; background: #6B7B8D; border-radius: 3px;"></div>
+<span style="font-size: 11px; color: #6B7B8D;">Fronting carrier $5</span>
+</div>
+<div style="display: flex; align-items: center; gap: 8px;">
+<div style="height: 22px; width: 3%; background: #6B7B8D; border-radius: 3px;"></div>
+<span style="font-size: 11px; color: #6B7B8D;">Tax, compliance, claims $3</span>
+</div>
+<div style="display: flex; align-items: center; gap: 8px;">
+<div style="height: 22px; width: 8%; background: #6B7B8D; border-radius: 3px; opacity: 0.6;"></div>
+<span style="font-size: 11px; color: #6B7B8D;">Reinsurer overhead $8</span>
+</div>
+</div>
+<div style="margin-top: 10px; padding-top: 8px; border-top: 2px solid #EF4444; display: flex; justify-content: space-between; align-items: baseline;">
+<span style="font-size: 11px; font-weight: 700; color: #EF4444;">$43 consumed before claims</span>
+<span style="font-size: 12px; font-weight: 700; color: #0A2540;">Losses $57</span>
+</div>
+</div>
+<!-- Integrated column -->
+<div style="display: flex; flex-direction: column;">
+<div style="font-size: 13px; font-weight: 700; color: #0A2540; margin-bottom: 12px;">Integrated Carrier</div>
+<div style="display: flex; flex-direction: column; gap: 3px;">
+<div style="display: flex; align-items: center; gap: 8px;">
+<div style="height: 22px; width: 12%; background: #00D4AA; border-radius: 3px; opacity: 0.6;"></div>
+<span style="font-size: 11px; color: #6B7B8D;">Retail broker $12</span>
+</div>
+<div style="display: flex; align-items: center; gap: 8px;">
+<div style="height: 22px; width: 12%; background: #00D4AA; border-radius: 3px; opacity: 0.6;"></div>
+<span style="font-size: 11px; color: #6B7B8D;">Carrier operations $12</span>
+</div>
+<div style="display: flex; align-items: center; gap: 8px;">
+<div style="height: 22px; width: 3%; background: #00D4AA; border-radius: 3px; opacity: 0.6;"></div>
+<span style="font-size: 11px; color: #6B7B8D;">Tax, compliance, claims $3</span>
+</div>
+</div>
+<div style="margin-top: auto; padding-top: 8px; border-top: 2px solid #00D4AA; display: flex; justify-content: space-between; align-items: baseline;">
+<span style="font-size: 11px; font-weight: 700; color: #00D4AA;">$27 consumed before claims</span>
+<span style="font-size: 12px; font-weight: 700; color: #0A2540;">Losses $73</span>
+</div>
+</div>
+</div>
+<div style="font-size: 11px; color: #9CA3AF; font-style: italic; margin-top: 16px; text-align: center;">Illustrative. Typical specialty casualty program. Figures from fee stack analysis above.</div>
+</div>
+
 Kinsale Capital, an E&S specialist insurer, writes $2 billion in premium. It doesn't delegate underwriting to MGAs. It runs a 55% loss ratio and posts a 76% combined ratio. Same loss ratio as in our scenario, different model, very different result.
 
 What return does a reinsurer actually need to commit capacity to an MGA program, especially with long-tail risks? For specialty casualty or professional liability programs, losses develop over 5-10 years. Initial gross accident-year loss ratios have developed adversely over the past seven years across the fronting sector ([Conning, August 2026](https://www.prnewswire.com/news-releases/conning-soft-market-will-test-fronting-insurer-resilience-as-sector-matures-302862913.html)). A 2% profit margin is not adequate for that kind of risk. At a 50% loss ratio, the reinsurer's profit margin is 7%. One adverse development year can wipe that out. The disassembled model needs loss ratios to stay below 50% to prosper. In specialty casualty, that is not an easy target. It only works for the share of risks that genuinely outperform the market. As the MGA market keeps growing from 10% to 20% of premium, a larger share of the industry is required to beat the average. That gets harder, not easier.
@@ -91,6 +156,8 @@ One logical response to this pressure is re-integration.
 The evidence is already visible. Hagerty moved to retaining 100% of its US book in January 2026, keeping the paper arrangement with Essentia but taking back all the economics. Munich Re, which had provided capacity to At-Bay since the program's early years, agreed in August 2026 to acquire the company outright. From the carrier side, Allianz transferred its entire standalone commercial cyber portfolio to Coalition, an MGA that had started on carrier paper and acquired its own admitted carrier in 2022. Re-integration happens from both directions.
 
 Successful MGAs don't wait for a coordinator - they move toward greater integration. Large reinsurers don't coordinate MGAs - they acquire them. Whether driven by success or by stress, the trajectory bends back toward the vertical integration the disassembled chain was built to replace.
+
+The pattern is furthest along in cyber. Coalition, which acquired its own admitted carrier in 2022 and has been public about an eventual IPO, will likely stay independent. Most other standalone cyber programs will be absorbed by their capacity partners over the next few years. New MGAs will keep forming -- the talent that built the acquired platforms can walk out and start again -- but the independent model will occupy a shrinking share of the market. The same dynamic will follow in other lines where the fee stack gets tight.
 
 The MGAs that can't vertically integrate - too small, too early, or not profitable enough to attract their own capital - need a coordinator the most and are least likely to get one. They depend on the platform model. Whether the major MGA platforms can deliver real coordination under stress, not just shared services in a benign market, is still untested.
 

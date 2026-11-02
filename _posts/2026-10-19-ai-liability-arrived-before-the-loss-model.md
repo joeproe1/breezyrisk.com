@@ -124,7 +124,7 @@ What's driving purchases today is the certification, not the insurance. AIUC-1 u
 ### My take
 
 <div class="callout callout-green">
-<p>Endorsements will dominate through 2027-2028, just on distribution advantage alone. A significant AI liability claim, a series of losses, or regulatory action is likely needed to expose the pricing gap and accelerate the adoption of standalone coverage. Certification-led will stay a niche for high-stakes deployments -- healthcare, financial services, government -- where procurement requires it. Long term, endorsements and standalone products coexist, similar to how cyber endorsements and standalone cyber policies coexist today.</p>
+<p>Endorsements will dominate through 2027-2028, just on distribution advantage alone. A significant AI liability claim, a series of losses, or regulatory action is likely needed to expose the pricing gap and accelerate the adoption of standalone coverage. Certification-led will stay a niche for high-stakes deployments (healthcare, financial services, government) where procurement requires it. Long term, endorsements and standalone products coexist, similar to how cyber endorsements and standalone cyber policies coexist today.</p>
 </div>
 
 ### Who buys first, and why

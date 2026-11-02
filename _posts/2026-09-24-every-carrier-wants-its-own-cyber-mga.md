@@ -22,6 +22,8 @@ It started in January 2024, when Travelers acquired Corvus for $435 million. Zur
 
 The transactions are not identical. Travelers and Zurich-Beazley are outright acquisitions. Munich Re-At-Bay converts a capacity partnership into ownership. Allianz-Coalition is a long-term exclusive arrangement without full acquisition. But the direction is the same. Across six transactions in thirty months, each pairs a global balance sheet with a technology-driven cyber underwriting platform. With the notable exception of Chubb, the carriers making the largest cyber bets are buying or locking up the capability rather than building it internally.
 
+Of the six, Munich Re's acquisition of At-Bay stands out as the most disciplined. Munich Re provided capacity first, built years of loss data on the book, watched the VC valuation bubble correct, and then bought at $575M -- less than half of At-Bay's $1.35B last private round. The reinsure-invest-acquire playbook, executed with patience. Timing matters in these deals: buying after the market has corrected VC valuations, not at the peak, is the difference between a strategic asset and an overpayment.
+
 ![Market map showing cyber MGA acquisitions (Travelers-Corvus, Zurich-Beazley, Munich Re-At-Bay), Allianz-Coalition exclusive partnership, Chubb's organic build, and remaining independent MGAs (Resilience, Converge, Elpha Secure, K2 Cyber, Navasana).](/assets/images/cyber-mga-landscape.png)
 *Six deals in thirty months. The independents are running out of partners who don't own a competing platform.*
 
@@ -60,6 +62,8 @@ A few significant cyber MGAs remain unattached: Resilience, Converge, Elpha Secu
 New MGAs are still launching. K2 Cyber, founded in April 2025, recruited senior underwriting talent from established cyber platforms. Navasana, founded by a former Cowbell executive, is building an AI-native cyber underwriting platform. Both are examples of senior cyber executives leaving acquired or soon-to-be-acquired platforms to start new ones. The risk for acquirers of any professional services firm is that the talent that justified the price tag walks out and competes. In some cases, it already has.
 
 Carriers are paying billions to acquire cyber MGAs, and the people who built them can walk out and start new ones. That is the paradox of every talent acquisition in professional services, and it applies here with unusual force because cyber underwriting talent is so concentrated.
+
+Independent MGAs will survive as long as they retain their underwriting edge and their dominance in their niche. The ones with genuine model advantages in segments the carrier platforms won't touch -- micro-SMB, vertical-specific cyber, emerging attack surfaces -- have a durable position. The ones competing head-to-head with carrier-owned platforms on mid-market commercial cyber do not.
 
 ## The Market Behind the Market
 
