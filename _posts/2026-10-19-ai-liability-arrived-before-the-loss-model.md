@@ -143,4 +143,4 @@ I'd watch the companies that are doing two things: writing coverage now while in
 
 ---
 
-<p style="font-size: 15px; color: #6B7B8D; line-height: 1.6;">This article analyzes the three pricing approaches emerging for AI liability. The companion piece, <a href="/insights/ai-liability-measurement-gap/">Insuring AI Liability Without Measuring the Risks</a>, maps the first cohort of writers and the measurement infrastructure underneath them.</p>
+<p style="font-size: 14px; color: #6B7B8D; line-height: 1.6;"><strong style="color: #0A2540;">AI Liability Series</strong><br>Previous: <a href="/insights/ai-liability-measurement-gap/">Insuring AI Liability Without Measuring the Risks</a> — the first cohort of writers and the measurement gaps underneath them.</p>

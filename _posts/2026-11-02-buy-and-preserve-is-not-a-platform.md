@@ -197,4 +197,4 @@ The underwriting intelligence that makes an insurance company resilient through 
 
 ---
 
-*This is the fourth article in my MGA economics series. The first, [What Gets Lost in the MGA Assembly Line](/insights/mga-assembly-line/), examines the accountability gaps in the disassembled value chain. The second, [The Cost of Disassembly](/insights/the-cost-of-disassembly/), breaks down the fee stack. The third, [The Two-Track MGA Market](/insights/the-two-track-mga-market/), maps how PE-backed and AI-native MGAs are diverging.*
+<p style="font-size: 14px; color: #6B7B8D; line-height: 1.6;"><strong style="color: #0A2540;">MGA Economics Series</strong><br>Previous: <a href="/insights/the-two-track-mga-market/">The Two-Track MGA Market</a></p>

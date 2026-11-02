@@ -164,3 +164,7 @@ The MGAs that can't vertically integrate - too small, too early, or not profitab
 The questions that matter: What is the breakeven loss ratio on each program after the full fee stack, and how much room does that leave before the reinsurer walks away? Who has real-time visibility into loss development across the value chain - not quarterly bordereaux, not annual stewardship meetings, but current data from someone whose compensation depends on getting it right? And at what premium volume does building the capability internally cost less than renting it through six intermediaries? Most boards are not asking these. The fee stack makes them urgent.
 
 In their [2026 MGA study](https://www.prnewswire.com/news-releases/conning-us-mga-premiums-reach-128-billion-as-market-evolution-continues-302835820.html), Conning asks whether MGAs are "reconfiguring the insurance value chain." They are. Whether the reconfigured chain can sustain itself, with a fee stack that needs exceptional loss ratios, without a coordinator, when the market eventually turns, is the part the celebration hasn't reached yet.
+
+---
+
+<p style="font-size: 14px; color: #6B7B8D; line-height: 1.6;"><strong style="color: #0A2540;">MGA Economics Series</strong><br>Previous: <a href="/insights/mga-assembly-line/">What Gets Lost in the MGA Assembly Line</a><br>Next: <a href="/insights/every-carrier-wants-its-own-cyber-mga/">Every Carrier Wants Its Own Cyber MGA</a></p>

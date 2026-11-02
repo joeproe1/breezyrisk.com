@@ -156,5 +156,5 @@ The measurement layer will likely be funded as an underwriting cost by the carri
 
 ---
 
-<p style="font-size: 15px; color: #6B7B8D; line-height: 1.6;">This article maps the first cohort of AI liability writers and the measurement infrastructure underneath them. A follow-up, <a href="/insights/ai-liability-arrived-before-the-loss-model/">AI Liability: The Insurance Arrived Before the Loss Model</a>, analyzes the three pricing approaches emerging in the market and where they are heading.</p>
+<p style="font-size: 14px; color: #6B7B8D; line-height: 1.6;"><strong style="color: #0A2540;">AI Liability Series</strong><br>Next: <a href="/insights/ai-liability-arrived-before-the-loss-model/">AI Liability: The Insurance Arrived Before the Loss Model</a> — the three pricing approaches and where they are heading.</p>
 

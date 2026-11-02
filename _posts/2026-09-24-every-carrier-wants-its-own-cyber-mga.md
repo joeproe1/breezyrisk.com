@@ -100,3 +100,7 @@ What the deal announcements miss is the fragility. A cyber MGA depends on a fron
 Cyber was the first risk that moved too fast for the traditional carrier model. AI liability may be next. The carriers that figured out their cyber strategy will apply the same playbook to the next emerging risk that outpaces them.
 
 The standalone cyber MGA is not dead. But after six deals in thirty months, the list of carriers willing to partner with one they do not own is getting shorter.
+
+---
+
+<p style="font-size: 14px; color: #6B7B8D; line-height: 1.6;"><strong style="color: #0A2540;">MGA Economics Series</strong><br>Previous: <a href="/insights/the-cost-of-disassembly/">The Cost of Disassembly</a><br>Next: <a href="/insights/the-two-track-mga-market/">The Two-Track MGA Market</a></p>

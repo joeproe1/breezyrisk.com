@@ -149,4 +149,4 @@ How long both tracks will run in parallel depends on the loss ratios. The cycle 
 
 ---
 
-*This is the third article in my MGA economics series. The first, [What Gets Lost in the MGA Assembly Line](/insights/mga-assembly-line/), examines the accountability gaps in the disassembled value chain. The second, [The Cost of Disassembly](/insights/the-cost-of-disassembly/), breaks down the fee stack.*
+<p style="font-size: 14px; color: #6B7B8D; line-height: 1.6;"><strong style="color: #0A2540;">MGA Economics Series</strong><br>Previous: <a href="/insights/every-carrier-wants-its-own-cyber-mga/">Every Carrier Wants Its Own Cyber MGA</a><br>Next: <a href="/insights/buy-and-preserve-is-not-a-platform/">Buy and Preserve Is Not a Platform</a></p>

@@ -111,3 +111,7 @@ Every player in this value chain optimizes for its own economics. MGAs optimize 
 MGAs that bring genuine domain expertise create real value — better underwriting, faster products, risks covered that wouldn't be otherwise. But the assembled model has coordination costs that nobody is yet compensated to solve. The complexity adds cost and opacity for everyone, from the general counsel reviewing program agreements to the examiner trying to understand the capital behind the policy.
 
 Reinsurance brokers see more of the full picture than most participants. Whether they, or marketplace models, or someone else takes on the role of true assembler is an open question. Until someone does, the gaps between the pieces will keep surprising the people who discover them last: the ones filing the claims.
+
+---
+
+<p style="font-size: 14px; color: #6B7B8D; line-height: 1.6;"><strong style="color: #0A2540;">MGA Economics Series</strong><br>Next: <a href="/insights/the-cost-of-disassembly/">The Cost of Disassembly</a> — the fee stack underneath the assembled chain.</p>
