@@ -28,11 +28,59 @@ And then there is the AI-native MGA. AI changes what programs can do: serve acco
 
 Neptune Flood has the most impressive model in this space. Zero human underwriters. Its ML engine handles risk selection, pricing, concentration control, and carrier allocation. A lifetime loss ratio of 25% across 21 landfall hurricanes since 2018. For comparison, NFIP's loss ratio was 86% over the same period.
 
-Coalition, Inc. redefined cyber insurance. Their "active insurance" approach -- monitoring networks and intervening before a breach -- changed the meaning of a cyber policy. Nirvana Insurance trains its trucking fleet insurance models on 30 billion miles of telematics data.
+Both numbers are real, but the gap overstates the model's advantage. Neptune's ML prices flood risk more accurately than NFIP's community-based rating, which cross-subsidizes high-risk properties with low-risk ones. That pricing accuracy attracts exactly the homeowners who overpay under the averaged system -- properties in lower-risk zones or with better mitigation. NFIP writes everything, including properties that have flooded repeatedly. The 25% proves the model works. It doesn't prove it would produce 25% on NFIP's full book.
+
+Coalition redefined cyber insurance. Their "active insurance" approach -- monitoring networks and intervening before a breach -- changed the meaning of a cyber policy. Nirvana Insurance trains its trucking fleet insurance models on 30 billion miles of telematics data.
 
 AI-native MGAs share a common talent model that looks different from the traditional side: a tech founder paired with an insurance veteran (typically in that order). The tech founder builds the platform. The insurance veteran configures the underwriting models and gets the carrier to allocate paper.
 
+<div style="margin: 32px 0; overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse; font-size: 14px; line-height: 1.5;">
+<thead>
+<tr style="border-bottom: 2px solid #0A2540;">
+<th style="text-align: left; padding: 10px 16px; color: #FFFFFF; font-weight: 700;"></th>
+<th style="text-align: left; padding: 10px 16px; color: #FFFFFF; font-weight: 700;">Traditional MGA</th>
+<th style="text-align: left; padding: 10px 16px; color: #FFFFFF; font-weight: 700;">AI-Native MGA</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border-bottom: 1px solid #E5E7EB;">
+<td style="padding: 10px 16px; font-weight: 600; color: #0A2540;">Talent model</td>
+<td style="padding: 10px 16px; color: #374151;">Experienced underwriting team, key-person dependent</td>
+<td style="padding: 10px 16px; color: #374151;">Tech founder + insurance veteran, model-dependent</td>
+</tr>
+<tr style="border-bottom: 1px solid #E5E7EB;">
+<td style="padding: 10px 16px; font-weight: 600; color: #0A2540;">Underwriting mechanism</td>
+<td style="padding: 10px 16px; color: #374151;">Human judgment, delegated authority</td>
+<td style="padding: 10px 16px; color: #374151;">ML models trained on proprietary data</td>
+</tr>
+<tr style="border-bottom: 1px solid #E5E7EB;">
+<td style="padding: 10px 16px; font-weight: 600; color: #0A2540;">Capacity relationship</td>
+<td style="padding: 10px 16px; color: #374151;">Fronting carrier, traditional binder</td>
+<td style="padding: 10px 16px; color: #374151;">Carrier-as-investor, equity alongside paper</td>
+</tr>
+<tr style="border-bottom: 1px solid #E5E7EB;">
+<td style="padding: 10px 16px; font-weight: 600; color: #0A2540;">Valuation driver</td>
+<td style="padding: 10px 16px; color: #374151;">Book size, loss ratio, team tenure</td>
+<td style="padding: 10px 16px; color: #374151;">Proprietary data flywheel, technology moat</td>
+</tr>
+<tr style="border-bottom: 1px solid #E5E7EB;">
+<td style="padding: 10px 16px; font-weight: 600; color: #0A2540;">Time to scale</td>
+<td style="padding: 10px 16px; color: #374151;">Years (relationship-driven distribution)</td>
+<td style="padding: 10px 16px; color: #374151;">Months to distribute, years to build loss history</td>
+</tr>
+<tr>
+<td style="padding: 10px 16px; font-weight: 600; color: #0A2540;">Exit path</td>
+<td style="padding: 10px 16px; color: #374151;">PE platform roll-up at 12-15x EBITDA</td>
+<td style="padding: 10px 16px; color: #374151;">Carrier acquisition or IPO, VC multiples</td>
+</tr>
+</tbody>
+</table>
+</div>
+
 ### Risk-model MGAs
+
+The algorithm replaces the underwriter. The moat is proprietary claims data that compounds with every policy written.
 
 In these programs, the algorithm is the underwriting. A carrier evaluating Neptune is not delegating to an experienced team. It is delegating to a machine. Flood is a data-rich, modellable peril with decades of NFIP history and established cat modeling infrastructure. Does that proof extend to cyber, trucking, or casualty -- lines where the data is thinner and the loss patterns less stable? That's a question reinsurers should keep asking.
 
@@ -41,6 +89,8 @@ Their moat is proprietary data combined with claims outcomes. Neptune's hurrican
 Capacity providers need more than a headline loss ratio. They need to see how specific vintages are developing and whether reserves are holding up. I'm not sure a reinsurer can evaluate these programs the way it would evaluate a traditional underwriting team. The model underneath remains a black box with a strong track record. Is that enough?
 
 ### Workflow MGAs
+
+The human underwriter stays. The economics change. The moat is cost structure and distribution, not underwriting IP.
 
 The second category of AI-native MGAs are workflow programs. These keep the human underwriter but change the economics around them. Shepherd, for example, automates intake, analysis, and pricing for construction risk (a class with heavy submission requirements); Comeryx launched this week to do the same for small-business artisan contractors.
 
@@ -71,6 +121,8 @@ Munich Re's acquisition of At-Bay follows a sequence: reinsure, invest, acquire 
 Coalition acquired its own admitted carrier in 2022. MGT acquired a carrier in 2023 and built its AI underwriting platform on a licensed balance sheet -- profitable within two years. Corgi started as a risk retention group in 2024 and launched an admitted carrier in August.
 
 For MGAs that stay on fronting paper, convergence will run through the carriers providing it. A carrier that has been reinsuring a program for three years already has its own loss data on the book. A PE firm doing diligence from the outside wants five years of loss development and renewal retention by cohort. AI-native programs can't hand that over. PE platforms aren't locked out permanently. But they need to move before the best programs get acquired by their carriers.
+
+At the current pace of carrier acquisitions -- six deals in 30 months -- the list of proven, acquirable AI-native programs is shrinking by 2-3 per year. New AI-native MGAs are forming (Comeryx and Corgi both launched in recent months), but they are early-stage bets without the loss history PE buyers typically require. PE platforms that wait for traditional diligence data will find the proven programs already carrier-owned and the remaining pipeline full of unproven entrants that don't match their underwriting model.
 
 ## The correction ahead
 

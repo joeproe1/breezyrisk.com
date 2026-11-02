@@ -32,7 +32,7 @@ First, the risk is non-stationary. The AI model that carriers evaluated and unde
 
 Correlation is a separate problem. Thousands of companies run on the same foundation models, each deploying differently. But a systematic flaw in one model, or a single training-data lawsuit that changes the legal landscape, creates a correlated trigger across all of them. Foundation model providers generally disclaim liability for their output. The risk flows downstream to the deployers.
 
-And the failure modes have no historical analogues. Hallucinations, prompt injection, autonomous agent decisions that bypass explicit constraints, escalation failures where the AI doesn't hand off to a human when it should. In July, 700 of OpenAI's autonomous AI agents [escaped their sandbox](https://tech-insider.org/openai-hugging-face-ai-agent-hack-report-2026/) during an internal red-team test, self-organized, and compromised Hugging Face's production infrastructure over several days before anyone noticed. None of these map to existing professional liability or tech E&O loss tables. Layer on social inflation and the trend toward nuclear verdicts, and severity modeling becomes pure guesswork. There is no actuarial basis to extrapolate from, because nothing like this came before.
+And the failure modes have no historical analogues. Hallucinations, prompt injection, autonomous agent decisions that bypass explicit constraints, escalation failures where the AI doesn't hand off to a human when it should. In July, 700 of OpenAI's autonomous AI agents [escaped their sandbox](https://tech-insider.org/openai-hugging-face-ai-agent-hack-report-2026/) during an internal red-team test, self-organized, and compromised Hugging Face's production infrastructure over several days before anyone noticed. If a similar escape happened in production -- an AI agent in financial services taking unauthorized actions across client accounts for 72 hours before detection -- the loss chain would include regulatory fines, customer restitution, defense costs, and business interruption. A plausible single-event loss: **$10-25M**. **One policyholder, one failure mode that didn't exist in any loss table 18 months ago.** None of these map to existing professional liability or tech E&O loss tables. Layer on social inflation and the trend toward nuclear verdicts, and severity modeling becomes pure guesswork. There is no actuarial basis to extrapolate from, because nothing like this came before.
 
 Cyber insurance was here a decade ago and eventually built loss tables. But cyber risk, for all its complexity, runs on infrastructure that changes in years, not months. AI capabilities shift between quarterly board meetings. Jeffrey Sharer (Sharer Consulting LLC) puts it well:
 
@@ -71,34 +71,60 @@ If traditional actuarial methods don't apply to AI liability, what replaces them
 </tbody>
 </table>
 
+<div style="margin: 32px 0; padding: 24px 28px; background: #f8faf9; border-radius: 10px;">
+<div style="font-size: 13px; font-weight: 700; color: #0A2540; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 20px;">Market Maturity Spectrum</div>
+<!-- Spectrum bar -->
+<div style="position: relative; margin: 0 0 12px 0;">
+<div style="height: 6px; background: linear-gradient(90deg, #00D4AA, #F59E0B, #0A2540); border-radius: 3px;"></div>
+</div>
+<!-- Axis labels -->
+<div style="display: flex; justify-content: space-between; margin-bottom: 24px;">
+<span style="font-size: 11px; color: #6B7B8D;">Fastest to scale</span>
+<span style="font-size: 11px; color: #6B7B8D;">Strongest pricing discipline</span>
+</div>
+<!-- Three markers -->
+<div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px;">
+<div style="text-align: center;">
+<div style="font-size: 13px; font-weight: 700; color: #00D4AA; margin-bottom: 6px;">Endorsements</div>
+<div style="font-size: 12px; color: #6B7B8D; line-height: 1.5;">Fastest to scale<br>Priced off legacy data<br>Tested by volume</div>
+</div>
+<div style="text-align: center;">
+<div style="font-size: 13px; font-weight: 700; color: #F59E0B; margin-bottom: 6px;">Standalone</div>
+<div style="font-size: 12px; color: #6B7B8D; line-height: 1.5;">Growing post-trigger<br>Governance-based pricing<br>Tested by claims</div>
+</div>
+<div style="text-align: center;">
+<div style="font-size: 13px; font-weight: 700; color: #0A2540; margin-bottom: 6px;">Certification-led</div>
+<div style="font-size: 12px; color: #6B7B8D; line-height: 1.5;">Niche, high-stakes<br>Evaluation-based pricing<br>Tested by standards</div>
+</div>
+</div>
+</div>
+
 ### The first bet: add AI language to existing products
 
-This is where most established carriers are heading. CFC is adding affirmative AI coverage across seven product lines. HSB (Hartford Steam Boiler), a subsidiary of Munich Re, launched SME AI coverage. Cowbell is endorsing AI liability onto existing cyber policies.
+CFC is adding affirmative AI coverage across seven product lines. HSB (Munich Re subsidiary) launched SME AI coverage. Cowbell is endorsing AI liability onto existing cyber policies.
 
 George Beattie, Head of Innovation at CFC, makes the case: "AI will be hard to discern from normal business in the future. Existing products will need to accommodate AI risks as a cause of loss." Companies will be held liable for AI agent errors the way employers are liable for employee errors, he argues, especially when guardrails are lacking.
 
-The distribution channel is proven. This is how cyber coverage started before standalone policies emerged. The tension: these endorsements are still priced off historical professional liability and tech E&O loss data. That extrapolation doesn't hold when the risk is this different.
+The distribution channel is proven -- this is how cyber coverage started. The tension: these endorsements are still priced off historical professional liability and tech E&O loss data. That extrapolation doesn't hold when the risk is this different.
 
 ### The second bet: build standalone AI liability products
 
-Mayflower, Armilla, Testudo, and Relm are writing dedicated AI liability policies. A handful of others are getting ready. Mayflower is the most developed, with modular products covering AI-specific D&O, EPL, E&O, and a DIC excess that drops down where legacy policies are silent. Underwriting is governance-based: price on how well the company manages the risk, the way D&O prices on board quality rather than historical director liability losses.
+Mayflower, Armilla, Testudo, and Relm are writing dedicated AI liability policies. Mayflower is the most developed, with modular products covering AI-specific D&O, EPL, E&O, and a DIC excess that drops down where legacy policies are silent. Underwriting is governance-based: price on how well the company manages the risk, the way D&O prices on board quality rather than historical director liability losses.
 
 Jeremy Epstein, Mayflower's founder, explains: "Two businesses using the same model can present materially different loss potential depending on the authority delegated to it, reliance on its outputs and the effectiveness of the tools." What matters for pricing is how failures enter consequential workflows: client work product, employment decisions, professional advice. Whether governance quality actually predicts AI loss outcomes is the open question, but these products are at least asking it directly.
 
 ### The third bet: replace loss history with evaluation
 
-AIUC is a category of one. Evaluate the AI system against a published standard (AIUC-1, ~5,000 risk and attack combinations), certify it, insure it. The certification IS the underwriting. Quarterly retesting addresses the non-stationary problem. AIUC's model has supported coverage up to $50M through Lloyd's-linked capacity.
+AIUC is a category of one. Evaluate the AI system against a published standard (AIUC-1, ~5,000 risk and attack combinations), certify it, insure it. The certification is the underwriting. Quarterly retesting addresses the non-stationary problem. Coverage up to $50M through Lloyd's-linked capacity.
 
 Rajiv Dattani, AIUC co-founder: "When electricity was burning down houses, the insurers paying the bill funded Underwriters Laboratories to test and certify products. AI needs the same combination of standards, testing and insurance." *([SiliconANGLE](https://siliconangle.com/2026/09/15/ai-agent-certification-startup-aiuc-raises-40m-to-begin-auditing-frontier-models/))*
 
-What's driving purchases today is the certification, not the insurance. AIUC-1 unblocks enterprise procurement the way SOC 2 unblocks SaaS sales. If contractual requirements for AI liability insurance emerge the way cyber insurance requirements did, the purchase driver shifts. That hasn't happened yet.
-
-This last bet is the most ambitious: evaluation data replacing actuarial loss data entirely. Nobody has demonstrated that at scale.
+What's driving purchases today is the certification, not the insurance. AIUC-1 unblocks enterprise procurement the way SOC 2 unblocks SaaS sales. The most ambitious bet: evaluation data replacing actuarial loss data entirely. Nobody has demonstrated that at scale.
 
 ### My take
 
 <div class="callout callout-green">
-<p>Initially, endorsements will capture most of the premium. But these endorsements are pricing AI risk off data that predates the risk. The first major AI liability claim will test whether that holds true. If it doesn't, the standalone and certification-led products will look like they were a better bet.</p>
+<p>Endorsements will dominate through 2027-2028, just on distribution advantage alone. A significant AI liability claim, a series of losses, or regulatory action is likely needed to expose the pricing gap and accelerate the adoption of standalone coverage. Certification-led will stay a niche for high-stakes deployments -- healthcare, financial services, government -- where procurement requires it. Long term, endorsements and standalone products coexist, similar to how cyber endorsements and standalone cyber policies coexist today.</p>
 </div>
 
 ### Who buys first, and why
