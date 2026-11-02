@@ -33,17 +33,18 @@ description: "Insurance strategy, technology, and operations advisory. Carrier t
     <div class="hero-split">
 
       <div class="hero-text">
-        <h1>Insurance Strategy, Technology &amp; Operations</h1>
+        <h1>I've Built and Run Insurance&nbsp;Operations</h1>
 
-        <p class="hero-tagline">I advise carriers, MGAs, and investors on insurance technology strategy and emerging risks, drawing on a career spent building and running insurance&nbsp;operations.</p>
+        <p class="hero-tagline">From carrier technology at Chubb and CNA to founding and operating MGAs — I work with carriers, MGAs, and PE&#8209;backed platforms on insurance technology strategy, operations, and emerging&nbsp;risks.</p>
 
+        <a href="{{ '/contact/' | relative_url }}" class="btn btn-accent hero-cta-btn">Get in Touch &rarr;</a>
       </div>
 
       <div class="hero-visual">
         <img src="{{ '/assets/images/joerg-homepage.jpg' | relative_url }}" alt="Joerg Proeve, Founder and Principal at Breezy Risk Advisors" class="hero-photo">
         <div class="hero-byline">
           <p class="hero-byline-name"><a href="{{ '/about/' | relative_url }}">Joerg Proeve &rarr;</a></p>
-          <p class="hero-byline-credentials">Chubb, CNA, two MGA startups.</p>
+          <p class="hero-byline-credentials">Chubb · CNA · Two MGA startups</p>
         </div>
       </div>
 
@@ -54,23 +55,30 @@ description: "Insurance strategy, technology, and operations advisory. Carrier t
 <!-- Focus Areas -->
 <section class="advisory-focus">
     <div class="container">
-        <h2>My Focus Areas</h2>
+        <h2>Where I Operate</h2>
         <div class="focus-grid">
             <div class="focus-card">
-                <h3>Carrier Technology Strategy</h3>
+                <h3><svg class="focus-icon-inline" width="22" height="22" viewBox="0 0 28 28" fill="none"><rect x="2" y="2" width="9" height="9" rx="2" stroke="#00D4AA" stroke-width="1.5"/><rect x="17" y="2" width="9" height="9" rx="2" stroke="#00D4AA" stroke-width="1.5"/><rect x="2" y="17" width="9" height="9" rx="2" stroke="#00D4AA" stroke-width="1.5"/><rect x="17" y="17" width="9" height="9" rx="2" stroke="#00D4AA" stroke-width="1.5"/><line x1="11" y1="6.5" x2="17" y2="6.5" stroke="#00D4AA" stroke-width="1.5"/><line x1="6.5" y1="11" x2="6.5" y2="17" stroke="#00D4AA" stroke-width="1.5"/><line x1="21.5" y1="11" x2="21.5" y2="17" stroke="#00D4AA" stroke-width="1.5"/><line x1="11" y1="21.5" x2="17" y2="21.5" stroke="#00D4AA" stroke-width="1.5"/></svg> Carrier Technology Strategy</h3>
                 <p>Where technology investments create <strong>underwriting advantage</strong> and where they don't. Grounded in hands-on carrier operations.</p>
-                <p class="focus-evidence">Governed a <strong>$325M technology portfolio</strong> at CNA.</p>
             </div>
             <div class="focus-card">
-                <h3>MGA Operations</h3>
+                <h3><svg class="focus-icon-inline" width="22" height="22" viewBox="0 0 28 28" fill="none"><rect x="3" y="12" width="7" height="13" rx="1" stroke="#00D4AA" stroke-width="1.5"/><rect x="10.5" y="7" width="7" height="18" rx="1" stroke="#00D4AA" stroke-width="1.5"/><rect x="18" y="3" width="7" height="22" rx="1" stroke="#00D4AA" stroke-width="1.5"/></svg> MGA Operations</h3>
                 <p><strong>Product design, underwriting ops, and capacity strategies</strong> for MGAs and program platforms. Formation through scale.</p>
-                <p class="focus-evidence">Built a <strong>cyber MGA from scratch</strong> (acquired by Zurich). Co-founded a <strong>parametric MGA</strong>.</p>
             </div>
             <div class="focus-card">
-                <h3>AI &amp; Emerging Risks</h3>
+                <h3><svg class="focus-icon-inline" width="22" height="22" viewBox="0 0 28 28" fill="none"><circle cx="14" cy="14" r="10" stroke="#00D4AA" stroke-width="1.5"/><circle cx="14" cy="14" r="5" stroke="#00D4AA" stroke-width="1.5"/><circle cx="14" cy="14" r="1.5" fill="#00D4AA"/><line x1="14" y1="2" x2="14" y2="4" stroke="#00D4AA" stroke-width="1.5"/><line x1="14" y1="24" x2="14" y2="26" stroke="#00D4AA" stroke-width="1.5"/><line x1="2" y1="14" x2="4" y2="14" stroke="#00D4AA" stroke-width="1.5"/><line x1="24" y1="14" x2="26" y2="14" stroke="#00D4AA" stroke-width="1.5"/></svg> AI &amp; Emerging Risks</h3>
                 <p>How <strong>AI liability</strong>, autonomous systems and other new risks create new insurance exposure, before the market hardens.</p>
-                <p class="focus-evidence">Built products around <strong>two emerging risk classes</strong>: cyber and parametric catastrophe.</p>
             </div>
+        </div>
+    </div>
+</section>
+
+<!-- Background Strip -->
+<section class="background-strip">
+    <div class="container">
+        <div class="background-strip-inner">
+            <p>Chubb corporate strategy. <strong>$325M</strong> technology portfolio at CNA. <strong>54 countries</strong>. Two emerging-risk MGAs — cyber (U.S. operations) and parametric catastrophe (co-founder). Marakon and Kearney. Engineering and cybersecurity.</p>
+            <a href="{{ '/about/facts/' | relative_url }}" class="background-strip-link">Full Background &rarr;</a>
         </div>
     </div>
 </section>
@@ -93,11 +101,17 @@ description: "Insurance strategy, technology, and operations advisory. Carrier t
     </div>
 </section>
 
-<div style="padding-top: 48px;">
-{% include cta-banner.html title="Let's Talk" subtitle="I'm always open to a conversation about insurance, technology, or what's next." button="Start a Conversation" %}
-</div>
+<section class="homepage-cta">
+{% include cta-banner.html title="Let's Talk" subtitle="Looking for a conversation about carrier strategy, MGA operations, or your next platform build." button="Start a Conversation" %}
+</section>
 
 <style>
+/* Hero CTA button */
+.hero-cta-btn {
+    margin-top: 28px;
+    display: inline-block;
+}
+
 /* Focus Areas */
 .advisory-focus {
     padding: 56px 0;
@@ -128,6 +142,10 @@ description: "Insurance strategy, technology, and operations advisory. Carrier t
     box-shadow: 0 8px 20px rgba(0,0,0,0.06);
     transform: translateY(-2px);
 }
+.focus-icon-inline {
+    vertical-align: -4px;
+    margin-right: 6px;
+}
 .focus-card h3 {
     font-size: 20px;
     font-weight: 700;
@@ -144,22 +162,47 @@ description: "Insurance strategy, technology, and operations advisory. Carrier t
     color: var(--primary);
     font-weight: 700;
 }
-.focus-evidence {
-    margin-top: 12px !important;
-    font-size: 14px !important;
-    color: var(--text-tertiary, #8896A6) !important;
-    border-top: 1px solid var(--border, #E5E7EB);
-    padding-top: 12px;
+/* Background strip */
+.background-strip {
+    padding: 36px 0;
+    background: #0A2540;
+    border-top: 1px solid rgba(0,212,170,0.15);
+}
+.background-strip-inner {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.background-strip-inner p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: rgba(255,255,255,0.75);
+    margin: 0 0 12px;
+}
+.background-strip-inner p strong {
+    color: #fff;
+    font-weight: 600;
+}
+.background-strip-link {
+    font-size: 14px;
+    font-weight: 600;
+    color: #00D4AA;
+    text-decoration: none;
+}
+.background-strip-link:hover {
+    text-decoration: underline;
+    color: #00D4AA;
 }
 
 /* Recent writing section */
 .advisory-writing {
     padding: 48px 0;
-    background: #0A2540;
+    background: #f8f9fa;
+    border-top: 1px solid #e5e7eb;
 }
 .advisory-writing h2 {
     font-size: 28px;
-    color: #fff;
+    color: #0A2540;
     margin-bottom: 24px;
     text-align: center;
 }
@@ -171,7 +214,7 @@ description: "Insurance strategy, technology, and operations advisory. Carrier t
 }
 .writing-item {
     padding: 18px 0;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
+    border-bottom: 1px solid #e5e7eb;
 }
 .writing-item:last-child {
     border-bottom: none;
@@ -185,15 +228,15 @@ description: "Insurance strategy, technology, and operations advisory. Carrier t
     display: block;
     margin-bottom: 4px;
 }
-.writing-category--mga-operations { color: #0EA5E9; }
-.writing-category--carrier-technology-strategy { color: #3B82F6; }
-.writing-category--ai-emerging-risks { color: #F59E0B; }
-.writing-category--cyber-insurance { color: #EC4899; }
-.writing-category--financial-institutions { color: #8B5CF6; }
+.writing-category--mga-operations { color: #0284C7; }
+.writing-category--carrier-technology-strategy { color: #2563EB; }
+.writing-category--ai-emerging-risks { color: #D97706; }
+.writing-category--cyber-insurance { color: #DB2777; }
+.writing-category--financial-institutions { color: #7C3AED; }
 .writing-title {
     font-size: 17px;
     font-weight: 600;
-    color: #fff;
+    color: #0A2540;
     text-decoration: none;
     line-height: 1.4;
     display: block;
@@ -205,7 +248,7 @@ description: "Insurance strategy, technology, and operations advisory. Carrier t
     display: block;
     margin-top: 6px;
     font-size: 14px;
-    color: rgba(255,255,255,0.45);
+    color: #555;
     line-height: 1.5;
 }
 .writing-more {
@@ -215,11 +258,16 @@ description: "Insurance strategy, technology, and operations advisory. Carrier t
 .writing-more a {
     font-size: 15px;
     font-weight: 600;
-    color: #00D4AA;
+    color: #0A2540;
     text-decoration: none;
 }
 .writing-more a:hover {
-    text-decoration: underline;
+    color: #00D4AA;
+}
+
+/* CTA section spacing */
+.homepage-cta {
+    padding: 48px 0 0;
 }
 
 @media (max-width: 968px) {
@@ -229,5 +277,6 @@ description: "Insurance strategy, technology, and operations advisory. Carrier t
 }
 @media (max-width: 768px) {
     .advisory-focus h2, .advisory-writing h2 { font-size: 24px; }
+    .background-strip-inner p { font-size: 15px; }
 }
 </style>
