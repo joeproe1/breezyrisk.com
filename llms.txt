@@ -77,5 +77,4 @@ These articles cover insurance strategy, technology, emerging risks, and market 
 - [Bank Insurance Audits](https://breezyrisk.com/bank-insurance-audits/)
 - [Insights](https://breezyrisk.com/insights/)
 - [About](https://breezyrisk.com/about/)
-- [FAQ](https://breezyrisk.com/faq/)
 - [Contact](https://breezyrisk.com/contact/)
