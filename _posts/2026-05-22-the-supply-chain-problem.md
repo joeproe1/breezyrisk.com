@@ -11,9 +11,6 @@ image: /assets/images/Blog-Supply-Chain-Problem.png
 image_alt: "Semiconductor supply chain ransomware loss of 450 million dollars with zero traditional insurance recovery"
 last_modified_at: 2026-05-22
 permalink: /insights/the-supply-chain-problem/
-archived: true
-sitemap: false
-noindex: true
 ---
 
 *Is parametric the right tool for supply chain business interruption, or a hammer looking for a nail?*

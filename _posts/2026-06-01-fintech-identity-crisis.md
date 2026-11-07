@@ -11,9 +11,6 @@ image_alt: "FinTech insurance policy fragmentation across up to eight carriers w
 read_time: "6 min read"
 last_modified_at: 2026-06-01
 permalink: /insights/fintech-identity-crisis/
-archived: true
-sitemap: false
-noindex: true
 ---
 
 A FinTech that processes payments, holds customer data, and builds software for bank partners is simultaneously a technology company, a financial services company, and a regulated entity. Insurance underwriting has a category for each of those. It does not have a category for the combination.
