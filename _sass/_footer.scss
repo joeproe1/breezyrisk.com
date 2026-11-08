@@ -2,7 +2,7 @@
 .site-footer {
     background: $primary;
     color: rgba(255, 255, 255, 0.8);
-    padding: 36px 0 28px;
+    padding: 24px 0 20px;
     margin-top: 0;
     border-top: 1px solid rgba(255, 255, 255, 0.12);
 
@@ -19,7 +19,6 @@
         color: white;
         font-size: 20px;
         font-weight: 700;
-        margin-bottom: 12px;
         display: inline-block;
 
         span {
@@ -29,25 +28,31 @@
 }
 
 .footer-content {
-    display: grid;
-    grid-template-columns: 1.5fr 2fr;
-    gap: 60px;
-    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
 
     @media (max-width: $bp-tablet) {
-        grid-template-columns: 1fr;
-        gap: 40px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
     }
 }
 
-.footer-brand p {
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 15px;
-    line-height: 1.6;
-    margin-top: 8px;
+.footer-brand {
+    display: flex;
+    align-items: center;
+    gap: 0;
 }
 
-.site-footer .footer-email a {
+.footer-sep {
+    color: rgba(255, 255, 255, 0.35);
+    margin: 0 12px;
+    font-size: 18px;
+}
+
+.site-footer .footer-email {
     color: rgba(255, 255, 255, 0.6);
     font-size: 15px;
 
@@ -56,17 +61,11 @@
     }
 }
 
-.footer-email {
-    margin-top: 16px;
-}
-
 .footer-links {
     display: flex;
-    justify-content: flex-end;
     gap: 32px;
 
     @media (max-width: $bp-tablet) {
-        justify-content: flex-start;
         flex-wrap: wrap;
         gap: 32px;
     }
@@ -86,7 +85,7 @@
 
 .footer-bottom {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-    padding-top: 18px;
+    padding-top: 14px;
     display: flex;
     justify-content: space-between;
     align-items: center;
