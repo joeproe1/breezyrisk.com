@@ -7,7 +7,7 @@ date: 2026-07-22
 author: Joerg Proeve
 category: Cyber Insurance
 read_time: "5 min read"
-image: /assets/images/Blog-NYDFS-Insurance.png
+image: /assets/images/Blog-NYDFS-Insurance.webp
 image_alt: "NYDFS 23 NYCRR 500 cybersecurity regulation and community bank D&O insurance investigative costs gap"
 last_modified_at: 2026-07-22
 permalink: /insights/nydfs-cybersecurity-regulation-insurance/

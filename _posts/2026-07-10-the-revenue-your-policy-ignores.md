@@ -7,7 +7,7 @@ date: 2026-07-10
 author: Joerg Proeve
 category: Financial Institutions
 read_time: "4 min read"
-image: /assets/images/Blog-Revenue-Your-Policy-Ignores.png
+image: /assets/images/Blog-Revenue-Your-Policy-Ignores.webp
 image_alt: "Community bank interest income excluded from cyber policy business interruption coverage"
 permalink: /insights/the-revenue-your-policy-ignores/
 last_modified_at: 2026-08-03

@@ -6,7 +6,7 @@ date: 2026-06-16
 author: Joerg Proeve
 category: Financial Institutions
 read_time: "4 min read"
-image: /assets/images/Blog-Five-Audits-Same-Gaps.png
+image: /assets/images/Blog-Five-Audits-Same-Gaps.webp
 image_alt: "Five community bank insurance audits revealing similar coverage gaps across different carriers and program structures"
 last_modified_at: 2026-08-03
 permalink: /insights/five-audits-same-gaps/

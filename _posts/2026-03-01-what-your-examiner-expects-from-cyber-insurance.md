@@ -6,7 +6,7 @@ date: 2026-03-01
 author: Joerg Proeve
 category: Financial Institutions
 read_time: "4 min read"
-image: /assets/images/Blog-Examiner-Cyber-Insurance.png
+image: /assets/images/Blog-Examiner-Cyber-Insurance.webp
 image_alt: "Bank examiner reviewing cyber insurance adequacy documentation during a community bank examination"
 last_modified_at: 2026-07-11
 permalink: /insights/what-your-examiner-expects-from-cyber-insurance/

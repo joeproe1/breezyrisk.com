@@ -7,7 +7,7 @@ author: Joerg Proeve
 category: Carrier Technology Strategy
 read_time: "9 min read"
 last_modified_at: 2026-09-17
-image: /assets/images/Blog-Everything-Scarce-Becoming-Abundant.png
+image: /assets/images/Blog-Everything-Scarce-Becoming-Abundant.webp
 image_alt: "Everything Scarce in Insurance Is Becoming Abundant. Except Three Things."
 permalink: /insights/everything-scarce-becoming-abundant/
 ---

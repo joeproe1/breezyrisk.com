@@ -6,7 +6,7 @@ date: 2026-10-22
 author: Joerg Proeve
 category: MGA Operations
 read_time: "9 min read"
-image: /assets/images/Blog-Two-Track-MGA-Market.jpg
+image: /assets/images/Blog-Two-Track-MGA-Market.webp
 image_alt: "Aerial view of Passau, Germany, where the Danube, Inn, and Ilz rivers converge — three currents running side by side before merging."
 permalink: /insights/the-two-track-mga-market/
 ---
@@ -15,7 +15,7 @@ The largest PE-backed MGA platforms collectively manage over 150 programs and bi
 
 This is one market running on two distinct tracks, with different talent, different technology, different capital, different access to capacity.
 
-![Aerial view of Passau, Germany, where the Danube, Inn, and Ilz rivers converge](/assets/images/Blog-Two-Track-MGA-Market.jpg)
+![Aerial view of Passau, Germany, where the Danube, Inn, and Ilz rivers converge](/assets/images/Blog-Two-Track-MGA-Market.webp)
 <p style="text-align: center; font-style: italic; color: #999; font-size: 12px; margin-top: -8px;">Passau, Germany -- where the Danube, Inn, and Ilz converge. Photo: Carsten Steger / Wikimedia Commons (CC BY-SA 4.0)</p>
 
 ## The traditional track

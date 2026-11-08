@@ -6,7 +6,7 @@ date: 2026-05-12
 author: Joerg Proeve
 category: MGA Operations
 read_time: "6 min read"
-image: /assets/images/Blog-Counterparty-Question.png
+image: /assets/images/Blog-Counterparty-Question.webp
 image_alt: "AI-native insurance carrier counterparty risk questions for community bank boards evaluating new cyber insurers"
 last_modified_at: 2026-06-26
 permalink: /insights/the-counterparty-question/

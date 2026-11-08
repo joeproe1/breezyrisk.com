@@ -6,7 +6,7 @@ date: 2026-03-27
 author: Joerg Proeve
 category: Financial Institutions
 read_time: "5 min read"
-image: /assets/images/Blog-Wire-Nobody-Covers.png
+image: /assets/images/Blog-Wire-Nobody-Covers.webp
 image_alt: "Wire fraud loss falling between cyber policy, fidelity bond, and D&O coverage at a community bank"
 last_modified_at: 2026-06-26
 permalink: /insights/the-wire-nobody-covers/

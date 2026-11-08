@@ -7,7 +7,7 @@ date: 2026-06-05
 author: Joerg Proeve
 category: MGA Operations
 read_time: "6 min read"
-image: /assets/images/Blog-Buy-or-Cede.png
+image: /assets/images/Blog-Buy-or-Cede.webp
 image_alt: "Zurich Beazley acquisition versus Allianz Coalition cyber underwriting deal showing two opposite carrier strategies"
 last_modified_at: 2026-06-05
 permalink: /insights/buy-or-cede/

@@ -7,7 +7,7 @@ date: 2026-05-25
 author: Joerg Proeve
 category: "AI & Emerging Risks"
 read_time: "7 min read"
-image: /assets/images/Blog-Next-Decade-Risk-Transfer.png
+image: /assets/images/Blog-Next-Decade-Risk-Transfer.webp
 image_alt: "Future of risk transfer showing the gap between how risks behave and how insurance responds over the next decade"
 last_modified_at: 2026-05-25
 permalink: /insights/the-next-decade-of-risk-transfer/

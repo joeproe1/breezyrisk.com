@@ -6,7 +6,7 @@ description: "FinTechs carry up to 8 insurance policies from different carriers,
 date: 2026-06-01
 author: Joerg Proeve
 category: Carrier Technology Strategy
-image: /assets/images/Blog-FinTech-Identity-Crisis.png
+image: /assets/images/Blog-FinTech-Identity-Crisis.webp
 image_alt: "FinTech insurance policy fragmentation across up to eight carriers with no cross-policy coordination"
 read_time: "6 min read"
 last_modified_at: 2026-06-01

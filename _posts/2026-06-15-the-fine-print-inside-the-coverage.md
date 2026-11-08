@@ -6,7 +6,7 @@ date: 2026-06-15
 author: Joerg Proeve
 category: Cyber Insurance
 read_time: "5 min read"
-image: /assets/images/Blog-Fine-Print-Inside-Coverage.png
+image: /assets/images/Blog-Fine-Print-Inside-Coverage.webp
 image_alt: "Cyber policy sublimits and retentions reducing a 5 million dollar policy to under 500,000 in actual recovery for a community bank"
 last_modified_at: 2026-08-03
 permalink: /insights/the-fine-print-inside-the-coverage/

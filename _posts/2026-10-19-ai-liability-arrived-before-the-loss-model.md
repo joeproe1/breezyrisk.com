@@ -6,7 +6,8 @@ date: 2026-10-19
 author: Joerg Proeve
 category: "AI & Emerging Risks"
 read_time: "9 min read"
-image: /assets/images/Blog-AI-Liability-Arrived-Before-Loss-Model.png
+featured: true
+image: /assets/images/Blog-AI-Liability-Arrived-Before-Loss-Model.webp
 image_alt: "AI liability insurance inversion — the coverage arrived before the loss model to price it"
 permalink: /insights/ai-liability-arrived-before-the-loss-model/
 ---
@@ -19,7 +20,7 @@ More than 90% of AI risks covered by insurance are silent (according to [Aon](ht
 
 Companies like AIUC and Mayflower are building dedicated AI liability products, while established carriers, like Munich Re and CFC, are adding AI coverage through existing lines. 257 AI-related lawsuits (per [AI Lawsuit Tracker](https://ailawsuittracker.com/)) have been filed so far. But the risk the carriers and startups are all trying to price may not respond to traditional actuarial methods at all.
 
-![AI liability insurance — the coverage arrived before the loss model](/assets/images/Blog-AI-Liability-Arrived-Before-Loss-Model.png)
+![AI liability insurance — the coverage arrived before the loss model](/assets/images/Blog-AI-Liability-Arrived-Before-Loss-Model.webp)
 <p style="text-align: center; font-style: italic; color: #555; margin-top: -8px;">The insurance arrived before the loss model.</p>
 
 ## Why this risk is different

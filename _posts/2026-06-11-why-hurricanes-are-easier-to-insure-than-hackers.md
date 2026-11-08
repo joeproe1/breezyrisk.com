@@ -7,7 +7,7 @@ date: 2026-06-11
 author: Joerg Proeve
 category: Cyber Insurance
 read_time: "4 min read"
-image: /assets/images/Blog-Hurricanes-vs-Hackers.png
+image: /assets/images/Blog-Hurricanes-vs-Hackers.webp
 image_alt: "Cyber catastrophe bonds crossing 1.2 billion dollars compared to mature hurricane catastrophe bond market"
 last_modified_at: 2026-06-11
 permalink: /insights/hurricanes-vs-hackers/

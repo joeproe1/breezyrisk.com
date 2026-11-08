@@ -6,7 +6,8 @@ date: 2026-10-14
 author: Joerg Proeve
 category: MGA Operations
 read_time: "11 min read"
-image: /assets/images/Blog-Cost-of-Disassembly.png
+featured: true
+image: /assets/images/Blog-Cost-of-Disassembly.webp
 image_alt: "Disassembled precision cylinder components arranged in sequence, illustrating how the insurance value chain has been pulled apart into separate specialists."
 permalink: /insights/the-cost-of-disassembly/
 ---
@@ -15,7 +16,7 @@ The insurance value chain has been pulled apart into specialists. The cost of ru
 
 The disassembled chain consumes 35 cents of every premium dollar before a single claim is paid. The economics hold only if loss ratios stay well below the industry average.
 
-![Disassembled precision cylinder components arranged in sequence](/assets/images/Blog-Cost-of-Disassembly.png)
+![Disassembled precision cylinder components arranged in sequence](/assets/images/Blog-Cost-of-Disassembly.webp)
 <p style="text-align: center; font-style: italic; color: #555; margin-top: -8px;">The insurance value chain, disassembled.</p>
 
 The insurance value chain used to be vertically integrated. A carrier underwrote the risk, issued the paper, held the capital, managed claims, and often even ran distribution, all under one roof. Over the past decade, this value chain has been pulled apart into separate specialists, especially in complex commercial and specialty lines. A broker originates. A wholesaler routes. An MGA underwrites. A fronting carrier provides paper. A reinsurer provides the capital. A TPA handles the claims. Each specialist says it does its piece better than the integrated carrier did.

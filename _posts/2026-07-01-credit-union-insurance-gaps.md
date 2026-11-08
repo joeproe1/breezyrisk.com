@@ -6,7 +6,7 @@ date: 2026-07-01
 author: Joerg Proeve
 category: Financial Institutions
 read_time: "5 min read"
-image: /assets/images/Blog-Credit-Union-Insurance-Gaps.png
+image: /assets/images/Blog-Credit-Union-Insurance-Gaps.webp
 image_alt: "Credit union insurance program gaps between bundled cyber, fidelity bond, and D&O policies when a claim hits"
 last_modified_at: 2026-06-27
 permalink: /insights/credit-union-insurance-gaps/

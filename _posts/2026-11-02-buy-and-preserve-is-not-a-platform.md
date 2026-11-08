@@ -7,7 +7,7 @@ date: 2026-11-02
 author: Joerg Proeve
 category: MGA Operations
 read_time: "6 min read"
-image: /assets/images/Blog-Buy-and-Preserve.png
+image: /assets/images/Blog-Buy-and-Preserve.webp
 image_alt: "Stacked shipping containers in a grid pattern with two empty slots, illustrating a collection that looks integrated but has structural gaps."
 permalink: /insights/buy-and-preserve-is-not-a-platform/
 ---
@@ -16,7 +16,7 @@ The pitch to MGA founders is similar: preserve your team, brand, culture, and ca
 
 Doxa, K2, Novacore, Amynta, Bishop Street, Baldwin/MSI, ANV, and others run variations of this playbook. These platforms collectively account for over 150 programs and tens of billions in premium. The question nobody can answer cleanly: what is the platform itself worth?
 
-![Stacked shipping containers with two empty slots](/assets/images/Blog-Buy-and-Preserve.png)
+![Stacked shipping containers with two empty slots](/assets/images/Blog-Buy-and-Preserve.webp)
 <p style="text-align: center; font-style: italic; color: #999; font-size: 12px; margin-top: -8px;">Photo: Guillaume Bolduc / Unsplash</p>
 
 ## Structural limitations

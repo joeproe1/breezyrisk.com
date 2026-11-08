@@ -6,7 +6,7 @@ date: 2026-04-23
 author: Joerg Proeve
 category: Cyber Insurance
 read_time: "5 min read"
-image: /assets/images/Blog-Security-Warranty-Fails.png
+image: /assets/images/Blog-Security-Warranty-Fails.webp
 image_alt: "Community bank cyber claim denied after security warranty failure in the policy application"
 last_modified_at: 2026-06-27
 permalink: /insights/security-warranty-fails/

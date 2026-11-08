@@ -5,7 +5,7 @@ description: "Association-endorsed bank insurance programs have real strengths â
 date: 2026-05-22
 author: Joerg Proeve
 category: Financial Institutions
-image: /assets/images/Blog-Program-Problem.png
+image: /assets/images/Blog-Program-Problem.webp
 image_alt: "Structural gaps in association-endorsed bank insurance programs that persist because nobody audits them"
 read_time: "6 min read"
 last_modified_at: 2026-06-27

@@ -6,7 +6,7 @@ date: 2026-06-12
 author: Joerg Proeve
 category: Cyber Insurance
 read_time: "3 min read"
-image: /assets/images/Blog-Breach-You-Didnt-Cause.png
+image: /assets/images/Blog-Breach-You-Didnt-Cause.webp
 image_alt: "Vendor sub-vendor breach at a community bank, with the D&O cyber exclusion pushing the board's defense onto the cyber policy"
 last_modified_at: 2026-06-12
 permalink: /insights/the-breach-you-didnt-cause/

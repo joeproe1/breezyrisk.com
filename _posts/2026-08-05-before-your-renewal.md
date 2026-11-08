@@ -7,7 +7,7 @@ date: 2026-08-05
 author: Joerg Proeve
 category: Financial Institutions
 read_time: "5 min read"
-image: /assets/images/Blog-Before-Your-Renewal.png
+image: /assets/images/Blog-Before-Your-Renewal.webp
 image_alt: "Before your renewal: three-year insurance program gaps that community banks miss between formal renewals"
 last_modified_at: 2026-08-07
 permalink: /insights/before-your-renewal/

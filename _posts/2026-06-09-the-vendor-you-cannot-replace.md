@@ -6,7 +6,7 @@ date: 2026-06-09
 author: Joerg Proeve
 category: Cyber Insurance
 read_time: "5 min read"
-image: /assets/images/Blog-Vendor-You-Cannot-Replace.png
+image: /assets/images/Blog-Vendor-You-Cannot-Replace.webp
 image_alt: "Core banking vendor outage scenario showing dependent business interruption sublimit exhaustion at a community bank"
 last_modified_at: 2026-07-31
 permalink: /insights/the-vendor-you-cannot-replace/

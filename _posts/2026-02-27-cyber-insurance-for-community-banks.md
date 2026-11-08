@@ -6,7 +6,7 @@ date: 2026-02-27
 author: Joerg Proeve
 category: Financial Institutions
 read_time: "7 min read"
-image: /assets/images/Blog-Cyber-Insurance-Banks.png
+image: /assets/images/Blog-Cyber-Insurance-Banks.webp
 image_alt: "Community bank cyber insurance policy analysis showing coverage gaps in first-party and third-party sections"
 last_modified_at: 2026-06-27
 permalink: /insights/cyber-insurance-for-community-banks/

@@ -6,7 +6,7 @@ date: 2026-04-15
 author: Joerg Proeve
 category: Cyber Insurance
 read_time: "4 min read"
-image: /assets/images/Blog-Policy-Interaction-Map.png
+image: /assets/images/Blog-Policy-Interaction-Map.webp
 image_alt: "Policy interaction map showing how five cyber incidents trigger gaps between cyber, D&O, and fidelity bond policies"
 last_modified_at: 2026-06-26
 permalink: /insights/five-incidents-three-policies/
@@ -21,7 +21,7 @@ The policy interaction map below shows how this plays out, row by row.
 <p style="font-size:14px;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;color:#64748b;margin:24px 0 8px 0;">Policy Interaction Map</p>
 <div style="position:relative;margin:0 0 8px;">
 <div style="position:absolute;top:52px;right:16px;background:#00D4AA;color:rgba(255,255,255,.85);padding:6px 12px;border-radius:999px;font-size:12px;font-weight:800;letter-spacing:.08em;z-index:1;">SAMPLE</div>
-<img src="{{ '/assets/images/Policy-Interaction-Map.png' | relative_url }}" alt="Policy Interaction Map: five incidents mapped against cyber, D&O, and fidelity bond policies showing coverage gaps" style="width:100%;border-radius:10px;border:1px solid #e2e8f0;display:block;" loading="lazy">
+<img src="{{ '/assets/images/Policy-Interaction-Map.webp' | relative_url }}" alt="Policy Interaction Map: five incidents mapped against cyber, D&O, and fidelity bond policies showing coverage gaps" style="width:100%;border-radius:10px;border:1px solid #e2e8f0;display:block;" loading="lazy">
 </div>
 
 ## Row by Row: How Policies Respond to Cyber Incidents

@@ -7,7 +7,7 @@ date: 2026-08-13
 author: Joerg Proeve
 category: Carrier Technology Strategy
 read_time: "8 min read"
-image: /assets/images/Blog-RPA-Lessons-AI.png
+image: /assets/images/Blog-RPA-Lessons-AI.webp
 image_alt: "What RPA should have taught P&C carriers about AI — legacy architecture, talent gaps, and pilot purgatory"
 last_modified_at: 2026-08-13
 permalink: /insights/rpa-lessons-for-ai/
@@ -18,7 +18,7 @@ A decade ago, at Chubb, I watched an RPA program run into roadblocks. Today, man
 Fast forward to today, almost all P&C carriers have started using AI, at least in some capacity. But only 10% managed to scale it beyond pilots.
 
 <figure style="margin: 32px 0;">
-<img src="/assets/images/Blog-RPA-Lessons-AI-Inline.jpg" alt="Dusty boxes labeled RPA, Blockchain, Chatbots, and Big Data on a cobwebbed shelf, with a shiny new box labeled AI on the floor" style="width: 100%; border-radius: 10px;" loading="lazy">
+<img src="/assets/images/Blog-RPA-Lessons-AI-Inline.webp" alt="Dusty boxes labeled RPA, Blockchain, Chatbots, and Big Data on a cobwebbed shelf, with a shiny new box labeled AI on the floor" style="width: 100%; border-radius: 10px;" loading="lazy">
 <figcaption style="font-size: 14px; color: #6B7B8D; text-align: center; margin-top: 10px; line-height: 1.5;">Too many promising technologies end up on the shelf.</figcaption>
 </figure>
 

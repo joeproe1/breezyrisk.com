@@ -6,7 +6,7 @@ date: 2026-04-01
 author: Joerg Proeve
 category: Financial Institutions
 read_time: "5 min read"
-image: /assets/images/Blog-Board-Nobody-Insures.png
+image: /assets/images/Blog-Board-Nobody-Insures.webp
 image_alt: "Community bank board of directors after a data breach, with the D&O cyber exclusion blocking coverage and the defense falling to the cyber policy"
 last_modified_at: 2026-07-30
 permalink: /insights/the-board-nobody-insures/

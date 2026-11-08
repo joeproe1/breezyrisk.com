@@ -7,7 +7,7 @@ author: Joerg Proeve
 category: MGA Operations
 read_time: "11 min read"
 last_modified_at: 2026-09-24
-image: /assets/images/cyber-mga-landscape.png
+image: /assets/images/cyber-mga-landscape.webp
 image_alt: "Market map showing cyber MGA acquisitions (Travelers-Corvus, Zurich-Beazley, Munich Re-At-Bay), Allianz-Coalition exclusive partnership, Chubb's organic build, and remaining independent MGAs (Resilience, Converge, Elpha Secure, K2 Cyber, Navasana)."
 permalink: /insights/every-carrier-wants-its-own-cyber-mga/
 ---
@@ -24,7 +24,7 @@ The transactions are not identical. Travelers and Zurich-Beazley are outright ac
 
 Of the six, Munich Re's acquisition of At-Bay stands out as the most disciplined. Munich Re provided capacity first, built years of loss data on the book, watched the VC valuation bubble correct, and then bought at $575M -- less than half of At-Bay's $1.35B last private round. The reinsure-invest-acquire playbook, executed with patience. Timing matters in these deals: buying after the market has corrected VC valuations, not at the peak, is the difference between a strategic asset and an overpayment.
 
-![Market map showing cyber MGA acquisitions (Travelers-Corvus, Zurich-Beazley, Munich Re-At-Bay), Allianz-Coalition exclusive partnership, Chubb's organic build, and remaining independent MGAs (Resilience, Converge, Elpha Secure, K2 Cyber, Navasana).](/assets/images/cyber-mga-landscape.png)
+![Market map showing cyber MGA acquisitions (Travelers-Corvus, Zurich-Beazley, Munich Re-At-Bay), Allianz-Coalition exclusive partnership, Chubb's organic build, and remaining independent MGAs (Resilience, Converge, Elpha Secure, K2 Cyber, Navasana).](/assets/images/cyber-mga-landscape.webp)
 *Six deals in thirty months. The independents are running out of partners who don't own a competing platform.*
 
 Cyber insurance has been in a soft market for four years now, with pricing down 22% from the 2022 peak and eight consecutive quarters of rate cuts through Q1 2026. The underwriting cushion is shrinking: the US cyber loss ratio climbed from 42% in 2023 to 49% in 2024 to [53% in 2025](https://news.ambest.com/pr/PressContent.aspx?altsrc=2&refnum=37477). Surplus lines carriers hit 55.9%. Third-party claims on surplus lines grew 40% year-over-year.

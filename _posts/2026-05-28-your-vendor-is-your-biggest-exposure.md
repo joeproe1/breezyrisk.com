@@ -7,7 +7,7 @@ date: 2026-05-28
 author: Joerg Proeve
 category: Cyber Insurance
 read_time: "7 min read"
-image: /assets/images/Blog-Vendor-Exposure.png
+image: /assets/images/Blog-Vendor-Exposure.webp
 image_alt: "Community bank vendor dependency versus cyber policy sublimit showing the gap between exposure and coverage"
 last_modified_at: 2026-07-31
 permalink: /insights/your-vendor-is-your-biggest-exposure/
