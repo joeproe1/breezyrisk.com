@@ -143,4 +143,4 @@ I'd watch the companies that are doing two things: writing coverage now while in
 
 ---
 
-<p style="font-size: 14px; color: #6B7B8D; line-height: 1.6;"><strong style="color: #0A2540;">AI Liability Series</strong><br>Previous: <a href="/insights/ai-liability-measurement-gap/">Insuring AI Liability Without Measuring the Risks</a> — the first cohort of writers and the measurement gaps underneath them.</p>
+<p style="font-size: 14px; color: #6B7B8D; line-height: 1.6;"><strong style="color: #0A2540;">AI Liability Series</strong><br>Previous: <a href="/insights/ai-liability-measurement-gap/">Insuring AI Liability Without Measuring the Risks</a> -- the first cohort of writers and the measurement gaps underneath them.<br>Next: <a href="/insights/four-ways-to-price-ai-risk/">Four Ways to Price AI Risk</a> -- how the pricing problem is actually being attacked.</p>
