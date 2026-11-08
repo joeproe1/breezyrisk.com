@@ -76,7 +76,9 @@ description: "Insurance strategy, technology, and operations advisory. Carrier t
 <!-- Observation Strip -->
 <section class="observation-strip">
     <div class="container">
-        <p class="observation-text">The best-run carriers I've seen aren't the ones with the most advanced technology. They're the ones where the people who build it and the people who use it speak each other's language.</p>
+        <div class="observation-inner">
+            <p class="observation-text">The best-run carriers I've seen aren't the ones with the most advanced technology. They're the ones where the people who build it and the people who use it speak each other's language.</p>
+        </div>
     </div>
 </section>
 
@@ -274,19 +276,21 @@ description: "Insurance strategy, technology, and operations advisory. Carrier t
 
 /* Observation strip */
 .observation-strip {
-    padding: 36px 0;
-    background: #f0f4f8;
-    border-top: 1px solid #e5e7eb;
-    border-bottom: 1px solid #e5e7eb;
+    padding: 40px 0;
+    background: #fff;
+}
+.observation-inner {
+    max-width: 640px;
+    margin: 0 auto;
+    border-left: 3px solid #00D4AA;
+    padding-left: 24px;
 }
 .observation-text {
-    max-width: 680px;
-    margin: 0 auto;
-    font-size: 19px;
+    font-size: 17px;
     font-style: italic;
-    line-height: 1.7;
+    line-height: 1.75;
     color: #0A2540;
-    text-align: center;
+    margin: 0;
 }
 
 /* CTA section spacing */
