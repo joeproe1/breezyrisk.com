@@ -18,10 +18,10 @@ I see at least four distinct answers to this question, each with multiple compan
 <table style="width: 100%; border-collapse: collapse; font-size: 14px; margin: 24px 0;">
 <thead>
 <tr>
-<th style="text-align: left; padding: 10px 12px; color: #fff;">Approach</th>
-<th style="text-align: left; padding: 10px 12px; color: #fff;">Example</th>
-<th style="text-align: left; padding: 10px 12px; color: #fff;">Evidence Source</th>
-<th style="text-align: left; padding: 10px 12px; color: #fff;">Underwriting Question</th>
+<th style="text-align: center; padding: 10px 12px; color: #fff;">Approach</th>
+<th style="text-align: center; padding: 10px 12px; color: #fff;">Example</th>
+<th style="text-align: center; padding: 10px 12px; color: #fff;">Evidence Source</th>
+<th style="text-align: center; padding: 10px 12px; color: #fff;">Underwriting Question</th>
 </tr>
 </thead>
 <tbody>
@@ -114,11 +114,16 @@ No approach I've seen has connected the full evidence chain: an observable signa
 
 That chain needs three things the market doesn't have.
 
-<div style="margin: 32px 0; padding: 24px 28px; background: #f0f7f4; border-left: 4px solid #00D4AA; border-radius: 0 10px 10px 0;">
-<div style="font-size: 13px; font-weight: 700; color: #0A2540; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 16px;">Three gaps in the evidence chain</div>
-<p style="margin: 0 0 12px 0; font-size: 14px; line-height: 1.6; color: #0A2540;"><strong>1. Deployment context.</strong> An AI hiring tool screening 50,000 applicants is a different risk from an internal document summarizer used by 10 employees. Some MGAs already collect deployment information, but deployment context as a primary underwriting variable (weighted as heavily as governance in the pricing model) is not yet standard.</p>
-<p style="margin: 0 0 12px 0; font-size: 14px; line-height: 1.6; color: #0A2540;"><strong>2. Portable evidence.</strong> If every carrier builds its own proprietary assessment and the insured starts from scratch each time they switch, the measurement layer doesn't scale. The market needs portable records that travel with the insured the way a credit rating travels with a borrower.</p>
-<p style="margin: 0; font-size: 14px; line-height: 1.6; color: #0A2540;"><strong>3. Correlation with claims outcomes.</strong> Even a small set of matched records (underwriting assessment at bind, claim outcome two years later) would be a start. Nobody has publicly shown that link yet. And frequency is only the first link; what the policy actually pays depends on severity, coverage terms, and defense costs. Without paired data connecting underwriting signals to developed losses, every pricing approach is informed speculation.</p>
+<div style="margin: 32px 0;">
+<div style="font-size: 13px; font-weight: 700; color: #0A2540; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 20px;">Three gaps in the evidence chain</div>
+<div style="display: grid; grid-template-columns: 180px 1fr; gap: 16px 24px; align-items: start;">
+<div style="background: #00D4AA; color: #0A2540; padding: 28px 18px; border-radius: 8px; font-size: 14px; font-weight: 600; text-align: center;">1. Deployment<br>context</div>
+<div style="font-size: 13px; line-height: 1.6; color: #0A2540; padding-top: 4px;">An AI hiring tool screening 50,000 applicants is a different risk from an internal document summarizer used by 10 employees. Some MGAs already collect deployment information, but deployment context as a primary underwriting variable (weighted as heavily as governance in the pricing model) is not yet standard.</div>
+<div style="background: #00D4AA; color: #0A2540; padding: 28px 18px; border-radius: 8px; font-size: 14px; font-weight: 600; text-align: center;">2. Portable<br>evidence</div>
+<div style="font-size: 13px; line-height: 1.6; color: #0A2540; padding-top: 4px;">If every carrier builds its own proprietary assessment and the insured starts from scratch each time they switch, the measurement layer doesn't scale. The market needs portable records that travel with the insured the way a credit rating travels with a borrower.</div>
+<div style="background: #00D4AA; color: #0A2540; padding: 28px 18px; border-radius: 8px; font-size: 14px; font-weight: 600; text-align: center;">3. Correlation with<br>claims outcomes</div>
+<div style="font-size: 13px; line-height: 1.6; color: #0A2540; padding-top: 4px;">Even a small set of matched records (underwriting assessment at bind, claim outcome two years later) would be a start. Nobody has publicly shown that link yet. And frequency is only the first link; what the policy actually pays depends on severity, coverage terms, and defense costs. Without paired data connecting underwriting signals to developed losses, every pricing approach is informed speculation.</div>
+</div>
 </div>
 
 Three of the four approaches start from the front end - certify, monitor, or assess the AI, then wait for loss data to validate. MGAs that are pricing from external loss data have a head start: they are testing models against existing events, not waiting for their own policy years to develop.
