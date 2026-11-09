@@ -116,13 +116,13 @@ That chain needs three things the market doesn't have.
 
 <div style="margin: 32px 0;">
 <div style="font-size: 13px; font-weight: 700; color: #0A2540; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 20px;">Three gaps in the evidence chain</div>
-<div style="display: grid; grid-template-columns: 180px 1fr; gap: 16px 24px; align-items: start;">
-<div style="background: #00D4AA; color: #0A2540; padding: 28px 18px; border-radius: 8px; font-size: 14px; font-weight: 600; text-align: center;">1. Deployment<br>context</div>
-<div style="font-size: 13px; line-height: 1.6; color: #0A2540; padding-top: 4px;">An AI hiring tool screening 50,000 applicants is a different risk from an internal document summarizer used by 10 employees. Some MGAs already collect deployment information, but deployment context as a primary underwriting variable (weighted as heavily as governance in the pricing model) is not yet standard.</div>
-<div style="background: #00D4AA; color: #0A2540; padding: 28px 18px; border-radius: 8px; font-size: 14px; font-weight: 600; text-align: center;">2. Portable<br>evidence</div>
-<div style="font-size: 13px; line-height: 1.6; color: #0A2540; padding-top: 4px;">If every carrier builds its own proprietary assessment and the insured starts from scratch each time they switch, the measurement layer doesn't scale. The market needs portable records that travel with the insured the way a credit rating travels with a borrower.</div>
-<div style="background: #00D4AA; color: #0A2540; padding: 28px 18px; border-radius: 8px; font-size: 14px; font-weight: 600; text-align: center;">3. Correlation with<br>claims outcomes</div>
-<div style="font-size: 13px; line-height: 1.6; color: #0A2540; padding-top: 4px;">Even a small set of matched records (underwriting assessment at bind, claim outcome two years later) would be a start. Nobody has publicly shown that link yet. And frequency is only the first link; what the policy actually pays depends on severity, coverage terms, and defense costs. Without paired data connecting underwriting signals to developed losses, every pricing approach is informed speculation.</div>
+<div style="display: grid; grid-template-columns: 180px 1fr; gap: 16px 24px; align-items: center;">
+<div style="background: #00D4AA; color: #0A2540; padding: 36px 18px; border-radius: 8px; font-size: 16px; font-weight: 600; text-align: center;">1. Deployment<br>context</div>
+<div style="font-size: 14px; line-height: 1.6; color: #0A2540;">An AI hiring tool screening 50,000 applicants is a different risk from an internal document summarizer used by 10 employees. Some MGAs already collect deployment information, but deployment context as a primary underwriting variable (weighted as heavily as governance in the pricing model) is not yet standard.</div>
+<div style="background: #00D4AA; color: #0A2540; padding: 36px 18px; border-radius: 8px; font-size: 16px; font-weight: 600; text-align: center;">2. Portable<br>evidence</div>
+<div style="font-size: 14px; line-height: 1.6; color: #0A2540;">If every carrier builds its own proprietary assessment and the insured starts from scratch each time they switch, the measurement layer doesn't scale. The market needs portable records that travel with the insured the way a credit rating travels with a borrower.</div>
+<div style="background: #00D4AA; color: #0A2540; padding: 36px 18px; border-radius: 8px; font-size: 16px; font-weight: 600; text-align: center;">3. Correlation with<br>claims outcomes</div>
+<div style="font-size: 14px; line-height: 1.6; color: #0A2540;">Even a small set of matched records (underwriting assessment at bind, claim outcome two years later) would be a start. Nobody has publicly shown that link yet. And frequency is only the first link; what the policy actually pays depends on severity, coverage terms, and defense costs. Without paired data connecting underwriting signals to developed losses, every pricing approach is informed speculation.</div>
 </div>
 </div>
 
@@ -142,4 +142,4 @@ The first MGA that demonstrates its measurement approach actually predicts losse
 
 ---
 
-<p style="font-size: 14px; color: #6B7B8D; line-height: 1.6;"><strong style="color: #0A2540;">AI Liability Series</strong><br>Previous: <a href="/insights/ai-liability-arrived-before-the-loss-model/">AI Liability: The Insurance Arrived Before the Loss Model</a> -- three bets carriers are making on AI liability without historical loss data.<br>This is the final article in the series.</p>
+<p style="font-size: 14px; color: #6B7B8D; line-height: 1.6;"><strong style="color: #0A2540;">AI Liability Series</strong><br>Previous: <a href="/insights/ai-liability-arrived-before-the-loss-model/">AI Liability: The Insurance Arrived Before the Loss Model</a> -- three bets carriers are making on AI liability without historical loss data.</p>
