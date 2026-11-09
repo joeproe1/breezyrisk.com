@@ -2,7 +2,7 @@
 layout: post
 title: "Buy, Build, or Wait"
 description: "Core system vendors are acquiring the AI capabilities their carrier clients can't build. Two decades of outsourcing left carriers without the engineering bench to do it themselves."
-date: 2026-11-02
+date: 2026-10-30
 author: Joerg Proeve
 category: Carrier Technology Strategy
 read_time: "5 min read"
