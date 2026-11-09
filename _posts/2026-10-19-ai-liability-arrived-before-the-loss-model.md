@@ -6,7 +6,6 @@ date: 2026-10-19
 author: Joerg Proeve
 category: "AI & Emerging Risks"
 read_time: "9 min read"
-featured: true
 image: /assets/images/Blog-AI-Liability-Arrived-Before-Loss-Model.webp
 image_alt: "AI liability insurance inversion — the coverage arrived before the loss model to price it"
 permalink: /insights/ai-liability-arrived-before-the-loss-model/

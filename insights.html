@@ -72,7 +72,6 @@ permalink: /insights/
 .post-card .read-more:hover { text-decoration: underline; }
 .insights-footer-cta { text-align: center; margin: 48px auto 0; font-size: 16px; color: var(--text-secondary); }
 .insights-footer-cta a { color: var(--accent); font-weight: 700; text-decoration: none; }
-.insights-section-heading { font-size: 20px; font-weight: 700; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; margin: 0 0 20px; }
 .insights-view-all { text-align: center; margin: 40px 0 0; }
 .insights-footer-cta a:hover { text-decoration: underline; }
 @media (max-width: 768px) {
@@ -95,37 +94,9 @@ permalink: /insights/
 <section class="insights-section">
     <div class="container">
         {% assign visible_posts = site.posts | where_exp: "post", "post.archived != true" | where_exp: "post", "post.hide_from_index != true" | where_exp: "post", "post.redirect_to == nil" | sort: 'date' | reverse %}
-        {% assign featured_posts = visible_posts | where: "featured", true %}
-        {% assign regular_posts = visible_posts | where_exp: "post", "post.featured != true" %}
 
-        {% if featured_posts.size > 0 %}
-        <h2 class="insights-section-heading">Start Here</h2>
         <div class="blog-grid">
-            {% for post in featured_posts %}
-            <div class="post-card">
-                <div class="post-card-accent post-card-accent--{{ post.category | default: 'industry-trends' | slugify }}"></div>
-                <div class="post-card-body">
-                    <span class="post-category post-category--{{ post.category | default: 'industry-trends' | slugify }}">{{ post.category }}</span>
-                    {% if post.series_label %}<span class="post-series">{{ post.series_label }}</span>{% endif %}
-                    <h2><a href="{{ post.url | relative_url }}">{{ post.card_title | default: post.title }}</a></h2>
-                    <p class="post-excerpt">{{ post.description | default: post.excerpt | strip_html | truncatewords: 18 }}</p>
-                    <div class="post-meta">
-                        <span>{{ post.date | date: "%B %-d, %Y" }}</span>
-                        {% if post.read_time %}
-                        <span class="divider">&bull;</span>
-                        <span>{{ post.read_time }}</span>
-                        {% endif %}
-                    </div>
-                    <a href="{{ post.url | relative_url }}" class="read-more">Read article &rarr;</a>
-                </div>
-            </div>
-            {% endfor %}
-        </div>
-        {% endif %}
-
-        <h2 class="insights-section-heading">Recent</h2>
-        <div class="blog-grid">
-            {% for post in regular_posts limit: 9 %}
+            {% for post in visible_posts limit: 9 %}
             <div class="post-card">
                 <div class="post-card-accent post-card-accent--{{ post.category | default: 'industry-trends' | slugify }}"></div>
                 <div class="post-card-body">

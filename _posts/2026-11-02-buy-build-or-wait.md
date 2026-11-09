@@ -6,7 +6,6 @@ date: 2026-11-02
 author: Joerg Proeve
 category: Carrier Technology Strategy
 read_time: "5 min read"
-featured: true
 image: /assets/images/Blog-Buy-Build-or-Wait.webp
 image_alt: "Dark blue header with the title Buy, Build, or Wait and the subtitle about core system vendors acquiring AI capabilities."
 permalink: /insights/buy-build-or-wait/
