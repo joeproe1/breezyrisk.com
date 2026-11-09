@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Four Ways to Price AI Risk"
-description: "Every AI liability pricing approach on the market today is informed speculation. Four distinct approaches are emerging -- certification, monitoring, governance, and loss data. Each generates useful evidence. None generates enough."
+description: "Every AI liability pricing approach on the market today is informed speculation. Four distinct approaches are emerging: certification, monitoring, governance, and loss data. Each generates useful evidence. None generates enough."
 date: 2026-11-10
 author: Joerg Proeve
 category: "AI & Emerging Risks"
