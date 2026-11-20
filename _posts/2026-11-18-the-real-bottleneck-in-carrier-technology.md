@@ -31,8 +31,7 @@ Let's walk through a "typical" project at a mid-sized carrier from start to end,
 <span style="font-size: 11px; font-weight: 700; color: #fff; background: #2D3748; padding: 3px 10px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.04em;">Months 1-3</span>
 <span style="font-size: 15px; font-weight: 700; color: #0A2540;">Requirements</span>
 </div>
-<p style="margin: 0 0 10px 0; line-height: 1.7; color: #374151; font-size: 15px;">Three underwriting groups need this platform. Middle market wants custom workflows. Large accounts wants rate flexibility. Small commercial wants straight-through processing. Each group writes their own requirements. Then the consolidated requirements go through four revisions because nobody agreed the first time, or the second, or the third. Somewhere in month 2, actuarial asks for loss data integration and claims wants reporting feeds. That adds six weeks.</p>
-<p style="margin: 0; line-height: 1.7; color: #6B7B8D; font-size: 14px;">The underwriting groups are negotiating scope through the requirements document. They know that whatever makes it in gets built, and whatever doesn't waits another two years. The result is a requirements document that tries to satisfy everyone and commits to nothing.</p>
+<p style="margin: 0; line-height: 1.7; color: #374151; font-size: 15px;">Three underwriting groups need this platform. Middle market wants custom workflows. Large accounts wants rate flexibility. Small commercial wants straight-through processing. Each group writes their own requirements. The consolidated version goes through four revisions because nobody agreed the first time, or the second, or the third. Somewhere in month 2, actuarial asks for loss data integration and claims wants reporting feeds. That adds six weeks. Whatever makes it in gets built. Whatever doesn't waits another two years.</p>
 </div>
 
 <!-- Business case & governance -->
@@ -41,8 +40,7 @@ Let's walk through a "typical" project at a mid-sized carrier from start to end,
 <span style="font-size: 11px; font-weight: 700; color: #fff; background: #0D7377; padding: 3px 10px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.04em;">Months 3-5</span>
 <span style="font-size: 15px; font-weight: 700; color: #0A2540;">Business case &amp; governance</span>
 </div>
-<p style="margin: 0 0 10px 0; line-height: 1.7; color: #374151; font-size: 15px;">The project needs to get approved by a committee. That means the project team has to put together a business case and get sign-offs. After some back-and-forth, the team agrees, half-heartedly, on the minimum benefits they need to commit to for a positive ROI, but it takes two rounds of review. The CIO presents the project alongside 10 others competing for the same discretionary budget.</p>
-<p style="margin: 0; line-height: 1.7; color: #6B7B8D; font-size: 14px;">Gartner estimates that 70-80% of carrier IT budgets go to maintaining existing systems. The discretionary slice is 20-30%. Ten projects competing for that pool means most of them lose, and the ones that win spend weeks proving they deserve the slot.</p>
+<p style="margin: 0; line-height: 1.7; color: #374151; font-size: 15px;">The project needs to get approved by a committee. That means a business case and sign-offs. After some back-and-forth, the team agrees, half-heartedly, on the minimum benefits they need to commit to for a positive ROI, but it takes two rounds of review. The CIO presents the project alongside 10 others competing for the same discretionary budget. Gartner estimates 70-80% of carrier IT budgets go to maintaining existing systems. The discretionary slice is where new projects live, and most of them lose.</p>
 </div>
 
 <!-- Procurement, compliance, security -->
@@ -75,15 +73,14 @@ Let's walk through a "typical" project at a mid-sized carrier from start to end,
 
 </div>
 
-<div style="margin: 40px 0;">
-<div style="font-size: 13px; font-weight: 700; color: #0A2540; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 16px;">The Vendor Timeline Illusion</div>
-<img src="/assets/images/Blog-Real-Bottleneck-Carrier-Technology.webp" alt="The vendor sees 3 months of development. The carrier lives through a 15-month project: requirements, governance, procurement, development, and change management." style="width: 100%; border-radius: 8px;">
-</div>
-
 ## The math
 
 Development and integration is only 3 months out of a 15-month project, 20% of the total time. AI coding tools can cut that in half, maybe even more. But a carrier's transformation agenda was never stalled by the development time. It was stalled by the 8 months before and the 4 months after the development. AI coding tools don't shorten any of those.
 
+<div style="margin: 40px 0;">
+<div style="font-size: 13px; font-weight: 700; color: #0A2540; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 16px;">The Vendor Timeline Illusion</div>
+<img src="/assets/images/Blog-Real-Bottleneck-Carrier-Technology.webp" alt="The vendor sees 3 months of development. The carrier lives through a 15-month project: requirements, governance, procurement, development, and change management." style="width: 100%; border-radius: 8px;">
+</div>
 
 ## The vendor timeline illusion
 
