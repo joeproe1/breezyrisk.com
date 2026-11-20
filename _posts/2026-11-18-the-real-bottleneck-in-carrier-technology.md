@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Real Bottleneck in Carrier Technology"
-description: "AI coding tools accelerate 20% of a carrier technology project. A walkthrough of where the other 80% of the time goes."
+description: "Coding is only 20% of a carrier technology project. A walkthrough of where the other 80% of the time goes."
 date: 2026-11-18
 author: Joerg Proeve
 category: Carrier Technology Strategy
