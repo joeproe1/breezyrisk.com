@@ -142,4 +142,4 @@ The first MGA that demonstrates its measurement approach actually predicts losse
 
 ---
 
-<p style="font-size: 14px; color: #6B7B8D; line-height: 1.6;"><strong style="color: #0A2540;">AI Liability Series</strong><br>Previous: <a href="/insights/ai-liability-arrived-before-the-loss-model/">AI Liability: The Insurance Arrived Before the Loss Model</a> -- three bets carriers are making on AI liability without historical loss data.</p>
+<p style="font-size: 14px; color: #6B7B8D; line-height: 1.6;"><strong style="color: #0A2540;">AI Liability Series</strong><br>Previous: <a href="/insights/ai-liability-arrived-before-the-loss-model/">AI Liability: The Insurance Arrived Before the Loss Model</a> -- three bets carriers are making on AI liability without historical loss data.<br>Next: <a href="/insights/ai-claims-already-on-your-book/">The AI Claims Already on Your Book</a> -- the exposure is already in existing books. The question is who measures it first.</p>
