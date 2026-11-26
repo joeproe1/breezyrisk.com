@@ -10,7 +10,7 @@ Breezy Risk Advisors is an independent advisory practice founded by Joerg Proeve
 Advises private equity and venture capital investors evaluating insurance platforms, MGAs, and insurtech opportunities. Focus areas include insurance due diligence, MGA capacity economics, platform operations, and deal screening.
 
 ### AI Liability & Emerging Risk
-Analysis and advisory on AI liability insurance, emerging risk pricing, and the measurement infrastructure behind new coverage lines. Published in Insurance Thought Leadership on AI liability pricing and measurement gaps.
+Analysis and advisory on AI liability insurance, emerging risk pricing, and the measurement infrastructure behind new coverage lines. Published in Insurance Thought Leadership on AI liability pricing and measurement gaps. The firm publishes the AI Liability Score at [score.breezyrisk.com](https://score.breezyrisk.com), a free tool that scores public companies on AI liability exposure across litigation, regulatory, enforcement, and governance dimensions.
 
 ### Carrier & Insurtech Strategy
 Advises carriers, MGAs, and insurtechs on technology strategy, operating model design, and underwriting operations. Focus areas include carrier technology portfolio governance, MGA product and distribution architecture, and cyber insurance market structure.
@@ -75,6 +75,7 @@ Joerg Proeve has spent his career on both sides of the insurance operating model
 ## Links
 
 - [Home](https://breezyrisk.com/)
+- [AI Liability Score](https://score.breezyrisk.com/)
 - [Insights](https://breezyrisk.com/insights/)
 - [About](https://breezyrisk.com/about/)
 - [Contact](https://breezyrisk.com/contact/)
