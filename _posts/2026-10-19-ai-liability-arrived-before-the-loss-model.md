@@ -5,6 +5,7 @@ description: "Three different approaches are emerging to price AI liability with
 date: 2026-10-19
 author: Joerg Proeve
 category: "AI & Emerging Risks"
+tags: [ai-liability]
 read_time: "9 min read"
 image: /assets/images/Blog-AI-Liability-Arrived-Before-Loss-Model.webp
 image_alt: "AI liability insurance inversion — the coverage arrived before the loss model to price it"

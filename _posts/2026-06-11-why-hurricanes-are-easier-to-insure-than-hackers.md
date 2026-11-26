@@ -6,6 +6,7 @@ description: "Cyber catastrophe bonds have crossed $1.2 billion. The capital mar
 date: 2026-06-11
 author: Joerg Proeve
 category: Cyber Insurance
+tags: [cyber-insurance, emerging-risk]
 read_time: "4 min read"
 image: /assets/images/Blog-Hurricanes-vs-Hackers.webp
 image_alt: "Cyber catastrophe bonds crossing 1.2 billion dollars compared to mature hurricane catastrophe bond market"

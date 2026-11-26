@@ -5,6 +5,7 @@ description: "PE-backed platforms and AI-native MGAs share a label but run on tw
 date: 2026-10-22
 author: Joerg Proeve
 category: MGA Operations
+tags: [mga-economics, insurance-m-and-a]
 read_time: "9 min read"
 image: /assets/images/Blog-Two-Track-MGA-Market.webp
 image_alt: "Aerial view of Passau, Germany, where the Danube, Inn, and Ilz rivers converge — three currents running side by side before merging."

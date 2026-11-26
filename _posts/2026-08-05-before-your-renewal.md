@@ -11,7 +11,7 @@ image: /assets/images/Blog-Before-Your-Renewal.webp
 image_alt: "Before your renewal: three-year insurance program gaps that community banks miss between formal renewals"
 last_modified_at: 2026-08-07
 permalink: /insights/before-your-renewal/
-tags: [three-year insurance program, community bank insurance, fidelity bond, social engineering sublimit, condition precedent, insurance renewal, D&O, cyber insurance, ABA Insurance Services, policy interaction]
+tags: [policy-analysis, cyber-insurance]
 faq:
   - question: "What happens to community bank insurance coverage between formal renewals on a three-year program?"
     answer: "The carrier can revise its standard forms at each annual anniversary, even though the formal renewal only happens every three years. Definitions can shift, sublimits can change, and coverage on emerging risks can be narrowed. The broker's continuation notice covers premium, not these form changes, so banks often go two or three years without anyone reading the amended policy language."

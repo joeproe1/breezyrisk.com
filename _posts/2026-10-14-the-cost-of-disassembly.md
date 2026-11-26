@@ -5,6 +5,7 @@ description: "The disassembled insurance value chain consumes 35 cents of every 
 date: 2026-10-14
 author: Joerg Proeve
 category: MGA Operations
+tags: [mga-economics]
 read_time: "11 min read"
 image: /assets/images/Blog-Cost-of-Disassembly.webp
 image_alt: "Disassembled precision cylinder components arranged in sequence, illustrating how the insurance value chain has been pulled apart into separate specialists."

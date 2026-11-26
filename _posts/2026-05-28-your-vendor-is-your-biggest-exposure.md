@@ -6,6 +6,7 @@ description: "Banks depend on core vendors for everything. Most insure that depe
 date: 2026-05-28
 author: Joerg Proeve
 category: Cyber Insurance
+tags: [cyber-insurance, vendor-risk, policy-analysis]
 read_time: "7 min read"
 image: /assets/images/Blog-Vendor-Exposure.webp
 image_alt: "Community bank vendor dependency versus cyber policy sublimit showing the gap between exposure and coverage"

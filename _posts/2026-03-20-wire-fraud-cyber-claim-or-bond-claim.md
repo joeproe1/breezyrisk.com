@@ -5,6 +5,7 @@ description: "AI voice cloning broke callback verification. Most social engineer
 date: 2026-03-20
 author: Joerg Proeve
 category: Financial Institutions
+tags: [cyber-insurance, policy-analysis]
 read_time: "4 min read"
 image: /assets/images/Blog-Wire-Fraud-Bank.webp
 image_alt: "AI voice cloning attack targeting a community bank wire transfer with social engineering coverage gaps"

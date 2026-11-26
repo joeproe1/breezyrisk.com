@@ -6,6 +6,7 @@ description: "12.5% of US P&C premium now flows through MGAs and programs. $125 
 date: 2026-08-20
 author: Joerg Proeve
 category: MGA Operations
+tags: [mga-economics]
 read_time: "7 min read"
 image: /assets/images/Blog-MGA-Assembly-Line.webp
 image_alt: "MGA assembly line — how delegated underwriting fragments insurance accountability"

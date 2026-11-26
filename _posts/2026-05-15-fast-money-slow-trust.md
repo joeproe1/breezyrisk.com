@@ -6,6 +6,7 @@ description: "The parametric insurance market has passed $20 billion but the con
 date: 2026-05-15
 author: Joerg Proeve
 category: "AI & Emerging Risks"
+tags: [emerging-risk]
 read_time: "6 min read"
 image: /assets/images/Blog-Fast-Money-Slow-Trust.webp
 image_alt: "Parametric insurance market growth outpacing confidence in basis risk and trigger design"

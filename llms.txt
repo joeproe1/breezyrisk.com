@@ -15,6 +15,37 @@ Analysis and advisory on AI liability insurance, emerging risk pricing, and the 
 ### Carrier & Insurtech Strategy
 Advises carriers, MGAs, and insurtechs on technology strategy, operating model design, and underwriting operations. Focus areas include carrier technology portfolio governance, MGA product and distribution architecture, and cyber insurance market structure.
 
+## Content Library
+
+The site publishes original analysis on insurance strategy, technology, and operations. 40+ articles across five topic areas, including multi-part series on AI liability pricing and MGA economics.
+
+### AI Liability Series
+A four-part series tracking how the insurance industry is building coverage for AI risks without historical loss data:
+- [Insuring AI Liability Without Measuring the Risks](https://breezyrisk.com/insights/ai-liability-measurement-gap/) — The first cohort of AI liability writers is live. The measurement infrastructure underneath them is not.
+- [AI Liability: The Insurance Arrived Before the Loss Model](https://breezyrisk.com/insights/ai-liability-arrived-before-the-loss-model/) — Three approaches are emerging to price AI liability without historical loss data.
+- [Four Ways to Price AI Risk](https://breezyrisk.com/insights/four-ways-to-price-ai-risk/) — Four distinct pricing approaches: certification, monitoring, governance, and loss data. Each generates useful evidence. None generates enough.
+- [The AI Claims Already on Your Book](https://breezyrisk.com/insights/ai-claims-already-on-your-book/) — The exposure carriers already carry in professional liability, E&O, D&O, EPL, and cyber is the one nobody has priced.
+
+### MGA Economics Series
+A five-part series on MGA market structure, economics, and consolidation:
+- [What Gets Lost in the MGA Assembly Line](https://breezyrisk.com/insights/mga-assembly-line/) — $125 billion in premium flows through MGAs and programs. Nobody owns the coordination.
+- [The Cost of Disassembly](https://breezyrisk.com/insights/the-cost-of-disassembly/) — The disassembled insurance value chain consumes 35 cents of every premium dollar before a single claim is paid.
+- [Every Carrier Wants Its Own Cyber MGA](https://breezyrisk.com/insights/every-carrier-wants-its-own-cyber-mga/) — Six deals in thirty months paired global balance sheets with cyber underwriting platforms.
+- [The Two-Track MGA Market](https://breezyrisk.com/insights/the-two-track-mga-market/) — The MGA market is splitting into platform plays and capacity-first shops.
+- ["Buy and Preserve" Is Not a Platform](https://breezyrisk.com/insights/buy-and-preserve-is-not-a-platform/) — Why aggregating MGAs without integrating operations does not produce a platform.
+
+### Carrier Technology Strategy
+- [Buy, Build, or Wait](https://breezyrisk.com/insights/buy-build-or-wait/) — Three carrier strategies for AI underwriting, and what each one actually requires.
+- [The Real Bottleneck in Carrier Technology](https://breezyrisk.com/insights/the-real-bottleneck-in-carrier-technology/) — Coding is only 20% of a carrier technology project. A walkthrough of where the other 80% goes.
+- [What RPA Should Have Taught P&C Carriers About AI](https://breezyrisk.com/insights/rpa-lessons-for-ai/) — Carriers spent a decade on RPA. The lessons apply directly to the current AI wave.
+- [Everything Scarce in Insurance Is Becoming Abundant. Except Three Things.](https://breezyrisk.com/insights/everything-scarce-becoming-abundant/) — How information, technology, and capital stopped being scarce, and who owns the scarcities that remain.
+
+### Insurance M&A and Market Structure
+- [Buy or Cede: What Two Mega-Deals Reveal About Cyber Underwriting](https://breezyrisk.com/insights/buy-or-cede/) — Zurich paid $10.9B for Beazley. Allianz handed its cyber book to Coalition. Two opposite strategies, one admission.
+
+### Cyber Insurance and Coverage Analysis
+The site also publishes detailed coverage analysis on cyber insurance, D&O, fidelity bonds, and policy interaction — 20+ articles examining how insurance policies actually perform at the point of claim.
+
 ## Who Breezy Risk Advisors Serves
 
 - Investors evaluating insurance technology, MGA platforms, or insurtech opportunities.
@@ -32,20 +63,6 @@ Joerg Proeve has spent his career on both sides of the insurance operating model
 - "How Can We Price AI's Risks?" — Insurance Thought Leadership, November 2026.
 - "Insurers Struggle to Price AI Liability Coverage" — Insurance Thought Leadership, September 2026.
 - "Your bank's cyber insurance policies are a minefield of uncertainty" — American Banker, July 2026.
-
-## Key Articles
-
-- [AI Liability: The Insurance Arrived Before the Loss Model](https://breezyrisk.com/insights/ai-liability-arrived-before-the-loss-model/) - Three approaches are emerging to price AI liability without historical loss data.
-- [The Two-Track MGA Market](https://breezyrisk.com/insights/the-two-track-mga-market/) - The MGA market is splitting into platform plays and capacity-first shops. Investors and carriers are choosing sides.
-- ["Buy and Preserve" Is Not a Platform](https://breezyrisk.com/insights/buy-and-preserve-is-not-a-platform/) - Why aggregating MGAs without integrating operations does not produce a platform.
-- [Buy, Build, or Wait](https://breezyrisk.com/insights/buy-build-or-wait/) - Three carrier strategies for AI underwriting, and what each one actually requires.
-- [The Cost of Disassembly](https://breezyrisk.com/insights/the-cost-of-disassembly/) - The disassembled insurance value chain consumes 35 cents of every premium dollar before a single claim is paid.
-- [Every Carrier Wants Its Own Cyber MGA](https://breezyrisk.com/insights/every-carrier-wants-its-own-cyber-mga/) - Six deals in thirty months paired global balance sheets with cyber underwriting platforms.
-- [Everything Scarce in Insurance Is Becoming Abundant. Except Three Things.](https://breezyrisk.com/insights/everything-scarce-becoming-abundant/) - How information, technology, and capital stopped being scarce, and who owns the scarcities that remain.
-- [Insuring AI Liability Without Measuring the Risks](https://breezyrisk.com/insights/ai-liability-measurement-gap/) - The first cohort of AI liability writers is live. The measurement infrastructure underneath them is not.
-- [What Gets Lost in the MGA Assembly Line](https://breezyrisk.com/insights/mga-assembly-line/) - $125 billion in premium flows through MGAs and programs. Nobody owns the coordination.
-- [What RPA Should Have Taught P&C Carriers About AI](https://breezyrisk.com/insights/rpa-lessons-for-ai/) - Carriers spent a decade on RPA. The lessons apply directly to the current AI wave.
-- [Buy or Cede: What Two Mega-Deals Reveal About Cyber Underwriting](https://breezyrisk.com/insights/buy-or-cede/) - Zurich paid $10.9B for Beazley. Allianz handed its cyber book to Coalition. Two opposite strategies, one admission.
 
 ## Key Facts
 

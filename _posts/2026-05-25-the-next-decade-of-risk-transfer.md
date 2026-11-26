@@ -6,6 +6,7 @@ description: "The gap between how risks behave and how insurance responds is wid
 date: 2026-05-25
 author: Joerg Proeve
 category: "AI & Emerging Risks"
+tags: [emerging-risk]
 read_time: "7 min read"
 image: /assets/images/Blog-Next-Decade-Risk-Transfer.webp
 image_alt: "Future of risk transfer showing the gap between how risks behave and how insurance responds over the next decade"

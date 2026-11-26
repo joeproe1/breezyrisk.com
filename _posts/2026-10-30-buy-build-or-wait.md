@@ -5,6 +5,7 @@ description: "Core system vendors are acquiring the AI capabilities their carrie
 date: 2026-10-30
 author: Joerg Proeve
 category: Carrier Technology Strategy
+tags: [carrier-technology, insurance-m-and-a]
 read_time: "5 min read"
 image: /assets/images/Blog-Buy-Build-or-Wait.webp
 image_alt: "Dark blue header with the title Buy, Build, or Wait and the subtitle about core system vendors acquiring AI capabilities."

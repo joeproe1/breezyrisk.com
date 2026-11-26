@@ -5,6 +5,7 @@ description: "Community banks depend on a single core platform for daily operati
 date: 2026-06-09
 author: Joerg Proeve
 category: Cyber Insurance
+tags: [vendor-risk, cyber-insurance]
 read_time: "5 min read"
 image: /assets/images/Blog-Vendor-You-Cannot-Replace.webp
 image_alt: "Core banking vendor outage scenario showing dependent business interruption sublimit exhaustion at a community bank"

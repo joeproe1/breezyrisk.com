@@ -5,6 +5,7 @@ description: "Ransomware encrypts your bank's data. The carrier won't authorize 
 date: 2026-06-30
 author: Joerg Proeve
 category: Cyber Insurance
+tags: [cyber-insurance, policy-analysis]
 read_time: "1 min read"
 permalink: /insights/the-ransom-you-cannot-pay/
 last_modified_at: 2026-06-30

@@ -5,6 +5,7 @@ description: "US cyber premiums fell 7% while claims rose 40%. For community ban
 date: 2026-04-26
 author: Joerg Proeve
 category: Cyber Insurance
+tags: [cyber-insurance]
 read_time: "2 min read"
 image: /assets/images/Blog-Premiums-Down-Claims-Up.webp
 image_alt: "US cyber insurance market trend showing premiums declining 7 percent while claims rose 40 percent"

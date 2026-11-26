@@ -6,6 +6,7 @@ description: "PE-backed MGA platforms promise founders autonomy. That autonomy a
 date: 2026-11-02
 author: Joerg Proeve
 category: MGA Operations
+tags: [mga-economics, insurance-m-and-a]
 read_time: "6 min read"
 image: /assets/images/Blog-Buy-and-Preserve.webp
 image_alt: "Stacked shipping containers in a grid pattern with two empty slots, illustrating a collection that looks integrated but has structural gaps."

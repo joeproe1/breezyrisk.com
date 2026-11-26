@@ -5,6 +5,7 @@ description: "Five common cyber incidents mapped against cyber, D&O, and bond po
 date: 2026-04-15
 author: Joerg Proeve
 category: Cyber Insurance
+tags: [cyber-insurance, policy-analysis]
 read_time: "4 min read"
 image: /assets/images/Blog-Policy-Interaction-Map.webp
 image_alt: "Policy interaction map showing how five cyber incidents trigger gaps between cyber, D&O, and fidelity bond policies"

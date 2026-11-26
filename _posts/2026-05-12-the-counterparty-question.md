@@ -5,6 +5,7 @@ description: "AI-native carriers raise $260M and quote in minutes. When a bank n
 date: 2026-05-12
 author: Joerg Proeve
 category: MGA Operations
+tags: [emerging-risk, board-liability]
 read_time: "6 min read"
 image: /assets/images/Blog-Counterparty-Question.webp
 image_alt: "AI-native insurance carrier counterparty risk questions for community bank boards evaluating new cyber insurers"

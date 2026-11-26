@@ -6,6 +6,7 @@ description: "Zurich paid $10.9B for Beazley. Allianz handed its cyber book to C
 date: 2026-06-05
 author: Joerg Proeve
 category: MGA Operations
+tags: [mga-economics, insurance-m-and-a, cyber-insurance]
 read_time: "6 min read"
 image: /assets/images/Blog-Buy-or-Cede.webp
 image_alt: "Zurich Beazley acquisition versus Allianz Coalition cyber underwriting deal showing two opposite carrier strategies"

@@ -5,6 +5,7 @@ description: "Six deals in thirty months paired global balance sheets with cyber
 date: 2026-09-24
 author: Joerg Proeve
 category: MGA Operations
+tags: [mga-economics, insurance-m-and-a, cyber-insurance]
 read_time: "11 min read"
 last_modified_at: 2026-09-24
 image: /assets/images/cyber-mga-landscape.webp

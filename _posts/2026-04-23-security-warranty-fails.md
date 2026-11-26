@@ -5,6 +5,7 @@ description: "A bank passes its IT audit, satisfies the examiner, and still has 
 date: 2026-04-23
 author: Joerg Proeve
 category: Cyber Insurance
+tags: [cyber-insurance, policy-analysis]
 read_time: "5 min read"
 image: /assets/images/Blog-Security-Warranty-Fails.webp
 image_alt: "Community bank cyber claim denied after security warranty failure in the policy application"

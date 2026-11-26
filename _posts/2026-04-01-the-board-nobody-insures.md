@@ -5,6 +5,7 @@ description: "A breach hits a bank. The D&O excludes cyber claims. Directors fal
 date: 2026-04-01
 author: Joerg Proeve
 category: Financial Institutions
+tags: [board-liability, cyber-insurance, policy-analysis]
 read_time: "5 min read"
 image: /assets/images/Blog-Board-Nobody-Insures.webp
 image_alt: "Community bank board of directors after a data breach, with the D&O cyber exclusion blocking coverage and the defense falling to the cyber policy"

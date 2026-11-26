@@ -6,6 +6,7 @@ description: "Almost all P&C carriers are using AI somewhere. Only 10% have scal
 date: 2026-08-13
 author: Joerg Proeve
 category: Carrier Technology Strategy
+tags: [carrier-technology]
 read_time: "8 min read"
 image: /assets/images/Blog-RPA-Lessons-AI.webp
 image_alt: "What RPA should have taught P&C carriers about AI — legacy architecture, talent gaps, and pilot purgatory"

@@ -5,6 +5,7 @@ description: "The first cohort of AI liability writers is live. The measurement 
 date: 2026-08-31
 author: Joerg Proeve
 category: "AI & Emerging Risks"
+tags: [ai-liability, emerging-risk]
 read_time: "9 min read"
 last_modified_at: 2026-08-31
 image: /assets/images/Blog-AI-Liability-Measurement-Gap.webp

@@ -6,6 +6,7 @@ description: "Cyber BI definitions exclude interest income — the bulk of a ban
 date: 2026-07-10
 author: Joerg Proeve
 category: Financial Institutions
+tags: [cyber-insurance, policy-analysis]
 read_time: "4 min read"
 image: /assets/images/Blog-Revenue-Your-Policy-Ignores.webp
 image_alt: "Community bank interest income excluded from cyber policy business interruption coverage"

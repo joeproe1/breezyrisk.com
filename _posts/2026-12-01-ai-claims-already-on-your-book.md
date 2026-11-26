@@ -6,8 +6,11 @@ description: "AI liability exclusions block a product that barely exists. The ex
 date: 2026-12-01
 author: Joerg Proeve
 category: "AI & Emerging Risks"
+tags: [ai-liability]
 read_time: "4 min read"
 permalink: /insights/ai-claims-already-on-your-book/
+image: /assets/images/Blog-AI-Claims-Already-On-Your-Book.webp
+image_alt: "AI claims flowing through existing insurance policy lines"
 ---
 
 Many casualty carriers have been filing AI-related exclusions: Block what you can't measure -- that response makes sense, if AI liability is a new product category. It makes less sense if the exposure is already on your book.

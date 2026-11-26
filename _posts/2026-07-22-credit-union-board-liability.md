@@ -6,6 +6,7 @@ description: "Three D&O gaps hit a credit union after a breach. Each pushes more
 date: 2026-07-23
 author: Joerg Proeve
 category: Financial Institutions
+tags: [board-liability, cyber-insurance, policy-analysis]
 read_time: "5 min read"
 image: /assets/images/Blog-Credit-Union-Board-Liability.webp
 image_alt: "Credit union D&O policy gaps showing board liability exposure after a cyber event for mutual institutions"

@@ -5,6 +5,7 @@ description: "Every AI liability pricing approach on the market today is informe
 date: 2026-11-10
 author: Joerg Proeve
 category: "AI & Emerging Risks"
+tags: [ai-liability]
 read_time: "7 min read"
 image: /assets/images/Blog-AI-Liability-Four-Ways.webp
 image_alt: "Four approaches to pricing AI liability risk -- certification, monitoring, governance, and loss data"

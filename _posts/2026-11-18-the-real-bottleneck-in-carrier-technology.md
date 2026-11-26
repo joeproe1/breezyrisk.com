@@ -5,6 +5,7 @@ description: "Coding is only 20% of a carrier technology project. A walkthrough 
 date: 2026-11-18
 author: Joerg Proeve
 category: Carrier Technology Strategy
+tags: [carrier-technology]
 read_time: "7 min read"
 image: /assets/images/Blog-Real-Bottleneck-Carrier-Technology.webp
 image_alt: "Timeline comparison showing a vendor's 3-month development view versus a carrier's full 15-month technology project lifecycle"

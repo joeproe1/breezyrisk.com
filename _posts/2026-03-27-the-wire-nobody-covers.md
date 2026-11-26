@@ -5,6 +5,7 @@ description: "A bank wires $400,000 on a fraudulent email. The cyber policy won'
 date: 2026-03-27
 author: Joerg Proeve
 category: Financial Institutions
+tags: [cyber-insurance, policy-analysis]
 read_time: "5 min read"
 image: /assets/images/Blog-Wire-Nobody-Covers.webp
 image_alt: "Wire fraud loss falling between cyber policy, fidelity bond, and D&O coverage at a community bank"

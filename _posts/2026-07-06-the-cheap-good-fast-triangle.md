@@ -5,6 +5,7 @@ description: "Insurance distribution chose cheap and fast. The side that fell aw
 date: 2026-07-06
 author: Joerg Proeve
 category: Financial Institutions
+tags: [policy-analysis]
 read_time: "3 min read"
 image: /assets/images/Blog-Cheap-Good-Fast-Triangle.webp
 image_alt: "The cheap good fast triangle applied to insurance distribution for community banks"

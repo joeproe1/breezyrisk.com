@@ -6,6 +6,7 @@ description: "Banks assume the bond covers fraud. It does — with conditions mo
 date: 2026-05-18
 author: Joerg Proeve
 category: Financial Institutions
+tags: [policy-analysis]
 image: /assets/images/Blog-Fidelity-Bond.webp
 image_alt: "Fidelity bond coverage gaps at community banks including co-payment traps and verification requirements"
 read_time: "4 min read"

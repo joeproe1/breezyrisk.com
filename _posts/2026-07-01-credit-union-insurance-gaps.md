@@ -5,6 +5,7 @@ description: "Credit union programs bundle cyber, D&O, and bond under one relati
 date: 2026-07-01
 author: Joerg Proeve
 category: Financial Institutions
+tags: [policy-analysis, cyber-insurance]
 read_time: "5 min read"
 image: /assets/images/Blog-Credit-Union-Insurance-Gaps.webp
 image_alt: "Credit union insurance program gaps between bundled cyber, fidelity bond, and D&O policies when a claim hits"
