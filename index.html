@@ -76,7 +76,7 @@ description: "Insurance strategy, technology, and operations advisory. Carrier t
 <section class="background-strip">
     <div class="container">
         <div class="background-strip-inner">
-            <p>15 years across Chubb corporate strategy, CNA's $325M technology portfolio, and two MGAs I helped build from scratch — cyber and parametric catastrophe. Operations in 54 countries and all 50 US states. Started in engineering and&nbsp;cybersecurity.</p>
+            <p>From Chubb corporate strategy to CEO of a parametric catastrophe MGA. US and London markets. Started in engineering and&nbsp;cybersecurity.</p>
             <a href="{{ '/about/' | relative_url }}" class="background-strip-link">Full Background &rarr;</a>
         </div>
     </div>
@@ -210,13 +210,20 @@ description: "Insurance strategy, technology, and operations advisory. Carrier t
     margin: 0 auto;
     list-style: none;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 .writing-item {
-    padding: 18px 0;
-    border-bottom: 1px solid #e5e7eb;
+    padding: 20px 24px;
+    border: 1px solid rgba(10,37,64,0.10);
+    border-radius: 8px;
+    background: rgba(255,255,255,0.45);
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
-.writing-item:last-child {
-    border-bottom: none;
+.writing-item:hover {
+    border-color: rgba(10,37,64,0.20);
+    box-shadow: 0 2px 8px rgba(10,37,64,0.06);
 }
 .writing-category {
     font-family: var(--font-mono);
