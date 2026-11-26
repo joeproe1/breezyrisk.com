@@ -1,16 +1,16 @@
 # Breezy Risk Advisors
 
-> Insurance strategy, technology, and operations advisory. Works with investors, carriers, MGAs, and insurtechs. Fee-based. No policies sold. No commissions earned.
+> AI liability market intelligence and insurance operating advisory. Works with AI liability startups, carriers, investors, MGAs, and insurtechs. Fee-based. No policies sold. No commissions earned.
 
-Breezy Risk Advisors is an independent advisory practice founded by Joerg Proeve. The firm advises investors, carriers, MGAs, and insurtechs on insurance strategy, technology, and operations. Breezy Risk Advisors does not sell insurance, place policies, or earn commissions.
+Breezy Risk Advisors is an independent advisory practice founded by Joerg Proeve. The firm works in AI liability insurance, advises investors on insurance deals from an operator's perspective, and works with carriers, MGAs, and insurtechs on strategy, technology, and operations. Breezy Risk Advisors does not sell insurance, place policies, or earn commissions.
 
 ## Advisory Focus
 
-### Investor Advisory
-Advises private equity and venture capital investors evaluating insurance platforms, MGAs, and insurtech opportunities. Focus areas include insurance due diligence, MGA capacity economics, platform operations, and deal screening.
-
 ### AI Liability & Emerging Risk
-Analysis and advisory on AI liability insurance, emerging risk pricing, and the measurement infrastructure behind new coverage lines. Published in Insurance Thought Leadership on AI liability pricing and measurement gaps. The firm publishes the AI Liability Score at [score.breezyrisk.com](https://score.breezyrisk.com), a free tool that scores public companies on AI liability exposure across litigation, regulatory, enforcement, and governance dimensions.
+Analysis and advisory on AI liability insurance, emerging risk pricing, and the measurement infrastructure behind new coverage lines. Published in Insurance Thought Leadership on AI liability pricing and measurement gaps. The firm publishes the AI Liability Score at [score.breezyrisk.com](https://score.breezyrisk.com), a free tool that scores public companies on AI liability exposure across litigation, regulatory, enforcement, and governance dimensions. AI liability is the firm's primary focus area and the entry point for most engagements.
+
+### Investor Advisory
+An operator's perspective on insurance deals for private equity and venture capital investors evaluating insurance platforms, MGAs, and insurtech opportunities. Focus areas include insurance due diligence, MGA capacity economics, platform operations, and deal screening.
 
 ### Carrier & Insurtech Strategy
 Advises carriers, MGAs, and insurtechs on technology strategy, operating model design, and underwriting operations. Focus areas include carrier technology portfolio governance, MGA product and distribution architecture, and cyber insurance market structure.
@@ -48,9 +48,9 @@ The site also publishes detailed coverage analysis on cyber insurance, D&O, fide
 
 ## Who Breezy Risk Advisors Serves
 
+- AI liability startups, carriers, and reinsurers navigating the forming AI liability insurance market.
 - Investors evaluating insurance technology, MGA platforms, or insurtech opportunities.
-- Insurance carriers seeking advisory on technology strategy, operating model, and emerging risks.
-- MGAs and insurtechs working on product design, capacity strategy, and underwriting operations.
+- Carriers, MGAs, and insurtechs working on technology strategy, product design, and underwriting operations.
 
 Breezy Risk Advisors is not a broker. It is an independent, fee-based advisory practice.
 
@@ -67,7 +67,7 @@ Joerg Proeve has spent his career on both sides of the insurance operating model
 ## Key Facts
 
 - Location: United States.
-- Advisory pillars: Investor Advisory, AI Liability & Emerging Risk, Carrier & Insurtech Strategy.
+- Advisory focus: AI Liability & Emerging Risk, Investor Advisory. Carrier & insurtech strategy work flows from these two areas.
 - Independence: No insurance placement, no brokering, no commissions. Fee-based advisory only.
 - Website: https://breezyrisk.com
 - Contact: contact@breezyrisk.com
