@@ -117,7 +117,8 @@ That chain needs three things the market doesn't have.
 
 <div style="margin: 32px 0;">
 <div style="font-size: 13px; font-weight: 700; color: #0A2540; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 20px;">Three gaps in the evidence chain</div>
-<div style="display: grid; grid-template-columns: 180px 1fr; gap: 16px 24px; align-items: center;">
+<style>@media (max-width: 600px) { .evidence-chain-grid { grid-template-columns: 1fr !important; } }</style>
+<div class="evidence-chain-grid" style="display: grid; grid-template-columns: 180px 1fr; gap: 16px 24px; align-items: center;">
 <div style="background: #00D4AA; color: #0A2540; padding: 36px 18px; border-radius: 8px; font-size: 16px; font-weight: 600; text-align: center;">1. Deployment<br>context</div>
 <div style="font-size: 14px; line-height: 1.6; color: #0A2540;">An AI hiring tool screening 50,000 applicants is a different risk from an internal document summarizer used by 10 employees. Some MGAs already collect deployment information, but deployment context as a primary underwriting variable (weighted as heavily as governance in the pricing model) is not yet standard.</div>
 <div style="background: #00D4AA; color: #0A2540; padding: 36px 18px; border-radius: 8px; font-size: 16px; font-weight: 600; text-align: center;">2. Portable<br>evidence</div>

@@ -26,14 +26,21 @@ Then AI arrived, and the talent that did exist started leaving. Mid-career AVPs 
 
 Insurance has a problem most industries don't: core systems sit between AI and the work.
 
+<style>
+@media (max-width: 600px) {
+  .bbw-2col { grid-template-columns: 1fr !important; }
+  .bbw-table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .bbw-table { min-width: 480px; }
+}
+</style>
 <div style="margin: 36px auto; max-width: 680px; font-family: var(--font-mono), 'JetBrains Mono', monospace;">
 <!-- Column headers -->
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 12px;">
+<div class="bbw-2col" style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 12px;">
 <div style="font-size: 14px; font-weight: 700; color: #0A2540; text-transform: uppercase; letter-spacing: 0.1em; text-align: center;">Carriers</div>
 <div style="font-size: 14px; font-weight: 700; color: #0A2540; text-transform: uppercase; letter-spacing: 0.1em; text-align: center;">Distribution</div>
 </div>
 <!-- AI Layer -->
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+<div class="bbw-2col" style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
 <div style="background: #0A2540; border: 2px solid #3B82F6; border-radius: 10px; padding: 16px 20px; text-align: center;">
 <div style="font-size: 12px; font-weight: 700; color: #3B82F6; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px;">AI Capabilities (Acquired)</div>
 <div style="font-size: 11px; color: rgba(255,255,255,0.5); line-height: 1.6;">hyperexponential &middot; Send</div>
@@ -50,7 +57,7 @@ Insurance has a problem most industries don't: core systems sit between AI and t
 <div style="flex: 1; height: 2px; background: repeating-linear-gradient(90deg, #F59E0B 0, #F59E0B 8px, transparent 8px, transparent 14px);"></div>
 </div>
 <!-- Core Systems -->
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+<div class="bbw-2col" style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
 <div style="background: #0A2540; border: 2px solid rgba(255,255,255,0.2); border-radius: 10px; padding: 16px 20px; text-align: center;">
 <div style="font-size: 12px; font-weight: 700; color: #fff; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px;">Policy Admin System (PAS)</div>
 <div style="font-size: 11px; color: rgba(255,255,255,0.4); line-height: 1.6;">Guidewire &middot; Duck Creek<br>Majesco &middot; Socotra &middot; &#8230;</div>
@@ -61,7 +68,7 @@ Insurance has a problem most industries don't: core systems sit between AI and t
 </div>
 </div>
 <!-- Operations -->
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 20px;">
+<div class="bbw-2col" style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 20px;">
 <div style="background: #0A2540; border: 2px dashed rgba(255,255,255,0.12); border-radius: 10px; padding: 16px 20px; text-align: center;">
 <div style="font-size: 12px; font-weight: 700; color: #fff; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px;">Carrier Operations</div>
 <div style="font-size: 11px; color: rgba(255,255,255,0.35); line-height: 1.6; font-style: italic;">Underwriting &middot; Claims<br>Pricing &middot; Actuarial</div>
@@ -95,7 +102,7 @@ Take professional liability. A mid-market carrier writing lawyers E&O with 15 ye
 
 <div style="margin: 32px 0; padding: 24px 28px; background: #f8faf9; border-radius: 10px;">
 <div style="font-size: 13px; font-weight: 700; color: #0A2540; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 16px;">Where to Build vs. Buy</div>
-<div style="display: grid; grid-template-columns: auto 1fr 1fr; gap: 10px; font-size: 13px; align-items: stretch;">
+<div class="bbw-table-wrap"><div class="bbw-table" style="display: grid; grid-template-columns: auto 1fr 1fr; gap: 10px; font-size: 13px; align-items: stretch;">
 <!-- Header row -->
 <div></div>
 <div style="padding: 8px 16px; font-weight: 700; color: #0A2540; text-align: center; font-size: 14px;">Build</div>
@@ -132,7 +139,7 @@ Take professional liability. A mid-market carrier writing lawyers E&O with 15 ye
 </div>
 <div style="margin-top: 12px; font-weight: 600; color: #0A2540; font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; text-align: right;">Outsource.</div>
 </div>
-</div>
+</div></div>
 </div>
 
 ## The judgment question

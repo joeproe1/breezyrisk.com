@@ -53,7 +53,8 @@ The disassembled chain breaks even at a 57% loss ratio. The integrated carrier d
 
 <div style="margin: 32px 0; padding: 24px 28px; background: #f8faf9; border-radius: 10px;">
 <div style="font-size: 13px; font-weight: 700; color: #0A2540; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 20px;">Where $100 of Premium Goes</div>
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px;">
+<style>@media (max-width: 600px) { .premium-compare { grid-template-columns: 1fr !important; } }</style>
+<div class="premium-compare" style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px;">
 <!-- Disassembled column -->
 <div style="display: flex; flex-direction: column;">
 <div style="font-size: 13px; font-weight: 700; color: #0A2540; margin-bottom: 12px;">Disassembled Chain</div>

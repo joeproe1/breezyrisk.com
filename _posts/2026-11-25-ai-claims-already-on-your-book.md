@@ -17,24 +17,42 @@ Many casualty carriers have been filing AI-related exclusions this year: block w
 
 A lawyer uses an AI research tool and submits a brief with fabricated citations. That's a legal malpractice claim. A health insurer's algorithm denies coverage at scale and triggers an AG investigation. That lands as an E&O and regulatory loss. An employer's AI screening tool rejects hundreds of candidates based on factors it was never told to consider. The employment discrimination complaint goes into the EPL book.
 
+<style>
+.claim-flow-row { display: grid; grid-template-columns: 5fr 24px 4fr 24px 3fr; align-items: center; }
+.claim-flow-cell { background: #fff; padding: 14px 18px; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); font-size: 14px; color: #0A2540; }
+.claim-flow-arrow { font-size: 20px; color: #6B7B8D; text-align: center; }
+.claim-flow-badge { background: #0A2540; color: #fff; padding: 14px 18px; border-radius: 8px; text-align: center; font-size: 14px; font-weight: 600; }
+@media (max-width: 768px) {
+  .claim-flow-row { grid-template-columns: 1fr; gap: 0; background: #fff; border-radius: 10px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); overflow: hidden; }
+  .claim-flow-cell { box-shadow: none; border-radius: 0; border-bottom: 1px solid #f0f0f0; }
+  .claim-flow-arrow { padding: 4px 0; font-size: 14px; background: #fff; border-bottom: 1px solid #f0f0f0; }
+  .claim-flow-badge { border-radius: 0; }
+}
+</style>
 <div style="margin: 32px 0; padding: 28px; background: #f8faf9; border-radius: 10px;">
 <div style="font-size: 13px; font-weight: 700; color: #0A2540; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 20px;">Where AI claims land today <span style="font-weight: 400; text-transform: none; color: #6B7B8D;">(examples)</span></div>
-<div style="display: grid; grid-template-columns: 5fr 24px 4fr 24px 3fr; gap: 14px 0; align-items: center;">
-<div style="background: #fff; padding: 14px 18px; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); font-size: 14px; color: #0A2540;">AI research tool generates fabricated citations</div>
-<div style="font-size: 20px; color: #6B7B8D; text-align: center;">&#8594;</div>
-<div style="background: #fff; padding: 14px 18px; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); font-size: 14px; color: #0A2540;">Legal malpractice claim</div>
-<div style="font-size: 20px; color: #6B7B8D; text-align: center;">&#8594;</div>
-<div style="background: #0A2540; color: #fff; padding: 14px 18px; border-radius: 8px; text-align: center; font-size: 14px; font-weight: 600;">Prof. Liability</div>
-<div style="background: #fff; padding: 14px 18px; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); font-size: 14px; color: #0A2540;">Coverage algorithm denies claims at scale</div>
-<div style="font-size: 20px; color: #6B7B8D; text-align: center;">&#8594;</div>
-<div style="background: #fff; padding: 14px 18px; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); font-size: 14px; color: #0A2540;">AG investigation</div>
-<div style="font-size: 20px; color: #6B7B8D; text-align: center;">&#8594;</div>
-<div style="background: #0A2540; color: #fff; padding: 14px 18px; border-radius: 8px; text-align: center; font-size: 14px; font-weight: 600;">E&O</div>
-<div style="background: #fff; padding: 14px 18px; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); font-size: 14px; color: #0A2540;">AI screening tool rejects candidates on hidden factors</div>
-<div style="font-size: 20px; color: #6B7B8D; text-align: center;">&#8594;</div>
-<div style="background: #fff; padding: 14px 18px; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); font-size: 14px; color: #0A2540;">Discrimination complaint</div>
-<div style="font-size: 20px; color: #6B7B8D; text-align: center;">&#8594;</div>
-<div style="background: #0A2540; color: #fff; padding: 14px 18px; border-radius: 8px; text-align: center; font-size: 14px; font-weight: 600;">EPL</div>
+<div style="display: flex; flex-direction: column; gap: 14px;">
+<div class="claim-flow-row">
+<div class="claim-flow-cell">AI research tool generates fabricated citations</div>
+<div class="claim-flow-arrow">&#8594;</div>
+<div class="claim-flow-cell">Legal malpractice claim</div>
+<div class="claim-flow-arrow">&#8594;</div>
+<div class="claim-flow-badge">Prof. Liability</div>
+</div>
+<div class="claim-flow-row">
+<div class="claim-flow-cell">Coverage algorithm denies claims at scale</div>
+<div class="claim-flow-arrow">&#8594;</div>
+<div class="claim-flow-cell">AG investigation</div>
+<div class="claim-flow-arrow">&#8594;</div>
+<div class="claim-flow-badge">E&O</div>
+</div>
+<div class="claim-flow-row">
+<div class="claim-flow-cell">AI screening tool rejects candidates on hidden factors</div>
+<div class="claim-flow-arrow">&#8594;</div>
+<div class="claim-flow-cell">Discrimination complaint</div>
+<div class="claim-flow-arrow">&#8594;</div>
+<div class="claim-flow-badge">EPL</div>
+</div>
 </div>
 </div>
 

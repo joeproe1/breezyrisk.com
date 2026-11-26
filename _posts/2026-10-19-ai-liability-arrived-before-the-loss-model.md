@@ -84,7 +84,8 @@ If traditional actuarial methods don't apply to AI liability, what replaces them
 <span style="font-size: 11px; color: #6B7B8D;">Strongest pricing discipline</span>
 </div>
 <!-- Three markers -->
-<div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px;">
+<style>@media (max-width: 600px) { .spectrum-markers { grid-template-columns: 1fr !important; } }</style>
+<div class="spectrum-markers" style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px;">
 <div style="text-align: center;">
 <div style="font-size: 13px; font-weight: 700; color: #00D4AA; margin-bottom: 6px;">Endorsements</div>
 <div style="font-size: 12px; color: #6B7B8D; line-height: 1.5;">Fastest to scale<br>Priced off legacy data<br>Tested by volume</div>
