@@ -15,7 +15,7 @@ image_alt: "AI claims flowing through existing insurance policy lines"
 
 Many casualty carriers have been filing AI-related exclusions this year: block what you can't measure. That response makes sense if AI liability is a brand new product category. It makes less sense if the exposure is already on your book.
 
-A lawyer uses an AI research tool and submits a brief with fabricated citations. That's a legal malpractice claim. A health insurer's algorithm denies coverage at scale and triggers an AG investigation. That lands as an E&O and regulatory loss. An employer's AI screening tool rejects hundreds of candidates based on factors it was never told to consider. The employment discrimination complaint goes into the EPL book.
+A lawyer uses an AI research tool and submits a brief with fabricated citations -- that's a legal malpractice claim. A health insurer's algorithm denies coverage at scale and triggers an AG investigation -- that lands as an E&O and regulatory loss. An employer's AI screening tool rejects hundreds of candidates based on factors it was never told to consider -- the employment discrimination complaint goes into the EPL book.
 
 <style>
 .claim-flow-row { display: grid; grid-template-columns: 5fr 24px 4fr 24px 3fr; align-items: center; }
@@ -56,9 +56,9 @@ A lawyer uses an AI research tool and submits a brief with fabricated citations.
 </div>
 </div>
 
-None of these claims wait for a new insurance product. They are already arriving through your professional liability, your E&O, your D&O, your EPL, or your cyber policies you have written for decades. Whether these policies respond, and how much you eventually pay, is still unclear. It will be fought claim by claim and it will be messy.
+None of these claims wait for a new insurance product. They are already arriving through your professional liability, your E&O, your D&O, your EPL, or your cyber policies you have written for decades. Whether these policies respond, and how much you eventually pay, is still unclear. It will be fought, claim by claim, and it will be messy.
 
-Allianz Commercial's [report on AI losses](https://commercial.allianz.com/news-and-insights/reports/artificial-intelligence.html) in November called it the "tip of the iceberg": AI claims are frequently underreported and recorded under traditional casualty categories without the AI element being flagged. In legal malpractice specifically, over half of insurers surveyed by EPIC earlier this year reported AI claims increasing -- the first time the survey has shown that. Based on current claims data alone, AI would not rank in the top 20 loss drivers. But that says more about the labels than about the losses. Few, if any, carriers have AI-specific claims coding in their systems. The claims are already there, but invisible -- the labels are just missing. And they are about to grow rapidly.
+Allianz Commercial's [report on AI losses](https://commercial.allianz.com/news-and-insights/reports/artificial-intelligence.html) in November called it the "tip of the iceberg": AI claims are frequently underreported and recorded under traditional casualty categories without the AI element being flagged. In legal malpractice specifically, over half of insurers surveyed by EPIC earlier this year reported AI claims increasing -- the first time the survey has shown that. Based on current claims data alone, AI wouldn't rank in the top 20 loss drivers. But that says more about the labels than about the losses. Few, if any, carriers have AI-specific claims coding in their systems. And the claims are about to grow rapidly.
 
 The carriers excluding standalone AI liability are not safe -- they are excluding a product that barely exists. The exposure they already carry is the one nobody has priced.
 
@@ -66,9 +66,7 @@ The carriers excluding standalone AI liability are not safe -- they are excludin
 
 After the 2020-21 ransomware wave, reinsurers tightened treaty conditions for cyber and started requiring external risk scores. That demand created a market for firms like BitSight and SecurityScorecard almost overnight. These scores didn't create a new cyber insurance product. They gave carriers a way to measure cyber risk in policies they were already writing.
 
-AI liability risk could follow a similar path: forcing carriers to see what's already in their portfolio.
-
-My bet is that the first meaningful pressure to measure AI risk will come from the reinsurers. They see aggregate exposure across books. AI-related claims will show up as a frequency shift before the market agrees on a label for them.
+AI liability risk could follow a similar path, forcing carriers to measure what's already in their portfolio. My bet is that the first meaningful pressure to measure AI risk will come from the reinsurers. They see aggregate exposure across books. AI-related claims will show up as a frequency shift before the market agrees on a label for them.
 
 When reinsurers start asking what share of the portfolio involves AI-augmented decisions, and that question becomes a treaty condition, carriers and MGAs have to find an answer.
 
@@ -78,7 +76,7 @@ The pushback I frequently hear: AI risk can't be measured from the inside becaus
 
 And the evidence is already public. In a survey of AI decision-makers in September, EY found that 89% of large public companies encountered AI-related risks, yet 47% admitted skipping their own governance processes for urgent deployments. SEC filings add a harder layer. Proxy statements reveal board-level AI oversight structures and committee assignments. These carry securities law liability, so they're not just voluntary surveys.
 
-The litigation record is building fast. Close to [400 AI-related lawsuits](https://ailawsuittracker.com) are tracked, and the docket is accelerating. In D&O specifically, AI-related securities class actions made up 13% of filings in the first half of 2026, but accounted for nearly three-quarters of the total market capitalization losses alleged by plaintiffs. These aren't insured losses, but they show where severity is concentrating. FTC enforcement and state attorneys general investigations are building a parallel record. And regulatory geography matters -- a company operating in Illinois faces structurally different AI exposure than one in Texas, regardless of its internal governance.
+The litigation record is building fast, too. Close to [400 AI-related lawsuits](https://ailawsuittracker.com) are tracked, and the docket is accelerating. In D&O specifically, AI-related securities class actions made up 13% of filings in the first half of 2026, but accounted for nearly three-quarters of the total market capitalization losses alleged by plaintiffs. These aren't insured losses, but they show where severity is concentrating. FTC enforcement and state attorneys general investigations are building a parallel record. And regulatory geography matters, too: a company operating in Illinois faces structurally different AI exposure than one in Texas, regardless of its internal governance.
 
 I'd group these signals into five dimensions:
 
@@ -108,7 +106,7 @@ I'd group these signals into five dimensions:
 <div style="font-size: 22px; font-weight: 700; color: #00D4AA; min-width: 28px;">4</div>
 <div>
 <div style="font-size: 15px; font-weight: 600; color: #0A2540; margin-bottom: 4px;">Governance Gap</div>
-<div style="font-size: 14px; color: #6B7B8D; line-height: 1.5;">How does the company's governance compare to its exposure level?</div>
+<div style="font-size: 14px; color: #6B7B8D; line-height: 1.5;">How does the company's AI governance compare to its exposure level?</div>
 </div>
 </div>
 <div style="display: flex; align-items: flex-start; gap: 16px; padding: 16px 20px; background: rgba(0,212,170,0.05); border-left: 4px solid #00D4AA; border-radius: 0 8px 8px 0;">
@@ -120,13 +118,13 @@ I'd group these signals into five dimensions:
 </div>
 </div>
 
-Each signal on its own is incomplete. But I believe the combination differentiates companies enough on the dimension that matters -- AI exposure relative to governance.
+Each signal on its own is incomplete. But I believe the combination differentiates companies enough on the dimension that matters: AI exposure relative to governance.
 
 ## What remains unproven
 
 My hypothesis is that external signals can identify AI exposure and governance gaps. These signals can't yet establish the frequency or severity of an insured loss. Until someone matches observable signals against actual claims experience, every pricing approach is informed speculation.
 
-Yet casualty carriers already have this data sitting in their claims files. What they lack is a framework for identifying which claims involve AI-augmented decisions and measuring the increment. The search terms exist -- algorithmic, automated decision, AI-assisted screening, model output -- but the query isn't being run, at least not systematically.
+Yet casualty carriers already have most of this data sitting in their claims files. What they lack is a framework for identifying which claims involve AI-augmented decisions and measuring the increment. The search terms exist -- algorithmic, automated decision, AI-assisted screening, model output -- but the query isn't being run, at least not systematically.
 
 The insurance industry has solved similar problems before. Asbestos liability was embedded in decades of general liability policies before anyone built a framework to identify and reserve for it. Natural catastrophe modeling firms built the foundation for property pricing by pooling loss data no single carrier would share on its own. The firm that builds the first credible link between observable AI risk signals and actual loss experience will set the pricing reference. And the reinsurer asking the question will determine how fast this happens.
 
